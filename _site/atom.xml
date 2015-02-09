@@ -2,9 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Darren Daven Wong</title>
- <link href="/weblog/atom.xml" rel="self"/>
- <link href="/weblog/"/>
- <updated>2015-02-08T23:14:24-08:00</updated>
+ <link href="/weblogatom.xml" rel="self"/>
+ <link href="/weblog"/>
+ <updated>2015-02-08T23:25:10-08:00</updated>
  <id></id>
  <author>
    <name>Darren Wong</name>
@@ -14,7 +14,7 @@
  
  <entry>
    <title>A New Beginning</title>
-   <link href="/weblog//2015/02/05/new-blog/"/>
+   <link href="/weblog/2015/02/05/new-blog/"/>
    <updated>2015-02-05T00:00:00-08:00</updated>
    <id>/2015/02/05/new-blog</id>
    <content type="html">&lt;p&gt;This is the area on the internet where I will blog about things mostly around development and design. &lt;/p&gt;
@@ -23,7 +23,7 @@
  
  <entry>
    <title>Style Guide</title>
-   <link href="/weblog//2015/02/05/example-content/"/>
+   <link href="/weblog/2015/02/05/example-content/"/>
    <updated>2015-02-05T00:00:00-08:00</updated>
    <id>/2015/02/05/example-content</id>
    <content type="html">&lt;div class=&quot;message&quot;&gt;
