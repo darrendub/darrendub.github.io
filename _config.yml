@@ -6,7 +6,7 @@ relative_permalinks: true
 title:            Darren Daven Wong
 url:              
 paginate:         1
-baseurl:          /weblog
+baseurl:          /weblog/
 author:
   name:           Darren Wong
   url:            darrendavenwong.com
