@@ -1,0 +1,18 @@
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Darren Daven Wong
+url:              
+paginate:         1
+baseurl:          /weblog
+author:
+  name:           Darren Wong
+  url:            darrendavenwong.com
+  email:          darrendavenwong@gmail.com
+
+# Custom vars
+#version:          1.0.0
+#github:
+# repo:           https://github.com/poole/poole
