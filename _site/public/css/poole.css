@@ -390,6 +390,19 @@ tbody tr:nth-child(odd) th {
   color: inherit;
 }
 
+
+/*
+ * Footer
+ *
+ * Styles for the Footer
+ */
+
+ footer {
+  border-top: 1px solid #eee;
+  padding-top: 1rem;
+  font-family: 'Vollkorn', serif;
+ }
+
 /*
  * Timeline
  *

@@ -3,7 +3,7 @@ layout: page
 title: Redesign Timeline
 ---
 
-Hey there! I'm doing a live redesign of my site (<a href="">why?</a>), follow along here:
+I'm doing a live redesign of my site (<a href="2015/03/03/why-live-redesign/">why?</a>), follow along here:
 
 <div class="timeline">
 <ul>
