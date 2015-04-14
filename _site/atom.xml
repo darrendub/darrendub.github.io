@@ -4,7 +4,7 @@
  <title>Darren Daven Wong</title>
  <link href="/weblogatom.xml" rel="self"/>
  <link href="/weblog"/>
- <updated>2015-03-06T19:09:04-08:00</updated>
+ <updated>2015-04-13T23:06:51-07:00</updated>
  <id></id>
  <author>
    <name>Darren Wong</name>
@@ -13,31 +13,62 @@
 
  
  <entry>
-   <title>Why Live Redesign?</title>
-   <link href="/weblog/2015/03/03/why-live-redesign/"/>
-   <updated>2015-03-03T00:00:00-08:00</updated>
-   <id>/2015/03/03/why-live-redesign</id>
+   <title>Inventory</title>
+   <link href="/weblog/2015/04/16/inventory/"/>
+   <updated>2015-04-16T00:00:00-07:00</updated>
+   <id>/2015/04/16/inventory</id>
+   <content type="html">&lt;h3 id=&quot;the-current-lay-of-the-land&quot;&gt;The current lay of the land&lt;/h3&gt;
+&lt;p&gt;Here is a look at the applications and tools I use for my current site &lt;a href=&quot;http://darrendavenwong.com&quot;&gt;darrendavenwong.com&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;FTP: Fetch&lt;/li&gt;
+  &lt;li&gt;Text Editor: Sublime Text 2&lt;/li&gt;
+  &lt;li&gt;Domain: Godaddy&lt;/li&gt;
+  &lt;li&gt;Hosting: HostMonster&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Why are you doing this?</title>
+   <link href="/weblog/2015/04/15/why-are-you-doing-this/"/>
+   <updated>2015-04-15T00:00:00-07:00</updated>
+   <id>/2015/04/15/why-are-you-doing-this</id>
    <content type="html">&lt;p&gt;Hey there, my name is Darren and I design things for the internet and people like you. I will be using this space to document the live redesign of my brand new site! I am doing this for a few reasons:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Build some momentum to redesign my current site&lt;/li&gt;
+  &lt;li&gt;Build some momentum to redesign my current &lt;a href=&quot;http://darrendavenwong.com&quot;&gt;site&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Share my process and learn from that process&lt;/li&gt;
   &lt;li&gt;Get input early and often from viewers like you&lt;/li&gt;
   &lt;li&gt;Be accountable for delivering a brand spanking new site&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;I will be using this &lt;a href=&quot;/weblog/timeline/index.html&quot;&gt;timeline&lt;/a&gt; to keep track of my updates and this &lt;a href=&quot;/weblog/timeline/index.html&quot;&gt;blog&lt;/a&gt; to post articles, snippets and thoughts as I develop my site. I make things for the web and want to share how I make those things.&lt;/p&gt;
+&lt;p&gt;I will be using this &lt;a href=&quot;/weblog/timeline/index.html&quot;&gt;timeline&lt;/a&gt; to keep track of my updates and this blog to post articles, snippets and thoughts as I develop my site. I make things for the web and want to share how I make those things.&lt;/p&gt;
 
-&lt;p&gt;Designing in the open is not a new idea, great developers like &lt;a href=&quot;http://bradfrost.com/blog/post/designing-in-the-open/&quot;&gt;Brad Frost&lt;/a&gt;, &lt;a href=&quot;http://danielmall.com/articles/rif-element-collages/&quot;&gt;Dan Mall&lt;/a&gt;, &lt;a href=&quot;https://css-tricks.com/screencasting-complete-redesign-get-access-kickstarter/&quot;&gt;Chris Coyier&lt;/a&gt; to name a few, have used this technique to utilize our great open community to help further their deisign decisions. &lt;/p&gt;
+&lt;p&gt;Designing in the open is not a new idea, great devsigners like &lt;a href=&quot;http://bradfrost.com/blog/post/designing-in-the-open/&quot;&gt;Brad Frost&lt;/a&gt;, &lt;a href=&quot;http://danielmall.com/articles/rif-element-collages/&quot;&gt;Dan Mall&lt;/a&gt;, &lt;a href=&quot;https://css-tricks.com/screencasting-complete-redesign-get-access-kickstarter/&quot;&gt;Chris Coyier&lt;/a&gt; to name a few, have used this technique to utilize our great open community to help further their deisign decisions. &lt;/p&gt;
 
 &lt;blockquote&gt;By sharing your thoughts, your successes, your failures, your techniques, your process, your resources, you’re able to have a much greater impact on the world than whatever happens to be in your project’s scope.
-	&lt;cite style=&quot;display:block;&quot;&gt;- Brad Frost&lt;/cite&gt;
+	&lt;cite&gt;- Brad Frost&lt;/cite&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;I’m nervous and excited I have a feeling everything will change and I also have a feeling no one may see this haha. In any case this will help me push my skills and confidence further.&lt;/p&gt;
+&lt;h3 id=&quot;goals&quot;&gt;Goals&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Deliver a new site in six months&lt;/li&gt;
+  &lt;li&gt;Develop in depth case studies for my work&lt;/li&gt;
+  &lt;li&gt;Develop a blog to write about design and development&lt;/li&gt;
+  &lt;li&gt;Increase engangement on social media&lt;/li&gt;
+  &lt;li&gt;Increase website performance&lt;/li&gt;
+  &lt;li&gt;Make a website I am proud of&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I’m nervous and excited to get started. I think this will be fun exercise to push my skills and develop my confidence.&lt;/p&gt;
 
 &lt;p&gt;Wish me luck!&lt;/p&gt;
 
+&lt;p&gt;Darren&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://twitter.com/darrendub&quot;&gt;@darrendub&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  

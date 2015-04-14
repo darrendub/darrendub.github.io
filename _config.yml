@@ -3,7 +3,7 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Darren Daven Wong
+title:            Darren Wong
 url:              
 paginate:         1
 baseurl:          /weblog

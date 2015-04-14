@@ -3,28 +3,12 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+Greetings, my name is Darren. I design and develop things for screens and things. I currently work on [inkling.com](http://inkling.com) designing extensible patterns and code to engage our visitors. 
 
-In the novel, *The Strange Case of Dr. Jekyll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+I was born and raised on the island of Oahu. I left to go to school in San Francisco and have been living and working in the city ever since.
 
-There are currently two themes built on Poole:
+I am a huge proponent on side projects and I always have something I'm working on. I think it's important to do something purely for passion and fun, it helps us get away from the things we have to do and replace them with the things we want to do. My current side project is [Smoked Meat Saturdays](http://smokedmeatsaturdays.com) where a buddy and I host small get togethers for friends; we eat, drink and be merry. 
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+I listen to a lot of Drake, he's the song bird of our generation. I would like to be his friend one day. I am obsessed with Wes Anderson movies, I have this dream that I'll design a post card that is in frame for 1.2 seconds. My favorite movie of his is Moonrise Kingdom.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+Have any questions? tweet me [@darrendub](http://twitter.com/darrendub) or you can reach me by [electronic mail](mailto:hello@darrendavenwong.com) You can also find my pixels on [dribbble](http://dribbble.com/darrendub) and my code on [github](http://github.com/darrendub)
