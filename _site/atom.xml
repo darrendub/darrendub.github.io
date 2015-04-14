@@ -4,31 +4,13 @@
  <title>Darren Daven Wong</title>
  <link href="/weblogatom.xml" rel="self"/>
  <link href="/weblog"/>
- <updated>2015-04-13T23:06:51-07:00</updated>
+ <updated>2015-04-14T10:35:47-07:00</updated>
  <id></id>
  <author>
    <name>Darren Wong</name>
    <email>darrendavenwong@gmail.com</email>
  </author>
 
- 
- <entry>
-   <title>Inventory</title>
-   <link href="/weblog/2015/04/16/inventory/"/>
-   <updated>2015-04-16T00:00:00-07:00</updated>
-   <id>/2015/04/16/inventory</id>
-   <content type="html">&lt;h3 id=&quot;the-current-lay-of-the-land&quot;&gt;The current lay of the land&lt;/h3&gt;
-&lt;p&gt;Here is a look at the applications and tools I use for my current site &lt;a href=&quot;http://darrendavenwong.com&quot;&gt;darrendavenwong.com&lt;/a&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;FTP: Fetch&lt;/li&gt;
-  &lt;li&gt;Text Editor: Sublime Text 2&lt;/li&gt;
-  &lt;li&gt;Domain: Godaddy&lt;/li&gt;
-  &lt;li&gt;Hosting: HostMonster&lt;/li&gt;
-&lt;/ul&gt;
-
-</content>
- </entry>
  
  <entry>
    <title>Why are you doing this?</title>
@@ -47,6 +29,8 @@
 &lt;p&gt;I will be using this &lt;a href=&quot;/weblog/timeline/index.html&quot;&gt;timeline&lt;/a&gt; to keep track of my updates and this blog to post articles, snippets and thoughts as I develop my site. I make things for the web and want to share how I make those things.&lt;/p&gt;
 
 &lt;p&gt;Designing in the open is not a new idea, great devsigners like &lt;a href=&quot;http://bradfrost.com/blog/post/designing-in-the-open/&quot;&gt;Brad Frost&lt;/a&gt;, &lt;a href=&quot;http://danielmall.com/articles/rif-element-collages/&quot;&gt;Dan Mall&lt;/a&gt;, &lt;a href=&quot;https://css-tricks.com/screencasting-complete-redesign-get-access-kickstarter/&quot;&gt;Chris Coyier&lt;/a&gt; to name a few, have used this technique to utilize our great open community to help further their deisign decisions. &lt;/p&gt;
+
+&lt;p&gt;There is an awesome live redesign of CodePen by Sparkbox happening now! &lt;a href=&quot;http://codepen.seesparkbox.com/&quot;&gt;Check it out →&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;By sharing your thoughts, your successes, your failures, your techniques, your process, your resources, you’re able to have a much greater impact on the world than whatever happens to be in your project’s scope.
 	&lt;cite&gt;- Brad Frost&lt;/cite&gt;

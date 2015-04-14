@@ -326,6 +326,7 @@ tbody tr:nth-child(odd) th {
   color: #c0c0c0;
   letter-spacing: 0;
   display: block;
+  padding-top: 0.5em;
 }
 
 
@@ -463,9 +464,15 @@ span.title:before {
   border: 3px solid #ACBCB5;
   border-radius: 100%;
   background-clip: padding-box;
-  margin-left: -1.25rem;
+  margin-left: -1.4rem;
   margin-right: 0.7rem;
   vertical-align: middle;
+
+}
+@media (min-width: 30em) {
+  span.title:before {
+    margin-left: -1.25rem;
+  }
 
 }
 

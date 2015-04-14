@@ -16,6 +16,7 @@ I will be using this <a href="{{ site.baseurl }}/timeline/index.html">timeline</
 
 Designing in the open is not a new idea, great devsigners like <a href="http://bradfrost.com/blog/post/designing-in-the-open/">Brad Frost</a>, <a href="http://danielmall.com/articles/rif-element-collages/">Dan Mall</a>, <a href="https://css-tricks.com/screencasting-complete-redesign-get-access-kickstarter/">Chris Coyier</a> to name a few, have used this technique to utilize our great open community to help further their deisign decisions. 
 
+There is an awesome live redesign of CodePen by Sparkbox happening now! [Check it out &#8594;](http://codepen.seesparkbox.com/)
 
 <blockquote>By sharing your thoughts, your successes, your failures, your techniques, your process, your resources, you’re able to have a much greater impact on the world than whatever happens to be in your project’s scope.
 	<cite>- Brad Frost</cite>
