@@ -2,9 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Darren Wong</title>
- <link href="/weblogatom.xml" rel="self"/>
- <link href="/weblog"/>
- <updated>2015-04-16T00:23:35-07:00</updated>
+ <link href="atom.xml" rel="self"/>
+ <link href=""/>
+ <updated>2015-04-16T16:39:28-07:00</updated>
  <id></id>
  <author>
    <name>Darren Wong</name>
@@ -14,7 +14,7 @@
  
  <entry>
    <title>Redesign Brief</title>
-   <link href="/weblog/2015/04/17/redesign-brief/"/>
+   <link href="/2015/04/17/redesign-brief/"/>
    <updated>2015-04-17T00:00:00-07:00</updated>
    <id>/2015/04/17/redesign-brief</id>
    <content type="html">&lt;h3 id=&quot;background&quot;&gt;Background&lt;/h3&gt;
@@ -166,7 +166,7 @@
  
  <entry>
    <title>Open Redesign</title>
-   <link href="/weblog/2015/04/15/open-redesign/"/>
+   <link href="/2015/04/15/open-redesign/"/>
    <updated>2015-04-15T00:00:00-07:00</updated>
    <id>/2015/04/15/open-redesign</id>
    <content type="html">&lt;p&gt;Hey there, my name is Darren and I design things for the internet and people like you. I will be using this space to document the open redesign of my brand new site! I am doing this for a few reasons:&lt;/p&gt;
@@ -178,9 +178,9 @@
   &lt;li&gt;Be accountable for delivering a brand spanking new site&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;I will be using this &lt;a href=&quot;/weblog/timeline/&quot;&gt;timeline&lt;/a&gt; to keep track of my updates and this blog to post articles, snippets and thoughts as I develop my site. I make things for the web and want to share how I make those things.&lt;/p&gt;
+&lt;p&gt;I will be using this &lt;a href=&quot;/timeline/&quot;&gt;timeline&lt;/a&gt; to keep track of my updates and this blog to post articles, snippets and thoughts as I develop my site. I make things for the web and want to share how I make those things.&lt;/p&gt;
 
-&lt;p class=&quot;message&quot;&gt;&lt;a href=&quot;/weblog/2015/04/17/redesign-brief&quot;&gt;Here is the full redesign brief &amp;#8594;&lt;/a&gt;&lt;/p&gt;
+&lt;p class=&quot;message&quot;&gt;&lt;a href=&quot;/2015/04/17/redesign-brief&quot;&gt;Here is the full redesign brief &amp;#8594;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Designing in the open is not a new idea, great devsigners like &lt;a href=&quot;http://bradfrost.com/blog/post/designing-in-the-open/&quot;&gt;Brad Frost&lt;/a&gt;, &lt;a href=&quot;http://danielmall.com/articles/rif-element-collages/&quot;&gt;Dan Mall&lt;/a&gt;, &lt;a href=&quot;https://css-tricks.com/screencasting-complete-redesign-get-access-kickstarter/&quot;&gt;Chris Coyier&lt;/a&gt; to name a few, have used this technique to utilize our great open community to help further their deisign decisions. &lt;/p&gt;
 
