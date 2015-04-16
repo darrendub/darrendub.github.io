@@ -7,6 +7,10 @@ layout: default
   <time datetime="{{ page.date | date_to_xmlschema }}" class="page-date">{{ page.date | date_to_string }}</time>
   {{ content }}
 </article>
+<section class="share">
+  <h3 class="text-center">Share this post:</h3>
+  <div class="button button-blue center"><a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.baseurl }}{{ page.url }}&via=darrendub" rel="nofollow" target="_blank" title="Share on Twitter">Tweet</a></div>
+</section>
 
 <!-- <aside class="related">
   <h2>Related Posts</h2>
