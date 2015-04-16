@@ -5,7 +5,7 @@ description: Follow along as I redesign my website out in the wilderness of the 
 ---
 	
 
-Hey there, my name is Darren and I design things for the internet and people like you. I will be using this space to document the live redesign of my brand new site! I am doing this for a few reasons:
+Hey there, my name is Darren and I design things for the internet and people like you. I will be using this space to document the open redesign of my brand new site! I am doing this for a few reasons:
 
 - Build some momentum to redesign my current [site](http://darrendavenwong.com)
 - Share my process and learn from that process

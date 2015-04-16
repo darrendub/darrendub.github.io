@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Redesign Brief
+description: A detailed brief outling goals, measurements of success and schedule.
 ---
 
 
@@ -46,6 +47,7 @@ _Happiness:_ A site that I am proud of
 ####Schedule:
 
 My schedule for this project is going to be a little further out than a traditional website project. This redesign unfortunately will not be the only thing I'm working on. I have a full time job (we're <a href="http://grnh.se/j2e8bl">hiring</a>), a full time girlfriend (she's not hiring), and a part time side project (<a href="http://www.smokedmeatsaturdays.com/">sms</a>). I want to give this redesign a fighting chance of coming to fruition. I'm also an advocate of the under promise, over deliver policy... ya let's go with that.
+
 **Research (2 weeks)**
 
 - Whats working/what isn’t 
