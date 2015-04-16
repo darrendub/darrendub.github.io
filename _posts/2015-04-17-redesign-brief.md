@@ -34,16 +34,18 @@ I need to create a fast, responsive, delightful experience on the web to showcas
 ####Measures of Success:
 _Performance:_ A user should begin to see the website rendering in 100ms. This should produce a speed index score of 1000ms and to get there my site should deliver the critical path view in the first 14kb of the page. (via Paul Irish, ["Delivering the goods" - Fluent 2014 Keynote](https://www.youtube.com/watch?v=R8W_6xWphtw))
 
-_Blog:_ 1,000 Visits, 10 Shares, Post twice a week
+_Blog:_ 1,000 Visits, Post twice a week
 
-_Twitter:_ 10 new followers
+_Twitter:_ 10 new followers, 40 Shares
 
-_Design:_ Thumbs up from the design community
+_Design:_ High fives from colleagues
+
+_Happiness:_ A site that I am proud of
 
 
 ####Schedule:
 
-My schedule for this project is going to be a little further out than a traditional website project. This redesign unfortunately will not be the only thing I'm working on. I have a full time job (we're <a href="https://www.inkling.com/careers/join/">hiring</a>), a full time girlfriend (she's not hiring), and a part time side project (<a href="http://www.smokedmeatsaturdays.com/">sms</a>). I want to give this redesign a fighting chance of coming to fruition. I'm also an advocate of the under promise, over deliver policy... ya let's go with that.
+My schedule for this project is going to be a little further out than a traditional website project. This redesign unfortunately will not be the only thing I'm working on. I have a full time job (we're <a href="http://grnh.se/j2e8bl">hiring</a>), a full time girlfriend (she's not hiring), and a part time side project (<a href="http://www.smokedmeatsaturdays.com/">sms</a>). I want to give this redesign a fighting chance of coming to fruition. I'm also an advocate of the under promise, over deliver policy... ya let's go with that.
 **Research (2 weeks)**
 
 - Whats working/what isn’t 
@@ -111,6 +113,7 @@ I want to walk away from this project with a website that I am proud of. A websi
 
 ####Links
 [Upanup Studios - Website Timeline: A Plan for Success](http://www.upanup.com/website-timeline-a-plan-for-success/)
+
 [Tim Kadlec - Performance Budget Metrics](http://timkadlec.com/2014/11/performance-budget-metrics/)
 
 

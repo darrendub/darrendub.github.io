@@ -4,7 +4,7 @@
  <title>Darren Wong</title>
  <link href="/weblogatom.xml" rel="self"/>
  <link href="/weblog"/>
- <updated>2015-04-15T22:42:09-07:00</updated>
+ <updated>2015-04-16T00:12:30-07:00</updated>
  <id></id>
  <author>
    <name>Darren Wong</name>
@@ -47,15 +47,17 @@
 &lt;h4 id=&quot;measures-of-success&quot;&gt;Measures of Success:&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;Performance:&lt;/em&gt; A user should begin to see the website rendering in 100ms. This should produce a speed index score of 1000ms and to get there my site should deliver the critical path view in the first 14kb of the page. (via Paul Irish, &lt;a href=&quot;https://www.youtube.com/watch?v=R8W_6xWphtw&quot;&gt;“Delivering the goods” - Fluent 2014 Keynote&lt;/a&gt;)&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Blog:&lt;/em&gt; 1,000 Visits, 10 Shares, Post twice a week&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Blog:&lt;/em&gt; 1,000 Visits, Post twice a week&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Twitter:&lt;/em&gt; 10 new followers&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Twitter:&lt;/em&gt; 10 new followers, 40 Shares&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Design:&lt;/em&gt; Thumbs up from the design community&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Design:&lt;/em&gt; High fives from colleagues&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Happiness:&lt;/em&gt; A site that I am proud of&lt;/p&gt;
 
 &lt;h4 id=&quot;schedule&quot;&gt;Schedule:&lt;/h4&gt;
 
-&lt;p&gt;My schedule for this project is going to be a little further out than a traditional website project. This redesign unfortunately will not be the only thing I’m working on. I have a full time job (we’re &lt;a href=&quot;https://www.inkling.com/careers/join/&quot;&gt;hiring&lt;/a&gt;), a full time girlfriend (she’s not hiring), and a part time side project (&lt;a href=&quot;http://www.smokedmeatsaturdays.com/&quot;&gt;sms&lt;/a&gt;). I want to give this redesign a fighting chance of coming to fruition. I’m also an advocate of the under promise, over deliver policy… ya let’s go with that.
+&lt;p&gt;My schedule for this project is going to be a little further out than a traditional website project. This redesign unfortunately will not be the only thing I’m working on. I have a full time job (we’re &lt;a href=&quot;http://grnh.se/j2e8bl&quot;&gt;hiring&lt;/a&gt;), a full time girlfriend (she’s not hiring), and a part time side project (&lt;a href=&quot;http://www.smokedmeatsaturdays.com/&quot;&gt;sms&lt;/a&gt;). I want to give this redesign a fighting chance of coming to fruition. I’m also an advocate of the under promise, over deliver policy… ya let’s go with that.
 &lt;strong&gt;Research (2 weeks)&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
@@ -154,14 +156,15 @@
 &lt;p&gt;I want to walk away from this project with a website that I am proud of. A website that is fast loading. A website that makes use of a system of design patterns and modular code. A website that is set in beautiful (legible) type. A website that is set with beautiful words that communicate my work and who I am. I think I will learn a lot from this process and I can’t wait to get started.&lt;/p&gt;
 
 &lt;h4 id=&quot;links&quot;&gt;Links&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.upanup.com/website-timeline-a-plan-for-success/&quot;&gt;Upanup Studios - Website Timeline: A Plan for Success&lt;/a&gt;
-&lt;a href=&quot;http://timkadlec.com/2014/11/performance-budget-metrics/&quot;&gt;Tim Kadlec - Performance Budget Metrics&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.upanup.com/website-timeline-a-plan-for-success/&quot;&gt;Upanup Studios - Website Timeline: A Plan for Success&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://timkadlec.com/2014/11/performance-budget-metrics/&quot;&gt;Tim Kadlec - Performance Budget Metrics&lt;/a&gt;&lt;/p&gt;
 
 </content>
  </entry>
  
  <entry>
-   <title>And we're live...</title>
+   <title>Open Redesign</title>
    <link href="/weblog/2015/04/15/and-were-live/"/>
    <updated>2015-04-15T00:00:00-07:00</updated>
    <id>/2015/04/15/and-were-live</id>
@@ -174,7 +177,7 @@
   &lt;li&gt;Be accountable for delivering a brand spanking new site&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;I will be using this &lt;a href=&quot;/weblog/timeline/index.html&quot;&gt;timeline&lt;/a&gt; to keep track of my updates and this blog to post articles, snippets and thoughts as I develop my site. I make things for the web and want to share how I make those things.&lt;/p&gt;
+&lt;p&gt;I will be using this &lt;a href=&quot;/weblog/timeline/&quot;&gt;timeline&lt;/a&gt; to keep track of my updates and this blog to post articles, snippets and thoughts as I develop my site. I make things for the web and want to share how I make those things.&lt;/p&gt;
 
 &lt;p class=&quot;message&quot;&gt;&lt;a href=&quot;/weblog/2015/04/17/redesign-brief&quot;&gt;Here is the full redesign brief &amp;#8594;&lt;/a&gt;&lt;/p&gt;
 

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: And we're live...
+title: Open Redesign
+description: Follow along as I redesign my website out in the wilderness of the Internet.
 ---
-
-
+	
 
 Hey there, my name is Darren and I design things for the internet and people like you. I will be using this space to document the live redesign of my brand new site! I am doing this for a few reasons:
 
@@ -12,7 +12,7 @@ Hey there, my name is Darren and I design things for the internet and people lik
 - Get input early and often from viewers like you
 - Be accountable for delivering a brand spanking new site
 
-I will be using this <a href="{{ site.baseurl }}/timeline/index.html">timeline</a> to keep track of my updates and this blog to post articles, snippets and thoughts as I develop my site. I make things for the web and want to share how I make those things.
+I will be using this <a href="{{ site.baseurl }}/timeline/">timeline</a> to keep track of my updates and this blog to post articles, snippets and thoughts as I develop my site. I make things for the web and want to share how I make those things.
 
 <p class="message"><a href="{{ site.baseurl }}/2015/04/17/redesign-brief">Here is the full redesign brief &#8594;</a></p>
 
