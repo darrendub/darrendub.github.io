@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Darren Wong</title>
- <link href="atom.xml" rel="self"/>
- <link href=""/>
- <updated>2015-04-16T16:46:42-07:00</updated>
- <id></id>
+ <link href="darrendub.comatom.xml" rel="self"/>
+ <link href="darrendub.com"/>
+ <updated>2015-04-17T12:37:08-07:00</updated>
+ <id>darrendub.com</id>
  <author>
    <name>Darren Wong</name>
    <email>darrendavenwong@gmail.com</email>
@@ -14,38 +14,40 @@
  
  <entry>
    <title>Redesign Brief</title>
-   <link href="/2015/04/17/redesign-brief/"/>
+   <link href="darrendub.com/weblog/2015/04/17/redesign-brief/"/>
    <updated>2015-04-17T00:00:00-07:00</updated>
-   <id>/2015/04/17/redesign-brief</id>
-   <content type="html">&lt;h3 id=&quot;background&quot;&gt;Background&lt;/h3&gt;
-&lt;p&gt;One of the most disabling diseases plaguing designers today is the inability to create for ourselves (or at least be satisfied with the things we create). This disease has roots that trace back to the world’s earliest designers who used cave walls to put up their mock ups.&lt;/p&gt;
+   <id>darrendub.com/weblog/2015/04/17/redesign-brief</id>
+   <content type="html">&lt;h3&gt;Background&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://upload.wikimedia.org/wikipedia/commons/f/f4/SantaCruz-CuevaManos-P2210651b.jpg&quot; alt=&quot;Cueva de las Manos&quot; title=&quot;Cueva de las Manos&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;One of the most difficult challenges designers face today is the inability to create for ourselves (or at least be satisfied with the things we create). This issue has roots that trace back to the world’s earliest designers who used cave walls to display their mock ups.&lt;/p&gt;
 
-&lt;p&gt;&lt;cite&gt;Marianocecowski / &lt;a href=&quot;http://creativecommons.org/licenses/by-sa/3.0/&quot;&gt;CC-BY-SA-3.0&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://upload.wikimedia.org/wikipedia/commons/f/f4/SantaCruz-CuevaManos-P2210651b.jpg&quot; alt=&quot;Cueva de las Manos&quot; title=&quot;Cueva de las Manos&quot;&gt;&lt;/p&gt;
 
-&lt;p&gt;Take note of the many hands over lapping, you can imagine the internal struggle of this primordial designer saying, &lt;em&gt;“Are there too many hands?&lt;/em&gt;…&lt;em&gt;Fred, I think I need a complete overhaul, a redesign&lt;/em&gt;.” It’s in our blood to continue to redefine ourselves to push our creative abilities, to forever carry the burden of being incomplete. This insatiable desire to hold the highest of standards of our own work is not ill fated, it drives us and makes us stronger, better, faster, stronger?&lt;/p&gt;
+&lt;p&gt;&lt;cite&gt;Via &lt;a href=&quot;http://en.wikipedia.org/wiki/File:SantaCruz-CuevaManos-P2210651b.jpg&quot;&gt;Marianocecowski&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
 
-&lt;p&gt;Which leads us to present time and I say to my friend Fred,&lt;/p&gt;
+&lt;p&gt;Take note of the many hands over lapping. You can imagine the internal struggle of this primordial designer saying, &lt;em&gt;“Are there too many hands?&lt;/em&gt;...&lt;em&gt;What do the hands look like on mobile?&lt;/em&gt;...&lt;em&gt;Fred, I think I need a complete overhaul, a redesign.”&lt;/em&gt; It’s in our blood to continue to redefine ourselves, to push our creative abilities, to forever carry the burden of being incomplete. This insatiable desire to hold the highest of standards of our own work is not ill fated, it drives us and makes us stronger, better, faster... stronger?&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;“I think I need a complete overhaul, a redesign.”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I share much of the same internal struggles of our ancestral counterpart. My website is not something I’m happy with and I know I can do better, and yesterday turned to my friend and said, &lt;em&gt;“Fred, I think I need a complete overhaul, a redesign.”&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;However instead of designing in a silo or cave, I’m going to design out in the open. I’m going to bring you all along as I go, to keep me in check, to send me happy notes and most importantly give me feedback early and often. This will also be an experiment to discover my process (which has never before been documented, until now). So come along and lets do this thing!&lt;/p&gt;
+&lt;p&gt;However instead of designing in a cave, I’m going to design out in the open. I’m going to bring you all along as I go, to keep me in check, to send me happy notes and most importantly give me feedback early and often. This will also be an experiment to discover my process (which has never before been documented, until now). So come along and lets do this thing!&lt;/p&gt;
 
-&lt;h4 id=&quot;project-summary&quot;&gt;Project Summary:&lt;/h4&gt;
-&lt;p&gt;I need to create a fast, responsive, delightful experience on the web to showcase my work.I will have a blog to document my thoughts about design and other musings. The site will also increase my presence and friendships on twitter. &lt;/p&gt;
+&lt;h4&gt;Project Summary:&lt;/h4&gt;
 
-&lt;h4 id=&quot;goals&quot;&gt;Goals&lt;/h4&gt;
+&lt;p&gt;I need to create a fast, responsive, delightful experience on the web to showcase my work. I will have a blog to document my thoughts about design and other musings. The site will also increase my presence and friendships on twitter. &lt;/p&gt;
+
+&lt;h4&gt;Goals&lt;/h4&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;Deliver a new site in 4 months&lt;/li&gt;
-  &lt;li&gt;Increase website performance&lt;/li&gt;
-  &lt;li&gt;Increase engagement on social media&lt;/li&gt;
-  &lt;li&gt;Develop in depth case studies for my work&lt;/li&gt;
-  &lt;li&gt;Develop a blog to write about design and development&lt;/li&gt;
+&lt;li&gt;Deliver a new site in 4 months&lt;/li&gt;
+&lt;li&gt;Increase website performance&lt;/li&gt;
+&lt;li&gt;Increase engagement on social media&lt;/li&gt;
+&lt;li&gt;Develop in depth case studies for my work&lt;/li&gt;
+&lt;li&gt;Develop a blog to write about design and development&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;measures-of-success&quot;&gt;Measures of Success:&lt;/h4&gt;
-&lt;p&gt;&lt;em&gt;Performance:&lt;/em&gt; A user should begin to see the website rendering in 100ms. This should produce a speed index score of 1000ms and to get there my site should deliver the critical path view in the first 14kb of the page. (via Paul Irish, &lt;a href=&quot;https://www.youtube.com/watch?v=R8W_6xWphtw&quot;&gt;“Delivering the goods” - Fluent 2014 Keynote&lt;/a&gt;)&lt;/p&gt;
+&lt;h4&gt;Measures of Success:&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;Performance:&lt;/em&gt; A user should begin to see the website rendering in 100ms. This should produce a speed index score of 1000ms and to get there my site should deliver the critical path view in the first 14kb of the page. (via &lt;a href=&quot;https://www.youtube.com/watch?v=R8W_6xWphtw&quot;&gt;Paul Irish&lt;/a&gt;)&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Blog:&lt;/em&gt; 1,000 Visits, Post twice a week&lt;/p&gt;
 
@@ -55,139 +57,120 @@
 
 &lt;p&gt;&lt;em&gt;Happiness:&lt;/em&gt; A site that I am proud of&lt;/p&gt;
 
-&lt;h4 id=&quot;schedule&quot;&gt;Schedule:&lt;/h4&gt;
+&lt;h4&gt;Schedule:&lt;/h4&gt;
 
-&lt;p&gt;My schedule for this project is going to be a little further out than a traditional website project. This redesign unfortunately will not be the only thing I’m working on. I have a full time job (we’re &lt;a href=&quot;http://grnh.se/j2e8bl&quot;&gt;hiring&lt;/a&gt;), a full time girlfriend (she’s not hiring), and a part time side project (&lt;a href=&quot;http://www.smokedmeatsaturdays.com/&quot;&gt;sms&lt;/a&gt;). I want to give this redesign a fighting chance of coming to fruition. I’m also an advocate of the under promise, over deliver policy… ya let’s go with that.&lt;/p&gt;
+&lt;p&gt;My schedule for this project is going to be a little further out than a traditional website project. Unfortunately, this redesign will not be the only thing I’m working on. I have a full time job (we’re &lt;a href=&quot;http://grnh.se/j2e8bl&quot;&gt;hiring&lt;/a&gt;), a full time girlfriend (she’s not hiring), and a part time side project (&lt;a href=&quot;http://www.smokedmeatsaturdays.com/&quot;&gt;Smoked Meat Saturdays&lt;/a&gt;). I want to give this redesign a fighting chance of coming to fruition. I’m also an advocate of the under promise, over deliver policy... ya let’s go with that.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Research (2 weeks)&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Whats working/what isn’t &lt;/li&gt;
-  &lt;li&gt;Understand Audience&lt;/li&gt;
-  &lt;li&gt;Analyze Current Metrics&lt;/li&gt;
-  &lt;li&gt;Early Wireframes&lt;/li&gt;
-  &lt;li&gt;Site Architecture &lt;/li&gt;
-  &lt;li&gt;Craft tools/environment I will use&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Content (2 weeks)&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Develop Case Studies&lt;/li&gt;
-  &lt;li&gt;Writing Blog Posts&lt;/li&gt;
-  &lt;li&gt;SEO&lt;/li&gt;
-  &lt;li&gt;About page&lt;/li&gt;
-  &lt;li&gt;Feedback&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Design (6 weeks)&lt;/strong&gt;&lt;/p&gt;
+&lt;li&gt;What’s Working and What Isn’t &lt;/li&gt;
+&lt;li&gt;Understand Audience&lt;/li&gt;
+&lt;li&gt;Analyze Current Metrics&lt;/li&gt;
+&lt;li&gt;Early Wireframes&lt;/li&gt;
+&lt;li&gt;Site Architecture &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Craft tools/environment I will use
+&lt;hr&gt;
+&lt;strong&gt;Content (2 weeks)&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Develop Case Studies&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Write Blog Posts&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;SEO&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;About page&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Feedback
+&lt;hr&gt;
+&lt;strong&gt;Design (6 weeks)&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Exploration&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Exploration
-    &lt;ul&gt;
-      &lt;li&gt;Inspiration&lt;/li&gt;
-      &lt;li&gt;Style&lt;/li&gt;
-      &lt;li&gt;Modular Thinking&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Mock-up
-    &lt;ul&gt;
-      &lt;li&gt;Flow&lt;/li&gt;
-      &lt;li&gt;Consistency&lt;/li&gt;
-      &lt;li&gt;Whole&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Prototype
-    &lt;ul&gt;
-      &lt;li&gt;Easily Sharable&lt;/li&gt;
-      &lt;li&gt;Function&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Input
-    &lt;ul&gt;
-      &lt;li&gt;Early and Often&lt;/li&gt;
-      &lt;li&gt;Asking peers and mentors&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Feedback
-    &lt;ul&gt;
-      &lt;li&gt;Update with inputs&lt;/li&gt;
-      &lt;li&gt;Slight Polish&lt;/li&gt;
-      &lt;li&gt;Prepare for Code&lt;/li&gt;
-      &lt;li&gt;Feedback&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Development (6 weeks)&lt;/strong&gt; &lt;/p&gt;
+&lt;li&gt;Inspiration&lt;/li&gt;
+&lt;li&gt;Style&lt;/li&gt;
+&lt;li&gt;Modular Thinking&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Mock-up&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Modular Code&lt;/li&gt;
-  &lt;li&gt;Small First&lt;/li&gt;
-  &lt;li&gt;Delight/Animation&lt;/li&gt;
-  &lt;li&gt;Extensible Patterns&lt;/li&gt;
-  &lt;li&gt;Style Guide?&lt;/li&gt;
-  &lt;li&gt;Layout Optimization Guide&lt;/li&gt;
-  &lt;li&gt;Feedback&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Testing (2 weeks)&lt;/strong&gt;&lt;/p&gt;
+&lt;li&gt;Flow&lt;/li&gt;
+&lt;li&gt;Consistency&lt;/li&gt;
+&lt;li&gt;Whole&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Prototype&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Performance&lt;/li&gt;
-  &lt;li&gt;Performance&lt;/li&gt;
-  &lt;li&gt;Performance&lt;/li&gt;
-  &lt;li&gt;Bugs&lt;/li&gt;
-  &lt;li&gt;Feedback&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Launch (Should be immediate since I’m designing in the open!)&lt;/strong&gt;&lt;/p&gt;
+&lt;li&gt;Easily Sharable&lt;/li&gt;
+&lt;li&gt;Function&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Input&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Ongoing Maintenance &lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
+&lt;li&gt;Early and Often&lt;/li&gt;
+&lt;li&gt;Peers and mentors&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Feedback&lt;/p&gt;
 
-&lt;h4 id=&quot;final-thoughts&quot;&gt;Final Thoughts&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Update with inputs&lt;/li&gt;
+&lt;li&gt;Slight Polish&lt;/li&gt;
+&lt;li&gt;Prepare for Code&lt;/li&gt;
+&lt;li&gt;Feedback
+&lt;hr&gt;
+&lt;strong&gt;Development (6 weeks)&lt;/strong&gt; &lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Modular Code&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Small First&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Delight/Animation&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Extensible Patterns&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Style Guide?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Layout Optimization Guide&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Feedback
+&lt;hr&gt;
+&lt;strong&gt;Testing (2 weeks)&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Performance&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Performance&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Performance&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Bugs&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Feedback
+&lt;hr&gt;
+&lt;strong&gt;Launch (Should be immediate since I’m designing in the open!)&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ongoing Maintenance 
+&lt;hr&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4&gt;Final Thoughts&lt;/h4&gt;
+
 &lt;p&gt;I want to walk away from this project with a website that I am proud of. A website that is fast loading. A website that makes use of a system of design patterns and modular code. A website that is set in beautiful (legible) type. A website that is set with beautiful words that communicate my work and who I am. I think I will learn a lot from this process and I can’t wait to get started.&lt;/p&gt;
 
-&lt;h4 id=&quot;links&quot;&gt;Links&lt;/h4&gt;
+&lt;h4&gt;Links&lt;/h4&gt;
+
 &lt;p&gt;&lt;a href=&quot;http://www.upanup.com/website-timeline-a-plan-for-success/&quot;&gt;Upanup Studios - Website Timeline: A Plan for Success&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://timkadlec.com/2014/11/performance-budget-metrics/&quot;&gt;Tim Kadlec - Performance Budget Metrics&lt;/a&gt;&lt;/p&gt;
-
 </content>
  </entry>
  
  <entry>
    <title>Open Redesign</title>
-   <link href="/2015/04/15/open-redesign/"/>
+   <link href="darrendub.com/weblog/2015/04/15/open-redesign/"/>
    <updated>2015-04-15T00:00:00-07:00</updated>
-   <id>/2015/04/15/open-redesign</id>
+   <id>darrendub.com/weblog/2015/04/15/open-redesign</id>
    <content type="html">&lt;p&gt;Hey there, my name is Darren and I design things for the internet and people like you. I will be using this space to document the open redesign of my brand new site! I am doing this for a few reasons:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Build some momentum to redesign my current &lt;a href=&quot;http://darrendavenwong.com&quot;&gt;site&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Share my process and learn from that process&lt;/li&gt;
-  &lt;li&gt;Get input early and often from viewers like you&lt;/li&gt;
-  &lt;li&gt;Be accountable for delivering a brand spanking new site&lt;/li&gt;
+&lt;li&gt;Build some momentum to redesign my current &lt;a href=&quot;http://darrendavenwong.com&quot;&gt;site&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Share my process and learn from that process&lt;/li&gt;
+&lt;li&gt;Get input early and often from viewers like you&lt;/li&gt;
+&lt;li&gt;Be accountable for delivering a brand spanking new site&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;I will be using this &lt;a href=&quot;/timeline/&quot;&gt;timeline&lt;/a&gt; to keep track of my updates and this blog to post articles, snippets and thoughts as I develop my site. I make things for the web and want to share how I make those things.&lt;/p&gt;
+&lt;p&gt;I will be using this &lt;a href=&quot;/timeline/&quot;&gt;timeline&lt;/a&gt; to keep track of my updates and this &lt;a href=&quot;/weblog/&quot;&gt;blog&lt;/a&gt; to post articles, snippets and thoughts as I develop my site. I make things for the web and want to share how I make those things.&lt;/p&gt;
 
-&lt;p class=&quot;message&quot;&gt;&lt;a href=&quot;/2015/04/17/redesign-brief&quot;&gt;Here is the full redesign brief &amp;#8594;&lt;/a&gt;&lt;/p&gt;
+&lt;p class=&quot;message&quot;&gt;&lt;a href=&quot;&quot;&gt;Here is the full redesign brief &amp;#8594;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Designing in the open is not a new idea, great devsigners like &lt;a href=&quot;http://bradfrost.com/blog/post/designing-in-the-open/&quot;&gt;Brad Frost&lt;/a&gt;, &lt;a href=&quot;http://danielmall.com/articles/rif-element-collages/&quot;&gt;Dan Mall&lt;/a&gt;, &lt;a href=&quot;https://css-tricks.com/screencasting-complete-redesign-get-access-kickstarter/&quot;&gt;Chris Coyier&lt;/a&gt; to name a few, have used this technique to utilize our great open community to help further their deisign decisions. &lt;/p&gt;
+&lt;p&gt;Designing in the open is not a new idea, great &lt;em&gt;devsigners&lt;/em&gt; like &lt;a href=&quot;http://bradfrost.com/blog/post/designing-in-the-open/&quot;&gt;Brad Frost&lt;/a&gt;, &lt;a href=&quot;http://danielmall.com/articles/rif-element-collages/&quot;&gt;Dan Mall&lt;/a&gt;, &lt;a href=&quot;https://css-tricks.com/screencasting-complete-redesign-get-access-kickstarter/&quot;&gt;Chris Coyier&lt;/a&gt;, have used this technique to utilize our great open community to help further their deisign decisions. &lt;/p&gt;
 
-&lt;p&gt;There is an awesome live redesign of CodePen by Sparkbox happening now! &lt;a href=&quot;http://codepen.seesparkbox.com/&quot;&gt;Check it out →&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There is an awesome live redesign of CodePen by Sparkbox happening now! &lt;a href=&quot;http://codepen.seesparkbox.com/&quot;&gt;Check it out &amp;#8594;&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;By sharing your thoughts, your successes, your failures, your techniques, your process, your resources, you’re able to have a much greater impact on the world than whatever happens to be in your project’s scope.
-	&lt;cite&gt;- Brad Frost&lt;/cite&gt;
+    &lt;cite&gt;- Brad Frost&lt;/cite&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;I’m nervous and excited to get started. I think this will be fun exercise to push my skills and develop my confidence.&lt;/p&gt;
