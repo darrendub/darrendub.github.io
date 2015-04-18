@@ -17,7 +17,7 @@ I will be using this <a href="{{ site.baseurl }}/timeline/">timeline</a> to keep
 
 <p class="message"><a href="{{ site.baseurl }}/weblog/2015/04/17/redesign-brief/">Here is the full redesign brief &#8594;</a></p>
 
-Designing in the open is not a new idea, great _devsigners_ like <a href="http://bradfrost.com/blog/post/designing-in-the-open/">Brad Frost</a>, <a href="http://danielmall.com/articles/rif-element-collages/">Dan Mall</a>, <a href="https://css-tricks.com/screencasting-complete-redesign-get-access-kickstarter/">Chris Coyier</a>, have used this technique to utilize our great open community to help further their deisign decisions. 
+Designing in the open is not a new idea, great _dev-signers_ like <a href="http://bradfrost.com/blog/post/designing-in-the-open/">Brad Frost</a>, <a href="http://danielmall.com/articles/rif-element-collages/">Dan Mall</a>, <a href="https://css-tricks.com/screencasting-complete-redesign-get-access-kickstarter/">Chris Coyier</a>, have used this technique to utilize our great open community to help further their deisign decisions. 
 
 There is an awesome live redesign of CodePen by Sparkbox happening now! [Check it out &#8594;](http://codepen.seesparkbox.com/)
 
