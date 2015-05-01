@@ -4,7 +4,7 @@
  <title>Darren Wong</title>
  <link href="darrendub.comatom.xml" rel="self"/>
  <link href="darrendub.com"/>
- <updated>2015-04-30T22:35:17-07:00</updated>
+ <updated>2015-04-30T22:42:04-07:00</updated>
  <id>darrendub.com</id>
  <author>
    <name>Darren Wong</name>
@@ -152,7 +152,7 @@
    <link href="darrendub.com/weblog/2015/04/15/open-redesign/"/>
    <updated>2015-04-15T00:00:00-07:00</updated>
    <id>darrendub.com/weblog/2015/04/15/open-redesign</id>
-   <content type="html">&lt;p&gt;Hey there, my name is Darren and I design things for the internet and people like you. I will be using this space to document the open redesign of my brand new site! I am doing this for a few reasons:&lt;/p&gt;
+   <content type="html">&lt;p&gt;Hey there, my name is Darren and I design things for the Internet and people like you. I will be using this space to document the open redesign of my brand new site! I am doing this for a few reasons:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Build some momentum to redesign my current &lt;a href=&quot;http://darrendavenwong.com&quot;&gt;site&lt;/a&gt;&lt;/li&gt;
@@ -165,7 +165,7 @@
 
 &lt;p class=&quot;message&quot;&gt;&lt;a href=&quot;/weblog/2015/04/17/redesign-brief/&quot;&gt;Here is the full redesign brief &amp;#8594;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Designing in the open is not a new idea, great &lt;em&gt;devsigners&lt;/em&gt; like &lt;a href=&quot;http://bradfrost.com/blog/post/designing-in-the-open/&quot;&gt;Brad Frost&lt;/a&gt;, &lt;a href=&quot;http://danielmall.com/articles/rif-element-collages/&quot;&gt;Dan Mall&lt;/a&gt;, &lt;a href=&quot;https://css-tricks.com/screencasting-complete-redesign-get-access-kickstarter/&quot;&gt;Chris Coyier&lt;/a&gt;, have used this technique to utilize our great open community to help further their deisign decisions. &lt;/p&gt;
+&lt;p&gt;Designing in the open is not a new idea, great &lt;em&gt;dev-signers&lt;/em&gt; like &lt;a href=&quot;http://bradfrost.com/blog/post/designing-in-the-open/&quot;&gt;Brad Frost&lt;/a&gt;, &lt;a href=&quot;http://danielmall.com/articles/rif-element-collages/&quot;&gt;Dan Mall&lt;/a&gt;, &lt;a href=&quot;https://css-tricks.com/screencasting-complete-redesign-get-access-kickstarter/&quot;&gt;Chris Coyier&lt;/a&gt;, have used this technique to utilize our great open community to help further their design decisions. &lt;/p&gt;
 
 &lt;p&gt;There is an awesome live redesign of CodePen by Sparkbox happening now! &lt;a href=&quot;http://codepen.seesparkbox.com/&quot;&gt;Check it out &amp;#8594;&lt;/a&gt;&lt;/p&gt;
 

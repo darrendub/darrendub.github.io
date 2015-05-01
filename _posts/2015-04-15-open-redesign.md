@@ -6,7 +6,7 @@ category: weblog
 ---
 	
 
-Hey there, my name is Darren and I design things for the internet and people like you. I will be using this space to document the open redesign of my brand new site! I am doing this for a few reasons:
+Hey there, my name is Darren and I design things for the Internet and people like you. I will be using this space to document the open redesign of my brand new site! I am doing this for a few reasons:
 
 - Build some momentum to redesign my current [site](http://darrendavenwong.com)
 - Share my process and learn from that process
@@ -17,7 +17,7 @@ I will be using this <a href="{{ site.baseurl }}/timeline/">timeline</a> to keep
 
 <p class="message"><a href="{{ site.baseurl }}/weblog/2015/04/17/redesign-brief/">Here is the full redesign brief &#8594;</a></p>
 
-Designing in the open is not a new idea, great _dev-signers_ like <a href="http://bradfrost.com/blog/post/designing-in-the-open/">Brad Frost</a>, <a href="http://danielmall.com/articles/rif-element-collages/">Dan Mall</a>, <a href="https://css-tricks.com/screencasting-complete-redesign-get-access-kickstarter/">Chris Coyier</a>, have used this technique to utilize our great open community to help further their deisign decisions. 
+Designing in the open is not a new idea, great _dev-signers_ like <a href="http://bradfrost.com/blog/post/designing-in-the-open/">Brad Frost</a>, <a href="http://danielmall.com/articles/rif-element-collages/">Dan Mall</a>, <a href="https://css-tricks.com/screencasting-complete-redesign-get-access-kickstarter/">Chris Coyier</a>, have used this technique to utilize our great open community to help further their design decisions. 
 
 There is an awesome live redesign of CodePen by Sparkbox happening now! [Check it out &#8594;](http://codepen.seesparkbox.com/)
 
