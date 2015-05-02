@@ -3,6 +3,7 @@ layout: post
 title: Open Redesign
 description: Follow along as I redesign my website out in the wilderness of the Internet.
 category: weblog
+comments: true
 ---
 	
 

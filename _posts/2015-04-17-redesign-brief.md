@@ -3,6 +3,7 @@ layout: post
 title: Redesign Brief
 description: A detailed brief outling goals, measurements of success and schedule.
 category: weblog
+comments: true
 ---
 
 

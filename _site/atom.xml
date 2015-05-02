@@ -4,13 +4,105 @@
  <title>Darren Wong</title>
  <link href="darrendub.comatom.xml" rel="self"/>
  <link href="darrendub.com"/>
- <updated>2015-04-30T22:42:04-07:00</updated>
+ <updated>2015-05-01T17:09:52-07:00</updated>
  <id>darrendub.com</id>
  <author>
    <name>Darren Wong</name>
    <email>darrendavenwong@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>What’s Working & What Isn’t</title>
+   <link href="darrendub.com/weblog/2015/05/01/whats-working/"/>
+   <updated>2015-05-01T00:00:00-07:00</updated>
+   <id>darrendub.com/weblog/2015/05/01/whats-working</id>
+   <content type="html">&lt;p&gt;Here is my &lt;a href=&quot;http://darrendavenwong.com&quot;&gt;old site&lt;/a&gt; in all of its glory. Take it all in. Look at the fixed grid, the tiled thumbnails, and embrace the gray background.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What’s working:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Minimal, “clean” layout&lt;/li&gt;
+&lt;li&gt;It’s responsive (&lt;em&gt;chuckles&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;I still like these pieces of work&lt;/li&gt;
+&lt;li&gt;The about me section is kinda funny?&lt;/li&gt;
+&lt;li&gt;Page Weight
+
+&lt;ul&gt;
+&lt;li&gt;HTML: 3.1kb&lt;/li&gt;
+&lt;li&gt;CSS: 3.4kb&lt;/li&gt;
+&lt;li&gt;Font: 32kb&lt;/li&gt;
+&lt;li&gt;JS: 39kb&lt;/li&gt;
+&lt;li&gt;IMG: 270kb&lt;/li&gt;
+&lt;li&gt;Total: 347.5 kb&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Speed
+
+&lt;ul&gt;
+&lt;li&gt;Start Render:      0.891s&lt;/li&gt;
+&lt;li&gt;Fully Loaded:      1.573s&lt;/li&gt;
+&lt;li&gt;Speed Index:      1048&lt;/li&gt;
+&lt;li&gt;Requests:           16&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Tests
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.webpagetest.org/result/150422_36_130P/&quot;&gt;Webpagetest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/?url=darrendavenwong.com&quot;&gt;PageSpeed Insights&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;What isn’t working:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;No Personality
+
+&lt;ul&gt;
+&lt;li&gt;Holy gray background batman, looks like the inside of Karl the Fog, #e6e6e6&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I’ve been described as lively and outgoing this website looks the underside of a shoe&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Case Studies Lack Substance&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Where are the compelling write ups? I care about my work but the way I talk about it on my site doesn’t correctly portray that&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The layout of the case studies are hard to read&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Code is literally from someone else&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Sorry &lt;a href=&quot;https://andytaylor.me/2013/04/09/1140px-css-grid-retired/&quot;&gt;Andy Taylor’s 1140px grid&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Projects are dated&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Do these projects show my skill set? Hayl no&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Poor Optimization&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;No Caching Static Images&lt;/li&gt;
+&lt;li&gt;Images are not compressed&lt;/li&gt;
+&lt;li&gt;No CDN (Do I really need one?)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Version Control&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I write HTML and CSS locally and drag it into my FTP&lt;/li&gt;
+&lt;li&gt;No conflict errors or warnings in CSS&lt;/li&gt;
+&lt;li&gt;It’s instantly live, no testing environment&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ok. Ok. I know I’m being very critical of my site which was made circa 2012 and to be fair it’s done some nice things. It loads fairly quickly, those are the metrics I’m reaching for with the new site (which may be a little unrealistic). I think it started to introduce my personality and style. Also just to kinda show where my head was at while making this site, I was taught Dreamweaver was the &lt;em&gt;only&lt;/em&gt; way to make websites...&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://images.amazon.com/images/G/01/software/detail-page/B003B32A88-1.jpg&quot;&gt;
+&lt;cite&gt;Yucky &lt;a href=&quot;http://www.amazon.com/Adobe-Dreamweaver-CS5-Old-Version/dp/B003B32AA6&quot;&gt;via Amazon&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;h3&gt;Next steps&lt;/h3&gt;
+
+&lt;p&gt;This will be a good foundation to build my new home. Next, is to formulate the blueprint buy starting with a solid performance plan.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Redesign Brief</title>
