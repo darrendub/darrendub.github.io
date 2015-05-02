@@ -12,7 +12,7 @@ I’m doing an open redesign of my site (<a href="/weblog/2015/04/15/open-redesi
 	<li>
 		<span class="time">May 01, 2015</span>
 		<span class="title">What’s Working & What Isn’t</span>
-		<span class="text">An analysis of my existing site <a href="/weblog/2015-05-01-whats-working"> Read more &#8594;</a></span>
+		<span class="text">An analysis of my existing site. <a href="/weblog/2015-05-01-whats-working"> Read more &#8594;</a></span>
 	</li>
 	<li>
 		<span class="time">April 30, 2015</span>
