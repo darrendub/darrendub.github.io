@@ -4,13 +4,77 @@
  <title>Darren Wong</title>
  <link href="darrendub.comatom.xml" rel="self"/>
  <link href="darrendub.com"/>
- <updated>2015-05-01T17:29:54-07:00</updated>
+ <updated>2015-05-13T20:19:56-07:00</updated>
  <id>darrendub.com</id>
  <author>
    <name>Darren Wong</name>
    <email>darrendavenwong@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Performance Boss</title>
+   <link href="darrendub.com/weblog/2015/05/04/performance-boss/"/>
+   <updated>2015-05-04T00:00:00-07:00</updated>
+   <id>darrendub.com/weblog/2015/05/04/performance-boss</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;Paid tha Cost to Be da Bo$$&lt;/em&gt; was the sixth album by American rapper Snoop Dogg. As you listen to the album a certain theme begins to emerge: success is only attained through hard work. In a &lt;em&gt;dev-signers&lt;/em&gt; world, that hard work might look like ensuring your site performs well. Snoop would know what it takes to be a great developer, just as &lt;a href=&quot;https://medium.com/@darrendub/6-reasons-why-drake-would-be-a-great-designer-530ee138ea35&quot;&gt;Drake knows what it takes to be a great designer&lt;/a&gt;.  &lt;/p&gt;
+
+&lt;p&gt;To be the performance bo$$ I need a &lt;a href=&quot;http://danielmall.com/articles/how-to-make-a-performance-budget/&quot;&gt;performance budget&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Optimal Site Specs&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Page Weight: 270kb &lt;/li&gt;
+&lt;li&gt;Start Render: 1.2s&lt;/li&gt;
+&lt;li&gt;Fully Loaded: 2.8s&lt;/li&gt;
+&lt;li&gt;And a speed index score as close to 1000 as possible (hah)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Page Weight Breakdown&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;HTML: 50kb&lt;/li&gt;
+&lt;li&gt;CSS: 80kb&lt;/li&gt;
+&lt;li&gt;Images: 140kb&lt;/li&gt;
+&lt;li&gt;Total: 270kb&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These conservative numbers aren&amp;#39;t meant to hinder, they are meant to guide me down a path where I can be aware of the correlation between my design and how people will view it. Dan Mall says it best:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I believe designers do their best work within constraints.
+&lt;cite&gt;- Dan Mall&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Truth Dan, truth. &lt;/p&gt;
+
+&lt;p&gt;Another man who speaks truths; Tim Kaldec, collects four &lt;a href=&quot;http://timkadlec.com/2014/11/performance-budget-metrics/&quot;&gt;performance budget metrics&lt;/a&gt;: &lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://timkadlec.com/2014/11/performance-budget-metrics/#milestone-timings&quot;&gt;Milestone timings&lt;/a&gt;:
+The experience of loading a page, things like load time and render time.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://timkadlec.com/2014/11/performance-budget-metrics/#speedindex&quot;&gt;SpeedIndex&lt;/a&gt;:
+This metric is based on how it feels to load a page. If a page fully renders in 5 seconds but serves content in under a second, it feels faster and would rank well on SpeedIndex.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://timkadlec.com/2014/11/performance-budget-metrics/#quantity-based&quot;&gt;Quantity based metrics&lt;/a&gt;:
+Things like page weight and image weight mentioned above.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://timkadlec.com/2014/11/performance-budget-metrics/#rule-based&quot;&gt;Rule Based&lt;/a&gt;:
+Defined by PageSpeed score and YSlow score, they don&amp;#39;t provide an in-depth account of your site but serve as a nice checklist.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I will attempt to stay within the metrics listed here as they will give me a website that feels lightening to the tap (or click). These limitations will give me laser focus when designing, guiding me toward a design that is beautiful and functional. However, I do have my doubts that it will be too limiting. I&amp;#39;m worried I will not explore every avenue because I need to stay within these guidelines. The inverse is also true, Dan Mall writes that designers crave constrictions as it helps produce better work. Coal is put under immense pressure to become a diamond and that is what I want to create, a diamond 💎.&lt;/p&gt;
+
+&lt;p&gt;Reference Links:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Tim Kaldec: &lt;a href=&quot;http://timkadlec.com/2014/11/performance-budget-metrics/&quot;&gt;Performance Budget Metrics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Dan Mall: &lt;a href=&quot;http://danielmall.com/articles/how-to-make-a-performance-budget/&quot;&gt;How To Make A Performance Budget&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Katie Kovalcin: &lt;a href=&quot;https://speakerdeck.com/katiekovalcin/the-path-to-performance&quot;&gt;The Path To Performance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Paul Irish: &lt;a href=&quot;https://www.youtube.com/watch?v=R8W_6xWphtw&quot;&gt;Delivering The Goods&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CDNIFY: &lt;a href=&quot;https://cdnify.com/discover/web-performance-guide&quot;&gt;A Guide to Optimising Website &amp;amp; Application Performance&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tutsplus: &lt;a href=&quot;http://webdesign.tutsplus.com/articles/best-practices-for-increasing-website-performance--webdesign-9109&quot;&gt;Best Practices for Increasing Website Performance&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>What’s Working & What Isn’t</title>

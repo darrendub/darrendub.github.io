@@ -40,7 +40,7 @@ Here is my [old site](http://darrendavenwong.com) in all of its glory. Take it a
 - I’ve been described as lively and outgoing this website looks the underside of a shoe
 
 - Case Studies Lack Substance
-	- Where are the compelling write ups? I care about my work but the way I talk about it on my site doesn’t correctly portray that
+    - Where are the compelling write ups? I care about my work but the way I talk about it on my site doesn’t correctly portray that
 - The layout of the case studies are hard to read
 - Code is literally from someone else
     - Sorry [Andy Taylor’s 1140px grid](https://andytaylor.me/2013/04/09/1140px-css-grid-retired/)
@@ -62,4 +62,3 @@ Ok. Ok. I know I’m being very critical of my site which was made circa 2012 an
 
 ### Next steps
 This will be a good foundation to build my new home. Next, is to formulate the blueprint buy starting with a solid performance plan.
-
