@@ -14,7 +14,7 @@ comments: true
 - In-depth, thoughtful case studies
 - Can really tell that they love what they do
 
-![Neverbland Homepage]({{ site.baseurl }}/public/img/2015-05-21-site-inspiration/never-bland-1.jpg)
+![Neverbland Homepage]({{ site.baseurl }}/public/img/2015-05-21-website-inspiration/never-bland-1.jpg)
 
 ### [Huge](http://www.hugeinc.com/)
 
@@ -22,8 +22,8 @@ comments: true
 - Personality and color make the site alive and vibrant
 - Rigid grid that can adapt based on content
 
-![Huge Nike]({{ site.baseurl }}/public/img/2015-05-21-site-inspiration/huge-1.jpg)
-![Huge Harvard Business Revieww]({{ site.baseurl }}/public/img/2015-05-21-site-inspiration/huge-2.jpg)
+![Huge Nike]({{ site.baseurl }}/public/img/2015-05-21-website-inspiration/huge-1.jpg)
+![Huge Harvard Business Revieww]({{ site.baseurl }}/public/img/2015-05-21-website-inspiration/huge-2.jpg)
 
 ### [Rally](http://beta.rallyinteractive.com/)
 
@@ -33,8 +33,8 @@ comments: true
 - Go into great detail within their case studies
 - Subtle, delightful animations
 
-![Rally National Parks]({{ site.baseurl }}/public/img/2015-05-21-site-inspiration/rally-1.jpg)
-![Rally National Parks Case Study]({{ site.baseurl }}/public/img/2015-05-21-site-inspiration/rally-2.jpg)
+![Rally National Parks]({{ site.baseurl }}/public/img/2015-05-21-website-inspiration/rally-1.jpg)
+![Rally National Parks Case Study]({{ site.baseurl }}/public/img/2015-05-21-website-inspiration/rally-2.jpg)
 
 ### [Weightshift](http://weightshift.com/)
 
@@ -43,8 +43,8 @@ comments: true
 - I love the "Our Work" section at the end of each case study
 - Hero images and information lockup is really well done and help lead your eye down the page
 
-![Weightshift Homepage]({{ site.baseurl }}/public/img/2015-05-21-site-inspiration/weightshift-1.jpg)
-![Weightshift Rdio Case Study]({{ site.baseurl }}/public/img/2015-05-21-site-inspiration/weightshift-2.jpg)
+![Weightshift Homepage]({{ site.baseurl }}/public/img/2015-05-21-website-inspiration/weightshift-1.jpg)
+![Weightshift Rdio Case Study]({{ site.baseurl }}/public/img/2015-05-21-website-inspiration/weightshift-2.jpg)
 
 ### [Paper Model Plane](http://papermodelplane.com/)
 
@@ -52,7 +52,7 @@ comments: true
 - Numbers project is amazing, great use of images, video, and grid
 - Simple and clean
 
-![Paper Model Plane Homepage]({{ site.baseurl }}/public/img/2015-05-21-site-inspiration/papermodelplane.jpg)
+![Paper Model Plane Homepage]({{ site.baseurl }}/public/img/2015-05-21-website-inspiration/papermodelplane.jpg)
 
 ### [Paul Stamatiou](http://paulstamatiou.com/)
 
@@ -60,8 +60,8 @@ comments: true
 - I love the twitter modal that subtly slides up, beckoning you to tweet (if you like it put a tweet on it)
 - His photos and grid are just gorgeous
 
-![Paul Stamatiou Photosets]({{ site.baseurl }}/public/img/2015-05-21-site-inspiration/stammy-1.jpg)
-![Paul Stamatiou Twitter Video Case Study]({{ site.baseurl }}/public/img/2015-05-21-site-inspiration/stammy-2.jpg)
+![Paul Stamatiou Photosets]({{ site.baseurl }}/public/img/2015-05-21-website-inspiration/stammy-1.jpg)
+![Paul Stamatiou Twitter Video Case Study]({{ site.baseurl }}/public/img/2015-05-21-website-inspiration/stammy-2.jpg)
 
 
 ### [Teehan + Lax](http://www.teehanlax.com/) (R.I.P. 🙏😭)
@@ -71,8 +71,8 @@ comments: true
 - Big beautiful typography gets me every time
 - A lot of interactivity for each case study that reveal the immense depth of their work
 
-![Teehan + Lax Readability Case Study]({{ site.baseurl }}/public/img/2015-05-21-site-inspiration/teehanlax-1.jpg)
-![Teehan + Lax  Medium Case Study]({{ site.baseurl }}/public/img/2015-05-21-site-inspiration/teehanlax-2.jpg)
+![Teehan + Lax Readability Case Study]({{ site.baseurl }}/public/img/2015-05-21-website-inspiration/teehanlax-1.jpg)
+![Teehan + Lax  Medium Case Study]({{ site.baseurl }}/public/img/2015-05-21-website-inspiration/teehanlax-2.jpg)
 
 <hr>
 
