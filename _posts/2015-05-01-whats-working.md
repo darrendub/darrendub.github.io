@@ -61,4 +61,4 @@ Ok. Ok. I know I’m being very critical of my site which was made circa 2012 an
 <cite>Yucky <a href="http://www.amazon.com/Adobe-Dreamweaver-CS5-Old-Version/dp/B003B32AA6">via Amazon</a></cite>
 
 ### Next steps
-This will be a good foundation to build my new home. Next, is to formulate the blueprint buy starting with a solid performance plan.
+This will be a good foundation to build my new home. Next, is to formulate the blueprint buy starting with a solid <a href="{{ site.baseurl }}/weblog/2015/05/04/performance-boss/">performance plan</a>.
