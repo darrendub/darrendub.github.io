@@ -1,0 +1,85 @@
+/*--------------------------------------------------------------------
+ * darrendub.com
+ *------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+ * Reset
+ *------------------------------------------------------------------*/
+a, abbr, acronym, address, applet, article, aside, audio,
+b, big, blockquote, body, canvas, caption, center, cite,
+code, dd, del, details, dfn, dl, dt, em, embed, fieldset,
+figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6,
+header, hgroup, html, i, iframe, img, ins, input, kbd, label,
+legend, li, mark, menu, nav, object, ol, output, p, pre,
+q, ruby, s, samp, section, small, span, strike, strong, sub,
+summary, sup, table, tbody, td, textarea, tfoot, th, thead, time,
+tr, tt, u, ul, var, video, :before, :after, div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box; }
+
+/*--------------------------------------------------------------------
+ * Settings - Variables for project
+ *------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+ * Mixins
+ *------------------------------------------------------------------*/
+/*--------------------------------------------------------------------
+ * Grid
+ *------------------------------------------------------------------*/
+.grid {
+  margin: 0 0 25px 0; }
+  .grid:after:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+[class*='col-'] {
+  float: left;
+  padding-right: 25px; }
+  .grid [class*='col-']:last-of-type {
+    padding-right: 0; }
+
+.col-one-whole {
+  width: 100%; }
+
+.col-one-half {
+  width: 50%; }
+
+.col-two-thirds {
+  width: 66.66%; }
+
+.col-one-thirds {
+  width: 33.33%; }
+
+.col-one-fourth {
+  width: 25%; }
+
+/* Opt-in outside padding */
+.grid-pad {
+  padding: 25px 0 25px 25px; }
+  .grid-pad [class*='col-']:last-of-type {
+    padding-right: 25px; }
+
+/*--------------------------------------------------------------------
+ * Base
+ *------------------------------------------------------------------*/
+body {
+  font-family: "Vollkorn", serif;
+  font-weight: 300;
+  color: #444;
+  -webkit-text-size-adjust: 100%; }
+
+/*--------------------------------------------------------------------
+ * Shame - Temporary Styles
+ *------------------------------------------------------------------*/
+.message {
+  font-family: "Vollkorn", serif;
+  font-size: 1.2em;
+  background: #f8f8f8;
+  padding: 1.2em; }
+  .message a {
+    color: #268bd2; }

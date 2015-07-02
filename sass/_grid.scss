@@ -1,0 +1,43 @@
+/*--------------------------------------------------------------------
+ * Grid
+ *------------------------------------------------------------------*/
+
+.grid {
+  margin: 0 0 $small-unit 0;
+  
+  &:after {
+    @include clearfix;
+  }
+}
+
+[class*='col-'] {
+  float: left;
+  padding-right: $small-unit;
+  .grid &:last-of-type {
+    padding-right: 0;
+  }
+}
+.col-one-whole {
+  width: 100%;
+}
+.col-one-half {
+  width: 50%;
+}
+.col-two-thirds {
+  width: 66.66%;
+}
+.col-one-thirds {
+  width: 33.33%;
+}
+.col-one-fourth {
+  width: 25%;
+}
+
+/* Opt-in outside padding */
+.grid-pad {
+  padding: $small-unit 0 $small-unit $small-unit;
+  [class*='col-']:last-of-type {
+    padding-right: $small-unit;
+  }
+}
+
