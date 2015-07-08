@@ -2,34 +2,38 @@
  * Grid
  *------------------------------------------------------------------*/
 
+
+.grid, .item {
+  box-sizing: border-box;
+  display: flex;
+}
+
 .grid {
-  margin: 0 0 $small-unit 0;
-  
+  clear: both;
   &:after {
     @include clearfix;
   }
 }
 
-[class*='col-'] {
+.grid .item {
   float: left;
-  padding-right: $small-unit;
-  .grid &:last-of-type {
-    padding-right: 0;
-  }
+  width: 100%;
+  padding: $small-unit;
 }
-.col-one-whole {
+
+.one-whole {
   width: 100%;
 }
-.col-one-half {
+.one-half {
   width: 50%;
 }
-.col-two-thirds {
+.two-thirds {
   width: 66.66%;
 }
-.col-one-thirds {
+.one-third {
   width: 33.33%;
 }
-.col-one-fourth {
+.one-fourth {
   width: 25%;
 }
 
@@ -40,4 +44,5 @@
     padding-right: $small-unit;
   }
 }
+
 

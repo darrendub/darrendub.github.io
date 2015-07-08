@@ -12,7 +12,7 @@ header, hgroup, html, i, iframe, img, ins, input, kbd, label,
 legend, li, mark, menu, nav, object, ol, output, p, pre,
 q, ruby, s, samp, section, small, span, strike, strong, sub,
 summary, sup, table, tbody, td, textarea, tfoot, th, thead, time,
-tr, tt, u, ul, var, video, :before, :after, div {
+tr, tt, u, ul, var, video, :before, :after, div, section {
   margin: 0;
   padding: 0;
   border: 0;
@@ -30,32 +30,38 @@ tr, tt, u, ul, var, video, :before, :after, div {
 /*--------------------------------------------------------------------
  * Grid
  *------------------------------------------------------------------*/
+.grid, .item {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
 .grid {
-  margin: 0 0 25px 0; }
+  clear: both; }
   .grid:after:after {
     content: "";
     display: table;
     clear: both; }
 
-[class*='col-'] {
+.grid .item {
   float: left;
-  padding-right: 25px; }
-  .grid [class*='col-']:last-of-type {
-    padding-right: 0; }
+  width: 100%;
+  padding: 25px; }
 
-.col-one-whole {
+.one-whole {
   width: 100%; }
 
-.col-one-half {
+.one-half {
   width: 50%; }
 
-.col-two-thirds {
+.two-thirds {
   width: 66.66%; }
 
-.col-one-thirds {
+.one-third {
   width: 33.33%; }
 
-.col-one-fourth {
+.one-fourth {
   width: 25%; }
 
 /* Opt-in outside padding */
@@ -79,7 +85,15 @@ body {
 .message {
   font-family: "Vollkorn", serif;
   font-size: 1.2em;
-  background: #f8f8f8;
   padding: 1.2em; }
   .message a {
     color: #268bd2; }
+
+.bg-light-gray {
+  background: #f8f8f8; }
+
+.bg-light-blue {
+  background: #87cefa; }
+
+.p-25 {
+  padding: 25px; }

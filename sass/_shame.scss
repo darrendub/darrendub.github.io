@@ -5,10 +5,21 @@
 .message {
 	font-family:$serif;
 	font-size: 1.2em;
-	background:#f8f8f8;
 	padding: 1.2em;
 
 	a {
 		color: #268bd2;
 	}
+}
+
+.bg-light-gray {
+	background:#f8f8f8;
+}
+
+.bg-light-blue {
+	background:#87cefa;
+}
+
+.p-25 {
+	padding: $small-unit;
 }
