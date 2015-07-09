@@ -4,13 +4,55 @@
  <title>Darren Wong</title>
  <link href="darrendub.comatom.xml" rel="self"/>
  <link href="darrendub.com"/>
- <updated>2015-07-07T07:24:48-07:00</updated>
+ <updated>2015-07-08T23:01:03-07:00</updated>
  <id>darrendub.com</id>
  <author>
    <name>Darren Wong</name>
    <email>darrendavenwong@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Wireframes</title>
+   <link href="darrendub.com/weblog/2015/07/07/wireframes/"/>
+   <updated>2015-07-07T00:00:00-07:00</updated>
+   <id>darrendub.com/weblog/2015/07/07/wireframes</id>
+   <content type="html">&lt;p&gt;As I began to sketch out the wireframes for my site, two pages in particular stood out to me: the home page and work page.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/2015-07-07-wireframes/wireframes-paper.jpg&quot; alt=&quot;Wireframe Sketches&quot;&gt;&lt;/p&gt;
+
+&lt;h3&gt;Site Architecture&lt;/h3&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;b&gt;Home&lt;/b&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Work&lt;/b&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;Words&lt;/b&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;b&gt;About&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Home&lt;/h3&gt;
+
+&lt;p&gt;For obvious reasons the homepage is important; it’s most likely the first introduction to me and my work. And it&amp;#39;s the page that&amp;#39;s usually tied to the top level domain, so I became particularly interested in how I&amp;#39;d show my work on the homepage. I boiled it down to three elements: copy, image, and background image. The copy and image will sit on the background image, though there will have to be some interplay between the three. I will create that interplay by using static assets and possibly using animation or gifs to add further interest.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/2015-07-07-wireframes/wireframes-work-pattern.jpg&quot; alt=&quot;Wireframe Work Pattern&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;It&amp;#39;s important that these all feel like a cohesive pattern—that each element not only works well with other elements but enhances the next. &lt;/p&gt;
+
+&lt;p&gt;Here is the full wireframe for the homepage:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/2015-07-07-wireframes/wireframes-home.jpg&quot; alt=&quot;Wireframe Home&quot;&gt;&lt;/p&gt;
+
+&lt;h3&gt;Work&lt;/h3&gt;
+
+&lt;p&gt;A recurring theme throughout my &lt;a href=&quot;/weblog/2015/05/21/website-inspiration/&quot;&gt;inspiration&lt;/a&gt; was well articulated case studies. It&amp;#39;s important to me to be able to explain design decisions, showing the variations and iterations that led to the final design. This is something I still need to work on and one of the main reasons I am doing this &lt;a href=&quot;/weblog/2015/04/15/open-redesign/&quot;&gt;live redesign&lt;/a&gt;—to work on synthesizing my process and clearly explaining design directions. My work page will be created with long form reading in mind, using text treatment and images to keep the reader engaged throughout.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/2015-07-07-wireframes/wireframes-work.jpg&quot; alt=&quot;Wireframe Work&quot;&gt;&lt;/p&gt;
+
+&lt;h3&gt;Next Steps&lt;/h3&gt;
+
+&lt;p&gt;Now that I have a foundation to build off of, I am going to dive into the code. I will start by developing the grid, then style my typography, and finally build the various modules for each pattern. Wireframes are never meant to be the final blueprint, and I am sure that I will deviate from what I’ve sketched above once I get into the code. I am excited to get into the code and building this thing! You can watch live here: &lt;a href=&quot;http://darrendub.com&quot;&gt;darrendub.com&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Website Inspiration</title>
@@ -107,7 +149,7 @@
 &lt;li&gt;Having &lt;strong&gt;personality&lt;/strong&gt; is simple in theory but difficult to implement as it is embedded in every aspect of your site and your work.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;I&amp;#39;m feeling super inspired after looking at all these examples and next is to get sketchy with some wire-frames and start thinking about the content for my case studies!&lt;/p&gt;
+&lt;p&gt;I&amp;#39;m feeling super inspired after looking at all these examples and next is to get sketchy with some &lt;a href=&quot;/weblog/2015/07/07/wireframes/&quot;&gt;wireframes&lt;/a&gt; and start thinking about the content for my case studies!&lt;/p&gt;
 </content>
  </entry>
  

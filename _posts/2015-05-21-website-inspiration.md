@@ -83,7 +83,7 @@ While writing this article I learned that I want my site to have a few things:
 3. I am really drawn to **grids** that are rigid in structure but flexible to adapt to the needs of the content.
 4. Having **personality** is simple in theory but difficult to implement as it is embedded in every aspect of your site and your work.
 
-I'm feeling super inspired after looking at all these examples and next is to get sketchy with some wire-frames and start thinking about the content for my case studies!
+I'm feeling super inspired after looking at all these examples and next is to get sketchy with some [wireframes]({{ site.baseurl }}/weblog/2015/07/07/wireframes/) and start thinking about the content for my case studies!
 
 
 

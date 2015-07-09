@@ -5,7 +5,7 @@ title: About
 
 Greetings, my name is Darren. I design and develop for screens and things. I currently work on [inkling.com](http://inkling.com) designing extensible patterns and code to tell our story and engage our visitors. 
 
-I was born and raised on the island of O’ahu, Hawai’i and I currently live in foggy San Francisco.
+I was born and raised on the sunny island of O’ahu, Hawai’i and I currently live in foggy San Francisco.
 
 I’m really into side projects. I think it’s important to do something purely for passion and funz, it helps us get away from the things we have to do and replace them with the things we want to do. 
 <hr>
