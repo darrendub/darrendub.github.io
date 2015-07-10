@@ -1,48 +1,209 @@
 /*--------------------------------------------------------------------
- * Grid
+ * Grid - Solved by Flexbox by Philip Walton http://philipwalton.github.io/solved-by-flexbox/
  *------------------------------------------------------------------*/
+ 
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
+.grid-cell {
+  flex: 1;
+}
 
-.grid, .item {
-  box-sizing: border-box;
+.grid--flexCells > .grid-cell {
   display: flex;
 }
 
-.grid {
-  clear: both;
-  &:after {
-    @include clearfix;
+.grid--top {
+  align-items: flex-start;
+}
+
+.grid--bottom {
+  align-items: flex-end;
+}
+
+.grid--center {
+  align-items: center;
+}
+
+.grid--justifyCenter {
+  justify-content: center;
+}
+
+.grid-cell--top {
+  align-self: flex-start;
+}
+
+.grid-cell--bottom {
+  align-self: flex-end;
+}
+
+.grid-cell--center {
+  align-self: center;
+}
+
+.grid-cell--autoSize {
+  flex: none;
+}
+
+.grid--fit > .grid-cell {
+  flex: 1;
+}
+
+.grid--full > .grid-cell {
+  flex: 0 0 100%;
+}
+
+.grid--1of2 > .grid-cell {
+  flex: 0 0 50%;
+}
+
+.grid--1of3 > .grid-cell {
+  flex: 0 0 33.3333%;
+}
+
+.grid--1of4 > .grid-cell {
+  flex: 0 0 25%;
+}
+
+@media (min-width: 384px) {
+  .small-grid--fit > .grid-cell {
+    flex: 1;
+  }
+  .small-grid--full > .grid-cell {
+    flex: 0 0 100%;
+  }
+  .small-grid--1of2 > .grid-cell {
+    flex: 0 0 50%;
+  }
+  .small-grid--1of3 > .grid-cell {
+    flex: 0 0 33.3333%;
+  }
+  .small-grid--1of4 > .grid-cell {
+    flex: 0 0 25%;
   }
 }
 
-.grid .item {
-  float: left;
-  width: 100%;
-  padding: $small-unit;
-}
-
-.one-whole {
-  width: 100%;
-}
-.one-half {
-  width: 50%;
-}
-.two-thirds {
-  width: 66.66%;
-}
-.one-third {
-  width: 33.33%;
-}
-.one-fourth {
-  width: 25%;
-}
-
-/* Opt-in outside padding */
-.grid-pad {
-  padding: $small-unit 0 $small-unit $small-unit;
-  [class*='col-']:last-of-type {
-    padding-right: $small-unit;
+@media (min-width: 576px) {
+  .med-grid--fit > .grid-cell {
+    flex: 1;
+  }
+  .med-grid--full > .grid-cell {
+    flex: 0 0 100%;
+  }
+  .med-grid--1of2 > .grid-cell {
+    flex: 0 0 50%;
+  }
+  .med-grid--1of3 > .grid-cell {
+    flex: 0 0 33.3333%;
+  }
+  .med-grid--1of4 > .grid-cell {
+    flex: 0 0 25%;
   }
 }
 
+@media (min-width: 768px) {
+  .large-grid--fit > .grid-cell {
+    flex: 1;
+  }
+  .large-grid--full > .grid-cell {
+    flex: 0 0 100%;
+  }
+  .large-grid--1of2 > .grid-cell {
+    flex: 0 0 50%;
+  }
+  .large-grid--1of3 > .grid-cell {
+    flex: 0 0 33.3333%;
+  }
+  .large-grid--1of4 > .grid-cell {
+    flex: 0 0 25%;
+  }
+}
 
+.grid--gutters {
+  margin: -1em 0 1em -1em;
+}
+.grid--gutters > .grid-cell {
+  padding: 1em 0 0 1em;
+}
+
+.grid--guttersLg {
+  margin: -1.5em 0 1.5em -1.5em;
+}
+.grid--guttersLg > .grid-cell {
+  padding: 1.5em 0 0 1.5em;
+}
+
+.grid--guttersXl {
+  margin: -2em 0 2em -2em;
+}
+.grid--guttersXl > .grid-cell {
+  padding: 2em 0 0 2em;
+}
+
+@media (min-width: 384px) {
+  .small-grid--gutters {
+    margin: -1em 0 1em -1em;
+  }
+  .small-grid--gutters > .grid-cell {
+    padding: 1em 0 0 1em;
+  }
+  .small-grid--guttersLg {
+    margin: -1.5em 0 1.5em -1.5em;
+  }
+  .small-grid--guttersLg > .grid-cell {
+    padding: 1.5em 0 0 1.5em;
+  }
+  .small-grid--guttersXl {
+    margin: -2em 0 2em -2em;
+  }
+  .small-grid--guttersXl > .grid-cell {
+    padding: 2em 0 0 2em;
+  }
+}
+
+@media (min-width: 576px) {
+  .med-grid--gutters {
+    margin: -1em 0 1em -1em;
+  }
+  .med-grid--gutters > .grid-cell {
+    padding: 1em 0 0 1em;
+  }
+  .med-grid--guttersLg {
+    margin: -1.5em 0 1.5em -1.5em;
+  }
+  .med-grid--guttersLg > .grid-cell {
+    padding: 1.5em 0 0 1.5em;
+  }
+  .med-grid--guttersXl {
+    margin: -2em 0 2em -2em;
+  }
+  .med-grid--guttersXl > .grid-cell {
+    padding: 2em 0 0 2em;
+  }
+}
+
+@media (min-width: 768px) {
+  .large-grid--gutters {
+    margin: -1em 0 1em -1em;
+  }
+  .large-grid--gutters > .grid-cell {
+    padding: 1em 0 0 1em;
+  }
+  .large-grid--guttersLg {
+    margin: -1.5em 0 1.5em -1.5em;
+  }
+  .large-grid--guttersLg > .grid-cell {
+    padding: 1.5em 0 0 1.5em;
+  }
+  .large-grid--guttersXl {
+    margin: -2em 0 2em -2em;
+  }
+  .large-grid--guttersXl > .grid-cell {
+    padding: 2em 0 0 2em;
+  }
+}
