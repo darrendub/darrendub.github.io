@@ -129,7 +129,7 @@ tr, tt, u, ul, var, video, :before, :after, div, section {
       -ms-flex: 0 0 25%;
           flex: 0 0 25%; }
 
-@media (min-width: 384px) {
+@media (min-width: 24em) {
   .small-grid--fit > .grid-cell {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
@@ -159,7 +159,7 @@ tr, tt, u, ul, var, video, :before, :after, div, section {
     -webkit-flex: 0 0 25%;
         -ms-flex: 0 0 25%;
             flex: 0 0 25%; } }
-@media (min-width: 576px) {
+@media (min-width: 35em) {
   .med-grid--fit > .grid-cell {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
@@ -189,7 +189,7 @@ tr, tt, u, ul, var, video, :before, :after, div, section {
     -webkit-flex: 0 0 25%;
         -ms-flex: 0 0 25%;
             flex: 0 0 25%; } }
-@media (min-width: 768px) {
+@media (min-width: 48em) {
   .large-grid--fit > .grid-cell {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
@@ -237,7 +237,7 @@ tr, tt, u, ul, var, video, :before, :after, div, section {
 .grid--guttersXl > .grid-cell {
   padding: 2em 0 0 2em; }
 
-@media (min-width: 384px) {
+@media (min-width: 24em) {
   .small-grid--gutters {
     margin: -1em 0 1em -1em; }
 
@@ -255,7 +255,7 @@ tr, tt, u, ul, var, video, :before, :after, div, section {
 
   .small-grid--guttersXl > .grid-cell {
     padding: 2em 0 0 2em; } }
-@media (min-width: 576px) {
+@media (min-width: 35em) {
   .med-grid--gutters {
     margin: -1em 0 1em -1em; }
 
@@ -273,7 +273,7 @@ tr, tt, u, ul, var, video, :before, :after, div, section {
 
   .med-grid--guttersXl > .grid-cell {
     padding: 2em 0 0 2em; } }
-@media (min-width: 768px) {
+@media (min-width: 48em) {
   .large-grid--gutters {
     margin: -1em 0 1em -1em; }
 
@@ -299,6 +299,40 @@ body {
   font-weight: 300;
   color: #444;
   -webkit-text-size-adjust: 100%; }
+
+.container {
+  max-width: 60em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 25px;
+  padding-right: 25px; }
+
+/*--------------------------------------------------------------------
+ * Type
+ *------------------------------------------------------------------*/
+h1 {
+  font-size: 2rem; }
+
+h2 {
+  font-size: 1.5rem; }
+
+h3 {
+  font-size: 1.25rem; }
+
+h4 {
+  font-size: 1rem; }
+
+h5 {
+  font-size: 0.875rem; }
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.5rem; }
+
+.link-inline {
+  text-decoration: none;
+  color: #0074D9; }
 
 /*--------------------------------------------------------------------
  * Shame - Temporary Styles

@@ -10,5 +10,10 @@ body {
 }
 
 .container {
-	// max-width: 48em;
+	max-width: $bp-xlarge;
+	display: block; // centers container
+	margin-left: auto; // centers container
+	margin-right: auto; // centers container
+	padding-left: $unit-small; // adds spacing
+	padding-right: $unit-small; // adds spacing
 }
