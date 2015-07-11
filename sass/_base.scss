@@ -2,8 +2,11 @@
  * Base
  *------------------------------------------------------------------*/
 
+html {
+	-webkit-font-smoothing: antialiased;
+}
 body {
-	font-family: $serif;
+  font-family: $serif;
   font-weight: 300;
   color: $coal;
   -webkit-text-size-adjust: 100%;  //fix for iOS
