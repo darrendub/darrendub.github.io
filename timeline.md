@@ -10,6 +10,12 @@ I’m doing an open redesign of my site (<a href="/weblog/2015/04/15/open-redesi
 <div class="timeline">
 <ul>
 	<li>
+		<span class="time">July 13, 2015</span>
+		<span class="title">Building Blocks</span>
+		<span class="text">Started building out some of the wireframes this weekend! <a href="{{ site.baseurl }}/"> Check it out &#8594;</a></span>
+			<img src="/public/img/2015-07-13-timeline/2015-07-13.jpg">
+	</li>
+	<li>
 		<span class="time">July 08, 2015</span>
 		<span class="title">Feeling Better</span>
 		<span class="text">With the wireframes I feel a bit better about the project. I just need to start coding and have fun with it. 😃</span>
