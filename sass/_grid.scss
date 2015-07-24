@@ -48,18 +48,56 @@
   // }
 }
 
+.grid-start {
+  justify-content: flex-start;
+  align-self: flex-start;
+}
+
 .grid-center {
   align-items: center;
   justify-content: center;
 }
 
-.grid-right {
-    justify-content: flex-end !important;
+.grid-end {
+  align-items: flex-end;
+  justify-content: flex-end;
+  align-self: flex-end;
 }
 
-.one-half {
-  width: 50%;
+/*
+ * 1. `height` is needed for IE10-11 for this bug
+ *    http://bit.ly/16b1Xhx
+ * 2. Other browser use `min-height`.
+ */
+
+.Aligner {
+  display: flex;
+  align-items: center;
+  height: 24em; /* 1 */
+  justify-content: center;
 }
-.one-third {
-  width: 33%;
+@supports not (-ms-flex: 1) {
+  .Aligner {
+    height: auto; /* 2 */
+    min-height: 24em; /* 2 */
+  }
 }
+
+.Aligner-item {
+  flex: 1;
+}
+
+.Aligner-item--top {
+  align-self: flex-start;
+}
+
+.Aligner-item--bottom {
+  align-self: flex-end;
+}
+
+.Aligner-item--fixed {
+  flex: none;
+  max-width: 50%;
+}
+
+

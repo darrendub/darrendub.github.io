@@ -27,6 +27,12 @@ img {
 /*--------------------------------------------------------------------
  * Settings - Variables for project
  *------------------------------------------------------------------*/
+.one-half {
+  width: 50%; }
+
+.one-third {
+  width: 33%; }
+
 /*--------------------------------------------------------------------
  * Mixins
  *------------------------------------------------------------------*/
@@ -70,6 +76,15 @@ img {
     -webkit-flex: 1;
         -ms-flex: 1;
             flex: 1; } }
+.grid-start {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-align-self: flex-start;
+      -ms-flex-item-align: start;
+          align-self: flex-start; }
+
 .grid-center {
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -80,17 +95,68 @@ img {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.grid-right {
-  -webkit-box-pack: end !important;
-  -webkit-justify-content: flex-end !important;
-      -ms-flex-pack: end !important;
-          justify-content: flex-end !important; }
+.grid-end {
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-align-self: flex-end;
+      -ms-flex-item-align: end;
+          align-self: flex-end; }
 
-.one-half {
-  width: 50%; }
+/*
+ * 1. `height` is needed for IE10-11 for this bug
+ *    http://bit.ly/16b1Xhx
+ * 2. Other browser use `min-height`.
+ */
+.Aligner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 24em;
+  /* 1 */
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
-.one-third {
-  width: 33%; }
+@supports not (-ms-flex: 1) {
+  .Aligner {
+    height: auto;
+    /* 2 */
+    min-height: 24em;
+    /* 2 */ } }
+.Aligner-item {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1; }
+
+.Aligner-item--top {
+  -webkit-align-self: flex-start;
+      -ms-flex-item-align: start;
+          align-self: flex-start; }
+
+.Aligner-item--bottom {
+  -webkit-align-self: flex-end;
+      -ms-flex-item-align: end;
+          align-self: flex-end; }
+
+.Aligner-item--fixed {
+  -webkit-box-flex: 0;
+  -webkit-flex: none;
+      -ms-flex: none;
+          flex: none;
+  max-width: 50%; }
 
 /*--------------------------------------------------------------------
  * Base
