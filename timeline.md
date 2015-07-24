@@ -10,6 +10,11 @@ I’m doing an open redesign of my site (<a href="/weblog/2015/04/15/open-redesi
 <div class="timeline">
 <ul>
 	<li>
+		<span class="time">July 23, 2015</span>
+		<span class="title">PSC - Case Study</span>
+		<span class="text">Rough draft of my case study for Paradise Soccer Club <a href="https://github.com/darrendub/darrendub.github.io/blob/master/_drafts/2015-07-23-case-study-psc.md"> Check it out &#8594;</a></span>
+	</li>
+	<li>
 		<span class="time">July 13, 2015</span>
 		<span class="title">Building Blocks</span>
 		<span class="text">Started building out some of the wireframes this weekend! <a href="{{ site.baseurl }}/"> Check it out &#8594;</a></span>
