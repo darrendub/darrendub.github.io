@@ -4,7 +4,7 @@
  <title>Darren Wong</title>
  <link href="darrendub.comatom.xml" rel="self"/>
  <link href="darrendub.com"/>
- <updated>2015-07-28T23:47:39-07:00</updated>
+ <updated>2015-07-28T23:53:00-07:00</updated>
  <id>darrendub.com</id>
  <author>
    <name>Darren Wong</name>
@@ -15,7 +15,7 @@
  <entry>
    <title>Case Study - Paradise Soccer Club</title>
    <link href="darrendub.com/weblog/2015/07/28/2015-07-23-case-study-psc/"/>
-   <updated>2015-07-28T23:47:38-07:00</updated>
+   <updated>2015-07-28T23:52:59-07:00</updated>
    <id>darrendub.com/weblog/2015/07/28/2015-07-23-case-study-psc</id>
    <content type="html">&lt;h3&gt;Summary&lt;/h3&gt;
 
@@ -84,7 +84,7 @@
 
 &lt;p&gt;The first phase was to announce the grand opening of the store front. Max wanted something: &amp;quot;Simple, clean, with logo front and center or a pic.&amp;quot; We had a tight turn around so I turned to Tumblr to quickly execute against the first phase. &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/public/img/2015-07-23-psc/phase-one.png&quot; alt=&quot;Phase One&quot; title=&quot;Phase One&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://darrendub.com/public/img/2015-07-23-psc/phase-one.png&quot; alt=&quot;Phase One&quot; title=&quot;Phase One&quot;&gt;&lt;/p&gt;
 
 &lt;p&gt;I even created a rotating slideshow that changed out the background image, this was out of scope but made the basic site a little more engaging.&lt;/p&gt;
 
@@ -92,7 +92,7 @@
 
 &lt;p&gt;Phase two was the first attempt to fulfill his need to update the blog but not the rest of the site. He was very active on Instagram and I knew this would be the easiest way for him to post, so I hooked up his account to tumblr so that everytime he posted to Instagram he had the option to post to his blog. This worked out pretty well and is still how the blog portion operates today. This second phase was also where I laid the ground work of the sites architecture. At this point we are still using Tumblr for hosting and since we were not building a full fledged theme we were limited to its basic html/css capabilities even external css was a struggle 😔 (more on that later). But it was enough to rough out some early ideas of the site.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/public/img/2015-07-23-psc/phase-two.png&quot; alt=&quot;Phase Two&quot; title=&quot;Phase Two&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://darrendub.com/public/img/2015-07-23-psc/phase-two.png&quot; alt=&quot;Phase Two&quot; title=&quot;Phase Two&quot;&gt;&lt;/p&gt;
 
 &lt;h4&gt;Phase Three: Always Responding&lt;/h4&gt;
 

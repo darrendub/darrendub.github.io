@@ -66,7 +66,7 @@ Since we started talking a couple days before the opening of his storefront it w
 #### Phase One: The Great Image
 The first phase was to announce the grand opening of the store front. Max wanted something: "Simple, clean, with logo front and center or a pic." We had a tight turn around so I turned to Tumblr to quickly execute against the first phase. 
 
-![Phase One]({{ site.baseurl }}/public/img/2015-07-23-psc/phase-one.png "Phase One")
+![Phase One](http://darrendub.com/public/img/2015-07-23-psc/phase-one.png "Phase One")
 
 I even created a rotating slideshow that changed out the background image, this was out of scope but made the basic site a little more engaging.
 
@@ -74,7 +74,7 @@ I even created a rotating slideshow that changed out the background image, this 
 
 Phase two was the first attempt to fulfill his need to update the blog but not the rest of the site. He was very active on Instagram and I knew this would be the easiest way for him to post, so I hooked up his account to tumblr so that everytime he posted to Instagram he had the option to post to his blog. This worked out pretty well and is still how the blog portion operates today. This second phase was also where I laid the ground work of the sites architecture. At this point we are still using Tumblr for hosting and since we were not building a full fledged theme we were limited to its basic html/css capabilities even external css was a struggle 😔 (more on that later). But it was enough to rough out some early ideas of the site.
 
-![Phase Two]({{ site.baseurl }}/public/img/2015-07-23-psc/phase-two.png "Phase Two")
+![Phase Two](http://darrendub.com/public/img/2015-07-23-psc/phase-two.png "Phase Two")
 
 #### Phase Three: Always Responding
 The last and final phase was a full site with a complete e-commerce store, about us section, blog, and newsletter sign up. 
