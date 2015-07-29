@@ -4,13 +4,178 @@
  <title>Darren Wong</title>
  <link href="darrendub.comatom.xml" rel="self"/>
  <link href="darrendub.com"/>
- <updated>2015-07-23T22:58:12-07:00</updated>
+ <updated>2015-07-28T23:47:39-07:00</updated>
  <id>darrendub.com</id>
  <author>
    <name>Darren Wong</name>
    <email>darrendavenwong@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Case Study - Paradise Soccer Club</title>
+   <link href="darrendub.com/weblog/2015/07/28/2015-07-23-case-study-psc/"/>
+   <updated>2015-07-28T23:47:38-07:00</updated>
+   <id>darrendub.com/weblog/2015/07/28/2015-07-23-case-study-psc</id>
+   <content type="html">&lt;h3&gt;Summary&lt;/h3&gt;
+
+&lt;p&gt;Paradise Soccer Club connects the beautiful game with the lifestyle of Hawai’i. I worked with PSC to build a website and e-commerce store to connect their brand to their fans across the world. &lt;/p&gt;
+
+&lt;h3&gt;Passing the ball&lt;/h3&gt;
+
+&lt;p&gt;Max and I grew up in the same town in Hawaii but I didn’t get to know him until I moved away to San Francisco (funny how that happens). He played soccer with my best friend and that’s how we met. Hawaii does not have a professional sports teams, so many of its youth turn to the beautiful game as their favorite pastime. Max saw an opportunity to blend the culture of Hawaii with the sport of futbol, which is how Paradise Soccer Club began.&lt;/p&gt;
+
+&lt;p&gt;It all started with his Instagram account which currently has 7,000+ followers. He curates photos and videos to connect with his fans but Max had bigger dreams. He opened his physical storefront in Kailua, Oahu on June 21, 2013 to open arms from the community. His social media presence and collaborations with Hawaii’s premier lifestyle brands exploded his reach. A year after opening the store we launched paradisesoccerclub.com with an expertly timed USA Men’s soccer kit during the 2014 Men’s World Cup which received massive coverage from many fashion blogs.&lt;/p&gt;
+
+&lt;p&gt;More importantly PSC isn’t just about selling merchandise, it’s about giving back to the community. He hosts soccer tournaments with cash prizes, he holds FIFA tournaments and gives away merchandise to its winners. His store and brand has been and will always be an ohana for those who love the beautiful game.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Images/videos of events&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2&gt;The Problem&lt;/h2&gt;
+
+&lt;!-- I was hired to create a website to tell the PSC story and connect those visitors to his products. In the process we developed a fully functioning marketing and commerce site. --&gt;
+
+&lt;h3&gt;Getting Started&lt;/h3&gt;
+
+&lt;p&gt;I started talking with Max in June 2013, we identified a lot of areas where I could help. It was clear he wanted a website, as a place to send his Instagram followers. As we spoke further he started to talk about his brand new storefront his own shop and producing his own branded merchandise. This website would also serve as a selling channel and would be a place to increase his marketing efforts. &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Place email correspondence here&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s important to note that PSC is run and operated by Max alone. He doesn’t have content generators, inventory managers, marketing analysts, he didn’t even have a website. I was happy to help out a friend and excited to help push this brand forward. &lt;/p&gt;
+
+&lt;p&gt;I started by asking a few questions:&lt;/p&gt;
+
+&lt;h4&gt;What do you want the site to achieve?&lt;/h4&gt;
+
+&lt;p&gt;He wanted to communicate his brand and his product offerings to his fans. He also wanted a place to sell his products. &lt;/p&gt;
+
+&lt;h4&gt;Who is your target audience?&lt;/h4&gt;
+
+&lt;p&gt;He identified that his core audience would be teens to twenty-somethings passionate about soccer. He also identified families as children getting interested in soccer could grow into customers. At this point, PSC&amp;#39;s only digital presence was their Instagram account, which was very popular. A lot of traffic would be driven from his social media so it was important to really nail the mobile experience. &lt;/p&gt;
+
+&lt;h4&gt;Will you need to update it?&lt;/h4&gt;
+
+&lt;p&gt;He didn&amp;#39;t have a need to update the sites code but wanted to actively post a blog portion about sales and events.&lt;/p&gt;
+
+&lt;h4&gt;What is the current site setup?&lt;/h4&gt;
+
+&lt;p&gt;He was using Godaddy to park his domain with no hosting. He identified some of the sites architecture:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Homepage&lt;/li&gt;
+&lt;li&gt;About Us&lt;/li&gt;
+&lt;li&gt;Contact Us&lt;/li&gt;
+&lt;li&gt;Events&lt;/li&gt;
+&lt;li&gt;Blog&lt;/li&gt;
+&lt;li&gt;Shop&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This was defintely enough to get started. &lt;/p&gt;
+
+&lt;h2&gt;Solution&lt;/h2&gt;
+
+&lt;!-- *Solution: What did you do? This covers your process, your strategic prowess, your technical capabilities, your team dynamic, your style.* --&gt;
+
+&lt;h4&gt;Phases&lt;/h4&gt;
+
+&lt;p&gt;Since we started talking a couple days before the opening of his storefront it was clear we were not going to be able to release a fully functioning site before the launch. There was still a lot to talk about and a lot of direction to be hashed out. We decided to roll the site out in phases. &lt;/p&gt;
+
+&lt;h4&gt;Phase One: The Great Image&lt;/h4&gt;
+
+&lt;p&gt;The first phase was to announce the grand opening of the store front. Max wanted something: &amp;quot;Simple, clean, with logo front and center or a pic.&amp;quot; We had a tight turn around so I turned to Tumblr to quickly execute against the first phase. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/2015-07-23-psc/phase-one.png&quot; alt=&quot;Phase One&quot; title=&quot;Phase One&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;I even created a rotating slideshow that changed out the background image, this was out of scope but made the basic site a little more engaging.&lt;/p&gt;
+
+&lt;h4&gt;Phase Two: Fake it till you make it&lt;/h4&gt;
+
+&lt;p&gt;Phase two was the first attempt to fulfill his need to update the blog but not the rest of the site. He was very active on Instagram and I knew this would be the easiest way for him to post, so I hooked up his account to tumblr so that everytime he posted to Instagram he had the option to post to his blog. This worked out pretty well and is still how the blog portion operates today. This second phase was also where I laid the ground work of the sites architecture. At this point we are still using Tumblr for hosting and since we were not building a full fledged theme we were limited to its basic html/css capabilities even external css was a struggle 😔 (more on that later). But it was enough to rough out some early ideas of the site.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/2015-07-23-psc/phase-two.png&quot; alt=&quot;Phase Two&quot; title=&quot;Phase Two&quot;&gt;&lt;/p&gt;
+
+&lt;h4&gt;Phase Three: Always Responding&lt;/h4&gt;
+
+&lt;p&gt;The last and final phase was a full site with a complete e-commerce store, about us section, blog, and newsletter sign up. &lt;/p&gt;
+
+&lt;p&gt;Narrowed down the site map&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Home&lt;/li&gt;
+&lt;li&gt;About&lt;/li&gt;
+&lt;li&gt;Shop&lt;/li&gt;
+&lt;li&gt;Contact &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It was time to graduate the site, taking it off tumblr and on to its own hosting, using SASS to build, developing the pages and most importantly creating the store&lt;/p&gt;
+
+&lt;h4&gt;Square Market&lt;/h4&gt;
+
+&lt;p&gt;I decide on using Square to power the PSC online store. This made sense for a few reasons:
+Didn&amp;#39;t need to reinvent the wheel
+I was looking into various options: Stripe, Shopify, and Snipcart. [chart of differences?] 
+While each had their merits I discovered that he was already using Square in his store to sell his products and manage inventory. It made a lot of sense to tie into this system to keep everything in one place. Square makes it super easy to spin up an online store and you can generate embed codes for each item. You upload a few images, set the quantity, and boom you&amp;#39;re off selling. &lt;/p&gt;
+
+&lt;h4&gt;Patterns&lt;/h4&gt;
+
+&lt;p&gt;Hero Image
+Blocks&lt;/p&gt;
+
+&lt;h4&gt;Mobile&lt;/h4&gt;
+
+&lt;p&gt;Max has a lot of followers on Instagram and would be driving traffic to the site from his account. In our early talks we discussed the importance of the site being optimized for mobile. I began building patterns at the mobile size &lt;/p&gt;
+
+&lt;h4&gt;Navigation&lt;/h4&gt;
+
+&lt;p&gt;One element I had a bit of fun with was the nav. I introduced a subtle transition between the different screen sizes. 
+[GIF of nav]&lt;/p&gt;
+
+&lt;h4&gt;Blog&lt;/h4&gt;
+
+&lt;p&gt;I connected his Instagram feed to the blog using Tumblr so that everytime he posted to Instagram it would show up on the site. He could also use Tumblr to write longer posts.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Outcome: What were the results? Did you build a new audience? Strengthen and grow an existing one? Increase sales? Great. Data, please.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2&gt;Result&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;6 responsive web pages&lt;/li&gt;
+&lt;li&gt;Storefront opened June 21, 2013&lt;/li&gt;
+&lt;li&gt;Online store opened August 08, 2014&lt;/li&gt;
+&lt;li&gt;$8,000 generated from online sales&lt;/li&gt;
+&lt;li&gt;Online store generated $2,300 in first three days&lt;/li&gt;
+&lt;li&gt;Two days after we launched the online store sales increased by 4x&lt;/li&gt;
+&lt;li&gt;Most popular item online is the Merica Jersey (accounts for 40% of all sales)&lt;/li&gt;
+&lt;li&gt;Connected his brand to fans across the U.S. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Reflection: If a reader has stuck around to this point, you can trust them with a bit more vulnerability. Here’s where you share the insights and voices of individual team members — planners, designers, developers, even your client — through brief, focused reflections on the job. What worked? What didn’t? What doubts did you have? What surprised you? What would you have done differently had you more time or more knowledge at the beginning? What did you learn and how will you use that knowledge in the future? This, really, is the most important and substantial piece of the puzzle for a prospect. If they’re seriously evaluating, they’ve probably heard plenty in the problem → solution → outcome department, but your honest and sincere reflection upon it will be what helps them get to know you and want to work with you.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2&gt;Not all square&lt;/h2&gt;
+
+&lt;p&gt;This didn&amp;#39;t come with a few drawbacks. One is that our online shoppers don&amp;#39;t actually purchase the item on our site, they very subtly get sent to our Online shop on Square. After discussing our options, Max and I were ok with this as Square would be responsible for the heavy lifting of the credit card transactions. Another issue was since the embed code was called using JavaScript there could be a lag of the items being generated on our site. I am looking into hosting the items on our end for a snappier web experience. &lt;/p&gt;
+
+&lt;p&gt;All in all our decision to leverage square for the online store has been a good one. We&amp;#39;re using an existing platform that he is using in the physical store and we can depend on the security of a well known payments company to handle our online and in-store purchases. &lt;/p&gt;
+
+&lt;h2&gt;Tumblr and Foundation&lt;/h2&gt;
+
+&lt;p&gt;Were good to get started but delayed the process later on&lt;/p&gt;
+
+&lt;h2&gt;Stop trying to make newsletter happen&lt;/h2&gt;
+
+&lt;p&gt;While building the site I thought it would be great to begin capturing email addresses in hopes of being about to build an active funnel/cycle to market to existing customers and new customers. I used mailchimp which couldn&amp;#39;t of been simplier. I linked a form input to a mailchimp generated landing page and voila we were capturing potential customers. &lt;/p&gt;
+
+&lt;p&gt;Where we went wrong. Max didn&amp;#39;t fully commit to generating content through email. After all it takes a lot of time and effort to create, deliver, and nurture amazing campaigns. We sent two emails total which were well recieved but our list is still too small to make an impact. In the future I&amp;#39;d like to help him stream line this process, possibly generating emails from his Instagram account. &lt;/p&gt;
+
+&lt;h2&gt;Content Management Sike&lt;/h2&gt;
+
+&lt;p&gt;I asked max early on if he thought he would be updating the site regularly and he didn&amp;#39;t see a need to. But as we discovered after we launched he wanted to add more products, changed some of the copy and since I alone has built the site I was the most equipped to make these changes. Max confided in me that he is not the most tech savvy person and the thought of him being dropped in a wordpress site was terrifying. I think if I had more time and more CMS prowess I would have been able to train and empower Max to be in command of his site. &lt;/p&gt;
+
+&lt;h2&gt;Phases, or nah&lt;/h2&gt;
+
+&lt;p&gt;I think rolling the site out in phases was a great idea. It helped Max get his feet wet into his brand new website. However it took a while to reach the final site. I think if I had asked more pointed questions up front I could have identified his needs quickly and we would have arrived at the brand new site sooner. All in all it was a good process and Max is happy with his site. &lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Wireframes</title>
@@ -51,6 +216,152 @@
 &lt;h3&gt;Next Steps&lt;/h3&gt;
 
 &lt;p&gt;Now that I have a foundation to build off of, I am going to dive into the code. I will start by developing the grid, then style my typography, and finally build the various modules for each pattern. Wireframes are never meant to be the final blueprint, and I am sure that I will deviate from what I’ve sketched above once I get into the code. I am excited to get into the code and building this thing! You can watch live here: &lt;a href=&quot;http://darrendub.com&quot;&gt;darrendub.com&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Example content</title>
+   <link href="darrendub.com/2015/05/21/2014-01-01-example-content/"/>
+   <updated>2015-05-21T10:30:02-07:00</updated>
+   <id>darrendub.com/2015/05/21/2014-01-01-example-content</id>
+   <content type="html">&lt;div class=&quot;message&quot;&gt;
+  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
+&lt;/div&gt;
+
+&lt;p&gt;Cum sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt;
+
+&lt;h2&gt;Inline HTML elements&lt;/h2&gt;
+
+&lt;p&gt;HTML defines a long list of available inline tags, a complete list of which can be found on the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Element&quot;&gt;Mozilla Developer Network&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;To bold text&lt;/strong&gt;, use &lt;code&gt;&amp;lt;strong&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;To italicize text&lt;/em&gt;, use &lt;code&gt;&amp;lt;em&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Abbreviations, like &lt;abbr title=&quot;HyperText Markup Langage&quot;&gt;HTML&lt;/abbr&gt; should use &lt;code&gt;&amp;lt;abbr&amp;gt;&lt;/code&gt;, with an optional &lt;code&gt;title&lt;/code&gt; attribute for the full phrase.&lt;/li&gt;
+&lt;li&gt;Citations, like &lt;cite&gt;&amp;mdash; Mark otto&lt;/cite&gt;, should use &lt;code&gt;&amp;lt;cite&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;Deleted&lt;/del&gt; text should use &lt;code&gt;&amp;lt;del&amp;gt;&lt;/code&gt; and &lt;ins&gt;inserted&lt;/ins&gt; text should use &lt;code&gt;&amp;lt;ins&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Superscript &lt;sup&gt;text&lt;/sup&gt; uses &lt;code&gt;&amp;lt;sup&amp;gt;&lt;/code&gt; and subscript &lt;sub&gt;text&lt;/sub&gt; uses &lt;code&gt;&amp;lt;sub&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Most of these elements are styled by browsers with few modifications on our part.&lt;/p&gt;
+
+&lt;h2&gt;Heading&lt;/h2&gt;
+
+&lt;p&gt;Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.&lt;/p&gt;
+
+&lt;h3&gt;Code&lt;/h3&gt;
+
+&lt;p&gt;Cum sociis natoque penatibus et magnis dis &lt;code&gt;code element&lt;/code&gt; montes, nascetur ridiculus mus.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Example can be run directly in your JavaScript console&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Create a function that takes two arguments and returns the sum of those arguments&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;a&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;b&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;return a + b&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Call the function&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// &amp;gt; 8&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.&lt;/p&gt;
+
+&lt;h3&gt;Gists via GitHub Pages&lt;/h3&gt;
+
+&lt;p&gt;Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui.&lt;/p&gt;
+
+&lt;p&gt;&lt;script src=&quot;https://gist.github.com/5555251.js?file=gist.md&quot;&gt; &lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper.&lt;/p&gt;
+
+&lt;h3&gt;Lists&lt;/h3&gt;
+
+&lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Praesent commodo cursus magna, vel scelerisque nisl consectetur et.&lt;/li&gt;
+&lt;li&gt;Donec id elit non mi porta gravida at eget metus.&lt;/li&gt;
+&lt;li&gt;Nulla vitae elit libero, a pharetra augue.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Vestibulum id ligula porta felis euismod semper.&lt;/li&gt;
+&lt;li&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/li&gt;
+&lt;li&gt;Maecenas sed diam eget risus varius blandit sit amet non magna.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;HyperText Markup Language (HTML)&lt;/dt&gt;
+  &lt;dd&gt;The language used to describe and define the content of a Web page&lt;/dd&gt;
+
+  &lt;dt&gt;Cascading Style Sheets (CSS)&lt;/dt&gt;
+  &lt;dd&gt;Used to describe the appearance of Web content&lt;/dd&gt;
+
+  &lt;dt&gt;JavaScript (JS)&lt;/dt&gt;
+  &lt;dd&gt;The programming language used to build advanced Web sites and applications&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.&lt;/p&gt;
+
+&lt;h3&gt;Images&lt;/h3&gt;
+
+&lt;p&gt;Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://placehold.it/800x400&quot; alt=&quot;placeholder&quot; title=&quot;Large example image&quot;&gt;
+&lt;img src=&quot;http://placehold.it/400x200&quot; alt=&quot;placeholder&quot; title=&quot;Medium example image&quot;&gt;
+&lt;img src=&quot;http://placehold.it/200x200&quot; alt=&quot;placeholder&quot; title=&quot;Small example image&quot;&gt;&lt;/p&gt;
+
+&lt;h3&gt;Tables&lt;/h3&gt;
+
+&lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Upvotes&lt;/th&gt;
+      &lt;th&gt;Downvotes&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tfoot&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Totals&lt;/td&gt;
+      &lt;td&gt;21&lt;/td&gt;
+      &lt;td&gt;23&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Alice&lt;/td&gt;
+      &lt;td&gt;10&lt;/td&gt;
+      &lt;td&gt;11&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Bob&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Charlie&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;9&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Want to see something else added? &lt;a href=&quot;https://github.com/poole/poole/issues/new&quot;&gt;Open an issue.&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -150,6 +461,48 @@
 &lt;/ol&gt;
 
 &lt;p&gt;I&amp;#39;m feeling super inspired after looking at all these examples and next is to get sketchy with some &lt;a href=&quot;/weblog/2015/07/07/wireframes/&quot;&gt;wireframes&lt;/a&gt; and start thinking about the content for my case studies!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Inventory</title>
+   <link href="darrendub.com/weblog/2015/05/16/2015-05-16-inventory/"/>
+   <updated>2015-05-16T17:28:07-07:00</updated>
+   <id>darrendub.com/weblog/2015/05/16/2015-05-16-inventory</id>
+   <content type="html">&lt;p&gt;It was late February of 2012, I walked into the Design Lab at the University of San Francisco, sat down in a gray office chair, took a deep sigh and opened Adobe Dreamweaver. &lt;/p&gt;
+
+&lt;p&gt;The events that followed are very cloudy but I emerged from my stupor with a place on the web to talk about my projects that I have done.&lt;/p&gt;
+
+&lt;h3&gt;Tools I used&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;FTP: Fetch&lt;/li&gt;
+&lt;li&gt;Text Editor: Textwrangler / Dreamweaver&lt;/li&gt;
+&lt;li&gt;Domain: Godaddy&lt;/li&gt;
+&lt;li&gt;Hosting: HostMonster&lt;/li&gt;
+&lt;li&gt;Languages: HTML, Vanilla CSS&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These tools are not inherently bad, the way I strung them all together is at fault. I would begin writing code in Textwrangler, transfer to Dreamweaver (I have no idea why), use Dreamweaver to make black magic, then drag that into Fetch, voilá a website. I had no real version control, no testing, looking back on it now it felt like I just threw it up and hoped that nothing was broken.&lt;/p&gt;
+
+&lt;p&gt;That was the old me, this is the new me.&lt;/p&gt;
+
+&lt;h3&gt;Tools I will use&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;FTP: N/A&lt;/li&gt;
+&lt;li&gt;Text Editor: Sublime Text 2&lt;/li&gt;
+&lt;li&gt;Domain: Namecheap&lt;/li&gt;
+&lt;li&gt;Hosting: Github&lt;/li&gt;
+&lt;li&gt;Markup: HTML&lt;/li&gt;
+&lt;li&gt;Preprocessor: Sass&lt;/li&gt;
+&lt;li&gt;Post-processor: Autoprefixer&lt;/li&gt;
+&lt;li&gt;Compiler: Codekit&lt;/li&gt;
+&lt;li&gt;Image Optimizing: Tiny PNG, Image Optium, Image Alpha&lt;/li&gt;
+&lt;li&gt;CDN: Github?&lt;/li&gt;
+&lt;li&gt;Version Control: Github&lt;/li&gt;
+&lt;li&gt;Performance: Webpagetest, PageSpeed Insights, CSS Stats&lt;/li&gt;
+&lt;/ul&gt;
 </content>
  </entry>
  

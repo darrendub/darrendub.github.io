@@ -7,74 +7,108 @@ comments: true
 ---
 
 
-https://www.newfangled.com/rethinking-the-case-study/
+### Summary
 
-*Summary: This is a brief introduction of the engagement, with an emphasis on problem and outcome. It should sell the reader on the value of digging further into the details of your solution. Think of it as an elevator pitch (if not something Tweetable). If a prospect only read your summary, would they at least understand what you did and the value you believe it offered?*
+Paradise Soccer Club connects the beautiful game with the lifestyle of Hawai’i. I worked with PSC to build a website and e-commerce store to connect their brand to their fans across the world. 
 
-## The Mission
-Paradise Soccer Club is a Hawai’i lifestyle brand and soccer shop founded in 2013 as a way to connect the beautiful game with the lifestyle of Hawai’i. In addition to carrying popular street brands, they create and distribute their in-house Paradise Soccer Club brand.
+### Passing the ball
 
-
-*Backstory: Think of this as the beginning, the once-upon-a-time part. You’re setting up the case study by providing an introduction to its key players — you and your client — and your respective points of view. Remember, how you describe this relationship will make it easier or harder for a prospect to imagine themselves in a similar relationship with you.*
-
-## The Vision
 Max and I grew up in the same town in Hawaii but I didn’t get to know him until I moved away to San Francisco (funny how that happens). He played soccer with my best friend and that’s how we met. Hawaii does not have a professional sports teams, so many of its youth turn to the beautiful game as their favorite pastime. Max saw an opportunity to blend the culture of Hawaii with the sport of futbol, which is how Paradise Soccer Club began.
 
-It all started with his Instagram account which currently has 7,000+ followers with curated photos and videos but Max had bigger dreams. He opened his physical storefront in Kailua, Oahu on June 21, 2013 to open arms from the community. His social media presence and collaborations with Hawaii’s premier lifestyle brands exploded his reach. A year after opening the store we launched paradisesoccerclub.com with an  expertly timed USA Men’s soccer kit during the 2014 Men’s World Cup which received massive coverage 
+It all started with his Instagram account which currently has 7,000+ followers. He curates photos and videos to connect with his fans but Max had bigger dreams. He opened his physical storefront in Kailua, Oahu on June 21, 2013 to open arms from the community. His social media presence and collaborations with Hawaii’s premier lifestyle brands exploded his reach. A year after opening the store we launched paradisesoccerclub.com with an expertly timed USA Men’s soccer kit during the 2014 Men’s World Cup which received massive coverage from many fashion blogs.
 
-More importantly, PSC isn’t just about selling his jerseys it’s about giving back to the community. He hosts soccer tournaments and fronts the main prizes, he holds FIFA tournaments and gives away merchandise to its winners. His store and brand has been and will always be a safe haven for those who love the beautiful game
+More importantly PSC isn’t just about selling merchandise, it’s about giving back to the community. He hosts soccer tournaments with cash prizes, he holds FIFA tournaments and gives away merchandise to its winners. His store and brand has been and will always be an ohana for those who love the beautiful game.
 
-*Problem: This is the simple part. What, exactly, were you hired to do? This hits on your expertise and your diagnostic and problem-solving skills.*
+*Images/videos of events*
 
-I was hired to create a website to tell the PSC story and connect those visitors to his products. In the process we developed a fully functioning marketing and commerce site.
 
-## The Process
-I started talking with Max in June 2013, through email and we identified a lot of areas where I could help. It was clear he wanted a website, as a place to send his Instagram followers. As we spoke further he started to talk about opening up his own shop and eventually producing his own branded merchandise. This website would also serve as a selling channel and would be a place to increase his marketing efforts. 
+## The Problem
+<!-- I was hired to create a website to tell the PSC story and connect those visitors to his products. In the process we developed a fully functioning marketing and commerce site. -->
+
+### Getting Started
+I started talking with Max in June 2013, we identified a lot of areas where I could help. It was clear he wanted a website, as a place to send his Instagram followers. As we spoke further he started to talk about his brand new storefront his own shop and producing his own branded merchandise. This website would also serve as a selling channel and would be a place to increase his marketing efforts. 
+
+*Place email correspondence here*
 
 It’s important to note that PSC is run and operated by Max alone. He doesn’t have content generators, inventory managers, marketing analysts, he didn’t even have a website. I was happy to help out a friend and excited to help push this brand forward. 
 
-I started by asking a few questions: who will be visiting this site? How will they get there? Will you need to update it?
+I started by asking a few questions:
 
-PSC drives most of its traffic from Instagram so it was important to really nail the mobile experience. He didn't have a need to update the sites code but wanted to actively update the blog portion. I connected his Instagram feed to the blog using Tumblr so that everytime he posted to Instagram it would show up on the site. He could also use Tumblr to write longer posts. 
+#### What do you want the site to achieve?
+He wanted to communicate his brand and his product offerings to his fans. He also wanted a place to sell his products. 
 
-*Solution: What did you do? This covers your process, your strategic prowess, your technical capabilities, your team dynamic, your style.*
+#### Who is your target audience?
+He identified that his core audience would be teens to twenty-somethings passionate about soccer. He also identified families as children getting interested in soccer could grow into customers. At this point, PSC's only digital presence was their Instagram account, which was very popular. A lot of traffic would be driven from his social media so it was important to really nail the mobile experience. 
 
-## Phases
-We started talking a couple days before he opened his storefront and it was clear we were not going to be able to release a fully functioning site before the launch of his store. There was still a lot to talk about and a lot of direction to be hashed out. We decided to roll the site out in phases. 
+#### Will you need to update it?
+He didn't have a need to update the sites code but wanted to actively post a blog portion about sales and events.
 
-The first phase was to announce the grand opening of the store front. Just to supply the information and nothing more. The second phase was be an assistant to his Instagram account, a blog of sorts that had long-form reading but was built to just accompany his current social media. To help announce events and such. During this time I helped expand his social media repertoire adding twitter and Facebook to the mix (unfortunately those haven’t gained much traction). 
+#### What is the current site setup?
+He was using Godaddy to park his domain with no hosting. He identified some of the sites architecture:
 
+- Homepage
+- About Us
+- Contact Us
+- Events
+- Blog
+- Shop
+
+This was defintely enough to get started. 
+
+
+## Solution 
+
+<!-- *Solution: What did you do? This covers your process, your strategic prowess, your technical capabilities, your team dynamic, your style.* -->
+
+#### Phases
+Since we started talking a couple days before the opening of his storefront it was clear we were not going to be able to release a fully functioning site before the launch. There was still a lot to talk about and a lot of direction to be hashed out. We decided to roll the site out in phases. 
+
+#### Phase One: The Great Image
+The first phase was to announce the grand opening of the store front. Max wanted something: "Simple, clean, with logo front and center or a pic." We had a tight turn around so I turned to Tumblr to quickly execute against the first phase. 
+
+![Phase One]({{ site.baseurl }}/public/img/2015-07-23-psc/phase-one.png "Phase One")
+
+I even created a rotating slideshow that changed out the background image, this was out of scope but made the basic site a little more engaging.
+
+#### Phase Two: Fake it till you make it
+
+Phase two was the first attempt to fulfill his need to update the blog but not the rest of the site. He was very active on Instagram and I knew this would be the easiest way for him to post, so I hooked up his account to tumblr so that everytime he posted to Instagram he had the option to post to his blog. This worked out pretty well and is still how the blog portion operates today. This second phase was also where I laid the ground work of the sites architecture. At this point we are still using Tumblr for hosting and since we were not building a full fledged theme we were limited to its basic html/css capabilities even external css was a struggle 😔 (more on that later). But it was enough to rough out some early ideas of the site.
+
+![Phase Two]({{ site.baseurl }}/public/img/2015-07-23-psc/phase-two.png "Phase Two")
+
+#### Phase Three: Always Responding
 The last and final phase was a full site with a complete e-commerce store, about us section, blog, and newsletter sign up. 
 
-First Phase:
-https://web.archive.org/web/20130621191226/http://paradisesoccerclub.com/
-https://web.archive.org/web/20130714054512/http://paradisesoccerclub.com/
+Narrowed down the site map
 
-Second Phase:
-https://web.archive.org/web/20140104001043/http://paradisesoccerclub.com/
-
-Third Phase:
-https://web.archive.org/web/20140830130838/http://paradisesoccerclub.com/
-
-
-## Sitemap
 - Home
 - About
 - Shop
 - Contact 
 
-## Square Market
+It was time to graduate the site, taking it off tumblr and on to its own hosting, using SASS to build, developing the pages and most importantly creating the store
+
+
+#### Square Market
 I decide on using Square to power the PSC online store. This made sense for a few reasons:
 Didn't need to reinvent the wheel
 I was looking into various options: Stripe, Shopify, and Snipcart. [chart of differences?] 
 While each had their merits I discovered that he was already using Square in his store to sell his products and manage inventory. It made a lot of sense to tie into this system to keep everything in one place. Square makes it super easy to spin up an online store and you can generate embed codes for each item. You upload a few images, set the quantity, and boom you're off selling. 
 
-## Mobile
+#### Patterns
+Hero Image
+Blocks
+
+
+#### Mobile
 Max has a lot of followers on Instagram and would be driving traffic to the site from his account. In our early talks we discussed the importance of the site being optimized for mobile. I began building patterns at the mobile size 
 
-## Navigation
+#### Navigation
 One element I had a bit of fun with was the nav. I introduced a subtle transition between the different screen sizes. 
 [GIF of nav]
+
+#### Blog
+I connected his Instagram feed to the blog using Tumblr so that everytime he posted to Instagram it would show up on the site. He could also use Tumblr to write longer posts.
 
 
 *Outcome: What were the results? Did you build a new audience? Strengthen and grow an existing one? Increase sales? Great. Data, please.*
@@ -96,6 +130,9 @@ One element I had a bit of fun with was the nav. I introduced a subtle transitio
 This didn't come with a few drawbacks. One is that our online shoppers don't actually purchase the item on our site, they very subtly get sent to our Online shop on Square. After discussing our options, Max and I were ok with this as Square would be responsible for the heavy lifting of the credit card transactions. Another issue was since the embed code was called using JavaScript there could be a lag of the items being generated on our site. I am looking into hosting the items on our end for a snappier web experience. 
 
 All in all our decision to leverage square for the online store has been a good one. We're using an existing platform that he is using in the physical store and we can depend on the security of a well known payments company to handle our online and in-store purchases. 
+
+## Tumblr and Foundation
+Were good to get started but delayed the process later on
 
 ## Stop trying to make newsletter happen
 While building the site I thought it would be great to begin capturing email addresses in hopes of being about to build an active funnel/cycle to market to existing customers and new customers. I used mailchimp which couldn't of been simplier. I linked a form input to a mailchimp generated landing page and voila we were capturing potential customers. 
