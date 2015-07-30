@@ -23,6 +23,7 @@ More importantly PSC isn’t just about selling merchandise, it’s about giving
 
 
 ## The Problem
+*The lay of the land, why I was brought in*
 <!-- I was hired to create a website to tell the PSC story and connect those visitors to his products. In the process we developed a fully functioning marketing and commerce site. -->
 
 #### Passing the ball
@@ -56,7 +57,8 @@ At this point, PSC's only digital presence was their Instagram account, which wa
 This was defintely enough to get started. 
 
 
-## Solution Score
+## Playing the game
+*Starting on the site*
 
 <!-- *Solution: What did you do? This covers your process, your strategic prowess, your technical capabilities, your team dynamic, your style.* -->
 
@@ -107,23 +109,21 @@ For the About Us page, we wanted to include a section about the events PSC hoste
 
 ![Video Block](http://darrendub.com/public/img/2015-07-23-psc/video-block.jpg "Video Block")
 
-#### Mobile
-Max has a lot of followers on Instagram and would be driving traffic to the site from his account. In our early talks we discussed the importance of the site being optimized for mobile. I began building patterns at the mobile size 
+#### Finger Tips
+We identified his core audience as twenty-something using the social medias it was important that the site be optimized for mobile finger tips. I began building the patterns with mobile in mind and had a lot of fun exploring the navigation. The navigation element gracefully degrades to meet the various mobile sizes, check it out:
 
-#### Navigation
-One element I had a bit of fun with was the nav. I introduced a subtle transition between the different screen sizes. 
-[GIF of nav]
+*Insert Navigation GIF*
 
-#### Blog
-I connected his Instagram feed to the blog using Tumblr so that everytime he posted to Instagram it would show up on the site. He could also use Tumblr to write longer posts.
+#### News Letters
+Instagram was PSC's main marketing channel. I wanted to introduce a secondary channel that would build a list of new customers, build relationships with existing customers, and reach them on all their mobile devices. I'm talking about electronic mail. With the help of Mailchimp we set up a simple input to capture email addresses with the hopes of running product campaigns.
 
 #### Launch
-A year after opening the store we launched paradisesoccerclub.com with an expertly timed USA Men’s soccer kit during the 2014 Men’s World Cup which received massive coverage from many fashion blogs.
-
+We launched the site in accordance with the first anniversary of the storefront opening. This was also during the 2014 Men's World Cup. Max expertly timed a product release to coincide with the new site and the world cup. His Merica Jersey was very well received, it helped catapult the site and his brand during the launch and is still the top selling item in his outline store.
 
 <!-- *Outcome: What were the results? Did you build a new audience? Strengthen and grow an existing one? Increase sales? Great. Data, please.* -->
 
-## Result
+#### Scores
+*How did we do?*
 
 - 6 responsive web pages
 - Storefront opened June 21, 2013
@@ -134,9 +134,15 @@ A year after opening the store we launched paradisesoccerclub.com with an expert
 - Most popular item online is the Merica Jersey (accounts for 40% of all sales)
 - Connected his brand to fans across the U.S. 
 
+> Darren was extremely passionate about this product and offered many suggestions to help push my brand. He created a fully functioning site that I am happy with!
+<cite>Max Anton, Founder, PSC</cite>
+
 <!-- *Reflection: If a reader has stuck around to this point, you can trust them with a bit more vulnerability. Here’s where you share the insights and voices of individual team members — planners, designers, developers, even your client — through brief, focused reflections on the job. What worked? What didn’t? What doubts did you have? What surprised you? What would you have done differently had you more time or more knowledge at the beginning? What did you learn and how will you use that knowledge in the future? This, really, is the most important and substantial piece of the puzzle for a prospect. If they’re seriously evaluating, they’ve probably heard plenty in the problem → solution → outcome department, but your honest and sincere reflection upon it will be what helps them get to know you and want to work with you.* -->
 
-## Not all square
+## Timeout
+*Things I learned along the way*
+
+#### Not all square
 This didn't come with a few drawbacks. One is that our online shoppers don't actually purchase the item on our site, they very subtly get sent to our Online shop on Square. After discussing our options, Max and I were ok with this as Square would be responsible for the heavy lifting of the credit card transactions. Another issue was since the embed code was called using JavaScript there could be a lag of the items being generated on our site. I am looking into hosting the items on our end for a snappier web experience. 
 
 All in all our decision to leverage square for the online store has been a good one. We're using an existing platform that he is using in the physical store and we can depend on the security of a well known payments company to handle our online and in-store purchases. 
