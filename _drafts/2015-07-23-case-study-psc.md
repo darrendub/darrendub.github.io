@@ -115,7 +115,7 @@ We identified his core audience as twenty-something using the social medias it w
 *Insert Navigation GIF*
 
 #### News Letters
-Instagram was PSC's main marketing channel. I wanted to introduce a secondary channel that would build a list of new customers, build relationships with existing customers, and reach them on all their mobile devices. I'm talking about electronic mail. With the help of Mailchimp we set up a simple input to capture email addresses with the hopes of running product campaigns.
+Instagram was PSC's main marketing channel. I wanted to introduce a secondary channel that would build a list of new customers, build relationships with existing customers, and reach them on all their mobile devices. I'm talking about electronic mail. With the help of Mailchimp we set up a simple input to capture email addresses with the hopes of running full campaigns through email.
 
 #### Launch
 We launched the site in accordance with the first anniversary of the storefront opening. This was also during the 2014 Men's World Cup. Max expertly timed a product release to coincide with the new site and the world cup. His Merica Jersey was very well received, it helped catapult the site and his brand during the launch and is still the top selling item in his outline store.
@@ -128,9 +128,9 @@ We launched the site in accordance with the first anniversary of the storefront 
 - 6 responsive web pages
 - Storefront opened June 21, 2013
 - Online store opened August 08, 2014
-- $8,000 generated from online sales
-- Online store generated $2,300 in first three days
-- Two days after we launched the online store sales increased by 4x
+- Online store generated 2x revenue in first three days
+- First month 4,000+ views on the site
+- 30,278 Total Pageviews
 - Most popular item online is the Merica Jersey (accounts for 40% of all sales)
 - Connected his brand to fans across the U.S. 
 
@@ -139,24 +139,23 @@ We launched the site in accordance with the first anniversary of the storefront 
 
 <!-- *Reflection: If a reader has stuck around to this point, you can trust them with a bit more vulnerability. Here’s where you share the insights and voices of individual team members — planners, designers, developers, even your client — through brief, focused reflections on the job. What worked? What didn’t? What doubts did you have? What surprised you? What would you have done differently had you more time or more knowledge at the beginning? What did you learn and how will you use that knowledge in the future? This, really, is the most important and substantial piece of the puzzle for a prospect. If they’re seriously evaluating, they’ve probably heard plenty in the problem → solution → outcome department, but your honest and sincere reflection upon it will be what helps them get to know you and want to work with you.* -->
 
-## Timeout
-*Things I learned along the way*
+## Yellow Card
+*Or things I learned along the way*
 
 #### Not all square
-This didn't come with a few drawbacks. One is that our online shoppers don't actually purchase the item on our site, they very subtly get sent to our Online shop on Square. After discussing our options, Max and I were ok with this as Square would be responsible for the heavy lifting of the credit card transactions. Another issue was since the embed code was called using JavaScript there could be a lag of the items being generated on our site. I am looking into hosting the items on our end for a snappier web experience. 
+Using Square didn't come with a few drawbacks. One of them being that the actual payment does not actually happen on the paradisesoccerclub.com site. When a user clicks a product they very *subtly* get redirected to the PSC Online shop on Square Market. While this is not terrible, it does introduce another step in the buying process and my focus was to minimize the experience of that step. Another issue arose with the the embedding of products on the store. The embded code used a bit of Javascript which took some time to call the products from Square and in most cases there could be a noticable lag of the items being generated on our site. I am looking into hosting the items on our end for a snappier web experience. 
 
-All in all our decision to leverage square for the online store has been a good one. We're using an existing platform that he is using in the physical store and we can depend on the security of a well known payments company to handle our online and in-store purchases. 
+All in all our decision to leverage square for the online store has been a good one. We're using an existing platform that he is using in the physical store and we can depend on the security of a well-known payments company to handle the online and in-store purchases. Another huge reason for using Square is that it managed product fulfillment all in the same web app. Which is great because Max only needs to go to one place to get information about sales, inventory, and orders. Easy peasy.  
 
-## Tumblr and Foundation
-Were good to get started but delayed the process later on
+<!-- After discussing our options, Max and I were in agreement that this was still a viable option because Square would be responsible for backend credit card transaction and updating the product inventory.  -->
 
-## Stop trying to make newsletter happen
+#### Stop trying to make newsletter happen
 While building the site I thought it would be great to begin capturing email addresses in hopes of being about to build an active funnel/cycle to market to existing customers and new customers. I used mailchimp which couldn't of been simplier. I linked a form input to a mailchimp generated landing page and voila we were capturing potential customers. 
 
 Where we went wrong. Max didn't fully commit to generating content through email. After all it takes a lot of time and effort to create, deliver, and nurture amazing campaigns. We sent two emails total which were well recieved but our list is still too small to make an impact. In the future I'd like to help him stream line this process, possibly generating emails from his Instagram account. 
 
-## Content Management Sike
-I asked max early on if he thought he would be updating the site regularly and he didn't see a need to. But as we discovered after we launched he wanted to add more products, changed some of the copy and since I alone has built the site I was the most equipped to make these changes. Max confided in me that he is not the most tech savvy person and the thought of him being dropped in a wordpress site was terrifying. I think if I had more time and more CMS prowess I would have been able to train and empower Max to be in command of his site. 
+#### Phases, or nah
+I think rolling the site out in phases was a great idea. It helped Max get his feet wet into his brand new website. However it took a while to reach the final site because it introduced some technical debt early on. I needed to get the site out fast so using tumblr was a no-brainer. However, when it was time to build the actual site I was not able to leverage most of the code base (a lot of interal css styles and strange markup). I think if I had asked more pointed questions up front I could have identified his needs quickly and we would have arrived at the brand new site sooner.
 
-## Phases, or nah
-I think rolling the site out in phases was a great idea. It helped Max get his feet wet into his brand new website. However it took a while to reach the final site. I think if I had asked more pointed questions up front I could have identified his needs quickly and we would have arrived at the brand new site sooner. All in all it was a good process and Max is happy with his site. 
+#### First
+This was my first experience getting hired to develop a full site. It was very exciting and I learned a lot along the way. I'm looking forward to doing more work like this in the future. 
