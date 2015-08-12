@@ -48,6 +48,11 @@
   // }
 }
 
+// add this to flip your grid (2up) - ensure the HTML is the same (img + text) as none-reversed grid
+.grid-reverse {
+  flex-direction: row-reverse;
+}
+
 .grid-start {
   justify-content: flex-start;
   align-self: flex-start;
