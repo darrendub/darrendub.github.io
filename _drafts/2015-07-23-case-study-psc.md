@@ -9,7 +9,7 @@ comments: true
 
 ### Summary
 
-Paradise Soccer Club connects the beautiful game with the lifestyle of Hawai’i. I worked with PSC to build a website and e-commerce store to connect their brand to their fans across the world. 
+Paradise Soccer Club connects the beautiful game with the lifestyle of Hawai’i. I worked with PSC to build a website and e-commerce store to connect their brand to their fans across the universe. 
 
 ### Kick-off
 
