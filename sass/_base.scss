@@ -20,9 +20,31 @@ body {
 
 .container {
 	max-width: $bp-medium;
+  width: 90%;
+  clear: left;
 	display: block; // centers container
 	margin-left: auto; // centers container
 	margin-right: auto; // centers container
 	padding-left: $unit-small; // adds spacing
 	padding-right: $unit-small; // adds spacing
+}
+
+section {
+  padding-top: $unit-small;
+  padding-bottom: $unit-small;
+  @media (min-width: $bp-medium) {
+    padding-top: $unit-medium;
+    padding-bottom: $unit-medium;
+  }
+  p {
+    &:last-of-type {
+      margin-bottom: 0; // If a para is in a section remove 
+    }
+  }
+}
+
+.intro {
+  min-height: 18em;
+  color: $white;
+  text-align: center;
 }

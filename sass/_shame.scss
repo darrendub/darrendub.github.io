@@ -13,11 +13,15 @@
 }
 
 .bg-light-gray {
-	background:#f8f8f8;
+	background:$clouds;
+}
+
+.bg-gray {
+	background:$silver;
 }
 
 .bg-light-blue {
-	background:#87cefa;
+	background:#d0ecfd;
 }
 
 .p-25 {
