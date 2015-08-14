@@ -10,6 +10,11 @@ I’m doing an open redesign of my site (<a href="/weblog/2015/04/15/open-redesi
 <div class="timeline">
 <ul>
 	<li>
+		<span class="time">August 14, 2015</span>
+		<span class="title">PSC - Case Study</span>
+		<span class="text">Putting some really early styles on the Paradise soccer case study.<a href="http://darrendub.com/case-study-psc/"> Check it out &#8594;</a></span>
+	</li>
+	<li>
 		<span class="time">July 28, 2015</span>
 		<span class="title">PSC - Case Study</span>
 		<span class="text">Still developing the case study, its taking a while but it&rsquo;s worth it! 🙆<a href="https://github.com/darrendub/darrendub.github.io/blob/master/_drafts/2015-07-23-case-study-psc.md"> Check it out &#8594;</a></span>

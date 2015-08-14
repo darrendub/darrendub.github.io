@@ -4,8 +4,10 @@
 
 .message {
 	font-family:$serif;
-	font-size: 1.2em;
 	padding: 1.2em;
+	p {
+		margin-bottom: 0!important;
+	}
 
 	a {
 		color: #268bd2;
@@ -30,4 +32,19 @@
 
 .mt-1 {
 	margin-top: -1rem;
+}
+
+a.button {
+	background-color: $link-blue;
+	padding: $unit-small/2;
+	border-radius: 4px;
+	color:$white;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: 600;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+	&:hover {
+		background-color: tint( $link-blue, 10% )
+	}
 }
