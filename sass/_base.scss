@@ -4,7 +4,13 @@
 
 html {
 	-webkit-font-smoothing: antialiased;
+ 	font-size: 19px;
+  	line-height: 1.5;
+  	@media (min-width: $bp-medium) {
+  		font-size: 22px;
+  	}
 }
+
 body {
   font-family: $serif;
   font-weight: 300;
@@ -13,7 +19,7 @@ body {
 }
 
 .container {
-	max-width: $bp-xlarge;
+	max-width: $bp-medium;
 	display: block; // centers container
 	margin-left: auto; // centers container
 	margin-right: auto; // centers container

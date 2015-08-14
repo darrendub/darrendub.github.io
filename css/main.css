@@ -162,7 +162,12 @@ img {
  * Base
  *------------------------------------------------------------------*/
 html {
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+  font-size: 19px;
+  line-height: 1.5; }
+  @media (min-width: 35em) {
+    html {
+      font-size: 22px; } }
 
 body {
   font-family: "Vollkorn", serif;
@@ -171,7 +176,7 @@ body {
   -webkit-text-size-adjust: 100%; }
 
 .container {
-  max-width: 60em;
+  max-width: 35em;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -181,24 +186,48 @@ body {
 /*--------------------------------------------------------------------
  * Type
  *------------------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .5rem;
+  line-height: 1.25;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
 h1 {
-  font-size: 2.2rem; }
+  font-size: 2rem; }
 
 h2 {
-  font-size: 1.7rem; }
+  font-size: 1.5rem; }
 
 h3 {
   font-size: 1.3rem; }
 
 h4 {
-  font-size: 1.2rem; }
-
-h5 {
-  font-size: 1rem; }
+  font-size: 1.2rem;
+  font-weight: 600; }
 
 p {
-  font-size: 1.2rem;
-  line-height: 1.5rem; }
+  font-size: 1rem;
+  margin-bottom: 1rem; }
+
+strong {
+  color: #444; }
+
+em {
+  font-style: italic; }
+
+hr {
+  position: relative;
+  margin: 1rem 0;
+  border: 0;
+  border-top: 1px solid #eee; }
+
+ul, ol {
+  margin-left: 1rem;
+  margin-bottom: 1rem; }
+
+li {
+  font-size: 1rem; }
 
 .link-inline {
   text-decoration: none;

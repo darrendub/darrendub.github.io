@@ -2,12 +2,21 @@
  * Type
  *------------------------------------------------------------------*/
 
+ h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .5rem;
+  line-height: 1.25;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
 h1 {
-	font-size: 2.2rem;	
+	font-size: 2rem;	
 }
 
 h2 {
-	font-size: 1.7rem;	
+	font-size: 1.5rem;	
 }
 
 h3 {
@@ -15,16 +24,38 @@ h3 {
 }
 
 h4 {
-	font-size: 1.2rem;	
+	font-size: 1.2rem;
+	font-weight: 600;	
 }
 
-h5 {
-	font-size: 1rem;	
-}
 
 p {
-	font-size: 1.2rem;
-	line-height: 1.5rem;
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+
+strong {
+  color: $coal;
+}
+
+em {
+	font-style: italic;	
+}
+
+hr {
+  position: relative;
+  margin: 1rem 0;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+ul, ol {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+li {
+	font-size: 1rem;
 }
 
 .link-inline {
