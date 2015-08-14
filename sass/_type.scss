@@ -34,6 +34,16 @@ p {
 	margin-bottom: 1rem;
 }
 
+.large-type {
+  font-size: 2rem;
+  @media (min-width: $bp-medium) {
+    font-size: 4rem;
+  }
+}
+.text-center {
+  text-align: center;
+}
+
 strong {
   color: $coal;
 }

@@ -184,6 +184,15 @@ p {
   font-size: 1rem;
   margin-bottom: 1rem; }
 
+.large-type {
+  font-size: 2rem; }
+  @media (min-width: 35em) {
+    .large-type {
+      font-size: 4rem; } }
+
+.text-center {
+  text-align: center; }
+
 strong {
   color: #444; }
 
@@ -238,3 +247,6 @@ li {
 
 .p-25 {
   padding: 25px; }
+
+.mt-1 {
+  margin-top: -1rem; }

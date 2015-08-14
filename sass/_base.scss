@@ -36,7 +36,7 @@ section {
     padding-top: $unit-medium;
     padding-bottom: $unit-medium;
   }
-  p {
+  p { // Really need to rethink this...
     &:last-of-type {
       margin-bottom: 0; // If a para is in a section remove 
     }
