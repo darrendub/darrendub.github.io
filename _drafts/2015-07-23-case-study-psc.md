@@ -11,19 +11,21 @@ comments: true
 
 Paradise Soccer Club connects the beautiful game of soccer with the lifestyle of Hawai’i. I worked with PSC to build a website and e-commerce store to connect their brand to their fans across the world. 
 
-### Kick-off
+### Kickoff
 
-Max and I grew up in the same town in Hawaii but I didn’t get to know him until I moved away to San Francisco (funny how that happens). He played soccer with my best friend and that’s how we met. Hawaii does not have any professional sports teams, so many of its youth turn to the beautiful game as their favorite pastime. Max saw an opportunity to blend the culture of Hawaii with the sport of futbol, Paradise Soccer Club was born.
 
-It all started with his Instagram account which currently has 7,000+ followers but Max had bigger dreams. He opened his storefront in Kailua, Oahu on June 21, 2013 to open arms from the community. His social media presence and collaborations with Hawaii’s premier lifestyle brands exploded his reach. 
+Max and I grew up in the same town in Hawaii but I didn’t get to know him until I moved away to San Francisco (funny how that happens). He played soccer with my best friend and that’s how we met. Hawaii does not have any professional sports teams, so many of its youth turn to the beautiful game as their favorite pastime. Max saw an opportunity to blend the culture of Hawaii with the sport of futbol and Paradise Soccer Club was born.
 
-More importantly PSC isn’t just about selling merchandise, it’s about giving back to the community. He hosts soccer tournaments with cash prizes, he holds FIFA tournaments and gives away merchandise to its winners. His store and brand has been and will always be an ohana for those who love the beautiful game.
+
+It all started with his hugely popular Instagram account, but Max had bigger dreams. He opened his storefront in Kailua, Oahu on June 21, 2013 to open arms from the community. The locals' support coupled with his already successful social media presence and collaborations with Hawai'i's premier lifestyle brands acted as the catalyst for PSC to explode on to the scene.
+
+One of the best things about PSC is the shop's dedication to giving back to the community. Max hosts soccer tournaments with cash prizes, and he holds FIFA tournaments where he gives away merchandise to its winners. At its core, the PSC store and brand act like an ohana [hover definition] to those who love the beautiful game.
 
 *Images/videos of events*
 
 
 ## The Problem
-*The lay of the land, why I was brought in*
+*The lay of the land, and why I was brought in*
 <!-- I was hired to create a website to tell the PSC story and connect those visitors to his products. In the process we developed a fully functioning marketing and commerce site. -->
 
 #### Passing the ball
@@ -54,7 +56,7 @@ At this point, PSC's only digital presence was their Instagram account, which wa
 - Blog
 - Shop
 
-This was defintely enough to get started. 
+This was definitely enough to get started. 
 
 
 ## Playing the game
