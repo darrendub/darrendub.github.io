@@ -9,11 +9,11 @@ comments: true
 
 ### Summary
 
-Paradise Soccer Club connects the beautiful game with the lifestyle of Hawai’i. I worked with PSC to build a website and e-commerce store to connect their brand to their fans across the world. 
+Paradise Soccer Club connects the beautiful game of soccer with the lifestyle of Hawai’i. I worked with PSC to build a website and e-commerce store to connect their brand to their fans across the world. 
 
 ### Kick-off
 
-Max and I grew up in the same town in Hawaii but I didn’t get to know him until I moved away to San Francisco (funny how that happens). He played soccer with my best friend and that’s how we met. Hawaii does not have a professional sports teams, so many of its youth turn to the beautiful game as their favorite pastime. Max saw an opportunity to blend the culture of Hawaii with the sport of futbol, which is how Paradise Soccer Club began.
+Max and I grew up in the same town in Hawaii but I didn’t get to know him until I moved away to San Francisco (funny how that happens). He played soccer with my best friend and that’s how we met. Hawaii does not have any professional sports teams, so many of its youth turn to the beautiful game as their favorite pastime. Max saw an opportunity to blend the culture of Hawaii with the sport of futbol, Paradise Soccer Club was born.
 
 It all started with his Instagram account which currently has 7,000+ followers but Max had bigger dreams. He opened his storefront in Kailua, Oahu on June 21, 2013 to open arms from the community. His social media presence and collaborations with Hawaii’s premier lifestyle brands exploded his reach. 
 
@@ -27,7 +27,7 @@ More importantly PSC isn’t just about selling merchandise, it’s about giving
 <!-- I was hired to create a website to tell the PSC story and connect those visitors to his products. In the process we developed a fully functioning marketing and commerce site. -->
 
 #### Passing the ball
-I started talking with Max in June 2013, we kicked a few emails back and forth and identified a lot of areas where I could help. It was clear he wanted a website, as a place to send his Instagram followers. As we spoke further he started to talk about his brand new storefront his own shop and producing his own branded merchandise. This website would also serve as a selling channel and would be a place to increase his marketing efforts. 
+I started talking with Max in June 2013, we kicked a few emails back and forth and identified a lot of areas where I could help. He wanted to provide his Instagram followers with more information about his shop. He was also in talks to begin producing his own merchandise. He needed a website to help facilitate these two goals.
 
 *Place email correspondence here*
 
@@ -45,7 +45,7 @@ He identified that his core audience would be teens to twenty-somethings passion
 He didn't have a need to update the sites code but wanted to actively post a blog portion about sales and events.
 
 #### What is the current site setup?
-At this point, PSC's only digital presence was their Instagram account, which was very popular. A lot of traffic would be driven from his social media so it was important to really nail the mobile experience. He was using Godaddy to park his domain with no hosting. Here is the initial sitemap:
+At this point, PSC's only digital presence was their Instagram account, which was very popular (8,000+ followers). A lot of traffic would be driven from his social media so it was important to really nail the mobile experience. He was using Godaddy to park his domain with no hosting. Here is the initial sitemap:
 
 - Homepage
 - About Us
@@ -63,10 +63,10 @@ This was defintely enough to get started.
 <!-- *Solution: What did you do? This covers your process, your strategic prowess, your technical capabilities, your team dynamic, your style.* -->
 
 #### Phases
-We started talking a couple days before the opening of his storefront it was clear we were not going to be able to release a fully functioning site before the launch. There was still a lot to talk about and a lot of direction to be hashed out. We decided to roll the site out in phases. 
+We started talking a couple days before the opening of his physical storefront and while I would have loved to release a fully functioning site by then, it wasn't going to happen. There was still a lot to talk about and a lot of direction to be hashed out. We decided to roll the site out in phases. 
 
 #### Phase One: The Great Image
-The first phase was to announce the grand opening of the store front. Max wanted something: "Simple, clean, with logo front and center or a pic." We had a tight turn around so I turned to Tumblr to quickly execute against the first phase. 
+The first phase was to announce the grand opening of the storefront. Max wanted something: "Simple, clean, with logo front and center or a pic." We had a tight turn around so I turned to Tumblr to quickly execute against the first phase. 
 
 ![Phase One](http://darrendub.com/public/img/2015-07-23-psc/phase-one.png "Phase One")
 
@@ -90,11 +90,11 @@ We started by narrowing down the site map:
 - Shop
 - Contact 
 
-It was time to graduate the site, taking it off tumblr and on to its own hosting, using SASS to build repeatable patterns, developing the story, and most importantly creating the store.
+It was time to graduate the site, taking it off tumblr and on to its own hosting, using SASS to build repeatable patterns, developing the story, and most importantly creating an e-commerce store.
 
 
 #### Square Corners The Market
-When building the store I was looking into various options: Stripe, Shopify, and Snipcart. [chart of differences?] And while each had their merits, I discovered that he was already using Square in his store to sell his products and manage inventory. It made a lot of sense to tie into this system to keep everything in one place. Square makes it super easy to spin up an online store and you can generate embed codes for each item and from there it's simple: You upload a few images, set the quantity, and boom you're off selling. 
+When building the store I was looking into various options: Stripe, Shopify, and Snipcart. [chart of differences?] And while each had their merits, I discovered that he was already using Square in his physical store to sell his products and manage inventory. It made a lot of sense to tie into this system to keep everything in one place. Square makes it super easy to spin up an online store. One key feature is the ability generate product embed codes that can be placed anywhere on the internet.  
 
 #### Patterns
 I went back to the wireframe stage and started to block out patterns I would be using:
@@ -110,15 +110,17 @@ For the About Us page, we wanted to include a section about the events PSC hoste
 ![Video Block](http://darrendub.com/public/img/2015-07-23-psc/video-block.jpg "Video Block")
 
 #### Finger Tips
-We identified his core audience as twenty-something using the social medias it was important that the site be optimized for mobile finger tips. I began building the patterns with mobile in mind and had a lot of fun exploring the navigation. The navigation element gracefully degrades to meet the various mobile sizes, check it out:
+We identified his core audience as twenty-somethings using all the social medias. It was important that the site be optimized for mobile finger tips. I began building the patterns with mobile in mind and had a lot of fun exploring the navigation. The navigation element gracefully degrades to meet the various mobile sizes, check it out:
 
 *Insert Navigation GIF*
 
 #### News Letters
-Instagram was PSC's main marketing channel. I wanted to introduce a secondary channel that would build a list of new customers, build relationships with existing customers, and reach them on all their mobile devices. I'm talking about electronic mail. With the help of Mailchimp we set up a simple input to capture email addresses with the hopes of running full campaigns through email.
+Instagram was PSC's main marketing channel. I wanted to introduce a secondary channel that would build a list of new customers, cultivate relationships with existing customers, and reach them on all their mobile devices. I'm talking about electronic mail. With the help of Mailchimp we set up a simple input to capture email addresses with the hopes of running full campaigns through email.
 
 #### Launch
-We launched the site in accordance with the first anniversary of the storefront opening. This was also during the 2014 Men's World Cup. Max expertly timed a product release to coincide with the new site and the world cup. His Merica Jersey was very well received, it helped catapult the site and his brand during the launch and is still the top selling item in his outline store.
+We launched the site in accordance with the first anniversary of the storefront opening. This was also during the 2014 Men's World Cup. Max expertly timed a product release to coincide with the new site and the world cup. His <a href="">Merica Jersey</a> was very well received, it helped catapult the site and his brand during the launch and is still the top selling item in his outline store.
+
+*Images of Merica Jersey*
 
 <!-- *Outcome: What were the results? Did you build a new audience? Strengthen and grow an existing one? Increase sales? Great. Data, please.* -->
 
@@ -126,7 +128,7 @@ We launched the site in accordance with the first anniversary of the storefront 
 *How did we do?*
 
 - 6 responsive web pages
-- Storefront opened June 21, 2013
+- Physical opened June 21, 2013
 - Online store opened August 08, 2014
 - Online store generated 2x revenue in first three days
 - First month 4,000+ views on the site
@@ -142,20 +144,18 @@ We launched the site in accordance with the first anniversary of the storefront 
 ## Yellow Card
 *Or things I learned along the way*
 
-#### Not all square
-Using Square didn't come with a few drawbacks. One of them being that the actual payment does not actually happen on the paradisesoccerclub.com site. When a user clicks a product they very *subtly* get redirected to the PSC Online shop on Square Market. While this is not terrible, it does introduce another step in the buying process and my focus was to minimize the experience of that step. Another issue arose with the the embedding of products on the store. The embded code used a bit of Javascript which took some time to call the products from Square and in most cases there could be a noticable lag of the items being generated on our site. I am looking into hosting the items on our end for a snappier web experience. 
+#### Not all that squares, is gold
+Using Square came with a few drawbacks. One of them being that the actual payment does not actually happen on the paradisesoccerclub.com site. When a user clicks a product they very *subtly* get redirected to the PSC Online shop on Square Market. While this is not terrible, it does introduce another step in the buying process and my focus was to minimize the experience of that step. Another issue arose with the the embedding of products on the store. The embded code used a bit of Javascript which took some time to call the products from Square and in most cases there could be a noticable lag of the items being generated on our site. I am looking into hosting the items on our end for a snappier web experience. 
 
 All in all our decision to leverage square for the online store has been a good one. We're using an existing platform that he is using in the physical store and we can depend on the security of a well-known payments company to handle the online and in-store purchases. Another huge reason for using Square is that it managed product fulfillment all in the same web app. Which is great because Max only needs to go to one place to get information about sales, inventory, and orders. Easy peasy.  
 
-<!-- After discussing our options, Max and I were in agreement that this was still a viable option because Square would be responsible for backend credit card transaction and updating the product inventory.  -->
-
 #### Stop trying to make newsletter happen
-While building the site I thought it would be great to begin capturing email addresses in hopes of being about to build an active funnel/cycle to market to existing customers and new customers. I used mailchimp which couldn't of been simplier. I linked a form input to a mailchimp generated landing page and voila we were capturing potential customers. 
+While building the site I thought it would be great to begin capturing email addresses in hopes of building an active cycle to market existing customers and new customers. Mailchimp was extremely easy to use and integrate and we started collect some email addresses.
 
-Where we went wrong. Max didn't fully commit to generating content through email. After all it takes a lot of time and effort to create, deliver, and nurture amazing campaigns. We sent two emails total which were well recieved but our list is still too small to make an impact. In the future I'd like to help him stream line this process, possibly generating emails from his Instagram account. 
+*Where we went wrong* We did not accurately scope the time and effort to create, deliver, and nurture amazing campaigns. We sent two emails total which were well received but our list is still too small to make an impact. In the future I'd like to help him streamline this process, possibly generating emails from his Instagram account. 
 
 #### Phases, or nah
 I think rolling the site out in phases was a great idea. It helped Max get his feet wet into his brand new website. However it took a while to reach the final site because it introduced some technical debt early on. I needed to get the site out fast so using tumblr was a no-brainer. However, when it was time to build the actual site I was not able to leverage most of the code base (a lot of interal css styles and strange markup). I think if I had asked more pointed questions up front I could have identified his needs quickly and we would have arrived at the brand new site sooner.
 
-#### First
-This was my first experience getting hired to develop a full site. It was very exciting and I learned a lot along the way. I'm looking forward to doing more work like this in the future. 
+<!-- #### First
+This was my first experience getting hired to develop a full site. It was very exciting and I learned a lot along the way. I'm looking forward to doing more work like this in the future.  -->
