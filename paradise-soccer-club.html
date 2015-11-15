@@ -2,8 +2,6 @@
 layout: case-study
 title: Case Study - Paradise Soccer Club
 description: A case study of a ecommerce website for Paradise Soccer Club
-category: weblog
-comments: true
 ---
 
 <section class="intro" style="background: url('http://darrendub.com/public/img/case-study-psc/intro.png') center center; background-size: cover;">
@@ -36,13 +34,22 @@ comments: true
 
 		<p>It all started with his hugely popular Instagram account, but Max had bigger dreams. He opened his storefront in Kailua, Oahu on June 21, 2013 to open arms from the community. The locals' support coupled with his already successful social media presence and collaborations with Hawai'i's premier lifestyle brands acted as the catalyst for PSC to explode on to the scene.</p>
 
-		<p>More importantly PSC isn’t just about selling merchandise, it’s about
-		giving back to the community. He hosts soccer tournaments with cash
-		prizes, he holds FIFA tournaments and gives away merchandise to its
-		winners. His store and brand has been and will always be an ohana for
-		those who love the beautiful game.</p>
-
-		<p><em>Images/videos of events</em></p>
+		<p>More importantly PSC isn’t just about selling products, it’s about giving back to the community. They host soccer tournaments, FIFA tournaments, and gives away merchandise to its winners. PSC has been and will always be an ohana for those who love the beautiful game.</p>
+		<br>
+		<div class="grid grid-gutters grid-full">
+			<div class="grid-cell">
+			  <img class="drop-shadow" alt="2v2 Street Soccer Tournament" src="{{ site.baseurl }}/public/img/paradise-soccer-club/event-2v2.jpg">
+			  <small>2v2 street soccer tournament</small>
+			</div>
+			<div class="grid-cell">
+			  <img class="drop-shadow" alt="3v3 Street Soccer Tournament" src="{{ site.baseurl }}/public/img/paradise-soccer-club/event-3v3.jpg">
+			  <small>3v3 street soccer tournament</small>
+			</div>
+			<div class="grid-cell">
+			  <img class="drop-shadow" alt="World Cup Finals Viewing" src="{{ site.baseurl }}/public/img/paradise-soccer-club/event-world-cup.jpg">
+			  <small>World Cup finals viewing</small>
+			</div>
+		</div>
 	</div>
 </section>
 
@@ -52,8 +59,7 @@ comments: true
 		<h2 class="large-type text-center">Passing the ball</h2>
 
 		<p>I started talking with Max in June 2013, we kicked a few emails back and forth and identified a lot of areas where I could help. He wanted to provide his Instagram followers with more information about his shop. He was also in talks to begin producing his own merchandise. He needed a website to help facilitate these two goals.</p>
-
-		<p><em>Place email correspondence here</em></p>
+		<img class="width-75 center" alt="Email Correspondence" src="{{ site.baseurl }}/public/img/paradise-soccer-club/email-correspondence.png">
 
 		<p>It’s important to note that PSC is run and operated by Max alone. He doesn’t have content generators, inventory managers, marketing analysts, he didn’t even have a website. I was happy to help out a friend and excited to help push this brand forward. </p>
 
@@ -111,15 +117,6 @@ comments: true
 	had a tight turn around so I turned to Tumblr to quickly execute against the
 	first phase.</p>
 
-	<p><img alt="Phase One" src=
-	"http://darrendub.com/public/img/2015-07-23-psc/phase-one.png" title=
-	"Phase One"></p>
-
-	<p>I even created a rotating slideshow that changed out the background image,
-	this was out of scope but made the basic site a little more engaging.</p>
-
-	<p><em>Show animation</em></p>
-
 	<h4>Phase Two: Fake it 'til you make it</h4>
 
 	<p>Phase two was the first attempt to fulfill his need to update the blog,
@@ -131,9 +128,16 @@ comments: true
 	capabilities... even external css was a struggle 😔 (more on that later). But
 	it was enough to rough out some early ideas of the site.</p>
 
-	<p><img alt="Phase Two" src=
-	"http://darrendub.com/public/img/2015-07-23-psc/phase-two.png" title=
-	"Phase Two"></p>
+	<div class="grid grid-gutters grid-full">
+		<div class="grid-cell">
+		  <img class="drop-shadow" alt="Phase One" src="{{ site.baseurl }}/public/img/paradise-soccer-club/phase-1.jpg">
+		  <small>Phase One</small>
+		</div>
+		<div class="grid-cell">
+		  <img class="drop-shadow" alt="Phase Two" src="{{ site.baseurl }}/public/img/paradise-soccer-club/phase-2.jpg">
+		  <small>Phase Two</small>
+		</div>
+	</div>
 
 	<h4>Phase Three: Goooool</h4>
 
@@ -154,52 +158,36 @@ comments: true
 
 	<p>It was time to graduate the site, taking it off tumblr and on to its own hosting, using SASS to build repeatable patterns, developing the story, and most importantly creating an e-commerce store.</p>
 
-	<h4>Square Corners The Market</h4>
+	<h5>Square Corners The Market</h5>
 
-	<p>When building the store I was looking into various options: Stripe, Shopify, and Snipcart.</p>
+	<p>When building the store I was looking into various options: Stripe, Shopify, and Snipcart. And while each had their merits, I discovered that he was already using Square in his physical store to sell his products and manage inventory. It made a lot of sense to tie into this system to keep everything in one place. Square makes it super easy to spin up an online store. One key feature is the ability generate product embed codes that can be placed anywhere on the internet.  </p>
 
-	<em>[chart of differences?] </em>
+	<h5>Patterns</h5>
 
-	<p>And while each had their merits, I discovered that he was already using Square in his physical store to sell his products and manage inventory. It made a lot of sense to tie into this system to keep everything in one place. Square makes it super easy to spin up an online store. One key feature is the ability generate product embed codes that can be placed anywhere on the internet.  </p>
+	<p>I went back to the wireframe stage and started to block out patterns I would be using.</p>
 
-	<h4>Patterns</h4>
+	<img class="" alt="Phase 03 Patterns" src="{{ site.baseurl }}/public/img/paradise-soccer-club/phase-3.png">
 
-	<p>I went back to the wireframe stage and started to block out patterns I
-	would be using:</p>
-
-	<ul>
-	<li>Hero Image</li>
-
-	<li>Product Grid</li>
-
-	<li>Image Grid</li>
-
-	<li>Video Block</li>
-
-	<li>Type Treatment</li>
-	</ul>
-
-	<p>For the About Us page, we wanted to include a section about the events PSC
-	hosted. He had a lot of great video content from these events and I wanted to
-	make this section more immersive. We landed on an
-	auto-looping video shot by <a href="https://vimeo.com/botoboyfilms">Orrin
-	Nakanelua</a>.</p>
-
-	<p><img alt="Video Block" src=
-	"http://darrendub.com/public/img/2015-07-23-psc/video-block.jpg" title=
-	"Video Block"></p>
+	<p>For the About Us page, we wanted to include a section about the events PSC hosted. He had a lot of great video content from these events and we wanted to incorporate that somehow. We landed on an
+	auto-looping video shot by <a class="link-text" href="https://vimeo.com/botoboyfilms">Orrin Nakanelua</a>.</p>
+		<div class="grid grid-gutters grid-full">
+			<div class="grid-cell">
+				<video class="drop-shadow width-75 center" preload="auto" loop="loop" volume="0" autoplay muted>
+		 		<source src="http://paradisesoccerclub.com/img/events.mp4" type="video/mp4">
+		 		<source src="http://paradisesoccerclub.com/img/events.webm" type="video/web">
+	     		<source src="http://paradisesoccerclub.com/img/events.ogv" type="video/ogg">
+	          	Sorry, your browser does not support HTML5 video.
+				</video>
+			</div>
+		</div>
 
 	<h4>Finger Tips</h4>
 
-	<p>We identified his core audience as twenty-somethings using all the social medias. It was important that the site be optimized for mobile finger tips. I began building the patterns with mobile in mind and had a lot of fun exploring the navigation. The navigation element gracefully degrades to meet the various mobile sizes, check it out:</p>
+	<p>We identified his core audience as twenty-somethings using all the social medias. It was important that the site be optimized for mobile finger tips. I began building the patterns with mobile in mind and had a lot of fun exploring the navigation. We made a conscious decision to only link to SHOP at smaller screen sizes to encourage more mobile transations.</p>
 
-	<p><em>Insert Navigation GIF</em></p>
 	<div class="grid grid-gutters grid-full">
 		<div class="grid-cell">
-		  <img src="https://unsplash.it/400?image=500">
-		</div>
-		<div class="grid-cell">
-		  <img src="https://unsplash.it/400?image=501">
+		  <img class="" alt="Navigation" src="{{ site.baseurl }}/public/img/paradise-soccer-club/navigation.png">
 		</div>
 	</div>
 
@@ -207,11 +195,24 @@ comments: true
 
 	<p>Instagram was PSC's main marketing channel. I wanted to introduce a secondary channel that would build a list of new customers, cultivate relationships with existing customers, and reach them on all their mobile devices. I'm talking about electronic mail. With the help of Mailchimp we set up a simple input to capture email addresses with the hopes of running full campaigns through email.</p>
 
+	<div class="grid grid-gutters grid-full">
+		<div class="grid-cell">
+		  <img class="drop-shadow" alt="Newsletter" src="{{ site.baseurl }}/public/img/paradise-soccer-club/newsletter-1.jpg">
+		</div>
+		<div class="grid-cell">
+		  <img class="drop-shadow" alt="Newsletter" src="{{ site.baseurl }}/public/img/paradise-soccer-club/newsletter-2.jpg">
+		</div>
+	</div>
+
 	<h4>Launch</h4>
 
-	<p>We launched the site in accordance with the first anniversary of the storefront opening. This was also during the 2014 Men's World Cup. Max expertly timed a product release to coincide with the new site and the world cup. His <a href="">Merica Jersey</a> was very well received, it helped catapult the site and his brand during the launch and is still the top selling item in his outline store.</p>
-
-	<img class="full-bleed" src="https://unsplash.it/1000/500?image=333">
+	<p>We launched the site in accordance with the first anniversary of the storefront opening. This was also during the 2014 Men's World Cup. Max expertly timed a product release to coincide with the new site and the world cup. His <a class="link-text" href="">Merica Jersey</a> was very well received, it helped catapult the site and his brand during the launch and is still the top selling item in his outline store.</p>
+	<div class="grid grid-gutters grid-full">
+		<div class="grid-cell">
+		  <img class="" alt="Launch" src="{{ site.baseurl }}/public/img/paradise-soccer-club/phase-launch.png">
+		</div>
+	</div>
+	
 </div>
 </section>
 
@@ -230,7 +231,7 @@ comments: true
 
 <li>First month 4,000+ views on the site</li>
 
-<li>30,278 Total Pageviews</li>
+<li>30,488 Total Pageviews in the first year</li>
 
 <li>Most popular item online is the Merica Jersey (accounts for 40% of all
 sales)</li>
@@ -239,10 +240,11 @@ sales)</li>
 </ul>
 
 <blockquote>
-<p>Darren was extremely passionate about this product and offered many
+Darren was extremely passionate about this product and offered many
 suggestions to help push my brand. He created a fully functioning site that
-I am happy with! <cite>Max Anton, Founder, PSC</cite></p>
+I am happy with!
 </blockquote>
+<small class="center mt1"><b>Max Anton</b> <br> Paradise Soccer Club Founder</small>
 </div>
 </section>
 
@@ -255,10 +257,9 @@ I am happy with! <cite>Max Anton, Founder, PSC</cite></p>
 
 <h4>Not all that squares, is gold</h4>
 
-<p>Using Square came with a few drawbacks. One of them being that the actual payment does not actually happen on the paradisesoccerclub.com site. When a user clicks a product they very <em>subtly</em> get redirected to the PSC Online shop on Square Market. While this is not terrible, it does introduce another step in the buying process and my focus was to minimize the experience of that step. Another issue arose with the the embedding of products on the store. The embded code used a bit of Javascript which took some time to call the products from Square and in most cases there could be a noticable lag of the items being generated on our site. I am looking into hosting the items on our end for a snappier web experience. </p>
+<p>Using Square came with a few drawbacks. One of them being that the actual payment does not actually happen on the paradisesoccerclub.com site. When a user clicks a product they <em>subtly</em> get redirected to the PSC Online shop on Square Market. While this is not terrible, it does introduce another step in the buying process and my focus was to minimize the experience of that step. Another issue arose with the the embedding of products on the store. The embded code used a bit of Javascript which took some time to call the products from Square and in most cases there could be a noticable lag of the items being generated on our site. I am looking into hosting the items on our end for a snappier web experience. </p>
 
 <p>All in all our decision to leverage square for the online store has been a good one. We're using an existing platform that he is using in the physical store and we can depend on the security of a well-known payments company to handle the online and in-store purchases. Another huge reason for using Square is that it managed product fulfillment all in the same web app. Which is great because Max only needs to go to one place to get information about sales, inventory, and orders. Easy peasy. </p>
-<!-- After discussing our options, Max and I were in agreement that this was still a viable option because Square would be responsible for backend credit card transaction and updating the product inventory.  -->
 
 <h4>Stop trying to make newsletter happen</h4>
 
@@ -270,10 +271,8 @@ I am happy with! <cite>Max Anton, Founder, PSC</cite></p>
 
 <p>I think rolling the site out in phases was a great idea. It helped Max get his feet wet into his brand new website. However it took a while to reach the final site because it introduced some technical debt early on. I needed to get the site out fast so using tumblr was a no-brainer. However, when it was time to build the actual site I was not able to leverage most of the code base (a lot of interal css styles and strange markup). I think if I had asked more pointed questions up front I could have identified his needs quickly and we would have arrived at the brand new site sooner.</p>
 
-<!-- <h4>First</h4>
+<h4>Recap</h4>
 
-<p>This was my first experience getting hired to develop a full site. It was
-very exciting and I learned a lot along the way. I'm looking forward to doing
-more work like this in the future.</p> -->
+<p>There were a lot of learnings and a lot of fun explorations. Overall it was a great project to work on and a great brand to help push forward!</p>
 </div>
 </section>

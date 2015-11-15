@@ -174,15 +174,23 @@ h2 {
   font-size: 1.5rem; }
 
 h3 {
-  font-size: 1.3rem; }
+  font-size: 1.3rem;
+  font-weight: 600; }
 
 h4 {
   font-size: 1.2rem;
   font-weight: 600; }
 
+h5 {
+  font-size: 1rem;
+  font-weight: 600; }
+
 p {
   font-size: 1rem;
   margin-bottom: 1rem; }
+
+a {
+  text-decoration: none; }
 
 .large-type {
   font-size: 2rem; }
@@ -198,6 +206,9 @@ strong {
 
 em {
   font-style: italic; }
+
+b, bold {
+  font-weight: 700; }
 
 hr {
   position: relative;
@@ -216,6 +227,47 @@ li {
   text-decoration: none;
   color: #0074D9; }
 
+small {
+  font-size: .75rem; }
+
+blockquote {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  text-align: center;
+  text-indent: -0.5em;
+  color: #0074D9; }
+  @media (min-width: 35em) {
+    blockquote {
+      font-size: 2rem; } }
+  blockquote:before {
+    content: '\201C';
+    color: #0074D9;
+    display: block;
+    text-indent: 0;
+    font-size: 2rem;
+    margin-bottom: -1rem; }
+    @media (min-width: 35em) {
+      blockquote:before {
+        font-size: 3rem; } }
+
+.link-text {
+  color: #268bd2; }
+  .link-text:visited {
+    color: #268bd2; }
+
+.button {
+  padding: 0.5rem;
+  border-radius: 4px;
+  max-width: 200px;
+  text-align: center;
+  text-decoration: none; }
+  .button:visited {
+    color: white; }
+
+.button-blue {
+  color: #fff;
+  background: #268bd2; }
+
 /*--------------------------------------------------------------------
  * Helper
  *------------------------------------------------------------------*/
@@ -225,6 +277,12 @@ li {
   margin: 0;
   padding-left: 0;
   padding-right: 0; }
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
 
 /*--------------------------------------------------------------------
  * Shame - Temporary Styles
@@ -249,6 +307,9 @@ li {
 .p-25 {
   padding: 25px; }
 
+.mt1 {
+  margin-top: 1rem; }
+
 .mt-1 {
   margin-top: -1rem; }
 
@@ -261,3 +322,18 @@ a.button {
   font-family: sans-serif;
   font-size: 17px;
   font-weight: 600; }
+
+.drop-shadow {
+  box-shadow: 0px 0px 25px 0px #ccc; }
+
+.width-50 {
+  width: 100%; }
+  @media (min-width: 35em) {
+    .width-50 {
+      width: 50%; } }
+
+.width-75 {
+  width: 100%; }
+  @media (min-width: 35em) {
+    .width-75 {
+      width: 75%; } }

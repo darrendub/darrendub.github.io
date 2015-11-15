@@ -30,6 +30,10 @@
 	padding: $unit-small;
 }
 
+.mt1 {
+	margin-top: 1rem;
+}
+
 .mt-1 {
 	margin-top: -1rem;
 }
@@ -43,4 +47,21 @@ a.button {
 	font-family: sans-serif;
 	font-size: 17px;
 	font-weight: 600;
+}
+
+.drop-shadow {
+	box-shadow: 0px 0px 25px 0px #ccc;
+}
+
+.width-50 {
+	width: 100%;
+	@media (min-width: $bp-medium) {
+		width: 50%;	
+	}
+}
+.width-75 {
+	width: 100%;
+	@media (min-width: $bp-medium) {
+		width: 75%;	
+	}
 }
