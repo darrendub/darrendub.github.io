@@ -337,3 +337,9 @@ a.button {
   @media (min-width: 35em) {
     .width-75 {
       width: 75%; } }
+
+.message {
+  padding: 1rem;
+  color: #fff;
+  font-size: .75rem;
+  background-color: #444; }
