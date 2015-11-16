@@ -223,6 +223,27 @@ ul, ol {
 li {
   font-size: 1rem; }
 
+.list-checkmark {
+  list-style-type: none;
+  position: relative;
+  clear: both; }
+
+.list-checkmark li:before {
+  content: "";
+  background-size: 70% 70%;
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+  position: absolute;
+  display: block;
+  left: -1.5em;
+  height: 1.5em;
+  width: 1.5em;
+  background-image: url("http://darrendub.com/public/img/assets/list-checkmark-green.svg"); }
+
+.list-checkmark li {
+  counter-increment: section;
+  padding-bottom: 12.5px; }
+
 .link-inline {
   text-decoration: none;
   color: #0074D9; }
