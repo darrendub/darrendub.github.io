@@ -142,6 +142,15 @@ body {
   padding-left: 25px;
   padding-right: 25px; }
 
+.content {
+  padding: 25px; }
+  @media (min-width: 24em) {
+    .content {
+      padding: 50px; } }
+  @media (min-width: 35em) {
+    .content {
+      padding: 100px; } }
+
 section {
   padding-top: 25px;
   padding-bottom: 25px; }
@@ -276,18 +285,8 @@ blockquote {
   .link-text:visited {
     color: #268bd2; }
 
-.button {
-  padding: 0.5rem;
-  border-radius: 4px;
-  max-width: 200px;
-  text-align: center;
-  text-decoration: none; }
-  .button:visited {
-    color: white; }
-
-.button-blue {
-  color: #fff;
-  background: #268bd2; }
+.text-white {
+  color: #fff; }
 
 /*--------------------------------------------------------------------
  * Helper
@@ -304,6 +303,22 @@ blockquote {
   margin-left: auto;
   margin-right: auto;
   display: block; }
+
+.vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%); }
+
+.p-25 {
+  padding: 25px; }
+
+.mt1 {
+  margin-top: 1rem; }
+
+.mt-1 {
+  margin-top: -1rem; }
 
 /*--------------------------------------------------------------------
  * Shame - Temporary Styles
@@ -325,27 +340,26 @@ blockquote {
 .bg-light-blue {
   background: #d0ecfd; }
 
-.p-25 {
-  padding: 25px; }
+.bg-coal {
+  background: #444; }
 
-.mt1 {
-  margin-top: 1rem; }
-
-.mt-1 {
-  margin-top: -1rem; }
-
-a.button {
-  background-color: #268bd2;
-  padding: 12.5px;
-  border-radius: 2px;
-  color: #fff;
+.button {
+  padding: 12.5px 25px;
+  border-radius: 4px;
   text-decoration: none;
-  font-family: sans-serif;
+  font-family: "Vollkorn", serif;
   font-size: 17px;
-  font-weight: 600; }
+  font-weight: 600;
+  display: inline-block; }
+
+.button-blue {
+  background-color: #268bd2;
+  color: #fff; }
+  .button-blue:visited {
+    color: white; }
 
 .drop-shadow {
-  box-shadow: 0px 0px 25px 0px #ccc; }
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2); }
 
 .width-50 {
   width: 100%; }

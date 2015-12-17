@@ -12,3 +12,21 @@
 	margin-right: auto;
 	display: block;
 }
+
+.vertical-align {
+  @include vertical-align;
+}
+
+// Helpers for spacing
+
+.p-25 {
+	padding: $unit-small;
+}
+
+.mt1 {
+	margin-top: 1rem;
+}
+
+.mt-1 {
+	margin-top: -1rem;
+}

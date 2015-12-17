@@ -29,6 +29,16 @@ body {
 	padding-right: $unit-small; // adds spacing
 }
 
+.content {
+  padding: $unit-small;
+  @media (min-width: $bp-small) {
+    padding: $unit-medium;
+  }
+  @media (min-width: $bp-medium) {
+    padding: $unit-large;
+  }
+}
+
 section {
   padding-top: $unit-small;
   padding-bottom: $unit-small;
@@ -48,3 +58,4 @@ section {
   color: $white;
   text-align: center;
 }
+    

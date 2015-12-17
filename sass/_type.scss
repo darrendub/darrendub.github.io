@@ -141,17 +141,6 @@ blockquote {
   }
 }
 
-.button {
-  padding: 0.5rem;
-  border-radius: 4px;
-  max-width: 200px;
-  text-align: center;
-  text-decoration: none;
-  &:visited {
-    color: white;
-  }
-}
-.button-blue {
-    color: #fff;
-    background: #268bd2;
+.text-white {
+  color: $white;
 }
