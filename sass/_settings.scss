@@ -43,6 +43,10 @@ $bp-xlarge:		60em;
 // Widths
 //--------------------------------------------------------------------
 
+.one-whole {
+	width: 100%;
+}
+
 .one-half {
 	width: 100%;
 	@media (min-width: $bp-medium) {

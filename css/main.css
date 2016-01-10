@@ -27,6 +27,9 @@ img {
 /*--------------------------------------------------------------------
  * Settings - Variables for project
  *------------------------------------------------------------------*/
+.one-whole {
+  width: 100%; }
+
 .one-half {
   width: 100%; }
   @media (min-width: 35em) {
@@ -386,3 +389,6 @@ blockquote {
 
 .img-200-grid {
   max-width: 200px; }
+
+.spark-video-width {
+  width: 100%; }
