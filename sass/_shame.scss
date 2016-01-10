@@ -5,6 +5,10 @@
 .message {
 	font-family:$serif;
 	padding: 1.2em;
+	padding: 1rem;
+	color: $coal;
+	font-size: .75rem;
+	background-color: $silver;
 	p {
 		margin-bottom: 0!important;
 	}
@@ -30,6 +34,11 @@
 	background: $coal;
 }
 
+.bg-inspiration {
+	background:url(/public/img/home/home-bg-inspiration.jpg); 
+	background-size: cover; 
+}
+
 .button {
 	padding: $unit-small/2 $unit-small;
 	border-radius: 4px;	
@@ -47,42 +56,14 @@
 	    color: white;
   	}
 }
-// .button {
-//   padding: 0.5rem;
-//   border-radius: 4px;
-//   max-width: 200px;
-//   text-align: center;
-//   text-decoration: none;
-//   &:visited {
-//     color: white;
-//   }
-// }
-
-// .button-blue {
-//     color: #fff;
-//     background: #268bd2;
-// }
-
 
 .drop-shadow {
 	box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2);
 }
 
-.width-50 {
-	width: 100%;
-	@media (min-width: $bp-medium) {
-		width: 50%;	
-	}
+.img-300-grid { // Keeps images in a one-half grid at 300px 
+	max-width: 300px;
 }
-.width-75 {
-	width: 100%;
-	@media (min-width: $bp-medium) {
-		width: 75%;	
-	}
-}
-.message {
-  padding: 1rem;
-  color: $white;
-  font-size: .75rem;
-  background-color: $coal;
+.img-200-grid { // Keeps images in a one-half grid at 300px 
+	max-width: 200px;
 }
