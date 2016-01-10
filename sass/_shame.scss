@@ -68,6 +68,8 @@
 	max-width: 200px;
 }
 
-.spark-video-width {
-	width: 100%;
+.spark-new {
+	&:before {
+		content:"New";
+	}
 }
