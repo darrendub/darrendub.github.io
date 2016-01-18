@@ -1,11 +1,12 @@
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
+#relative_permalinks: true
 
 # Setup
 title:            Darren Wong
 url:              darrendub.com
 paginate:         1
+paginate_path:    "page:num"
 baseurl:          ""
 author:
   name:           Darren Wong
@@ -28,6 +29,7 @@ highlighter:      pygments
 gems:
   - jemoji # Emoji please!
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-paginate 
 
 
 # Exclude these files from your production _site
