@@ -23,7 +23,7 @@ ExpiresActive On
 # Default directive
 ExpiresDefault "access plus 1 month"
 # My favicon
-ExpiresByType image/x-icon "access plus 1 year"
+# ExpiresByType image/x-icon "access plus 1 year"
 # Images
 ExpiresByType image/gif "access plus 1 month"
 ExpiresByType image/png "access plus 1 month"
