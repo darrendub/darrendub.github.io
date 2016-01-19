@@ -21,18 +21,18 @@ BrowserMatch bMSIE !no-gzip !gzip-only-text/html
 # Enable expirations
 ExpiresActive On 
 # Default directive
-ExpiresDefault "access plus 1 month"
+ExpiresDefault "access plus 60 days"
 # My favicon
-# ExpiresByType image/x-icon "access plus 1 year"
+ExpiresByType image/x-icon "access plus 1 year"
 # Images
-ExpiresByType image/gif "access plus 1 month"
-ExpiresByType image/png "access plus 1 month"
-ExpiresByType image/jpg "access plus 1 month"
-ExpiresByType image/jpeg "access plus 1 month"
+ExpiresByType image/gif "access plus 60 days"
+ExpiresByType image/png "access plus 60 days"
+ExpiresByType image/jpg "access plus 60 days"
+ExpiresByType image/jpeg "access plus 60 days"
 # Video
-ExpiresByType mp4 "access plus 1 month"
+ExpiresByType mp4 "access plus 60 days"
 # CSS
-ExpiresByType text/css "access plus 1 month"
+ExpiresByType text/css "access plus 60 days"
 # Javascript
-ExpiresByType application/javascript "access plus 1 year"
+ExpiresByType application/javascript "access plus 60 days"
 </IfModule>
