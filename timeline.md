@@ -13,7 +13,7 @@ I’m doing an open redesign of my site (<a href="/weblog/2015/04/15/open-redesi
 		<span class="time">January 20, 2016</span>
 		<span class="title">Navigation Explore</span>
 		<span class="text">I was a little nervous to start work on the nav because I knew it would require a bit of JS. After tinkering with it for a while its starting to come together! #toggleClass FTW</span>
-		<img src="/public/img/timeline/2016-01-20-nav.jpg">
+		<img src="/public/img/timeline/2016-01-20-nav.png">
 	</li>
 	<li>
 		<span class="time">January 19, 2016</span>
