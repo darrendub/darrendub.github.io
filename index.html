@@ -2,20 +2,32 @@
 layout: landing
 description: Follow along as I redesign my website out in the wilderness of the Internet.
 ---
-
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <div class="message">Hey hi! I am currently developing this site in the open. <a href="{{ site.baseurl }}/weblog/2015/04/15/open-redesign/">Here's why</a> and here is a <a href="{{ site.baseurl }}/timeline">timeline</a> for updates.
 </div>
-<section class="bg-light-gray">
-  <div class="container">
-    <h1 class="text-center">Greetings! I design and develop for screens and things. I work on fully-functioning sites to impressive illustrations.</h1>
-  </div>
-</section>
+
+<nav>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Projects</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="content bg-light-gray padding-bottom-200">
+    <h4 class="text-center center menu" id="menu"><a href="#">Darren Wong &#9776;</a></h4>
+    <hr class="one-third center">
+    <h1 class="text-center two-thirds center">Greetings! I design and develop for screens and things from fully-functioning sites to impressive illustrations.</h1>
+</div>
 <div class="content" style="background-color:#c08d2d;">
-  <div class="grid grid-gutters grid-full">
-    <div class="grid-cell">
-      <img class="img-300-grid" alt="Paradise Soccer Club" src="{{ site.baseurl }}/public/img/home/home-psc-img.png">
+  <div class="grid grid-gutters grid-half">
+    <div class="grid-cell margin-top-neg-250">
+      <img class="img-300-grid center" alt="Paradise Soccer Club" src="{{ site.baseurl }}/public/img/home/home-psc-img.png">
     </div>
-    <div class="grid-cell">
+  </div>
+  <div class="grid grid-gutters grid-full">
+    <div class="grid-cell center">
       <h3 class="text-white">Paradise Soccer Club</h3>
       <p class="text-white">Building an online presence for a soccer lifestyle brand.</p>
       <a href="{{ site.baseurl }}paradise-soccer-club" class="button button-blue drop-shadow">View Project</a>
@@ -79,5 +91,10 @@ description: Follow along as I redesign my website out in the wilderness of the 
     </div>
   </div>
 </div>
+<script>
+$('#menu').click(function(){
+    $('nav').toggleClass("is-visible");
+});
+</script>
 
 

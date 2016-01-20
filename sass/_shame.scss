@@ -4,11 +4,11 @@
 
 .message {
 	font-family:$serif;
-	padding: 1.2em;
-	padding: 1rem;
+	padding: 1em;
+	padding: .75rem;
 	color: $coal;
-	font-size: .75rem;
-	background-color: $silver;
+	font-size: .6rem;
+	text-align: center;
 	p {
 		margin-bottom: 0!important;
 	}
@@ -68,8 +68,17 @@
 	max-width: 200px;
 }
 
-.spark-new {
-	&:before {
-		content:"New";
+.margin-top-neg-250 {
+	margin-top: 0;
+	@media (min-width: $bp-medium) {
+		margin-top: -$unit-large*2.2;
 	}
 }
+.padding-bottom-200 {
+	padding-bottom: auto;
+	@media (min-width: $bp-medium) {
+		padding-bottom:$unit-large*2;
+	}
+}
+
+

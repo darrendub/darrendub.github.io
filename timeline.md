@@ -10,6 +10,22 @@ I’m doing an open redesign of my site (<a href="/weblog/2015/04/15/open-redesi
 <div class="timeline">
 <ul>
 	<li>
+		<span class="time">January 20, 2016</span>
+		<span class="title">Navigation Explore</span>
+		<span class="text">I was a little nervous to start work on the nav because I knew it would require a bit of JS. After tinkering with it for a while its starting to come together! #toggleClass FTW</span>
+		<img src="/public/img/timeline/2016-01-20-nav.jpg">
+	</li>
+	<li>
+		<span class="time">January 19, 2016</span>
+		<span class="title">Curiosity Shoppe Icons - First Draft</span>
+		<span class="text"><a href="http://darrendub.com/curiosity-shoppe"> Check it out &#8594;</a></span>
+	</li>
+	<li>
+		<span class="time">January 18, 2016</span>
+		<span class="title">Sparks</span>
+		<span class="text">I was feeling uninspired so I made a site for my Spark Camera Videos<a href="http://darrendub.com/sparks"> Check it out &#8594;</a></span>
+	</li>
+	<li>
 		<span class="time">November 15, 2015</span>
 		<span class="title">Don't call it a come back!</span>
 		<span class="text">Finally getting back to my site developed some css and created assets for the Paradise Soccer Club case study. Now I need to work on the copy. <a href="http://darrendub.com/paradise-soccer-club"> Check it out &#8594;</a></span>
@@ -33,7 +49,7 @@ I’m doing an open redesign of my site (<a href="/weblog/2015/04/15/open-redesi
 		<span class="time">July 13, 2015</span>
 		<span class="title">Building Blocks</span>
 		<span class="text">Started building out some of the wireframes this weekend! <a href="{{ site.baseurl }}/"> Check it out &#8594;</a></span>
-			<img src="/public/img/2015-07-13-timeline/2015-07-13.jpg">
+			<img src="/public/img/timeline/2015-07-13.jpg">
 	</li>
 	<li>
 		<span class="time">July 08, 2015</span>

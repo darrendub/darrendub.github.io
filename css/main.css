@@ -182,6 +182,47 @@ section {
   text-align: center; }
 
 /*--------------------------------------------------------------------
+ * Nav
+ *------------------------------------------------------------------*/
+nav {
+  left: 0;
+  top: 0;
+  padding: 25px;
+  -webkit-transform: translateY(-100%);
+      -ms-transform: translateY(-100%);
+          transform: translateY(-100%);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s; }
+  @media (min-width: 24em) {
+    nav {
+      padding: 50px; } }
+  @media (min-width: 35em) {
+    nav {
+      padding: 100px; } }
+  nav ul {
+    list-style: none;
+    text-align: center; }
+    nav ul li {
+      font-size: 1.2em;
+      display: inline-block;
+      padding-left: 50px;
+      padding-right: 50px; }
+
+.menu a {
+  color: #444; }
+  .menu a:visited {
+    color: #444; }
+
+.is-visible {
+  -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0); }
+
+/*--------------------------------------------------------------------
  * Type
  *------------------------------------------------------------------*/
 h1, h2, h3, h4, h5, h6 {
@@ -340,11 +381,11 @@ blockquote {
  *------------------------------------------------------------------*/
 .message {
   font-family: "Vollkorn", serif;
-  padding: 1.2em;
-  padding: 1rem;
+  padding: 1em;
+  padding: .75rem;
   color: #444;
-  font-size: .75rem;
-  background-color: #e1e1e1; }
+  font-size: .6rem;
+  text-align: center; }
   .message p {
     margin-bottom: 0 !important; }
   .message a {
@@ -390,5 +431,14 @@ blockquote {
 .img-200-grid {
   max-width: 200px; }
 
-.spark-new:before {
-  content: "New"; }
+.margin-top-neg-250 {
+  margin-top: 0; }
+  @media (min-width: 35em) {
+    .margin-top-neg-250 {
+      margin-top: -220.0px; } }
+
+.padding-bottom-200 {
+  padding-bottom: auto; }
+  @media (min-width: 35em) {
+    .padding-bottom-200 {
+      padding-bottom: 200px; } }

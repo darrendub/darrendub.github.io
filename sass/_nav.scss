@@ -1,0 +1,44 @@
+/*--------------------------------------------------------------------
+ * Nav
+ *------------------------------------------------------------------*/
+
+nav {
+  left: 0;
+  top: 0;
+  padding: $unit-small;
+  @media (min-width: $bp-small) {
+    padding: $unit-medium;
+  }
+  @media (min-width: $bp-medium) {
+    padding: $unit-large;
+  }
+  transform: translateY(-100%);
+  transition-property: transform;
+  transition-duration: 0.5s;
+  ul {
+    list-style: none;
+    text-align: center;
+    li {
+      font-size: 1.2em;
+      display:inline-block;
+      padding-left: $unit-medium;
+      padding-right: $unit-medium;
+    }
+  }
+}
+
+.menu {
+  a {
+  color: $coal;
+    &:visited {
+      color: $coal;
+    }
+  }
+}
+
+.is-visible {
+  transform: translateY(0);
+}
+
+
+
