@@ -12,7 +12,7 @@ nav {
   @media (min-width: $bp-medium) {
     padding: $unit-large;
   }
-  transform: translateY(-100%);
+  transform: translateY(-120%);
   transition-property: transform;
   transition-duration: 0.5s;
   ul {
