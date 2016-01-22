@@ -80,5 +80,8 @@
 		padding-bottom:$unit-large*2;
 	}
 }
+.video-poster {
+	@extend .drop-shadow;
+}
 
 

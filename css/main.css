@@ -422,7 +422,7 @@ blockquote {
   .button-blue:visited {
     color: white; }
 
-.drop-shadow {
+.drop-shadow, .video-poster {
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2); }
 
 .img-300-grid {
