@@ -6,35 +6,59 @@ nav {
   left: 0;
   top: 0;
   padding: $unit-small;
-  @media (min-width: $bp-small) {
-    padding: $unit-medium;
-  }
-  @media (min-width: $bp-medium) {
-    padding: $unit-large;
-  }
-  transform: translateY(-120%);
+  background:$white;
+  z-index: $z-100;
+  position: fixed;
+  width: 100%;
+  transform: translateY(-110%);
   transition-property: transform;
   transition-duration: 0.5s;
+  @extend .drop-shadow;
+  @media (min-width: $bp-medium) {
+    padding: $unit-medium;
+  }
   ul {
     list-style: none;
     text-align: center;
+    margin-top: $unit-small;
+    @media (min-width: $bp-medium) {
+      margin-top: $unit-small;
+    }
+
     li {
       font-size: 1.2em;
       display:inline-block;
       padding-left: $unit-medium;
       padding-right: $unit-medium;
+      a {
+        color: $coal;
+        &:visited {
+          color: $coal;
+        }
+      }
     }
   }
 }
 
-.menu {
-  a {
-  color: $coal;
+
+  .menu {
+    color: $coal;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    z-index:$z-200;
+    position: absolute;
+    text-align: center;
+    top: $unit-small; left: 0; bottom: 0; right: 0;
+    cursor: pointer;
     &:visited {
       color: $coal;
     }
+    span{
+      font-weight: 600;
+    }
   }
-}
+
 
 .is-visible {
   transform: translateY(0);
