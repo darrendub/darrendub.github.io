@@ -207,7 +207,7 @@ nav {
   nav ul {
     list-style: none;
     text-align: center;
-    margin-top: 25px; }
+    margin-top: 50px; }
     @media (min-width: 35em) {
       nav ul {
         margin-top: 25px; } }
