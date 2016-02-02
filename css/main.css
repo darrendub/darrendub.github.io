@@ -441,6 +441,19 @@ blockquote {
 .bg-psc {
   background-color: #c08d2d; }
 
+.bg-hemingway {
+  background: url(/public/img/home/home-hemingway.png);
+  background-size: cover;
+  height: 268px;
+  margin-top: 10px;
+  margin-left: 10px; }
+  @media (min-width: 35em) {
+    .bg-hemingway {
+      margin-left: -28px;
+      margin-top: -28px;
+      height: 375px;
+      margin-bottom: -72px; } }
+
 .button {
   padding: 12.5px 25px;
   border-radius: 4px;

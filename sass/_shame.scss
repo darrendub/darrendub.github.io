@@ -9,13 +9,13 @@
 	color: $coal;
 	font-size: .6rem;
 	text-align: center;
-	p {
-		margin-bottom: 0!important;
-	}
+		p {
+			margin-bottom: 0!important;
+		}
 
-	a {
-		color: #268bd2;
-	}
+		a {
+			color: #268bd2;
+		}
 }
 
 .bg-light-gray {
@@ -42,6 +42,20 @@
 }
 .bg-psc {
 	background-color: #c08d2d;
+}
+
+.bg-hemingway { // This is all really terrible code...
+	background:url(/public/img/home/home-hemingway.png); 
+	background-size: cover; 
+	height: 268px;
+	margin-top: 10px;
+	margin-left: 10px;
+	@media (min-width: $bp-medium) {
+		margin-left: -28px;
+	    margin-top: -28px;
+	    height: 375px;
+	    margin-bottom: -72px;
+	}
 }
 
 
@@ -94,8 +108,6 @@
 	@media (min-width: $bp-medium) {
 		padding-bottom:$unit-large;
 		padding-top: 0;
-	}
-	h1 {
 	}
 }
 .video-poster {
