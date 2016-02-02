@@ -27,9 +27,11 @@ nav {
 
     li {
       font-size: 1.2em;
-      display:inline-block;
       padding-left: $unit-medium;
       padding-right: $unit-medium;
+      @media (min-width: 646px) {
+        display:inline-block;
+      }
       a {
         color: $coal;
         &:visited {

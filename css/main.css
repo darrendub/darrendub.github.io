@@ -213,9 +213,11 @@ nav {
         margin-top: 25px; } }
     nav ul li {
       font-size: 1.2em;
-      display: inline-block;
       padding-left: 50px;
       padding-right: 50px; }
+      @media (min-width: 646px) {
+        nav ul li {
+          display: inline-block; } }
       nav ul li a {
         color: #444; }
         nav ul li a:visited {
@@ -489,7 +491,7 @@ blockquote {
   max-width: 200px; }
 
 .homepage-intro {
-  padding-top: 25px;
+  padding-top: 50px;
   padding-bottom: 25px; }
   @media (min-width: 35em) {
     .homepage-intro {
