@@ -2,23 +2,11 @@
 layout: landing
 description: Follow along as I redesign my website out in the wilderness of the Internet.
 ---
-<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-<a class="menu" id="menu">
-  <span>Darren Wong &#9776;</span>
-</a>
-<!--   <h4 class="text-center center menu" id="menu"><a href="#"></a></h4>  --> 
-<nav>
-  <ul>
-    <li><a href="#">Work</a></li>
-    <li><a href="#">Words</a></li>
-    <li><a href="#">About</a></li>
-  </ul>
-  <div class="message">Hey hi! I am currently developing this site in the open. <a href="{{ site.baseurl }}/weblog/2015/04/15/open-redesign/">Here's why</a> and here is a <a href="{{ site.baseurl }}/timeline">timeline</a> for updates.
-</div>
-</nav>
 <div class="content bg-light-gray">
-    <h1 class="homepage-intro text-center two-thirds center">Greetings! I design and develop for screens and things from fully-functioning sites to impressive illustrations.</h1>
-
+    <div class="homepage-intro">
+      <h1 class="text-center two-thirds center">Aloha! I design and develop for screens and things from fully-functioning sites to impressive illustrations.</h1>
+    <p class="text-center"><a class="link-text" href="{{ site.baseurl }}/about">Learn more</a> or scroll to check out my work</p>
+    </div>
     <div class="bg-psc work-card center rounded-corners drop-shadow">
   <div class="grid grid-gutters grid-full">
     <div class="grid-cell">
@@ -27,7 +15,7 @@ description: Follow along as I redesign my website out in the wilderness of the 
     <div class="grid-cell">
       <h3 class="text-white">Paradise Soccer Club</h3>
       <p class="text-white">Building an online presence for a soccer lifestyle brand.</p>
-      <a href="" class="button button-dark">View Project</a>
+      <a href="{{ site.baseurl }}/paradise-soccer-club" class="button button-dark">View Project</a>
     </div>
   </div>
 </div>
@@ -53,7 +41,7 @@ description: Follow along as I redesign my website out in the wilderness of the 
     <div class="grid-cell">
       <h3 class="text-white">Curiosity Shoppe Icons</h3>
       <p class="text-white">Finding the identity for Inkling's category crisis to help onboard new users.</p>
-      <a href="" class="button button-dark">View Project</a>
+      <a href="{{ site.baseurl }}/curiosity-shoppe" class="button button-dark">View Project</a>
     </div>
   </div>
 </div>
@@ -61,7 +49,6 @@ description: Follow along as I redesign my website out in the wilderness of the 
 <div class="bg-warm-blue work-card rounded-corners center">
   <div class="grid grid-gutters grid-full">
     <div class="grid-cell bg-hemingway">
-      <!-- <img class="" alt="Hemingway" src="{{ site.baseurl }}/public/img/home/home-hemingway.png"> -->
     </div>
     <div class="grid-cell">
       <h3 class="text-white">Project Hemingway</h3>
@@ -88,29 +75,27 @@ description: Follow along as I redesign my website out in the wilderness of the 
 </div> -->
 
 <div class="content" style="">
-  <h2 class="text-center">Side Projects</h2>
-  <div class="grid grid-gutters grid-full">
+  <h1 class="text-center">Side Projects</h1>
+  <div class="grid grid-gutters grid-full mt1">
     <div class="grid-cell">
-      <img class="img-200-grid center" alt="Drake Ipsum" src="{{ site.baseurl }}/public/img/home/side-project-drake.png">
-      <p class="text-center">Drake Ipsum</p>
+      <a href="http://drakeipsum.co/">
+        <img class="img-200-grid center" alt="Drake Ipsum" src="{{ site.baseurl }}/public/img/home/side-project-drake.svg">
+      </a>
+      <p class="text-center mt1">Drake Ipsum</p>
     </div>
     <div class="grid-cell">
-      <img class="img-200-grid center" alt="Smoked Meat Saturdays" src="{{ site.baseurl }}/public/img/home/side-project-sms.png">
-      <p class="text-center">Smoked Meat Saturdays</p>
+      <a href="http://www.smokedmeatsaturdays.com/">
+        <img class="img-200-grid center" alt="Smoked Meat Saturdays" src="{{ site.baseurl }}/public/img/home/side-project-sms.svg">
+      </a>
+      <p class="text-center mt1">Smoked Meat Saturdays</p>
     </div>
     <div class="grid-cell">
-      <img class="img-200-grid center" alt="Three Things" src="{{ site.baseurl }}/public/img/home/side-project-three-things.png">
-      <p class="text-center">Three Things</p>
+      <a href="http://eepurl.com/TPdEj">
+        <img class="img-200-grid center" alt="Three Things" src="{{ site.baseurl }}/public/img/home/side-project-three-things.svg">
+      </a>
+      <p class="text-center mt1">Three Things</p>
     </div>
   </div>
 </div>
-<script>
-$('#menu').click(function(){
-  $('nav').toggleClass("is-visible");
-  $(window).scroll(function () {
-    $('nav').removeClass("is-visible", ($(window).scrollTop() > 100));
-   });
-});
-</script>
 
 

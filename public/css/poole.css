@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Chivo', sans-serif;
   
 }
 h1 {
@@ -250,7 +250,7 @@ table {
   width: 100%;
   border: 1px solid #e5e5e5;
   border-collapse: collapse;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Chivo', sans-serif;
 }
 td,
 th {
@@ -373,7 +373,7 @@ tbody tr:nth-child(odd) th {
   margin-top: -.5rem;
   margin-bottom: 1rem;
   color: #9a9a9a;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Chivo', sans-serif;
   font-size: 0.9em;
 }
 
@@ -476,14 +476,14 @@ tbody tr:nth-child(odd) th {
 
 span.time {
   font-size: 0.7rem;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Chivo', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
 span.title {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Chivo', sans-serif;
   font-weight: 600; 
 }
 
@@ -581,7 +581,7 @@ a.pagination-item:hover {
  .button {
   padding: 0.5rem;
   border-radius: 4px;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Chivo', sans-serif;
   max-width: 200px;
   text-align: center;
  }

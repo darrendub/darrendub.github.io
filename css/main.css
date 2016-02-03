@@ -188,7 +188,7 @@ nav {
   left: 0;
   top: 0;
   padding: 25px;
-  background: #fff;
+  background-color: #fff;
   z-index: 100;
   position: fixed;
   width: 100%;
@@ -223,19 +223,26 @@ nav {
         nav ul li a:visited {
           color: #444; }
 
+.menu-container {
+  position: relative;
+  padding: 25px; }
+
 .menu {
   color: #444;
   width: 100%;
-  height: 30px;
-  line-height: 30px;
+  height: 50px;
+  background-color: #fff;
+  padding-top: 25px;
+  padding-bottom: 50px;
   z-index: 200;
   position: absolute;
   text-align: center;
-  top: 25px;
+  top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  cursor: pointer; }
+  cursor: pointer;
+  font-family: "Chivo", sans-serif; }
   .menu:visited {
     color: #444; }
   .menu span {
@@ -254,7 +261,9 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.25;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Chivo", sans-serif;
+  letter-spacing: 0; }
 
 h1 {
   font-size: 1.75rem; }
@@ -412,7 +421,7 @@ blockquote {
 .message {
   font-family: "Vollkorn", serif;
   padding: 1em;
-  padding: .75rem;
+  padding: 1em;
   color: #444;
   font-size: .6rem;
   text-align: center; }
@@ -423,6 +432,9 @@ blockquote {
 
 .bg-light-gray {
   background: #f8f8f8; }
+
+.bg-deep-sea-blue {
+  background: #2c3e50; }
 
 .bg-gray {
   background: #e1e1e1; }
@@ -506,3 +518,7 @@ blockquote {
     .work-card {
       margin-bottom: 100px;
       padding: 50px; } }
+
+footer .social-icon {
+  max-width: 25px;
+  display: inline-block; }

@@ -10,14 +10,14 @@ paginate_path:    "page:num"
 baseurl:          ""
 author:
   name:           Darren Wong
-  description:    Interactive designer at Inkling. Connoisseur of Wes Anderson movies and Drake lyrics.
+  description:    Interactive designer at Inkling. Connoisseur of Wes Anderson films and Drake lyrics.
   url:            darrendub.com
   email:          darrendavenwong@gmail.com
 
 # Custom vars
 repo:             https://github.com/darrendub/darrendub.github.io
-markdown:         redcarpet
-highlighter:      pygments
+markdown:         kramdown
+highlighter:      rouge
 
 # Style
 ## Set the Sass partials directory, as we're using @imports

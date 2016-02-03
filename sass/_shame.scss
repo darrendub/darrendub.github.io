@@ -5,7 +5,7 @@
 .message {
 	font-family:$serif;
 	padding: 1em;
-	padding: .75rem;
+	padding: 1em;
 	color: $coal;
 	font-size: .6rem;
 	text-align: center;
@@ -20,6 +20,10 @@
 
 .bg-light-gray {
 	background:$clouds;
+}
+
+.bg-deep-sea-blue {
+	background:$deep-sea-blue;
 }
 
 .bg-gray {
@@ -121,6 +125,13 @@
 	@media (min-width: $bp-medium) {
 		margin-bottom:$unit-large;
 		padding: $unit-medium;
+	}
+}
+
+footer {
+	.social-icon {
+		max-width: $unit-small;
+		display: inline-block;
 	}
 }
 

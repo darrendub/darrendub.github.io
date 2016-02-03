@@ -6,7 +6,7 @@ nav {
   left: 0;
   top: 0;
   padding: $unit-small;
-  background:$white;
+  background-color:$white;
   z-index: $z-100;
   position: fixed;
   width: 100%;
@@ -42,17 +42,23 @@ nav {
   }
 }
 
-
+  .menu-container {
+    position: relative;
+    padding: $unit-small;
+  }
   .menu {
     color: $coal;
     width: 100%;
-    height: 30px;
-    line-height: 30px;
+    height: $unit-medium;
+    background-color: $white;
+    padding-top: $unit-small;
+    padding-bottom: $unit-medium;
     z-index:$z-200;
     position: absolute;
     text-align: center;
-    top: $unit-small; left: 0; bottom: 0; right: 0;
+    top: 0; left: 0; bottom: 0; right: 0;
     cursor: pointer;
+    font-family: $sans;
     &:visited {
       color: $coal;
     }

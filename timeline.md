@@ -10,6 +10,18 @@ I’m doing an open redesign of my site (<a href="/weblog/2015/04/15/open-redesi
 <div class="timeline">
 <ul>
 	<li>
+		<span class="time">Feburary 02, 2016</span>
+		<span class="title">Updating all the things</span>
+		<span class="text">Made some major🔑 updates my homepage.</span>
+		<span class="text"><a href="http://darrendub.com/"> Check it out &#8594;</a></span>
+	</li>
+	<li>
+		<span class="time">Feburary 01, 2016</span>
+		<span class="title">Iteration</span>
+		<span class="text">After updating the nav, I tinkered a bit with displaying my work on the homepage.</span>
+		<img src="/public/img/timeline/2016-02-01-update.jpg">
+	</li>
+	<li>
 		<span class="time">January 20, 2016</span>
 		<span class="title">Navigation Explore</span>
 		<span class="text">I was a little nervous to start work on the nav because I knew it would require a bit of JS. After tinkering with it for a while its starting to come together! #toggleClass FTW</span>
