@@ -262,8 +262,7 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Chivo", sans-serif;
-  letter-spacing: 0; }
+  font-family: "Chivo", sans-serif; }
 
 h1 {
   font-size: 1.75rem; }
@@ -283,7 +282,11 @@ h3 {
 
 h4 {
   font-size: 1.2rem;
-  font-weight: 600; }
+  font-weight: 600;
+  letter-spacing: -1px; }
+  @media (min-width: 35em) {
+    h4 {
+      letter-spacing: 0; } }
 
 h5 {
   font-size: 1rem;

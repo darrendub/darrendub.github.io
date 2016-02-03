@@ -9,7 +9,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: $sans;
-  letter-spacing: 0;
   
 }
 
@@ -35,6 +34,10 @@ h3 {
 h4 {
 	font-size: 1.2rem;
 	font-weight: 600;
+  letter-spacing:-1px;
+  @media (min-width: $bp-medium) {
+     letter-spacing:0;
+    }
   
 }
 
