@@ -17,6 +17,7 @@
   <!-- CSS -->
   <link rel="stylesheet" href="/public/css/poole.css">
   <link rel="stylesheet" href="/public/css/syntax.css">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Chivo:400' rel='stylesheet' type='text/css'>
   <!-- <link href='http://fonts.googleapis.com/css?family=Fira+Sans:300, 600' rel='stylesheet' type='text/css'> -->
@@ -31,7 +32,22 @@
 
   <body>
 
-    <div class="container content">
+  <div class="menu-container">
+    <a class="menu" id="menu">
+      <span>Darren Wong &#9776;</span>
+    </a>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="/">Work</a></li>
+      <li><a href="/weblog">Words</a></li>
+      <li><a href="/about">About</a></li>
+    </ul>
+    <div class="message">Hey hi! I am currently developing this site in the open. <a href="/weblog/2015/04/15/open-redesign/">Here's why</a> and here is a <a href="/timeline">timeline</a> for updates.
+    </div>
+  </nav>
+
+    <!-- <div class="container content">
       <header class="masthead">
         <h3 class="masthead-title">
           <a href="/" title="Home">Darren Wong</a>
@@ -41,8 +57,8 @@
             <a href="/timeline">Timeline</a>
           </small>
         </h3>
-      </header>
-
+      </header> -->
+<div class="container content">
       <main>
         <div class="page">
   <h1 class="page-title">Whoops</h1>
@@ -52,12 +68,27 @@
 </div>
 
       </main>
-      <footer class="footer">
-        <small>
-          This site is built with <a href="http://jekyllrb.com/">Jekyll</a> in a flavor of <a href="http://getpoole.com/">Poole</a> and hosted on GitHub. Set in <a href="http://www.google.com/fonts/specimen/Fira+Sans">Fira Sans</a> and <a href="https://www.google.com/fonts/specimen/Vollkorn">Vollkorn</a>. Hand typed by <a href="https://twitter.com/darrendub">Darren Wong</a> in San Francisco.  
-        </small>
-      </footer>
+      <footer>
+      <div class="">
+        <p class="text-white text-center">Hand-typed by Darren Wong in San Francisco, California.</p>
+        <div class="text-center">
+          <a href="https://twitter.com/darrendub">
+            <img class="social-icon" src="/public/img/social/logo-twitter.svg">
+          </a>
+          <a href="https://dribbble.com/darrendub">
+            <img class="social-icon" src="/public/img/social/logo-dribbble.svg">
+          </a>
+        </div>
+      </div>
+</footer>
     </div>
-
   </body>
+    <script>
+$('#menu').click(function(){
+  $('nav').toggleClass("is-visible");
+  $(window).scroll(function () {
+    $('nav').removeClass("is-visible", ($(window).scrollTop() > 100));
+   });
+});
+</script>
 </html>

@@ -19,26 +19,30 @@
 }
 
 .bg-light-gray {
-	background:$clouds;
+	background-color:$clouds;
+}
+
+.bg-white {
+	background-color: $white;
 }
 
 .bg-deep-sea-blue {
-	background:$deep-sea-blue;
+	background-color:$deep-sea-blue;
 }
 
 .bg-gray {
-	background:$silver;
+	background-color:$silver;
 }
 
 .bg-light-blue {
-	background:#d0ecfd;
+	background-color:#d0ecfd;
 }
 .bg-warm-blue {
-	background: #037db7;
+	background-color:#037db7;
 }
 
 .bg-coal {
-	background: $coal;
+	background-color:$coal;
 }
 .bg-inspiration {
 	background:url(/public/img/home/home-bg-inspiration.jpg); 

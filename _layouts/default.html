@@ -5,7 +5,22 @@
 
   <body>
 
-    <div class="container content">
+  <div class="menu-container">
+    <a class="menu" id="menu">
+      <span>Darren Wong &#9776;</span>
+    </a>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="{{ site.baseurl }}/">Work</a></li>
+      <li><a href="{{ site.baseurl }}/weblog">Words</a></li>
+      <li><a href="{{ site.baseurl }}/about">About</a></li>
+    </ul>
+    <div class="message">Hey hi! I am currently developing this site in the open. <a href="{{ site.baseurl }}/weblog/2015/04/15/open-redesign/">Here's why</a> and here is a <a href="{{ site.baseurl }}/timeline">timeline</a> for updates.
+    </div>
+  </nav>
+
+    <!-- <div class="container content">
       <header class="masthead">
         <h3 class="masthead-title">
           <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
@@ -15,17 +30,32 @@
             <a href="{{ site.baseurl }}/timeline">Timeline</a>
           </small>
         </h3>
-      </header>
-
+      </header> -->
+<div class="container content">
       <main>
         {{ content }}
       </main>
-      <footer class="footer">
-        <small>
-          This site is built with <a href="http://jekyllrb.com/">Jekyll</a> in a flavor of <a href="http://getpoole.com/">Poole</a> and hosted on GitHub. Set in <a href="http://www.google.com/fonts/specimen/Fira+Sans">Fira Sans</a> and <a href="https://www.google.com/fonts/specimen/Vollkorn">Vollkorn</a>. Hand typed by <a href="https://twitter.com/darrendub">Darren Wong</a> in San Francisco.  
-        </small>
-      </footer>
+      <footer>
+      <div class="">
+        <p class="text-white text-center">Hand-typed by Darren Wong in San Francisco, California.</p>
+        <div class="text-center">
+          <a href="https://twitter.com/darrendub">
+            <img class="social-icon" src="{{ site.baseurl }}/public/img/social/logo-twitter.svg">
+          </a>
+          <a href="https://dribbble.com/darrendub">
+            <img class="social-icon" src="{{ site.baseurl }}/public/img/social/logo-dribbble.svg">
+          </a>
+        </div>
+      </div>
+</footer>
     </div>
-
   </body>
+    <script>
+$('#menu').click(function(){
+  $('nav').toggleClass("is-visible");
+  $(window).scroll(function () {
+    $('nav').removeClass("is-visible", ($(window).scrollTop() > 100));
+   });
+});
+</script>
 </html>

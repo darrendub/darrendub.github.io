@@ -15,59 +15,63 @@
   </title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="/public/css/poole.css">
-  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/css/main.css">
   <link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Chivo:400' rel='stylesheet' type='text/css'>
-  <!-- <link href='http://fonts.googleapis.com/css?family=Fira+Sans:300, 600' rel='stylesheet' type='text/css'> -->
   <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="public/apple-touch-icon-precomposed.png">
-  <!-- <link rel="shortcut icon" href="public/favicon.ico"> -->
-
-  <!-- RSS -->
-  <link rel="alternate" type="application/atom+xml" title="Darren Wong" href="atom.xml">
+  <!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="public/apple-touch-icon-precomposed.png"> -->
+  <!-- JS -->
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
 
-  <body>
+<body>
+  <div class="menu-container">
+    <a class="menu" id="menu">
+      <span>Darren Wong &#9776;</span>
+    </a>
+</div>
+<nav>
+  <ul>
+    <li><a href="/">Work</a></li>
+    <li><a href="/weblog">Words</a></li>
+    <li><a href="/about">About</a></li>
+  </ul>
+  <div class="message">Hey hi! I am currently developing this site in the open. <a href="/weblog/2015/04/15/open-redesign/">Here's why</a> and here is a <a href="/timeline">timeline</a> for updates.
+</div>
+</nav>
 
-    <div class="container content">
-      <header class="masthead">
-        <h3 class="masthead-title">
-          <a href="/" title="Home">Darren Wong</a>
-          <small>
-            <a href="/weblog">Weblog</a> |
-            <a href="/about">About</a> |
-            <a href="/timeline">Timeline</a>
-          </small>
-        </h3>
-      </header>
+    <div class="content bg-light-gray">
+	<div class="content-small bg-white two-thirds center">
+		<p>Greetings, my name is Darren. I am a designer currently working on <a class="link-text" href="http://inkling.com">inkling.com</a> designing extensible patterns and code to tell our story and engage our visitors. </p>
 
-      <main>
-        <article class="page">
-  <h1 class="page-title">About</h1>
-  <p>Greetings, my name is Darren. I design and develop for screens and things. I currently work on <a href="http://inkling.com">inkling.com</a> designing extensible patterns and code to tell our story and engage our visitors. </p>
+		<p>I was born and raised on the sunny island of O’ahu, Hawai’i and I currently live in foggy San Francisco.</p>
 
-<p>I was born and raised on the sunny island of O’ahu, Hawai’i and I currently live in foggy San Francisco.</p>
-
-<p>I’m really into side projects. I think it’s important to do something purely for passion and funz, it helps us get away from the things we have to do and replace them with the things we want to do. 
-<hr>
-<strong>Current Side Project:</strong> </b><a href="http://smokedmeatsaturdays.com">Smoked Meat Saturdays</a> where a buddy and I host small get togethers for friends; we eat, drink and be merry.
-<hr></p>
-
-<p>I listen to a lot of Drake, he’s the song bird of our generation. I watch a lot of Wes Anderson movies, my favorite movie of his is Moonrise Kingdom.</p>
-
-<p>Have any questions? tweet me <a href="http://twitter.com/darrendub">@darrendub</a> or you can reach me by <a href="mailto:hey@darrendub.com">electronic mail</a>. You can also find my pixels on <a href="http://dribbble.com/darrendub">dribbble</a> and my code on <a href="http://github.com/darrendub">github</a>.</p>
-
-</article>
-
-      </main>
-      <footer class="footer">
-        <small>
-          This site is built with <a href="http://jekyllrb.com/">Jekyll</a> in a flavor of <a href="http://getpoole.com/">Poole</a> and hosted on GitHub. Set in <a href="http://www.google.com/fonts/specimen/Fira+Sans">Fira Sans</a> and <a href="https://www.google.com/fonts/specimen/Vollkorn">Vollkorn</a>. Hand typed by <a href="https://twitter.com/darrendub">Darren Wong</a> in San Francisco.  
-        </small>
-      </footer>
-    </div>
+		<p>I can recite 96% of <b>every</b> Drake song by memory, I also <a class="link-text" href="https://www.instagram.com/p/-Ahy2wKw2G/">dance like him</a>. I nerd out over Wes Anderson movies, my favorite is Moonrise Kingdom. My friends at I get together over the weekend and bbq at <a class="link-text" href="instagram.com/smokedmeatsaturdays/">@smokedmeatsaturdays</a>.</p>
+		<p>Tweet me <a class="link-text" href="http://twitter.com/darrendub">@darrendub</a> or <a class="link-text" href="mailto:hey@darrendub.com">email me</a>. You can also find my pixels on <a class="link-text" href="http://dribbble.com/darrendub">dribbble</a> and my code on <a class="link-text" href="http://github.com/darrendub">github</a>.</p>
+	</div>
+</div> 
+    <footer>
+      <div class="content bg-deep-sea-blue">
+        <p class="text-white text-center">Hand-typed by Darren Wong in San Francisco, California.</p>
+        <div class="text-center">
+          <a href="https://twitter.com/darrendub">
+            <img class="social-icon" src="/public/img/social/logo-twitter.svg">
+          </a>
+          <a href="https://dribbble.com/darrendub">
+            <img class="social-icon" src="/public/img/social/logo-dribbble.svg">
+          </a>
+        </div>
+      </div>
+</footer> 
 
   </body>
+  <script>
+$('#menu').click(function(){
+  $('nav').toggleClass("is-visible");
+  $(window).scroll(function () {
+    $('nav').removeClass("is-visible", ($(window).scrollTop() > 100));
+   });
+});
+</script>
 </html>
