@@ -19,6 +19,7 @@ nav {
   }
   ul {
     list-style: none;
+    margin-left:0;
     text-align: center;
     margin-top: $unit-medium;
     @media (min-width: $bp-medium) {
@@ -29,6 +30,7 @@ nav {
       font-size: 1.2em;
       padding-left: $unit-medium;
       padding-right: $unit-medium;
+      padding-top: $unit-small/2;
       @media (min-width: 646px) {
         display:inline-block;
       }

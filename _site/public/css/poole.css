@@ -387,6 +387,7 @@ nav {
       padding: 50px; } }
   nav ul {
     list-style: none;
+    margin-left: 0;
     text-align: center;
     margin-top: 50px; }
     @media (min-width: 35em) {
@@ -395,12 +396,14 @@ nav {
     nav ul li {
       font-size: 1.2em;
       padding-left: 50px;
-      padding-right: 50px; }
+      padding-right: 50px;
+      padding-top: 12.5px; }
       @media (min-width: 646px) {
         nav ul li {
           display: inline-block; } }
       nav ul li a {
-        color: #444; }
+        color: #444;
+        text-decoration: none !important; }
         nav ul li a:visited {
           color: #444; }
 
@@ -428,6 +431,9 @@ nav {
     color: #444; }
   .menu span {
     font-weight: 600; }
+   a.menu {
+    text-decoration: none;
+   } 
 
 .is-visible {
   -webkit-transform: translateY(0);

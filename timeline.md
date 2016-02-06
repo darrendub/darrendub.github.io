@@ -10,6 +10,11 @@ I’m doing an open redesign of my site (<a href="/weblog/2015/04/15/open-redesi
 <div class="timeline">
 <ul>
 	<li>
+		<span class="time">Feburary 05, 2016</span>
+		<span class="title">Nav nav nav</span>
+		<span class="text">Scaling the nav across the site, updaing the <a href="http://darrendub.com/about">about</a> and <a href="http://darrendub.com/404">404</a> pages</span>
+	</li>
+	<li>
 		<span class="time">Feburary 02, 2016</span>
 		<span class="title">Updating all the things</span>
 		<span class="text">Made some major🔑 updates my homepage.</span>

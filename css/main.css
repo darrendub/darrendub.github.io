@@ -216,6 +216,7 @@ nav {
       padding: 50px; } }
   nav ul {
     list-style: none;
+    margin-left: 0;
     text-align: center;
     margin-top: 50px; }
     @media (min-width: 35em) {
@@ -224,7 +225,8 @@ nav {
     nav ul li {
       font-size: 1.2em;
       padding-left: 50px;
-      padding-right: 50px; }
+      padding-right: 50px;
+      padding-top: 12.5px; }
       @media (min-width: 646px) {
         nav ul li {
           display: inline-block; } }
