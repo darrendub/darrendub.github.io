@@ -8,7 +8,7 @@ comments: true
 
 
 
-###Background
+### Background
 One of the most difficult challenges designers face today is the inability to create for ourselves (or at least be satisfied with the things we create). This issue has roots that trace back to the world’s earliest designers who used cave walls to display their mock ups.
 
 ![Cueva de las Manos](http://upload.wikimedia.org/wikipedia/commons/f/f4/SantaCruz-CuevaManos-P2210651b.jpg "Cueva de las Manos")
@@ -21,10 +21,10 @@ I share much of the same internal struggles of our ancestral counterpart. My web
 
 However instead of designing in a cave, I’m going to design out in the open. I’m going to bring you all along as I go, to keep me in check, to send me happy notes and most importantly give me feedback early and often. This will also be an experiment to discover my process (which has never before been documented, until now). So come along and lets do this thing!
 
-####Project Summary: 
+#### Project Summary: 
 I need to create a fast, responsive, delightful experience on the web to showcase my work. I will have a blog to document my thoughts about design and other musings. The site will also increase my presence and friendships on twitter. 
 
-####Goals
+#### Goals
 - Deliver a new site in 4 months
 - Increase website performance
 - Increase engagement on social media
@@ -32,7 +32,7 @@ I need to create a fast, responsive, delightful experience on the web to showcas
 - Develop a blog to write about design and development
 
 
-####Measures of Success:
+#### Measures of Success:
 _Performance:_ A user should begin to see the website rendering in 100ms. This should produce a speed index score of 1000ms and to get there my site should deliver the critical path view in the first 14kb of the page. (via [Paul Irish](https://www.youtube.com/watch?v=R8W_6xWphtw))
 
 _Blog:_ 1,000 Visits, Post twice a week
@@ -44,7 +44,7 @@ _Design:_ High fives from colleagues
 _Happiness:_ A site that I am proud of
 
 
-####Schedule:
+#### Schedule:
 
 My schedule for this project is going to be a little further out than a traditional website project. Unfortunately, this redesign will not be the only thing I’m working on. I have a full time job (we’re [hiring](http://grnh.se/j2e8bl)), a full time girlfriend (she’s not hiring), and a part time side project [smokedmeatsaturdays.com](http://www.smokedmeatsaturdays.com/)). I want to give this redesign a fighting chance of coming to fruition. I’m also an advocate of the under promise, over deliver policy... ya let’s go with that.
 
@@ -110,10 +110,10 @@ My schedule for this project is going to be a little further out than a traditio
 - Ongoing Maintenance 
 <hr>
 
-####Final Thoughts
+#### Final Thoughts
 I want to walk away from this project with a website that I am proud of. A website that is fast loading. A website that makes use of a system of design patterns and modular code. A website that is set in beautiful (legible) type. A website that is set with beautiful words that communicate my work and who I am. I think I will learn a lot from this process and I can’t wait to get started.
 
-####Links
+#### Links
 [Upanup Studios - Website Timeline: A Plan for Success](http://www.upanup.com/website-timeline-a-plan-for-success/)
 
 [Tim Kadlec - Performance Budget Metrics](http://timkadlec.com/2014/11/performance-budget-metrics/)
