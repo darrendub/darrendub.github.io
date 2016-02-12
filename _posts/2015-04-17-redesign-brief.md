@@ -12,8 +12,7 @@ comments: true
 One of the most difficult challenges designers face today is the inability to create for ourselves (or at least be satisfied with the things we create). This issue has roots that trace back to the world’s earliest designers who used cave walls to display their mock ups.
 
 ![Cueva de las Manos](http://upload.wikimedia.org/wikipedia/commons/f/f4/SantaCruz-CuevaManos-P2210651b.jpg "Cueva de las Manos")
-
-<cite>Via <a href="http://en.wikipedia.org/wiki/File:SantaCruz-CuevaManos-P2210651b.jpg">Marianocecowski</a></cite>
+Via [Marianocecowski](http://en.wikipedia.org/wiki/File:SantaCruz-CuevaManos-P2210651b.jpg)
 
 Take note of the many hands over lapping. You can imagine the internal struggle of this primordial designer saying, *“Are there too many hands?*...*What do the hands look like on mobile?*...*Fred, I think I need a complete overhaul, a redesign.”* It’s in our blood to continue to redefine ourselves, to push our creative abilities, to forever carry the burden of being incomplete. This insatiable desire to hold the highest of standards of our own work is not ill fated, it drives us and makes us stronger, better, faster... stronger?
 
@@ -47,7 +46,7 @@ _Happiness:_ A site that I am proud of
 
 ####Schedule:
 
-My schedule for this project is going to be a little further out than a traditional website project. Unfortunately, this redesign will not be the only thing I’m working on. I have a full time job (we’re <a href="http://grnh.se/j2e8bl">hiring</a>), a full time girlfriend (she’s not hiring), and a part time side project (<a href="http://www.smokedmeatsaturdays.com/">Smoked Meat Saturdays</a>). I want to give this redesign a fighting chance of coming to fruition. I’m also an advocate of the under promise, over deliver policy... ya let’s go with that.
+My schedule for this project is going to be a little further out than a traditional website project. Unfortunately, this redesign will not be the only thing I’m working on. I have a full time job (we’re [hiring](http://grnh.se/j2e8bl)), a full time girlfriend (she’s not hiring), and a part time side project (<a href="http://www.smokedmeatsaturdays.com/">Smoked Meat Saturdays</a>). I want to give this redesign a fighting chance of coming to fruition. I’m also an advocate of the under promise, over deliver policy... ya let’s go with that.
 
 **Research (2 weeks)**
 
