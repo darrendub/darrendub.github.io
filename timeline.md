@@ -10,6 +10,12 @@ I’m doing an open redesign of my site (<a href="/weblog/2015/04/15/open-redesi
 <div class="timeline">
 <ul>
 	<li>
+		<span class="time">Feburary 17, 2016</span>
+		<span class="title">Updating copy</span>
+		<span class="text">Curiosity Shoppe Icons case study</span>
+		<span class="text"><a href="http://darrendub.com/curiosity-shoppe"> Check it out &#8594;</a></span>
+	</li>
+	<li>
 		<span class="time">Feburary 10, 2016</span>
 		<span class="title">Updating copy</span>
 		<span class="text">Edited the <a href="http://darrendub.com/paradise-soccer-club">Paradise Soccer Club case study</a> and started on the <a href="http://darrendub.com/curiosity-shoppe">Curiosity Shoppe Icons case study</a></span>
