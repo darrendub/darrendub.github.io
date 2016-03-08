@@ -10,6 +10,15 @@ I’m doing an open redesign of my site (<a href="/weblog/2015/04/15/open-redesi
 <div class="timeline">
 <ul>
 	<li>
+		<span class="time">March 07, 2016</span>
+		<span class="title">Much Updates</span>
+		<span class="text">I've been busy building out case studies for a few of my projects.</span>
+		<span class="text"><a href="http://darrendub.com/hemingway"> Project Hemingway &#8594;</a></span>
+		<span class="text"><a href="http://darrendub.com/email"> Email System &#8594;</a></span>
+		<span class="text"><a href="http://darrendub.com/inkling-inspiration"> Inkling Inspiration &#8594;</a></span>
+		<span class="text">Yay! Exploring different lengths and depth in the content. Trying to find a happy medium between the supes long and the supes brief.</span>
+	</li>
+	<li>
 		<span class="time">Feburary 17, 2016</span>
 		<span class="title">Updating copy</span>
 		<span class="text">Curiosity Shoppe Icons case study</span>

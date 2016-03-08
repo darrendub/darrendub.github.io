@@ -44,9 +44,21 @@
 .bg-coal {
 	background-color:$coal;
 }
+
+.bg-green {
+	background-color: #27ae60;
+}
+.bg-yellow {
+	background-color: #f0c514;
+}
+
 .bg-inspiration {
 	background:url(/public/img/home/home-bg-inspiration.jpg); 
 	background-size: cover; 
+}
+
+.bg-inspiration-royal {
+	background-color: #14182d;
 }
 .bg-psc {
 	background-color: #c08d2d;
@@ -64,6 +76,11 @@
 	    height: 375px;
 	    margin-bottom: -72px;
 	}
+}
+
+.bg-hemingway-large {
+	background:url(/public/img/hemingway/hemingway-bg-large.png); 
+	background-size: cover; 
 }
 
 
