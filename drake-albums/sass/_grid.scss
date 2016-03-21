@@ -1,0 +1,66 @@
+/*--------------------------------------------------------------------
+ * Grid 
+ * Adapted from Philip Walton 
+ * http://philipwalton.github.io/solved-by-flexbox/
+ *------------------------------------------------------------------*/
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.grid-cell {
+  flex: 1;
+}
+
+
+.grid-full {
+  .grid-cell {
+    flex: 0 0 100%;
+    @media (min-width: $bp-medium) {
+      flex: 1;
+    }
+  }
+}
+
+.grid-gutters {
+  margin: -1em 0 1em -1em;
+    .grid-cell {
+      padding: 1em 0 0 1em;
+    }
+}
+
+// @media (min-width: $bp-medium) {
+//   .grid-full {
+//     .grid-cell {
+//       flex: 1;
+//     }
+//   }
+// }
+
+// add this to flip your grid (2up) - ensure the HTML is the same (img + text) as none-reversed grid
+.grid-reverse {
+  flex-direction: row-reverse;
+}
+
+.grid-start {
+  justify-content: flex-start;
+  align-self: flex-start;
+}
+
+.grid-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-end {
+  align-items: flex-end;
+  justify-content: flex-end;
+  align-self: flex-end;
+}
+
+
+

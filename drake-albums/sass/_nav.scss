@@ -1,0 +1,78 @@
+/*--------------------------------------------------------------------
+ * Nav
+ *------------------------------------------------------------------*/
+
+nav {
+  left: 0;
+  top: 0;
+  padding: $unit-small;
+  background-color:$white;
+  z-index: $z-100;
+  position: fixed;
+  width: 100%;
+  transform: translateY(-110%);
+  transition-property: transform;
+  transition-duration: 0.5s;
+  @extend .drop-shadow;
+  @media (min-width: $bp-medium) {
+    padding: $unit-medium;
+  }
+  ul {
+    list-style: none;
+    margin-left:0;
+    text-align: center;
+    margin-top: $unit-medium;
+    @media (min-width: $bp-medium) {
+      margin-top: $unit-small;
+    }
+
+    li {
+      font-size: 1.2em;
+      padding-left: $unit-medium;
+      padding-right: $unit-medium;
+      padding-top: $unit-small/2;
+      @media (min-width: 646px) {
+        display:inline-block;
+      }
+      a {
+        color: $coal;
+        &:visited {
+          color: $coal;
+        }
+      }
+    }
+  }
+}
+
+  .menu-container {
+    position: relative;
+    padding: $unit-small;
+  }
+  .menu {
+    color: $coal;
+    width: 100%;
+    height: $unit-medium;
+    background-color: $white;
+    padding-top: $unit-small;
+    padding-bottom: $unit-medium;
+    z-index:$z-200;
+    position: absolute;
+    text-align: center;
+    top: 0; left: 0; bottom: 0; right: 0;
+    cursor: pointer;
+    font-family: $sans;
+    &:visited {
+      color: $coal;
+    }
+    span{
+      font-weight: 600;
+    }
+  }
+
+
+.is-visible {
+  transform: translateY(0);
+}
+
+
+
