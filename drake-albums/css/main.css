@@ -443,6 +443,39 @@ blockquote {
       width: 500px;
       height: 500px; } }
 
+.thank-me {
+  max-width: 500px;
+  position: absolute; }
+
+.z-1 {
+  z-index: 1; }
+
+.thank-me-logo {
+  max-width: 50px;
+  position: absolute;
+  bottom: 21%;
+  left: 6%; }
+  @media (min-width: 35em) {
+    .thank-me-logo {
+      max-width: 75px;
+      bottom: 21%;
+      left: 8%; } }
+
+.thank-move {
+  -webkit-animation: thank-move 1s infinite;
+          animation: thank-move 1s infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear; }
+
+@-webkit-keyframes thank-move {
+  50% {
+    -webkit-transform: translate(-2px, 0);
+            transform: translate(-2px, 0); } }
+
+@keyframes thank-move {
+  50% {
+    -webkit-transform: translate(-2px, 0);
+            transform: translate(-2px, 0); } }
 @font-face {
   font-family: 'Late-Regular';
   src: url("Late-Regular.woff2") format("woff2"), url("Late-Regular.woff") format("woff"), url("Late-Regular.ttf") format("truetype"); }
@@ -511,6 +544,12 @@ blockquote {
 @keyframes blink {
   to {
     opacity: .0; } }
+.hide-mobile {
+  display: none; }
+  @media (min-width: 35em) {
+    .hide-mobile {
+      display: block; } }
+
 .views {
   z-index: 1;
   position: absolute; }
@@ -541,7 +580,10 @@ blockquote {
 
 .eye-position-7 {
   top: 42%;
-  left: 57%; }
+  left: 62%; }
+  @media (min-width: 35em) {
+    .eye-position-7 {
+      left: 57%; } }
 
 .eye-position-8 {
   top: 45%;
@@ -564,19 +606,27 @@ blockquote {
   left: 85%; }
 
 .eye {
-  width: 40px;
-  height: 20px;
+  width: 30px;
+  height: 15px;
   background-color: #fff;
   border-radius: 50%;
   position: absolute; }
   .eye:before {
     content: '';
-    width: 41px;
-    height: 21px;
+    width: 31px;
+    height: 16px;
     background-color: #000;
     border-radius: 50%;
     position: absolute;
     top: -21px; }
+  @media (min-width: 35em) {
+    .eye {
+      width: 40px;
+      height: 20px; }
+      .eye:before {
+        content: '';
+        width: 41px;
+        height: 21px; } }
 
 .eye-ball {
   width: 15px;
@@ -662,9 +712,13 @@ blockquote {
             transform: translate(0, 17px); } }
 .candle {
   position: absolute;
-  top: 8%;
-  right: 21.8%;
+  top: 6%;
+  right: 21.2%;
   width: 11px; }
+  @media (min-width: 35em) {
+    .candle {
+      top: 8%;
+      right: 21.8%; } }
 
 .flicker {
   -webkit-animation: flicker 4s infinite;
@@ -795,20 +849,30 @@ blockquote {
           animation-delay: 0.5s; }
 
 .nwts-drake {
-  max-width: 300px;
+  max-width: 200px;
   position: absolute;
   bottom: 0;
   left: 25%; }
+  @media (min-width: 35em) {
+    .nwts-drake {
+      max-width: 300px; } }
 
 .nwts-album {
   background: url(../img/nwts-clouds.png);
-  width: 1500px; }
+  width: 1000px;
+  height: 500px; }
+  @media (min-width: 35em) {
+    .nwts-album {
+      width: 1500px; } }
 
 .nwts-logo {
-  max-width: 100px;
+  max-width: 70px;
   position: absolute;
   left: 5%;
   bottom: 5%; }
+  @media (min-width: 35em) {
+    .nwts-logo {
+      max-width: 100px; } }
 
 .nwts-parental {
   max-width: 60px;
@@ -824,25 +888,46 @@ blockquote {
 
 @-webkit-keyframes clouds {
   0% {
-    -webkit-transform: translate(-1000px);
-            transform: translate(-1000px); }
+    -webkit-transform: translate(-500px);
+            transform: translate(-500px); }
   50% {
     -webkit-transform: translate(0px);
             transform: translate(0px); }
   100% {
-    -webkit-transform: translate(-1000px);
-            transform: translate(-1000px); } }
+    -webkit-transform: translate(-500px);
+            transform: translate(-500px); } }
 
 @keyframes clouds {
   0% {
-    -webkit-transform: translate(-1000px);
-            transform: translate(-1000px); }
+    -webkit-transform: translate(-500px);
+            transform: translate(-500px); }
   50% {
     -webkit-transform: translate(0px);
             transform: translate(0px); }
   100% {
-    -webkit-transform: translate(-1000px);
-            transform: translate(-1000px); } }
+    -webkit-transform: translate(-500px);
+            transform: translate(-500px); } }
+@media (min-width: 35em) {
+  @-webkit-keyframes clouds {
+    0% {
+      -webkit-transform: translate(-1000px);
+              transform: translate(-1000px); }
+    50% {
+      -webkit-transform: translate(0px);
+              transform: translate(0px); }
+    100% {
+      -webkit-transform: translate(-1000px);
+              transform: translate(-1000px); } }
+  @keyframes clouds {
+    0% {
+      -webkit-transform: translate(-1000px);
+              transform: translate(-1000px); }
+    50% {
+      -webkit-transform: translate(0px);
+              transform: translate(0px); }
+    100% {
+      -webkit-transform: translate(-1000px);
+              transform: translate(-1000px); } } }
 .so-far-gone-drake {
   max-width: 220px;
   position: absolute;

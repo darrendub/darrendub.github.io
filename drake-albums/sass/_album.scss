@@ -17,6 +17,43 @@
 
 // Thank Me Later 
 
+.thank-me {
+	max-width: 500px;
+	position: absolute;
+}
+.z-1 {
+	z-index:1;
+}
+.thank-me-logo {
+	max-width: 50px;
+	position: absolute;
+	bottom: 21%;
+	left: 6%;
+	@media (min-width: $bp-medium) {
+		max-width: 75px;
+		bottom: 21%;
+		left: 8%;	
+	}
+}
+
+.thank-move {
+	animation: thank-move 1s infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes thank-move {
+  0% {
+	
+  }
+
+  50% {
+  	transform: translate(-2px,0);
+
+  }
+  100% {
+  }
+}
+
 
 // If You're Reading This It's Too Late
 
@@ -93,6 +130,13 @@
 
 // Views From The 6
 
+.hide-mobile {
+	display:none;
+	@media (min-width: $bp-medium) {
+		display:block;
+	}
+}
+
 .views {
 	z-index:1;
 	position: absolute;
@@ -129,7 +173,10 @@
 
 .eye-position-7 {
 	top: 42%;
-	left: 57%;
+    left: 62%;
+	@media (min-width: $bp-medium) {
+		left: 57%;
+	}
 }
 .eye-position-8 {
 	top: 45%;
@@ -156,20 +203,29 @@
 }
 
 .eye {
-	width:40px;
-	height:20px;
+	width:30px;
+	height:15px;
 	background-color: #fff;
 	border-radius: 50%;
 	position: absolute;
 	&:before {
 		content:'';
-		width:41px;
-		height:21px;
+		width:31px;
+		height:16px;
 		background-color: #000;
 		border-radius: 50%;
 		position: absolute;
 		top:-21px;
 		@extend .eye-blink;
+	}
+	@media (min-width: $bp-medium) {
+		width:40px;
+		height:20px;
+			&:before {
+			content:'';
+			width:41px;
+			height:21px;
+			}
 	}
 }
 .eye-ball {
@@ -280,9 +336,13 @@
 // Take Care
 .candle {
 	position:absolute;
-	top:8%;
-	right: 21.8%;
+	top: 6%;
+    right: 21.2%;
 	width: 11px;
+	@media (min-width: $bp-medium) {
+		top:8%;
+		right: 21.8%;
+	}
 }
 
 .flicker {
@@ -405,22 +465,33 @@
 // Nothing Was The Same
 
 .nwts-drake {
-	max-width: 300px;
+	max-width: 200px;
 	position: absolute;
 	bottom: 0;
-	left: 25%;	
+	left: 25%;
+	@media (min-width: $bp-medium) {
+		max-width: 300px;
+	}	
 }
 
 .nwts-album {
 	background:url(../img/nwts-clouds.png);
-	width:1500px;
+	width:1000px;
+	height: 500px;
+	@media (min-width: $bp-medium) {
+		width: 1500px;
+	}
+
 }
 
 .nwts-logo {
-	max-width:100px;
+	max-width:70px;
 	position:absolute;
 	left:5%;
 	bottom: 5%;
+	@media (min-width: $bp-medium) {
+		max-width: 100px;
+	}
 }
 .nwts-parental {
 	max-width:60px;
@@ -436,6 +507,19 @@
 
 @keyframes clouds {
   0% {
+  	transform: translate(-500px);
+  }
+  50% {
+    transform: translate(0px);
+  }
+  100% {
+  	transform: translate(-500px);
+  }
+}
+
+@media (min-width: $bp-medium) {
+		@keyframes clouds {
+  0% {
   	transform: translate(-1000px);
   }
   50% {
@@ -445,6 +529,7 @@
   	transform: translate(-1000px);
   }
 }
+	}
 
 
 // So Far Gone
