@@ -720,6 +720,15 @@ blockquote {
       top: 8%;
       right: 21.8%; } }
 
+.take-care-logo {
+  position: absolute;
+  bottom: 8%;
+  left: 7%;
+  max-width: 100px; }
+  @media (min-width: 35em) {
+    .take-care-logo {
+      max-width: 150px; } }
+
 .flicker {
   -webkit-animation: flicker 4s infinite;
           animation: flicker 4s infinite;

@@ -345,6 +345,16 @@
 	}
 }
 
+.take-care-logo {
+	position:absolute;
+	bottom: 8%;
+    left: 7%;
+    max-width: 100px;
+    @media (min-width: $bp-medium) {
+		max-width: 150px;
+	}
+}
+
 .flicker {
 	animation: flicker 4s infinite;
 	animation-timing-function: linear;
