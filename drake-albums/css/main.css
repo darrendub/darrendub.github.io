@@ -443,6 +443,17 @@ blockquote {
       width: 500px;
       height: 500px; } }
 
+.album-title {
+  margin-bottom: 10px; }
+  @media (min-width: 35em) {
+    .album-title {
+      margin-bottom: -13px;
+      cursor: pointer;
+      -webkit-transition: margin-bottom 1s ease;
+      transition: margin-bottom 1s ease; }
+      .album-title:hover {
+        margin-bottom: 10px; } }
+
 .thank-me {
   max-width: 500px;
   position: absolute; }
@@ -867,12 +878,13 @@ blockquote {
       max-width: 300px; } }
 
 .nwts-album {
-  background: url(../img/nwts-clouds.png);
-  width: 1000px;
-  height: 500px; }
+  background: url(../img/nwts-clouds-2.png);
+  height: auto;
+  width: 1500px; }
   @media (min-width: 35em) {
     .nwts-album {
-      width: 1500px; } }
+      width: 2000px;
+      height: 500px; } }
 
 .nwts-logo {
   max-width: 70px;
@@ -890,53 +902,36 @@ blockquote {
   top: 5%; }
 
 .clouds {
-  -webkit-animation: clouds 7s infinite;
-          animation: clouds 7s infinite;
+  -webkit-animation: clouds 4s infinite;
+          animation: clouds 4s infinite;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear; }
 
 @-webkit-keyframes clouds {
   0% {
-    -webkit-transform: translate(-500px);
-            transform: translate(-500px); }
+    -webkit-transform: translate(-1000px);
+            transform: translate(-1000px); }
   50% {
     -webkit-transform: translate(0px);
             transform: translate(0px); }
   100% {
-    -webkit-transform: translate(-500px);
-            transform: translate(-500px); } }
-
-@keyframes clouds {
-  0% {
-    -webkit-transform: translate(-500px);
-            transform: translate(-500px); }
-  50% {
-    -webkit-transform: translate(0px);
-            transform: translate(0px); }
-  100% {
-    -webkit-transform: translate(-500px);
-            transform: translate(-500px); } }
+    -webkit-transform: translate(-1000px);
+            transform: translate(-1000px); } }
 @media (min-width: 35em) {
   @-webkit-keyframes clouds {
     0% {
-      -webkit-transform: translate(-1000px);
-              transform: translate(-1000px); }
-    50% {
       -webkit-transform: translate(0px);
               transform: translate(0px); }
     100% {
-      -webkit-transform: translate(-1000px);
-              transform: translate(-1000px); } }
+      -webkit-transform: translate(-1450px);
+              transform: translate(-1450px); } }
   @keyframes clouds {
     0% {
-      -webkit-transform: translate(-1000px);
-              transform: translate(-1000px); }
-    50% {
       -webkit-transform: translate(0px);
               transform: translate(0px); }
     100% {
-      -webkit-transform: translate(-1000px);
-              transform: translate(-1000px); } } }
+      -webkit-transform: translate(-1450px);
+              transform: translate(-1450px); } } }
 .so-far-gone-drake {
   max-width: 220px;
   position: absolute;

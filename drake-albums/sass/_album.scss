@@ -15,6 +15,19 @@
 	}
 }
 
+.album-title {
+	margin-bottom:10px;
+	
+	@media (min-width: $bp-medium) {
+		margin-bottom:-13px;
+		cursor: pointer;
+		transition: margin-bottom 1s ease;
+			&:hover {
+			margin-bottom: 10px;
+			}
+	}
+}
+
 // Thank Me Later 
 
 .thank-me {
@@ -485,13 +498,13 @@
 }
 
 .nwts-album {
-	background:url(../img/nwts-clouds.png);
-	width:1000px;
-	height: 500px;
+	background:url(../img/nwts-clouds-2.png);
+	height: auto;
+	width: 1500px;
 	@media (min-width: $bp-medium) {
-		width: 1500px;
+		width: 2000px;
+		height: 500px;
 	}
-
 }
 
 .nwts-logo {
@@ -511,32 +524,38 @@
 }
 
 .clouds {
-	animation: clouds 7s infinite;
+	animation: clouds 4s infinite;
 	animation-timing-function: linear;
 }
 
-@keyframes clouds {
+// @keyframes clouds {
+//   0% {
+//     transform: translate(0px);
+//   }
+//   100% {
+//   	transform: translate(-1200px);
+//   }
+// }
+
+@-webkit-keyframes clouds {
   0% {
-  	transform: translate(-500px);
+  	transform: translate(-1000px); 
   }
   50% {
-    transform: translate(0px);
+  	transform: translate(0px); 
   }
   100% {
-  	transform: translate(-500px);
-  }
+  	transform: translate(-1000px); 
+  } 
 }
 
 @media (min-width: $bp-medium) {
-		@keyframes clouds {
+@keyframes clouds {
   0% {
-  	transform: translate(-1000px);
-  }
-  50% {
-    transform: translate(0px);
+  	transform: translate(0px);
   }
   100% {
-  	transform: translate(-1000px);
+  	transform: translate(-1450px);
   }
 }
 	}
