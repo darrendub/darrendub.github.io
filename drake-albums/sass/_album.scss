@@ -28,6 +28,39 @@
 	}
 }
 
+// Views From The 6 
+
+.views-6-eye {
+	max-width: 83px;
+	top: 20%;
+    left: 26%;
+    position: absolute;
+}
+
+.views-6 {
+	max-width: 125px;
+	top: 25%;
+    left: 28%;
+    position: absolute;
+	@media (min-width: $bp-medium) {
+		max-width: 250px;
+		top: 20%;
+    	left: 26%;
+	}
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.rotating {
+  animation: rotating 2.5s linear infinite;
+}
+
 // Thank Me Later 
 
 .thank-me {
@@ -141,7 +174,7 @@
 
 
 
-// Views From The 6
+// Views From The 6 (Beta)
 
 .hide-mobile {
 	display:none;

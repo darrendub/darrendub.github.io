@@ -454,6 +454,42 @@ blockquote {
       .album-title:hover {
         margin-bottom: 10px; } }
 
+.views-6-eye {
+  max-width: 83px;
+  top: 20%;
+  left: 26%;
+  position: absolute; }
+
+.views-6 {
+  max-width: 125px;
+  top: 25%;
+  left: 28%;
+  position: absolute; }
+  @media (min-width: 35em) {
+    .views-6 {
+      max-width: 250px;
+      top: 20%;
+      left: 26%; } }
+
+@-webkit-keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+.rotating {
+  -webkit-animation: rotating 2.5s linear infinite;
+          animation: rotating 2.5s linear infinite; }
+
 .thank-me {
   max-width: 500px;
   position: absolute; }
