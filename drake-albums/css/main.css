@@ -907,7 +907,7 @@ blockquote {
 
 .nwts-album {
   background: url(../img/nwts-clouds-2.png);
-  height: auto;
+  height: 300px;
   width: 1500px; }
   @media (min-width: 35em) {
     .nwts-album {
