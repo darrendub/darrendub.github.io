@@ -18,14 +18,14 @@
 .album-title {
 	margin-bottom:10px;
 	
-	@media (min-width: $bp-medium) {
-		margin-bottom:-13px;
-		cursor: pointer;
-		transition: margin-bottom 1s ease;
-			&:hover {
-			margin-bottom: 10px;
-			}
-	}
+	// @media (min-width: $bp-medium) {
+	// 	margin-bottom:-13px;
+	// 	cursor: pointer;
+	// 	transition: margin-bottom 1s ease;
+	// 		&:hover {
+	// 		margin-bottom: 10px;
+	// 		}
+	// }
 }
 
 // Views From The 6 

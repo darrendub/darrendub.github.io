@@ -445,14 +445,6 @@ blockquote {
 
 .album-title {
   margin-bottom: 10px; }
-  @media (min-width: 35em) {
-    .album-title {
-      margin-bottom: -13px;
-      cursor: pointer;
-      -webkit-transition: margin-bottom 1s ease;
-      transition: margin-bottom 1s ease; }
-      .album-title:hover {
-        margin-bottom: 10px; } }
 
 .views-6-eye {
   max-width: 83px;
