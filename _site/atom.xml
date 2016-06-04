@@ -4,7 +4,7 @@
  <title>Darren Wong</title>
  <link href="darrendub.comatom.xml" rel="self"/>
  <link href="darrendub.com"/>
- <updated>2016-05-07T17:01:55-07:00</updated>
+ <updated>2016-06-04T10:43:13-07:00</updated>
  <id>darrendub.com</id>
  <author>
    <name>Darren Wong</name>
@@ -21,7 +21,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/public/img/2015-07-07-wireframes/wireframes-paper.jpg&quot; alt=&quot;Wireframe Sketches&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;site-architecture&quot;&gt;Site Architecture&lt;/h3&gt;
+&lt;p&gt;###Site Architecture&lt;/p&gt;
 
 &lt;ul&gt;
 	&lt;li&gt;&lt;b&gt;Home&lt;/b&gt;&lt;/li&gt;
@@ -30,8 +30,8 @@
 	&lt;li&gt;&lt;b&gt;About&lt;/b&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;home&quot;&gt;Home&lt;/h3&gt;
-&lt;p&gt;For obvious reasons the homepage is important; it’s most likely the first introduction to me and my work. And it’s the page that’s usually tied to the top level domain, so I became particularly interested in how I’d show my work on the homepage. I boiled it down to three elements: copy, image, and background image. The copy and image will sit on the background image, though there will have to be some interplay between the three. I will create that interplay by using static assets and possibly using animation or gifs to add further interest.&lt;/p&gt;
+&lt;p&gt;###Home
+For obvious reasons the homepage is important; it’s most likely the first introduction to me and my work. And it’s the page that’s usually tied to the top level domain, so I became particularly interested in how I’d show my work on the homepage. I boiled it down to three elements: copy, image, and background image. The copy and image will sit on the background image, though there will have to be some interplay between the three. I will create that interplay by using static assets and possibly using animation or gifs to add further interest.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/public/img/2015-07-07-wireframes/wireframes-work-pattern.jpg&quot; alt=&quot;Wireframe Work Pattern&quot; /&gt;&lt;/p&gt;
 
@@ -41,8 +41,8 @@
 
 &lt;p&gt;&lt;img src=&quot;/public/img/2015-07-07-wireframes/wireframes-home.jpg&quot; alt=&quot;Wireframe Home&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;work&quot;&gt;Work&lt;/h3&gt;
-&lt;p&gt;A recurring theme throughout my &lt;a href=&quot;/weblog/2015/05/21/website-inspiration/&quot;&gt;inspiration&lt;/a&gt; was well articulated case studies. It’s important to me to be able to explain design decisions, showing the variations and iterations that led to the final design. This is something I still need to work on and one of the main reasons I am doing this &lt;a href=&quot;/weblog/2015/04/15/open-redesign/&quot;&gt;live redesign&lt;/a&gt;—to work on synthesizing my process and clearly explaining design directions. My work page will be created with long form reading in mind, using text treatment and images to keep the reader engaged throughout.&lt;/p&gt;
+&lt;p&gt;###Work
+A recurring theme throughout my &lt;a href=&quot;/weblog/2015/05/21/website-inspiration/&quot;&gt;inspiration&lt;/a&gt; was well articulated case studies. It’s important to me to be able to explain design decisions, showing the variations and iterations that led to the final design. This is something I still need to work on and one of the main reasons I am doing this &lt;a href=&quot;/weblog/2015/04/15/open-redesign/&quot;&gt;live redesign&lt;/a&gt;—to work on synthesizing my process and clearly explaining design directions. My work page will be created with long form reading in mind, using text treatment and images to keep the reader engaged throughout.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/public/img/2015-07-07-wireframes/wireframes-work.jpg&quot; alt=&quot;Wireframe Work&quot; /&gt;&lt;/p&gt;
 
