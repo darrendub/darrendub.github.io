@@ -551,3 +551,6 @@ blockquote {
 footer .social-icon {
   max-width: 25px;
   display: inline-block; }
+
+.resume em, .resume li {
+  font-size: .75rem; }
