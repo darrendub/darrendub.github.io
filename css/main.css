@@ -304,6 +304,12 @@ h5 {
   font-size: 1rem;
   font-weight: 600; }
 
+h6 {
+  font-size: .75rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600; }
+
 p {
   font-size: 1rem;
   margin-bottom: 1rem; }
