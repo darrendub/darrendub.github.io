@@ -46,19 +46,17 @@ nav {
 
   .menu-container {
     position: relative;
-    padding: $unit-small;
+    padding: $unit-medium;
   }
   .menu {
     color: $coal;
     width: 100%;
     height: $unit-medium;
-    background-color: $white;
-    padding-top: $unit-small;
-    padding-bottom: $unit-medium;
+    padding-top: $unit-small+5;
     z-index:$z-200;
     position: absolute;
     text-align: center;
-    top: 0; left: 0; bottom: 0; right: 0;
+    top: 0; left: 35%; bottom: 0; right: 0;
     cursor: pointer;
     font-family: $sans;
     &:visited {
@@ -67,11 +65,21 @@ nav {
     span{
       font-weight: 600;
     }
+    @media (min-width: 850px) {
+      left:40%;
+    }
   }
 
 
 .is-visible {
   transform: translateY(0);
+}
+.nav-avatar {
+  position: absolute;
+  max-width: 50px;
+  z-index: 300;
+  top:20px;
+  border-radius: 100%;
 }
 
 

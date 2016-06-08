@@ -344,6 +344,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/design-systems\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/design-systems\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/drake-albums.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/drake-albums.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/drake-albums\/css\/main.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -1089,6 +1107,127 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/public\/img\/curiosity-shoppe\/crouwel-inkling.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 84379,
+		"inputAbbreviatedPath": "\/_site\/public\/img\/curiosity-shoppe\/crouwel-inkling.png",
+		"outputAbbreviatedPath": "\/_site\/public\/img\/curiosity-shoppe\/crouwel-inkling.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/public\/img\/curiosity-shoppe\/curiosity-shoppe-homepage.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.15738e+06,
+		"inputAbbreviatedPath": "\/_site\/public\/img\/curiosity-shoppe\/curiosity-shoppe-homepage.png",
+		"outputAbbreviatedPath": "\/_site\/public\/img\/curiosity-shoppe\/curiosity-shoppe-homepage.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/public\/img\/curiosity-shoppe\/curiosity-shoppe-modal.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 255072,
+		"inputAbbreviatedPath": "\/_site\/public\/img\/curiosity-shoppe\/curiosity-shoppe-modal.png",
+		"outputAbbreviatedPath": "\/_site\/public\/img\/curiosity-shoppe\/curiosity-shoppe-modal.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/public\/img\/curiosity-shoppe\/curiosity-shoppe-onboard.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60139,
+		"inputAbbreviatedPath": "\/_site\/public\/img\/curiosity-shoppe\/curiosity-shoppe-onboard.png",
+		"outputAbbreviatedPath": "\/_site\/public\/img\/curiosity-shoppe\/curiosity-shoppe-onboard.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/public\/img\/curiosity-shoppe\/noma.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39984,
+		"inputAbbreviatedPath": "\/_site\/public\/img\/curiosity-shoppe\/noma.png",
+		"outputAbbreviatedPath": "\/_site\/public\/img\/curiosity-shoppe\/noma.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/public\/img\/curiosity-shoppe\/taste-test-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62692,
+		"inputAbbreviatedPath": "\/_site\/public\/img\/curiosity-shoppe\/taste-test-1.jpg",
+		"outputAbbreviatedPath": "\/_site\/public\/img\/curiosity-shoppe\/taste-test-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/public\/img\/curiosity-shoppe\/taste-test-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62067,
+		"inputAbbreviatedPath": "\/_site\/public\/img\/curiosity-shoppe\/taste-test-2.jpg",
+		"outputAbbreviatedPath": "\/_site\/public\/img\/curiosity-shoppe\/taste-test-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/public\/img\/drake-albums\/drake-album-tweets.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 106442,
+		"inputAbbreviatedPath": "\/_site\/public\/img\/drake-albums\/drake-album-tweets.jpg",
+		"outputAbbreviatedPath": "\/_site\/public\/img\/drake-albums\/drake-album-tweets.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/public\/img\/drake-albums\/drake-album-tweets.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 279465,
+		"inputAbbreviatedPath": "\/_site\/public\/img\/drake-albums\/drake-album-tweets.png",
+		"outputAbbreviatedPath": "\/_site\/public\/img\/drake-albums\/drake-album-tweets.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/public\/img\/drake-albums\/sfg-500.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41506,
+		"inputAbbreviatedPath": "\/_site\/public\/img\/drake-albums\/sfg-500.png",
+		"outputAbbreviatedPath": "\/_site\/public\/img\/drake-albums\/sfg-500.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/public\/img\/drake-albums\/views-500.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 281481,
+		"inputAbbreviatedPath": "\/_site\/public\/img\/drake-albums\/views-500.png",
+		"outputAbbreviatedPath": "\/_site\/public\/img\/drake-albums\/views-500.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/public\/img\/email\/email-case-study-1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1166,6 +1305,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/public\/img\/home\/avatar.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30188,
+		"inputAbbreviatedPath": "\/_site\/public\/img\/home\/avatar.png",
+		"outputAbbreviatedPath": "\/_site\/public\/img\/home\/avatar.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/public\/img\/home\/card-psc.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6910,
+		"inputAbbreviatedPath": "\/_site\/public\/img\/home\/card-psc.png",
+		"outputAbbreviatedPath": "\/_site\/public\/img\/home\/card-psc.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/public\/img\/home\/home-bg-inspiration.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1239,6 +1400,17 @@
 		"initialSize": 289460,
 		"inputAbbreviatedPath": "\/_site\/public\/img\/inkling-inspiration\/inspiration-case-study.png",
 		"outputAbbreviatedPath": "\/_site\/public\/img\/inkling-inspiration\/inspiration-case-study.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/public\/img\/inkling-inspiration\/inspiration-wireframe.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 109874,
+		"inputAbbreviatedPath": "\/_site\/public\/img\/inkling-inspiration\/inspiration-wireframe.jpg",
+		"outputAbbreviatedPath": "\/_site\/public\/img\/inkling-inspiration\/inspiration-wireframe.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1360,6 +1532,127 @@
 		"initialSize": 231312,
 		"inputAbbreviatedPath": "\/_site\/public\/img\/paradise-soccer-club\/phase-launch.png",
 		"outputAbbreviatedPath": "\/_site\/public\/img\/paradise-soccer-club\/phase-launch.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/public\/img\/psc\/email-correspondence.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27132,
+		"inputAbbreviatedPath": "\/_site\/public\/img\/psc\/email-correspondence.png",
+		"outputAbbreviatedPath": "\/_site\/public\/img\/psc\/email-correspondence.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/public\/img\/psc\/event-2v2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47307,
+		"inputAbbreviatedPath": "\/_site\/public\/img\/psc\/event-2v2.jpg",
+		"outputAbbreviatedPath": "\/_site\/public\/img\/psc\/event-2v2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/public\/img\/psc\/event-3v3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42363,
+		"inputAbbreviatedPath": "\/_site\/public\/img\/psc\/event-3v3.jpg",
+		"outputAbbreviatedPath": "\/_site\/public\/img\/psc\/event-3v3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/public\/img\/psc\/event-world-cup.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47465,
+		"inputAbbreviatedPath": "\/_site\/public\/img\/psc\/event-world-cup.jpg",
+		"outputAbbreviatedPath": "\/_site\/public\/img\/psc\/event-world-cup.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/public\/img\/psc\/navigation.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49809,
+		"inputAbbreviatedPath": "\/_site\/public\/img\/psc\/navigation.png",
+		"outputAbbreviatedPath": "\/_site\/public\/img\/psc\/navigation.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/public\/img\/psc\/newsletter-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 84949,
+		"inputAbbreviatedPath": "\/_site\/public\/img\/psc\/newsletter-1.jpg",
+		"outputAbbreviatedPath": "\/_site\/public\/img\/psc\/newsletter-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/public\/img\/psc\/newsletter-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 78375,
+		"inputAbbreviatedPath": "\/_site\/public\/img\/psc\/newsletter-2.jpg",
+		"outputAbbreviatedPath": "\/_site\/public\/img\/psc\/newsletter-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/public\/img\/psc\/phase-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 90028,
+		"inputAbbreviatedPath": "\/_site\/public\/img\/psc\/phase-1.jpg",
+		"outputAbbreviatedPath": "\/_site\/public\/img\/psc\/phase-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/public\/img\/psc\/phase-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48349,
+		"inputAbbreviatedPath": "\/_site\/public\/img\/psc\/phase-2.jpg",
+		"outputAbbreviatedPath": "\/_site\/public\/img\/psc\/phase-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/public\/img\/psc\/phase-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 863733,
+		"inputAbbreviatedPath": "\/_site\/public\/img\/psc\/phase-3.png",
+		"outputAbbreviatedPath": "\/_site\/public\/img\/psc\/phase-3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/public\/img\/psc\/phase-launch.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 231312,
+		"inputAbbreviatedPath": "\/_site\/public\/img\/psc\/phase-launch.png",
+		"outputAbbreviatedPath": "\/_site\/public\/img\/psc\/phase-launch.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1555,6 +1848,24 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/curiosity-shoppe.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/design-systems.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/design-systems.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/drake-albums.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/drake-albums.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2408,6 +2719,127 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/img\/curiosity-shoppe\/crouwel-inkling.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 84379,
+		"inputAbbreviatedPath": "\/public\/img\/curiosity-shoppe\/crouwel-inkling.png",
+		"outputAbbreviatedPath": "\/public\/img\/curiosity-shoppe\/crouwel-inkling.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/curiosity-shoppe\/curiosity-shoppe-homepage.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.15738e+06,
+		"inputAbbreviatedPath": "\/public\/img\/curiosity-shoppe\/curiosity-shoppe-homepage.png",
+		"outputAbbreviatedPath": "\/public\/img\/curiosity-shoppe\/curiosity-shoppe-homepage.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/curiosity-shoppe\/curiosity-shoppe-modal.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 255072,
+		"inputAbbreviatedPath": "\/public\/img\/curiosity-shoppe\/curiosity-shoppe-modal.png",
+		"outputAbbreviatedPath": "\/public\/img\/curiosity-shoppe\/curiosity-shoppe-modal.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/curiosity-shoppe\/curiosity-shoppe-onboard.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60139,
+		"inputAbbreviatedPath": "\/public\/img\/curiosity-shoppe\/curiosity-shoppe-onboard.png",
+		"outputAbbreviatedPath": "\/public\/img\/curiosity-shoppe\/curiosity-shoppe-onboard.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/curiosity-shoppe\/noma.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39984,
+		"inputAbbreviatedPath": "\/public\/img\/curiosity-shoppe\/noma.png",
+		"outputAbbreviatedPath": "\/public\/img\/curiosity-shoppe\/noma.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/curiosity-shoppe\/taste-test-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62692,
+		"inputAbbreviatedPath": "\/public\/img\/curiosity-shoppe\/taste-test-1.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/curiosity-shoppe\/taste-test-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/curiosity-shoppe\/taste-test-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62067,
+		"inputAbbreviatedPath": "\/public\/img\/curiosity-shoppe\/taste-test-2.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/curiosity-shoppe\/taste-test-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/drake-albums\/drake-album-tweets.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 106442,
+		"inputAbbreviatedPath": "\/public\/img\/drake-albums\/drake-album-tweets.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/drake-albums\/drake-album-tweets.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/drake-albums\/drake-album-tweets.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 279465,
+		"inputAbbreviatedPath": "\/public\/img\/drake-albums\/drake-album-tweets.png",
+		"outputAbbreviatedPath": "\/public\/img\/drake-albums\/drake-album-tweets.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/drake-albums\/sfg-500.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41506,
+		"inputAbbreviatedPath": "\/public\/img\/drake-albums\/sfg-500.png",
+		"outputAbbreviatedPath": "\/public\/img\/drake-albums\/sfg-500.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/drake-albums\/views-500.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 281481,
+		"inputAbbreviatedPath": "\/public\/img\/drake-albums\/views-500.png",
+		"outputAbbreviatedPath": "\/public\/img\/drake-albums\/views-500.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/img\/email\/email-case-study-1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2481,6 +2913,28 @@
 		"initialSize": 66169,
 		"inputAbbreviatedPath": "\/public\/img\/hemingway\/hemingway-case-study-2.png",
 		"outputAbbreviatedPath": "\/public\/img\/hemingway\/hemingway-case-study-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/home\/avatar.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30188,
+		"inputAbbreviatedPath": "\/public\/img\/home\/avatar.png",
+		"outputAbbreviatedPath": "\/public\/img\/home\/avatar.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/home\/card-psc.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6910,
+		"inputAbbreviatedPath": "\/public\/img\/home\/card-psc.png",
+		"outputAbbreviatedPath": "\/public\/img\/home\/card-psc.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2562,123 +3016,134 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/public\/img\/paradise-soccer-club\/email-correspondence.png": {
+	"\/public\/img\/inkling-inspiration\/inspiration-wireframe.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 109874,
+		"inputAbbreviatedPath": "\/public\/img\/inkling-inspiration\/inspiration-wireframe.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/inkling-inspiration\/inspiration-wireframe.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/psc\/email-correspondence.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 27132,
-		"inputAbbreviatedPath": "\/public\/img\/paradise-soccer-club\/email-correspondence.png",
-		"outputAbbreviatedPath": "\/public\/img\/paradise-soccer-club\/email-correspondence.png",
+		"inputAbbreviatedPath": "\/public\/img\/psc\/email-correspondence.png",
+		"outputAbbreviatedPath": "\/public\/img\/psc\/email-correspondence.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/public\/img\/paradise-soccer-club\/event-2v2.jpg": {
+	"\/public\/img\/psc\/event-2v2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 47307,
-		"inputAbbreviatedPath": "\/public\/img\/paradise-soccer-club\/event-2v2.jpg",
-		"outputAbbreviatedPath": "\/public\/img\/paradise-soccer-club\/event-2v2.jpg",
+		"inputAbbreviatedPath": "\/public\/img\/psc\/event-2v2.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/psc\/event-2v2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/public\/img\/paradise-soccer-club\/event-3v3.jpg": {
+	"\/public\/img\/psc\/event-3v3.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 42363,
-		"inputAbbreviatedPath": "\/public\/img\/paradise-soccer-club\/event-3v3.jpg",
-		"outputAbbreviatedPath": "\/public\/img\/paradise-soccer-club\/event-3v3.jpg",
+		"inputAbbreviatedPath": "\/public\/img\/psc\/event-3v3.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/psc\/event-3v3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/public\/img\/paradise-soccer-club\/event-world-cup.jpg": {
+	"\/public\/img\/psc\/event-world-cup.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 47465,
-		"inputAbbreviatedPath": "\/public\/img\/paradise-soccer-club\/event-world-cup.jpg",
-		"outputAbbreviatedPath": "\/public\/img\/paradise-soccer-club\/event-world-cup.jpg",
+		"inputAbbreviatedPath": "\/public\/img\/psc\/event-world-cup.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/psc\/event-world-cup.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/public\/img\/paradise-soccer-club\/navigation.png": {
+	"\/public\/img\/psc\/navigation.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 49809,
-		"inputAbbreviatedPath": "\/public\/img\/paradise-soccer-club\/navigation.png",
-		"outputAbbreviatedPath": "\/public\/img\/paradise-soccer-club\/navigation.png",
+		"inputAbbreviatedPath": "\/public\/img\/psc\/navigation.png",
+		"outputAbbreviatedPath": "\/public\/img\/psc\/navigation.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/public\/img\/paradise-soccer-club\/newsletter-1.jpg": {
+	"\/public\/img\/psc\/newsletter-1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 84949,
-		"inputAbbreviatedPath": "\/public\/img\/paradise-soccer-club\/newsletter-1.jpg",
-		"outputAbbreviatedPath": "\/public\/img\/paradise-soccer-club\/newsletter-1.jpg",
+		"inputAbbreviatedPath": "\/public\/img\/psc\/newsletter-1.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/psc\/newsletter-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/public\/img\/paradise-soccer-club\/newsletter-2.jpg": {
+	"\/public\/img\/psc\/newsletter-2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 78375,
-		"inputAbbreviatedPath": "\/public\/img\/paradise-soccer-club\/newsletter-2.jpg",
-		"outputAbbreviatedPath": "\/public\/img\/paradise-soccer-club\/newsletter-2.jpg",
+		"inputAbbreviatedPath": "\/public\/img\/psc\/newsletter-2.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/psc\/newsletter-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/public\/img\/paradise-soccer-club\/phase-1.jpg": {
+	"\/public\/img\/psc\/phase-1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 90028,
-		"inputAbbreviatedPath": "\/public\/img\/paradise-soccer-club\/phase-1.jpg",
-		"outputAbbreviatedPath": "\/public\/img\/paradise-soccer-club\/phase-1.jpg",
+		"inputAbbreviatedPath": "\/public\/img\/psc\/phase-1.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/psc\/phase-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/public\/img\/paradise-soccer-club\/phase-2.jpg": {
+	"\/public\/img\/psc\/phase-2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 48349,
-		"inputAbbreviatedPath": "\/public\/img\/paradise-soccer-club\/phase-2.jpg",
-		"outputAbbreviatedPath": "\/public\/img\/paradise-soccer-club\/phase-2.jpg",
+		"inputAbbreviatedPath": "\/public\/img\/psc\/phase-2.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/psc\/phase-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/public\/img\/paradise-soccer-club\/phase-3.png": {
+	"\/public\/img\/psc\/phase-3.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 863733,
-		"inputAbbreviatedPath": "\/public\/img\/paradise-soccer-club\/phase-3.png",
-		"outputAbbreviatedPath": "\/public\/img\/paradise-soccer-club\/phase-3.png",
+		"inputAbbreviatedPath": "\/public\/img\/psc\/phase-3.png",
+		"outputAbbreviatedPath": "\/public\/img\/psc\/phase-3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/public\/img\/paradise-soccer-club\/phase-launch.png": {
+	"\/public\/img\/psc\/phase-launch.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 231312,
-		"inputAbbreviatedPath": "\/public\/img\/paradise-soccer-club\/phase-launch.png",
-		"outputAbbreviatedPath": "\/public\/img\/paradise-soccer-club\/phase-launch.png",
+		"inputAbbreviatedPath": "\/public\/img\/psc\/phase-launch.png",
+		"outputAbbreviatedPath": "\/public\/img\/psc\/phase-launch.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

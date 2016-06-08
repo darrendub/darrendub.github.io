@@ -29,6 +29,9 @@
 .bg-deep-sea-blue {
 	background-color:$deep-sea-blue;
 }
+.bg-deep-sea-blue-dark {
+	background-color: #434b5a;
+}
 
 .bg-gray {
 	background-color:$silver;
@@ -63,6 +66,9 @@
 .bg-psc {
 	background-color: #c08d2d;
 }
+.bg-drake {
+  background-color:#a39161;
+}
 
 .bg-hemingway { // This is all really terrible code...
 	background:url(/public/img/home/home-hemingway.png); 
@@ -77,6 +83,7 @@
 	    margin-bottom: -72px;
 	}
 }
+
 
 .bg-hemingway-large {
 	background:url(/public/img/hemingway/hemingway-bg-large.png); 
@@ -161,4 +168,278 @@ footer {
 	}
 }
 
+.inspiration-videos {
+    width:100%;
+    max-width: 400px;
+    margin-top: 1em;
+  }
+
+  /*Drake Albums CSS */
+
+  .album {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 5em; }
+  @media (min-width: 35em) {
+    .album {
+      max-width: 500px;
+      width: 500px;
+      height: 500px; } }
+
+.album-title {
+  margin-bottom: 10px; }
+
+  .so-far-gone-drake {
+  max-width: 220px;
+  position: absolute;
+  bottom: 20%;
+  left: 14%; }
+  @media (min-width: 35em) {
+    .so-far-gone-drake {
+      max-width: 300px;
+      bottom: 30%;
+      left: 20%; } }
+
+.so-far-gone-confetti {
+  max-width: 40px;
+  position: absolute; }
+  @media (min-width: 35em) {
+    .so-far-gone-confetti {
+      max-width: 60px; } }
+
+.money-1 {
+  top: -10%;
+  right: 40%; }
+
+.money-2 {
+  top: -20%;
+  right: 60%; }
+
+.money-3 {
+  top: -40%;
+  right: 50%; }
+
+.money-4 {
+  top: -45%;
+  right: 20%; }
+
+.money-5 {
+  top: -20%;
+  right: 10%; }
+
+.money-6 {
+  top: -30%;
+  left: 5%; }
+
+.money-7 {
+  top: -15%;
+  left: 10%; }
+
+.heart-1 {
+  top: -40%;
+  right: 65%; }
+
+.heart-2 {
+  top: -20%;
+  right: 38%;
+  max-width: 30px; }
+
+.heart-3 {
+  top: -30%;
+  right: 15%;
+  max-width: 40px; }
+
+.rain {
+  -webkit-animation: rain 3s infinite;
+          animation: rain 3s infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear; }
+
+.rain-delay {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s; }
+
+@-webkit-keyframes rain {
+  100% {
+    top: 120%; } }
+
+@keyframes rain {
+  100% {
+    top: 120%; } }
+
+    .views {
+  z-index: 1;
+  position: absolute; }
+
+.eye-position-1 {
+  top: 40%;
+  left: 15%; }
+
+.eye-position-2 {
+  top: 50%;
+  left: 10%; }
+
+.eye-position-3 {
+  top: 55%;
+  left: 28%; }
+
+.eye-position-4 {
+  top: 44%;
+  left: 30%; }
+
+.eye-position-5 {
+  top: 40%;
+  left: 37%; }
+
+.eye-position-6 {
+  top: 55%;
+  left: 46%; }
+
+.eye-position-7 {
+  top: 42%;
+  left: 62%; }
+  @media (min-width: 35em) {
+    .eye-position-7 {
+      left: 57%; } }
+
+.eye-position-8 {
+  top: 45%;
+  left: 64%; }
+
+.eye-position-9 {
+  top: 56%;
+  left: 57%; }
+
+.eye-position-10 {
+  top: 54%;
+  left: 72%; }
+
+.eye-position-11 {
+  top: 40%;
+  left: 82%; }
+
+.eye-position-12 {
+  top: 50%;
+  left: 85%; }
+
+.eye {
+  width: 30px;
+  height: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute; }
+  .eye:before {
+    content: '';
+    width: 31px;
+    height: 16px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: -21px; }
+  @media (min-width: 35em) {
+    .eye {
+      width: 40px;
+      height: 20px; }
+      .eye:before {
+        content: '';
+        width: 41px;
+        height: 21px; } }
+
+.eye-ball {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: #000;
+  margin-top: 10%; }
+
+.eye-blink, .eye:before {
+  -webkit-animation: eye-blink 3s infinite;
+          animation: eye-blink 3s infinite;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease; }
+
+@-webkit-keyframes eye-blink {
+  50% {
+    -webkit-transform: translate(0, 20px);
+            transform: translate(0, 20px); } }
+
+@keyframes eye-blink {
+  50% {
+    -webkit-transform: translate(0, 20px);
+            transform: translate(0, 20px); } }
+.eye-small {
+  width: 30px;
+  height: 15px; }
+  .eye-small:before {
+    content: '';
+    width: 31px;
+    height: 16px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: -16px; }
+  .eye-small .eye-ball {
+    width: 12px;
+    height: 12px; }
+
+.eye-blink-sm, .eye-small:before {
+  -webkit-animation: eye-blink-sm 2s infinite;
+          animation: eye-blink-sm 2s infinite;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease; }
+
+@-webkit-keyframes eye-blink-sm {
+  50% {
+    -webkit-transform: translate(0, 16px);
+            transform: translate(0, 16px); } }
+
+@keyframes eye-blink-sm {
+  50% {
+    -webkit-transform: translate(0, 16px);
+            transform: translate(0, 16px); } }
+.eye-medium {
+  width: 35px;
+  height: 17px; }
+  .eye-medium:before {
+    content: '';
+    width: 35px;
+    height: 17px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: -17px; }
+  .eye-medium .eye-ball {
+    width: 14px;
+    height: 14px; }
+
+.eye-blink-md, .eye-medium:before {
+  -webkit-animation: eye-blink-md 3s infinite;
+          animation: eye-blink-md 3s infinite;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease; }
+
+@-webkit-keyframes eye-blink-md {
+  50% {
+    -webkit-transform: translate(0, 17px);
+            transform: translate(0, 17px); } }
+
+@keyframes eye-blink-md {
+  50% {
+    -webkit-transform: translate(0, 17px);
+            transform: translate(0, 17px); } }
+
+  .if-reading-parental {
+  max-width: 30px;
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  z-index: 2; }
+  @media (min-width: 35em) {
+    .if-reading-parental {
+      max-width: 50px; } }
+
+  .bg-black {
+  background-color: #000; }
 

@@ -79,7 +79,7 @@ em {
 	font-style: italic;	
 }
 
-b, bold {
+b, .bold {
   font-weight: 700;
 }
 
@@ -125,6 +125,10 @@ li {
 	text-decoration: none;
 	color: $blue;
 }
+.link-inline-white {
+  text-decoration: none;
+  color: $white;
+}
 
 small {
   font-size: .75rem;
@@ -162,3 +166,13 @@ blockquote {
 .text-white {
   color: $white;
 }
+ .project-title {
+    font-family:"Chivo", sans-serif; 
+    text-align: center;
+    color: $white;
+  }
+  .project-description {
+    text-align: center;
+    color: $white;
+    font-size: 0.75rem;
+  }
