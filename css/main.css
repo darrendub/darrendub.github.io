@@ -181,14 +181,13 @@ nav {
 
 .menu {
   color: #444;
-  width: 100%;
   height: 50px;
   padding-top: 30px;
   z-index: 200;
   position: absolute;
   text-align: center;
   top: 0;
-  left: 35%;
+  left: 65%;
   bottom: 0;
   right: 0;
   cursor: pointer;
@@ -197,9 +196,12 @@ nav {
     color: #444; }
   .menu span {
     font-weight: 600; }
+  @media (min-width: 768px) {
+    .menu {
+      left: 80%; } }
   @media (min-width: 850px) {
     .menu {
-      left: 40%; } }
+      left: 85%; } }
 
 .is-visible {
   -webkit-transform: translateY(0);
