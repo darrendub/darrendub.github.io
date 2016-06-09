@@ -93,6 +93,10 @@ hr {
 ul, ol {
   margin-left: 1rem;
   margin-bottom: 1rem;
+
+  ul{
+    margin-bottom: 0;
+  }
 }
 
 li {

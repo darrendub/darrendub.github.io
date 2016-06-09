@@ -354,6 +354,8 @@ hr {
 ul, ol {
   margin-left: 1rem;
   margin-bottom: 1rem; }
+  ul ul, ol ul {
+    margin-bottom: 0; }
 
 li {
   font-size: 1rem; }
