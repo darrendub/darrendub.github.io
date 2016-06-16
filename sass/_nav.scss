@@ -17,6 +17,12 @@ nav {
   @media (min-width: $bp-medium) {
     padding: $unit-medium;
   }
+  h5 {
+    margin-bottom: 0;
+      @media (min-width: $bp-medium) {
+        margin-bottom:0.5rem;
+      }
+  }
   ul {
     list-style: none;
     margin-left:0;
@@ -27,12 +33,13 @@ nav {
     }
 
     li {
-      font-size: 1.2em;
+      font-size: .9em;
       padding-left: $unit-medium;
       padding-right: $unit-medium;
       padding-top: $unit-small/2;
       @media (min-width: 646px) {
         display:inline-block;
+        font-size: 1.2em;
       }
       a {
         color: $coal;

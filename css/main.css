@@ -154,6 +154,11 @@ nav {
   @media (min-width: 35em) {
     nav {
       padding: 50px; } }
+  nav h5 {
+    margin-bottom: 0; }
+    @media (min-width: 35em) {
+      nav h5 {
+        margin-bottom: 0.5rem; } }
   nav ul {
     list-style: none;
     margin-left: 0;
@@ -163,13 +168,14 @@ nav {
       nav ul {
         margin-top: 25px; } }
     nav ul li {
-      font-size: 1.2em;
+      font-size: .9em;
       padding-left: 50px;
       padding-right: 50px;
       padding-top: 12.5px; }
       @media (min-width: 646px) {
         nav ul li {
-          display: inline-block; } }
+          display: inline-block;
+          font-size: 1.2em; } }
       nav ul li a {
         color: #444; }
         nav ul li a:visited {

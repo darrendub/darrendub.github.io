@@ -2695,17 +2695,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/public\/img\/about\/about.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 79830,
-		"inputAbbreviatedPath": "\/public\/img\/about\/about.jpg",
-		"outputAbbreviatedPath": "\/public\/img\/about\/about.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/public\/img\/case-study-psc\/intro.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
