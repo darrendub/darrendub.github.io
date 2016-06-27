@@ -1,0 +1,204 @@
+/*--------------------------------------------------------------------
+ * darrendub.com
+ *------------------------------------------------------------------*/
+
+ //--------------------------------------------------------------------
+// Reset
+//--------------------------------------------------------------------
+@import "_twitter-normalizer.scss";
+
+/*--------------------------------------------------------------------
+ * Darren Wants To Work At Twitter
+ *------------------------------------------------------------------*/
+
+
+// Colors 
+$twitter-blue-link:		#0084B4;
+$twitter-gray:			#8899a6;
+$twitter-light-gray:	#aab8c2;
+$twitter-gray-border:	#e1e8ed;
+$twitter-dark-gray:		#292f33;
+$twitter-reply-green:	#00D084;
+$twitter-like-red:		#e5214a;
+$twitter-bg:			#f5f8fa;
+
+// Typeface 
+$font-sans:				"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+// Units
+$unit-xsmall:			12px;
+$unit-small:			25px;
+$unit-medium:			50px;
+$unit-large:			100px;
+$bp-medium:				600px;
+
+
+// Structure
+
+body {
+	font-family:$font-sans;
+	background-color: $twitter-bg;
+}
+
+.intro {
+	padding: $unit-small;
+	text-align: center;
+	max-width: 590px;
+	margin: 0 auto;
+}
+.timeline {
+	max-width: 590px;
+	margin: 0 auto;
+}
+
+footer {
+	padding: $unit-small;
+}
+
+
+// Tweet
+
+.tweet-container {
+	border-left: 1px solid $twitter-gray-border;
+	border-right: 1px solid $twitter-gray-border;
+	background-color: #fff;
+}
+
+.tweet {
+	min-height:$unit-medium;
+	padding: $unit-xsmall;
+	margin-left:$unit-medium;
+}
+
+.tweet-heading {
+	padding: $unit-xsmall;
+}
+
+.tweet-type-container {
+	margin-left:$unit-xsmall;
+}
+
+.tweet-summary {
+	border-radius: .5em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: $twitter-gray-border;
+    box-sizing: border-box;
+    margin-top: $unit-xsmall;
+}
+
+.tweet-summary-img {
+	border-top-left-radius: .5em;
+	border-top-right-radius: .5em;
+}
+
+.tweet-summary-small {
+	position: relative;
+}
+.summary-small-img {
+	max-width: $unit-large;
+	position:absolute;
+	border-top-left-radius: .5em;
+	border-bottom-left-radius: .5em;
+}
+.summary-small-text {
+	height:$unit-large - 25;
+	margin-left: $unit-large;
+}
+
+.tweet-summary-text {
+	padding: $unit-xsmall;
+}
+
+.tweet-summary-link {
+	text-decoration:none;
+	&:visited {
+		color: inherit;
+	}
+}
+
+
+hr {
+	border: 0;
+    height: 1px;
+    margin:0;
+    background-color: $twitter-gray-border;
+}
+
+// Type Styles
+
+.type {
+	margin:0;
+	word-wrap: break-word;
+	white-space: pre-wrap;
+
+	&-caps {
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		font-size: 13px; 
+		color: $twitter-gray;
+
+	}
+
+	&-primary {
+		font-weight: bold;
+		color: $twitter-dark-gray;
+	}
+
+	&-secondary {
+		color: $twitter-gray;
+	}
+
+	&-13 {
+		font-size: 13px;
+	}
+
+	&-14 {
+		font-size: 14px;
+	}
+
+	&-16 {
+		font-size: 16px;
+	    line-height: 1.25;
+	}
+
+	&-26 {
+		font-size: 16px;
+	    line-height: 1.25;
+	    @media screen and (min-width: $bp-medium) {
+	    	font-size: 26px;
+	    	letter-spacing: .01em;
+	    	font-weight: 300;
+	    }
+	}	
+
+}
+.type-link {
+	text-decoration:none;
+	color: $twitter-blue-link;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+ul {
+	padding-left:18px;
+}
+
+// Avatar 
+.avatar {
+	float: left;
+	margin-left:-$unit-medium;
+    margin-top: 3px;
+    width: $unit-medium;
+    height: $unit-medium;
+    border-radius: ($unit-small - 20);
+}
+
+// Helper class
+
+// Images
+img {
+	width:100%;
+}
+
