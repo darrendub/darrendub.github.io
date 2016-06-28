@@ -542,7 +542,8 @@ img, video {
   max-width: 50px;
   position: absolute;
   left: 45%;
-  top: 40%; }
+  top: 40%;
+  pointer-events: none; }
 
 .action-icons {
   padding-top: 12px; }
