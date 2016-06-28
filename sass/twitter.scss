@@ -18,8 +18,8 @@ $twitter-gray:			#8899a6;
 $twitter-light-gray:	#aab8c2;
 $twitter-gray-border:	#e1e8ed;
 $twitter-dark-gray:		#292f33;
-$twitter-reply-green:	#00D084;
-$twitter-like-red:		#e5214a;
+$twitter-rt-green:		#19CF86;
+$twitter-like-red:		#E81C4F;
 $twitter-bg:			#f5f8fa;
 
 // Typeface 
@@ -44,11 +44,18 @@ body {
 .intro {
 	padding: $unit-small;
 	text-align: center;
-	max-width: 590px;
+	max-width: 600px;
 	margin: 0 auto;
+
+	h2 {
+		margin-bottom: 0.3em
+	}
+	p {
+		margin-top:0;
+	}
 }
 .timeline {
-	max-width: 590px;
+	max-width: 600px;
 	margin: 0 auto;
 }
 
@@ -206,7 +213,7 @@ ul {
 // Helper class
 
 // Images
-img {
+img, video {
 	width:100%;
 }
 .periscope-hashtag {
@@ -224,6 +231,38 @@ img {
 	position: absolute;
 	left: 45%;
 	top: 40%;
+}
+
+.action-icons {
+	padding-top: $unit-xsmall;
+}
+
+.icon {
+	max-width: 18px;
+	display: inline-block;
+	fill: $twitter-light-gray;
+	margin-right: $unit-medium;
+	cursor: pointer;
+	transition: fill .3s ease-in-out;
+	&:first-of-type {
+		margin-left: $unit-xsmall;
+	}
+}
+.reply {
+	&:hover {
+		fill:$twitter-blue-link;
+	}
+}
+.retweet {
+	&:hover {
+		fill:$twitter-rt-green;
+	}
+}
+.like {
+	max-width: 14px;
+	&:hover {
+		fill:$twitter-like-red;
+	}
 }
 
 // Labels

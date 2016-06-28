@@ -1729,6 +1729,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/img\/twitter\/drake-twitter-summary.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8148,
+		"inputAbbreviatedPath": "\/public\/img\/twitter\/drake-twitter-summary.png",
+		"outputAbbreviatedPath": "\/public\/img\/twitter\/drake-twitter-summary.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/img\/twitter\/icon-play-blue.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1747,6 +1758,17 @@
 		"initialSize": 11695,
 		"inputAbbreviatedPath": "\/public\/img\/twitter\/o0V7z4AgBApRIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAKk8L88Rzkq8L2QAAAABJRU5ErkJggg==.png",
 		"outputAbbreviatedPath": "\/public\/img\/twitter\/o0V7z4AgBApRIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAKk8L88Rzkq8L2QAAAABJRU5ErkJggg==.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/twitter\/periscope-behind-scenes-poster.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 520211,
+		"inputAbbreviatedPath": "\/public\/img\/twitter\/periscope-behind-scenes-poster.png",
+		"outputAbbreviatedPath": "\/public\/img\/twitter\/periscope-behind-scenes-poster.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
