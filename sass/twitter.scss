@@ -38,6 +38,7 @@ $bp-medium:				600px;
 body {
 	font-family:$font-sans;
 	background-color: $twitter-bg;
+	webkit-font-smoothing: antialiased;
 }
 
 .intro {
@@ -76,6 +77,7 @@ footer {
 
 .tweet-type-container {
 	margin-left:$unit-xsmall;
+	position: relative;
 }
 
 .tweet-summary {
@@ -194,11 +196,45 @@ ul {
     height: $unit-medium;
     border-radius: ($unit-small - 20);
 }
+.intro-avatar {
+	border-radius: ($unit-small - 20);
+	width: $unit-large + 50;
+	border: 5px solid #fff;
+	box-shadow:0 1px 1px rgba(136,153,166,0.15);
+}
 
 // Helper class
 
 // Images
 img {
 	width:100%;
+}
+.periscope-hashtag {
+	max-width: $unit-small - 5;
+	border-radius: .1em;
+}
+.periscope-pin {
+	max-width: $unit-small;
+	position: absolute;
+	right: $unit-xsmall;
+	top: $unit-medium + 14;
+}
+.periscope-play {
+	max-width: $unit-medium;
+	position: absolute;
+	left: 45%;
+	top: 40%;
+}
+
+// Labels
+.periscope-ended {
+	padding: $unit-xsmall/4 $unit-xsmall/2;
+	position: absolute;
+	font-size: 11px;
+	bottom: $unit-large;
+	left: $unit-xsmall;
+	border-radius: 3px;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: #fff;
 }
 

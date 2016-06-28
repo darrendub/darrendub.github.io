@@ -1729,6 +1729,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/img\/twitter\/icon-play-blue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4952,
+		"inputAbbreviatedPath": "\/public\/img\/twitter\/icon-play-blue.png",
+		"outputAbbreviatedPath": "\/public\/img\/twitter\/icon-play-blue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/twitter\/o0V7z4AgBApRIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAKk8L88Rzkq8L2QAAAABJRU5ErkJggg==.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11695,
+		"inputAbbreviatedPath": "\/public\/img\/twitter\/o0V7z4AgBApRIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAKk8L88Rzkq8L2QAAAABJRU5ErkJggg==.png",
+		"outputAbbreviatedPath": "\/public\/img\/twitter\/o0V7z4AgBApRIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAKk8L88Rzkq8L2QAAAABJRU5ErkJggg==.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/twitter\/periscope-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37540,
+		"inputAbbreviatedPath": "\/public\/img\/twitter\/periscope-logo.png",
+		"outputAbbreviatedPath": "\/public\/img\/twitter\/periscope-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/README.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
