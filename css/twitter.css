@@ -441,6 +441,8 @@ footer {
   text-decoration: none; }
   .tweet-summary-link:visited {
     color: inherit; }
+  .tweet-summary-link p:visited {
+    color: inherit; }
 
 hr {
   border: 0;
@@ -512,7 +514,10 @@ img, video {
   max-width: 25px;
   position: absolute;
   right: 12px;
-  top: 64px; }
+  top: 85px; }
+  @media screen and (min-width: 600px) {
+    .periscope-pin {
+      top: 65px; } }
 
 .periscope-play {
   max-width: 50px;

@@ -124,6 +124,12 @@ footer {
 	&:visited {
 		color: inherit;
 	}
+	p {
+		&:visited {
+			color: inherit;
+		}
+
+	}
 }
 
 
@@ -224,7 +230,10 @@ img, video {
 	max-width: $unit-small;
 	position: absolute;
 	right: $unit-xsmall;
-	top: $unit-medium + 14;
+	top: $unit-medium + 35;
+	@media screen and (min-width: $bp-medium) {
+	top: $unit-medium + 15;	
+	}
 }
 .periscope-play {
 	max-width: $unit-medium;
