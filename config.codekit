@@ -1729,6 +1729,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/img\/twitter\/dannybracco.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 349918,
+		"inputAbbreviatedPath": "\/public\/img\/twitter\/dannybracco.png",
+		"outputAbbreviatedPath": "\/public\/img\/twitter\/dannybracco.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/img\/twitter\/drake-twitter-summary.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1762,11 +1773,22 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/img\/twitter\/peri-intro-poster.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 271822,
+		"inputAbbreviatedPath": "\/public\/img\/twitter\/peri-intro-poster.png",
+		"outputAbbreviatedPath": "\/public\/img\/twitter\/peri-intro-poster.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/img\/twitter\/periscope-behind-scenes-poster.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 520211,
+		"initialSize": 183188,
 		"inputAbbreviatedPath": "\/public\/img\/twitter\/periscope-behind-scenes-poster.png",
 		"outputAbbreviatedPath": "\/public\/img\/twitter\/periscope-behind-scenes-poster.png",
 		"outputPathIsOutsideProject": 0,
@@ -1780,6 +1802,39 @@
 		"initialSize": 37540,
 		"inputAbbreviatedPath": "\/public\/img\/twitter\/periscope-logo.png",
 		"outputAbbreviatedPath": "\/public\/img\/twitter\/periscope-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/twitter\/tweet-curiosity.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32577,
+		"inputAbbreviatedPath": "\/public\/img\/twitter\/tweet-curiosity.png",
+		"outputAbbreviatedPath": "\/public\/img\/twitter\/tweet-curiosity.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/twitter\/tweet-hemingway.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 144736,
+		"inputAbbreviatedPath": "\/public\/img\/twitter\/tweet-hemingway.png",
+		"outputAbbreviatedPath": "\/public\/img\/twitter\/tweet-hemingway.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/twitter\/tweet-inspiration.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 211064,
+		"inputAbbreviatedPath": "\/public\/img\/twitter\/tweet-inspiration.png",
+		"outputAbbreviatedPath": "\/public\/img\/twitter\/tweet-inspiration.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

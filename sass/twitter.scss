@@ -80,6 +80,8 @@ footer {
 
 .tweet-heading {
 	padding: $unit-xsmall;
+	margin-top: $unit-xsmall;
+	border-top: 1px solid $twitter-gray-border;
 }
 
 .tweet-type-container {
@@ -149,9 +151,9 @@ hr {
 
 	&-caps {
 		text-transform: uppercase;
-		letter-spacing: 0.1em;
+		letter-spacing: 0.2em;
 		font-size: 13px; 
-		color: $twitter-gray;
+		color: $twitter-dark-gray;
 
 	}
 
@@ -200,6 +202,19 @@ ul {
 	padding-left:18px;
 }
 
+.retweeted {
+	margin-left:$unit-medium + $unit-small;
+	display: block;
+	padding-top: $unit-xsmall;
+}
+
+.text-hide-mobile {
+	text-indent: -999px;
+	@media screen and (min-width: 360px) {
+	text-indent: 0;
+	}
+}
+
 // Avatar 
 .avatar {
 	float: left;
@@ -217,6 +232,10 @@ ul {
 }
 
 // Helper class
+
+.mt-12 {
+	margin-top: $unit-xsmall;
+}
 
 // Images
 img, video {
@@ -271,6 +290,16 @@ img, video {
 	max-width: 14px;
 	&:hover {
 		fill:$twitter-like-red;
+	}
+}
+.more {
+	max-width: 20px;
+	&:hover {
+		fill:$twitter-blue-link;
+	}
+	display: none;
+	@media screen and (min-width: 360px) {
+	display: inline-block;
 	}
 }
 

@@ -403,7 +403,9 @@ footer {
   margin-left: 50px; }
 
 .tweet-heading {
-  padding: 12px; }
+  padding: 12px;
+  margin-top: 12px;
+  border-top: 1px solid #e1e8ed; }
 
 .tweet-type-container {
   margin-left: 12px;
@@ -456,9 +458,9 @@ hr {
   white-space: pre-wrap; }
   .type-caps {
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.2em;
     font-size: 13px;
-    color: #8899a6; }
+    color: #292f33; }
   .type-primary {
     font-weight: bold;
     color: #292f33; }
@@ -489,6 +491,17 @@ hr {
 ul {
   padding-left: 18px; }
 
+.retweeted {
+  margin-left: 75px;
+  display: block;
+  padding-top: 12px; }
+
+.text-hide-mobile {
+  text-indent: -999px; }
+  @media screen and (min-width: 360px) {
+    .text-hide-mobile {
+      text-indent: 0; } }
+
 .avatar {
   float: left;
   margin-left: -50px;
@@ -502,6 +515,9 @@ ul {
   width: 150px;
   border: 5px solid #fff;
   box-shadow: 0 1px 1px rgba(136, 153, 166, 0.15); }
+
+.mt-12 {
+  margin-top: 12px; }
 
 img, video {
   width: 100%; }
@@ -549,6 +565,15 @@ img, video {
   max-width: 14px; }
   .like:hover {
     fill: #E81C4F; }
+
+.more {
+  max-width: 20px;
+  display: none; }
+  .more:hover {
+    fill: #0084B4; }
+  @media screen and (min-width: 360px) {
+    .more {
+      display: inline-block; } }
 
 .periscope-ended {
   padding: 3px 6px;
