@@ -519,6 +519,9 @@ ul {
 .mt-12 {
   margin-top: 12px; }
 
+.text-dark-gray {
+  color: #292f33 !important; }
+
 img, video {
   width: 100%; }
 
