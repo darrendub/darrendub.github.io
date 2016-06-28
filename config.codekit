@@ -1454,6 +1454,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/img\/home\/avatar-16.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 787,
+		"inputAbbreviatedPath": "\/public\/img\/home\/avatar-16.png",
+		"outputAbbreviatedPath": "\/public\/img\/home\/avatar-16.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/home\/avatar-32.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2205,
+		"inputAbbreviatedPath": "\/public\/img\/home\/avatar-32.png",
+		"outputAbbreviatedPath": "\/public\/img\/home\/avatar-32.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/home\/avatar-48.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4030,
+		"inputAbbreviatedPath": "\/public\/img\/home\/avatar-48.png",
+		"outputAbbreviatedPath": "\/public\/img\/home\/avatar-48.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/home\/avatar-64.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6299,
+		"inputAbbreviatedPath": "\/public\/img\/home\/avatar-64.png",
+		"outputAbbreviatedPath": "\/public\/img\/home\/avatar-64.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/home\/avatar-96.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11826,
+		"inputAbbreviatedPath": "\/public\/img\/home\/avatar-96.png",
+		"outputAbbreviatedPath": "\/public\/img\/home\/avatar-96.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/img\/home\/avatar.png": {
 		"fileType": 32768,
 		"ignore": 0,
