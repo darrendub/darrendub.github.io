@@ -1,0 +1,162 @@
+/*--------------------------------------------------------------------
+ * darrendub.com
+ *------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------
+ * darrenfit: A dashboard of Darren Wong
+ *------------------------------------------------------------------*/
+
+//--------------------------------------------------------------------
+// Spacing
+//--------------------------------------------------------------------
+
+$unit-small:	25px;
+$unit-medium:	50px;
+$unit-large:	100px;
+
+
+//--------------------------------------------------------------------
+// Breakpoints
+//--------------------------------------------------------------------
+
+$bp-small:		26em;
+$bp-medium:		35em;
+$bp-large:		48em;
+$bp-xlarge:		60em;
+
+
+//--------------------------------------------------------------------
+// Colors
+//--------------------------------------------------------------------
+$fitbit-teal:		#47BFBB;
+$fitbit-pink:		#F23A6D;
+$fitbit-light-pink:	#F782A2;
+$fitbit-orange:		#EF7C4D;
+$fitbit-dark-blue:	#4C7489;
+$fitbit-yellow:		#EFCD4D;
+$coal:				#555;
+$white:				#FFF;
+
+//--------------------------------------------------------------------
+// Typefaces
+//--------------------------------------------------------------------
+
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100,300,500';
+@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700';
+
+$font-sans:				'Montserrat', sans-serif;	
+$font-mono:				'Roboto Mono', monospace;
+
+//--------------------------------------------------------------------
+// Units
+//--------------------------------------------------------------------
+$unit-xsmall:			12px;
+$unit-small:			25px;
+$unit-medium:			50px;
+$unit-large:			100px;
+
+
+//--------------------------------------------------------------------
+// Headings
+//--------------------------------------------------------------------
+h1	{
+	font-family: $font-sans;
+	font-weight: 100; 
+	text-align: center;
+	color: $white;
+}
+
+//--------------------------------------------------------------------
+// Type
+//--------------------------------------------------------------------
+
+p {
+	-webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+
+.title {
+	font-family: $font-mono;
+	font-size: .75em;
+	letter-spacing: .5em;
+	text-transform: uppercase;
+	font-weight: 500;
+	padding-bottom: 5px;
+	color: $white;
+}
+.description {
+	font-family: $font-mono;
+	font-size: 1em;
+	font-weight: 300;
+	color: $white;
+}
+
+.data {
+	font-family: $font-mono;
+	font-size: 3em;
+	font-weight: 100;
+	color: $white;
+	@media (min-width: $bp-medium) {
+		font-size: 5em;
+	}
+}
+
+.bold {
+	font-weight: bold;
+	font-weight: 700;
+}
+.flag {
+	font-size: 3em;
+	padding-right: 0.5em;
+	vertical-align: middle;
+}
+
+.yellow-gradient {
+	background: -webkit-linear-gradient(36deg, $fitbit-yellow, $fitbit-orange);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.pink-gradient {
+	background: -webkit-linear-gradient(36deg, $fitbit-pink, $fitbit-light-pink);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+//--------------------------------------------------------------------
+// Structure
+//--------------------------------------------------------------------
+
+body {
+	webkit-font-smoothing: antialiased;
+}
+
+.intro {
+	padding: $unit-large;
+	background: $fitbit-teal;
+}
+
+.container {
+	padding: $unit-small;
+	@media (min-width: $bp-medium) {
+		padding: $unit-medium;
+	}
+}
+.tile {
+	background-image: linear-gradient(-135deg, #085A92 0%, #001945 100%);
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.25);
+	border-radius: 10px;
+	padding: $unit-small;
+}
+.circle {
+	border-radius: 50%;
+	max-width: 50px;
+}
+
+
+//--------------------------------------------------------------------
+// Import
+//--------------------------------------------------------------------
+@import "_twitter-normalizer.scss";
+@import "grid.scss";
+
