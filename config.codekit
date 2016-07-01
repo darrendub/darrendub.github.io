@@ -1428,6 +1428,105 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/img\/fitbit\/curiosity.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32577,
+		"inputAbbreviatedPath": "\/public\/img\/fitbit\/curiosity.png",
+		"outputAbbreviatedPath": "\/public\/img\/fitbit\/curiosity.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/fitbit\/flag-cn.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3088,
+		"inputAbbreviatedPath": "\/public\/img\/fitbit\/flag-cn.png",
+		"outputAbbreviatedPath": "\/public\/img\/fitbit\/flag-cn.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/fitbit\/flag-ph.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6543,
+		"inputAbbreviatedPath": "\/public\/img\/fitbit\/flag-ph.png",
+		"outputAbbreviatedPath": "\/public\/img\/fitbit\/flag-ph.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/fitbit\/flag-pr.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4373,
+		"inputAbbreviatedPath": "\/public\/img\/fitbit\/flag-pr.png",
+		"outputAbbreviatedPath": "\/public\/img\/fitbit\/flag-pr.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/fitbit\/flag-pt.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7239,
+		"inputAbbreviatedPath": "\/public\/img\/fitbit\/flag-pt.png",
+		"outputAbbreviatedPath": "\/public\/img\/fitbit\/flag-pt.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/fitbit\/flag-se.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1933,
+		"inputAbbreviatedPath": "\/public\/img\/fitbit\/flag-se.png",
+		"outputAbbreviatedPath": "\/public\/img\/fitbit\/flag-se.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/fitbit\/flag-us.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5569,
+		"inputAbbreviatedPath": "\/public\/img\/fitbit\/flag-us.png",
+		"outputAbbreviatedPath": "\/public\/img\/fitbit\/flag-us.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/fitbit\/hemingway.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 144736,
+		"inputAbbreviatedPath": "\/public\/img\/fitbit\/hemingway.png",
+		"outputAbbreviatedPath": "\/public\/img\/fitbit\/hemingway.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/fitbit\/inspiration.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 211064,
+		"inputAbbreviatedPath": "\/public\/img\/fitbit\/inspiration.png",
+		"outputAbbreviatedPath": "\/public\/img\/fitbit\/inspiration.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/img\/hemingway\/darrendub-tweet.png": {
 		"fileType": 32768,
 		"ignore": 0,

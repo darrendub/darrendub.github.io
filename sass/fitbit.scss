@@ -6,6 +6,11 @@
  * darrenfit: A dashboard of Darren Wong
  *------------------------------------------------------------------*/
 
+ //--------------------------------------------------------------------
+// Import Normalizer
+//--------------------------------------------------------------------
+@import "_twitter-normalizer.scss";
+
 //--------------------------------------------------------------------
 // Spacing
 //--------------------------------------------------------------------
@@ -28,14 +33,61 @@ $bp-xlarge:		60em;
 //--------------------------------------------------------------------
 // Colors
 //--------------------------------------------------------------------
-$fitbit-teal:		#47BFBB;
-$fitbit-pink:		#F23A6D;
-$fitbit-light-pink:	#F782A2;
-$fitbit-orange:		#EF7C4D;
-$fitbit-dark-blue:	#4C7489;
-$fitbit-yellow:		#EFCD4D;
-$coal:				#555;
-$white:				#FFF;
+$fitbit-teal:			#3EC1C1;
+$fitbit-light-teal:		#90DCE2;
+$fitbit-pink:			#F23A6D;
+$fitbit-light-pink:		#F782A2;
+$fitbit-orange:			#EF7C4D;
+$fitbit-light-blue:		#ABF9FF;
+$fitbit-dark-blue:		#00558C;
+$fitbit-yellow:			#EFCD4D;
+$fitbit-purple:			#3023AE;
+$fitbit-light-purple:	#C86DD7;
+$coal:					#343233;
+$white:					#FFF;
+
+.yellow-gradient {
+	background: -webkit-linear-gradient(36deg, $fitbit-yellow, $fitbit-orange);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.pink-gradient {
+	background: -webkit-linear-gradient(36deg, $fitbit-pink, $fitbit-light-pink);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.blue-gradient {
+	background: -webkit-linear-gradient(36deg, $fitbit-light-blue, $fitbit-dark-blue);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.purple-gradient {
+	background: -webkit-linear-gradient(36deg, $fitbit-light-purple, $fitbit-purple);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+.bg {
+	&-yellow-gradient {
+		background: -webkit-linear-gradient(36deg, $fitbit-yellow, $fitbit-orange);
+	}
+	&-pink-gradient {
+		background: -webkit-linear-gradient(36deg, $fitbit-pink, $fitbit-light-pink);
+	}
+	&-blue-gradient {
+		background: -webkit-linear-gradient(36deg, $fitbit-light-blue, $fitbit-dark-blue);
+	}
+	&-purple-gradient {
+		background: -webkit-linear-gradient(36deg, $fitbit-light-purple, $fitbit-purple);
+	}
+	&-teal-gradient {
+		background: -webkit-linear-gradient(36deg, $fitbit-light-teal, $fitbit-teal);
+	}
+}
 
 //--------------------------------------------------------------------
 // Typefaces
@@ -61,9 +113,10 @@ $unit-large:			100px;
 //--------------------------------------------------------------------
 h1	{
 	font-family: $font-sans;
-	font-weight: 100; 
+	font-weight: 400; 
 	text-align: center;
 	color: $white;
+	font-size: 3em;
 }
 
 //--------------------------------------------------------------------
@@ -101,26 +154,19 @@ p {
 	}
 }
 
-.bold {
-	font-weight: bold;
+.thick {
 	font-weight: 700;
+	// -webkit-text-stroke-width: 1px;
+   // -webkit-text-stroke-color: $white;
 }
-.flag {
-	font-size: 3em;
-	padding-right: 0.5em;
-	vertical-align: middle;
-}
-
-.yellow-gradient {
-	background: -webkit-linear-gradient(36deg, $fitbit-yellow, $fitbit-orange);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+.thin {
+	font-weight: 400;
+	-webkit-text-stroke-width: 1.5px;
+   -webkit-text-stroke-color: $fitbit-teal;
 }
 
-.pink-gradient {
-	background: -webkit-linear-gradient(36deg, $fitbit-pink, $fitbit-light-pink);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+a {
+	text-decoration: none;
 }
 
 //--------------------------------------------------------------------
@@ -132,8 +178,17 @@ body {
 }
 
 .intro {
-	padding: $unit-large;
+	padding: $unit-medium;
 	background: $fitbit-teal;
+	@media (min-width: $bp-medium) {
+		padding: $unit-large;
+	}
+	p {
+		font-family: $font-mono;
+		color: $white;
+		text-align: center;
+		font-weight: 400;
+	}
 }
 
 .container {
@@ -152,11 +207,120 @@ body {
 	border-radius: 50%;
 	max-width: 50px;
 }
+.data-point {
+	border-radius: $unit-large;
+	width: 80%;
+	padding: $unit-xsmall;
+	margin-bottom: $unit-small;
+	position: relative;
+	@media (min-width: $bp-medium) {
+	width: $unit-small;
+	height: $unit-small;
+	cursor: pointer;
+	transition: all 0.75s;
+		&:hover {
+			width: 80%;
+			.data-point-info {
+					opacity: 1;
+			}
+		}
+	}
+}
+.data-point-info {
+	color: $white;
+	font-family: $font-mono;
+	padding: $unit-xsmall/2;
+	font-size: .5em;
+	font-weight: 600;
+	opacity: 1;
+	transition: all 0.25s;
+	width: 100%;	
+	@media (min-width: $bp-medium) {
+		opacity: 0;
+		position: absolute;
+	}
+}
+.graph {
 
+	.title {
+		padding-bottom: $unit-small;
+	}
+
+	.description {
+		padding-bottom: $unit-small;
+		@media (min-width: $bp-medium) {
+			padding-bottom: 0;
+		}
+	}
+
+}
+.project-title {
+	background: $white;
+	padding: $unit-small;
+	margin-top: -5px;
+	color: $coal;
+	text-align: center;
+	font-family: $font-mono;
+	border-bottom-left-radius: .5em;
+	border-bottom-right-radius: .5em;
+	font-size: 1em;
+	font-weight: 300;
+}
+
+
+footer {
+	padding: $unit-small;
+	font-family: $font-mono;
+	color: $coal;
+	text-align: center;
+}
+//--------------------------------------------------------------------
+// Images
+//--------------------------------------------------------------------
+ img {
+ 	width:100%; 
+ }
+
+.project-img {
+	max-width: 500px;
+	padding-top: $unit-small;
+	@media (min-width: $bp-medium) {
+		padding-top: 0;
+	}
+}
+
+.flag {
+	max-width: $unit-medium + 10;
+	padding-right: 1em;
+	vertical-align: middle;
+}
+
+
+//--------------------------------------------------------------------
+// Helper
+//--------------------------------------------------------------------
+
+.mt1 {
+	margin-top:1em;
+}
+
+.pb1 {
+	padding-bottom: 1em;
+}
+
+hr {
+	margin-top: $unit-medium;
+}
 
 //--------------------------------------------------------------------
 // Import
 //--------------------------------------------------------------------
-@import "_twitter-normalizer.scss";
 @import "grid.scss";
+
+.grid-gutters {
+  margin: -1em 1em 1em -1em;
+    .grid-cell {
+      padding: 1em 0 0 1em;
+    }
+}
 

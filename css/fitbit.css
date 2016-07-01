@@ -4,90 +4,13 @@
 /*--------------------------------------------------------------------
  * darrenfit: A dashboard of Darren Wong
  *------------------------------------------------------------------*/
-@import "https://fonts.googleapis.com/css?family=Roboto+Mono:100,300,500";
-@import "https://fonts.googleapis.com/css?family=Montserrat:400,700";
-h1 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 100;
-  text-align: center;
-  color: #FFF; }
-
-p {
-  -webkit-margin-before: 0;
-  -webkit-margin-after: 0; }
-
-.title {
-  font-family: "Roboto Mono", monospace;
-  font-size: .75em;
-  letter-spacing: .5em;
-  text-transform: uppercase;
-  font-weight: 500;
-  padding-bottom: 5px;
-  color: #FFF; }
-
-.description {
-  font-family: "Roboto Mono", monospace;
-  font-size: 1em;
-  font-weight: 300;
-  color: #FFF; }
-
-.data {
-  font-family: "Roboto Mono", monospace;
-  font-size: 3em;
-  font-weight: 100;
-  color: #FFF; }
-  @media (min-width: 35em) {
-    .data {
-      font-size: 5em; } }
-
-.bold {
-  font-weight: bold;
-  font-weight: 700; }
-
-.flag {
-  font-size: 3em;
-  padding-right: 0.5em;
-  vertical-align: middle; }
-
-.yellow-gradient {
-  background: -webkit-linear-gradient(36deg, #EFCD4D, #EF7C4D);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
-
-.pink-gradient {
-  background: -webkit-linear-gradient(36deg, #F23A6D, #F782A2);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
-
-body {
-  webkit-font-smoothing: antialiased; }
-
-.intro {
-  padding: 100px;
-  background: #47BFBB; }
-
-.container {
-  padding: 25px; }
-  @media (min-width: 35em) {
-    .container {
-      padding: 50px; } }
-
-.tile {
-  background-image: -webkit-linear-gradient(225deg, #085A92 0%, #001945 100%);
-  background-image: linear-gradient(-135deg, #085A92 0%, #001945 100%);
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
-  padding: 25px; }
-
-.circle {
-  border-radius: 50%;
-  max-width: 50px; }
-
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
  * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
  */
+@import "https://fonts.googleapis.com/css?family=Roboto+Mono:100,300,500";
+@import "https://fonts.googleapis.com/css?family=Montserrat:400,700";
 html {
   font-family: sans-serif;
   /* 1 */
@@ -449,6 +372,198 @@ textarea {
   font: inherit;
   /* 2 */ }
 
+.yellow-gradient {
+  background: -webkit-linear-gradient(36deg, #EFCD4D, #EF7C4D);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.pink-gradient {
+  background: -webkit-linear-gradient(36deg, #F23A6D, #F782A2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.blue-gradient {
+  background: -webkit-linear-gradient(36deg, #ABF9FF, #00558C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.purple-gradient {
+  background: -webkit-linear-gradient(36deg, #C86DD7, #3023AE);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.bg-yellow-gradient {
+  background: -webkit-linear-gradient(36deg, #EFCD4D, #EF7C4D); }
+.bg-pink-gradient {
+  background: -webkit-linear-gradient(36deg, #F23A6D, #F782A2); }
+.bg-blue-gradient {
+  background: -webkit-linear-gradient(36deg, #ABF9FF, #00558C); }
+.bg-purple-gradient {
+  background: -webkit-linear-gradient(36deg, #C86DD7, #3023AE); }
+.bg-teal-gradient {
+  background: -webkit-linear-gradient(36deg, #90DCE2, #3EC1C1); }
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: #FFF;
+  font-size: 3em; }
+
+p {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0; }
+
+.title {
+  font-family: "Roboto Mono", monospace;
+  font-size: .75em;
+  letter-spacing: .5em;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-bottom: 5px;
+  color: #FFF; }
+
+.description {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1em;
+  font-weight: 300;
+  color: #FFF; }
+
+.data {
+  font-family: "Roboto Mono", monospace;
+  font-size: 3em;
+  font-weight: 100;
+  color: #FFF; }
+  @media (min-width: 35em) {
+    .data {
+      font-size: 5em; } }
+
+.thick {
+  font-weight: 700; }
+
+.thin {
+  font-weight: 400;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: #3EC1C1; }
+
+a {
+  text-decoration: none; }
+
+body {
+  webkit-font-smoothing: antialiased; }
+
+.intro {
+  padding: 50px;
+  background: #3EC1C1; }
+  @media (min-width: 35em) {
+    .intro {
+      padding: 100px; } }
+  .intro p {
+    font-family: "Roboto Mono", monospace;
+    color: #FFF;
+    text-align: center;
+    font-weight: 400; }
+
+.container {
+  padding: 25px; }
+  @media (min-width: 35em) {
+    .container {
+      padding: 50px; } }
+
+.tile {
+  background-image: -webkit-linear-gradient(225deg, #085A92 0%, #001945 100%);
+  background-image: linear-gradient(-135deg, #085A92 0%, #001945 100%);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 25px; }
+
+.circle {
+  border-radius: 50%;
+  max-width: 50px; }
+
+.data-point {
+  border-radius: 100px;
+  width: 80%;
+  padding: 12px;
+  margin-bottom: 25px;
+  position: relative; }
+  @media (min-width: 35em) {
+    .data-point {
+      width: 25px;
+      height: 25px;
+      cursor: pointer;
+      -webkit-transition: all 0.75s;
+      transition: all 0.75s; }
+      .data-point:hover {
+        width: 80%; }
+        .data-point:hover .data-point-info {
+          opacity: 1; } }
+
+.data-point-info {
+  color: #FFF;
+  font-family: "Roboto Mono", monospace;
+  padding: 6px;
+  font-size: .5em;
+  font-weight: 600;
+  opacity: 1;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  width: 100%; }
+  @media (min-width: 35em) {
+    .data-point-info {
+      opacity: 0;
+      position: absolute; } }
+
+.graph .title {
+  padding-bottom: 25px; }
+.graph .description {
+  padding-bottom: 25px; }
+  @media (min-width: 35em) {
+    .graph .description {
+      padding-bottom: 0; } }
+
+.project-title {
+  background: #FFF;
+  padding: 25px;
+  margin-top: -5px;
+  color: #343233;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  border-bottom-left-radius: .5em;
+  border-bottom-right-radius: .5em;
+  font-size: 1em;
+  font-weight: 300; }
+
+footer {
+  padding: 25px;
+  font-family: "Roboto Mono", monospace;
+  color: #343233;
+  text-align: center; }
+
+img {
+  width: 100%; }
+
+.project-img {
+  max-width: 500px;
+  padding-top: 25px; }
+  @media (min-width: 35em) {
+    .project-img {
+      padding-top: 0; } }
+
+.flag {
+  max-width: 60px;
+  padding-right: 1em;
+  vertical-align: middle; }
+
+.mt1 {
+  margin-top: 1em; }
+
+.pb1 {
+  padding-bottom: 1em; }
+
+hr {
+  margin-top: 50px; }
+
 /*--------------------------------------------------------------------
  * Grid 
  * Adapted from Philip Walton 
@@ -529,3 +644,8 @@ textarea {
   -webkit-align-self: flex-end;
       -ms-flex-item-align: end;
           align-self: flex-end; }
+
+.grid-gutters {
+  margin: -1em 1em 1em -1em; }
+  .grid-gutters .grid-cell {
+    padding: 1em 0 0 1em; }

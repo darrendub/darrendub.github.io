@@ -52,7 +52,8 @@
 
   <body>
     <section class="intro">
-        <h1>darren<span class="bold">fit</span></h1>
+        <h1><span class="thick">darren</span><span class="thin">fit</span></h1>
+        <p>A dashboard of the life, work, and fun of Darren Wong</p>
     </section>
     <section class="container">
         <div class="grid grid-gutters grid-full">
@@ -85,7 +86,7 @@
                         <div class="grid-cell">
                             <p class="data yellow-gradient">17</p>
                             <p class="title">Food</p>
-                            <p class="description">Number of BBQ hosted</p>
+                            <p class="description">Number of BBQs hosted</p>
                         </div>
                     </div>
                     <div class="grid grid-gutters grid-full">
@@ -96,8 +97,8 @@
                         </div>
                         <div class="grid-cell">
                             <p class="data yellow-gradient">MRK</p>
-                            <p class="title">Movies</p>
-                            <p class="description">Favorite Movie: Moonrise Kingdom</p>
+                            <p class="title">Favorite Movie</p>
+                            <p class="description">Moonrise Kingdom</p>
                         </div>
                     </div>
                 </div>
@@ -108,18 +109,18 @@
                     <div class="grid grid-gutters grid-full">
                         <div class="grid-cell">
                             <p class="title">Ethnicities</p>
-                            <p class="description"><span class="flag">🇸🇪</span>Swedish</p>
-                            <p class="description"><span class="flag">🇵🇷</span>Puerto Rican</p>
-                            <p class="description"><span class="flag">🇺🇸</span>Hawaiian</p>
-                            <p class="description"><span class="flag">🇨🇳</span>Chinese</p>
-                            <p class="description"><span class="flag">🇵🇭</span>Filipino</p>
-                            <p class="description"><span class="flag">🇵🇹</span>Portuguese</p>
+                            <p class="description"><img class="flag" src="public/img/fitbit/flag-se.png">Swedish</p>
+                            <p class="description"><img class="flag" src="public/img/fitbit/flag-pr.png">Puerto Rican</p>
+                            <p class="description"><img class="flag" src="public/img/fitbit/flag-us.png">Hawaiian</p>
+                            <p class="description"><img class="flag" src="public/img/fitbit/flag-cn.png">Chinese</p>
+                            <p class="description"><img class="flag" src="public/img/fitbit/flag-ph.png">Filipino</p>
+                            <p class="description"><img class="flag" src="public/img/fitbit/flag-pt.png">Portuguese</p>
                         </div>
                         <div class="grid-cell">
                             <p class="title">Height</p>
                             <p class="data pink-gradient">5'7</p>
                             <p class="title">Weight</p>
-                            <p class="data pink-gradient">145</p>
+                            <p class="data pink-gradient">150</p>
                             <p class="title">Age</p>
                             <p class="data pink-gradient">25.9</p>
                         </div>
@@ -128,10 +129,122 @@
             </div>
         </div>
         <div class="tile">
-            <p class="title">Timeline</p>
+            <div class="graph">
+                <p class="title">Timeline</p>
+                <div class="grid grid-gutters grid-full">
+                    <div class="grid-cell">
+                        <div class="data-point bg-yellow-gradient">
+                            <span class="data-point-info">Left Hawaii</span>
+                        </div>
+                        <div class="data-point bg-pink-gradient">
+                            <span class="data-point-info">First year at USF</span>
+                        </div>
+                        <div class="data-point bg-purple-gradient">
+                            <span class="data-point-info">Discovered Jessica Hische</span>
+                        </div>
+                        <p class="description">2008</p>
+                    </div>
+                    <div class="grid-cell">
+                        <div class="data-point bg-blue-gradient">
+                            <span class="data-point-info">Drake's first album</span>
+                        </div>
+                        <div class="data-point bg-yellow-gradient">
+                            <span class="data-point-info">Freelanced for Airbnb</span>
+                        </div>
+                        <p class="description">2010</p>
+                    </div>
+
+                    <div class="grid-cell">
+                        <div class="data-point bg-pink-gradient">
+                            <span class="data-point-info">Worked at the Apple store</span>
+                        </div>
+                        <div class="data-point bg-purple-gradient">
+                            <span class="data-point-info">Graduated from USF</span>
+                        </div>
+                        <div class="data-point bg-blue-gradient">
+                            <span class="data-point-info">Started at Inkling</span>
+                        </div>
+                        <p class="description">2012</p>
+                    </div>
+                    <div class="grid-cell">
+                        <div class="data-point bg-purple-gradient">
+                            <span class="data-point-info">Paradise Soccer Club launch</span>
+                        </div>
+                        <div class="data-point bg-pink-gradient">
+                            <span class="data-point-info">Redesigned inkling.com</span>
+                        </div>
+                        <p class="description">2014</p>
+                    </div>
+                    <div class="grid-cell">
+                        <div class="data-point bg-blue-gradient">
+                            <span class="data-point-info">Freelance for Padhu Group</span>
+                        </div>
+                        <div class="data-point bg-purple-gradient">
+                            <span class="data-point-info">Drake CSS launch</span>
+                        </div>
+                        <div class="data-point bg-yellow-gradient">
+                            <span class="data-point-info">Started at Fitbit?</span>
+                        </div>
+                        <p class="description">2016</p>
+                    </div>
+                </div>
+            </div>
         </div>
+        <a href="http://darrendub.com/resume/">
+        <div class="tile mt1">
+            <p class="description">View Full Resume &#8594;</p>
+        </div>
+        </a>
+        <div class="tile mt1">
+            <p class="title pb1">Projects</p>
+                    <div class="grid grid-gutters grid-full">
+                        <div class="grid-cell">
+                            <a href="http://darrendub.com/inkling-inspiration/" target="_blank">
+                            <img class="project-img" src="public/img/fitbit/inspiration.png">
+                            <div class="project-title">Inkling Inspiration &#8594;</div>
+                            </a>
+                            <p class="data blue-gradient">2x</p>
+                            <p class="description">Better conversion rate</p>
+                            <p class="data blue-gradient">50%</p>
+                            <p class="description">Of users scrolled to bottom</p>
+                            <p class="data blue-gradient">08</p>
+                            <p class="description">Interactive elements</p>
+                        </div>
+                        <div class="grid-cell">
+                            <a href="http://darrendub.com/hemingway/" target="_blank">
+                            <img class="project-img" src="public/img/fitbit/hemingway.png">
+                            <div class="project-title">Project Hemingway &#8594;</div>
+                            </a>
+                            <p class="data blue-gradient">125%</p>
+                            <p class="description">Decrease in site load time</p>
+                            <p class="data blue-gradient">20+</p>
+                            <p class="description">Responsive webpages</p>
+                            <p class="data blue-gradient">2.5x</p>
+                            <p class="description">Decrease in page weight</p>
+                        </div>
+                        <div class="grid-cell">
+                            <a href="http://darrendub.com/curiosity-shoppe/" target="_blank">
+                            <img class="project-img" src="public/img/fitbit/curiosity.png">
+                            <div class="project-title">Curiosity Shoppe Icons &#8594;</div>
+                            </a>
+                            <p class="data blue-gradient">12</p>
+                            <p class="description">Unique icons created</p>
+                            <p class="data blue-gradient">01</p>
+                            <p class="description">Inkling history lesson</p>
+                            <p class="data blue-gradient">05</p>
+                            <p class="description">Icon concepts</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="http://darrendub.com/">
+                    <div class="tile mt1">
+                        <p class="description">View Full Portfolio &#8594;</p>
+                    </div>
+                </a>
     </section>
-    <footer></footer>
+    <footer>
+        <p>Hand developed by Darren Wong in San Francisco, California.</p>
+    </footer>
   </body>
 
 
