@@ -393,15 +393,20 @@ textarea {
   -webkit-text-fill-color: transparent; }
 
 .bg-yellow-gradient {
-  background: -webkit-linear-gradient(36deg, #EFCD4D, #EF7C4D); }
+  background: -webkit-linear-gradient(36deg, #EFCD4D, #EF7C4D);
+  background-color: #EF7C4D; }
 .bg-pink-gradient {
-  background: -webkit-linear-gradient(36deg, #F23A6D, #F782A2); }
+  background: -webkit-linear-gradient(36deg, #F23A6D, #F782A2);
+  background-color: #F23A6D; }
 .bg-blue-gradient {
-  background: -webkit-linear-gradient(36deg, #ABF9FF, #00558C); }
+  background: -webkit-linear-gradient(36deg, #ABF9FF, #00558C);
+  background-color: #ABF9FF; }
 .bg-purple-gradient {
-  background: -webkit-linear-gradient(36deg, #C86DD7, #3023AE); }
+  background: -webkit-linear-gradient(36deg, #C86DD7, #3023AE);
+  background-color: #3023AE; }
 .bg-teal-gradient {
-  background: -webkit-linear-gradient(36deg, #90DCE2, #3EC1C1); }
+  background: -webkit-linear-gradient(36deg, #90DCE2, #3EC1C1);
+  background-color: #3EC1C1; }
 
 h1 {
   font-family: "Montserrat", sans-serif;
@@ -412,7 +417,8 @@ h1 {
 
 p {
   -webkit-margin-before: 0;
-  -webkit-margin-after: 0; }
+  -webkit-margin-after: 0;
+  margin: 0; }
 
 .title {
   font-family: "Roboto Mono", monospace;

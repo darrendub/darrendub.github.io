@@ -74,18 +74,23 @@ $white:					#FFF;
 .bg {
 	&-yellow-gradient {
 		background: -webkit-linear-gradient(36deg, $fitbit-yellow, $fitbit-orange);
+		background-color: $fitbit-orange;
 	}
 	&-pink-gradient {
 		background: -webkit-linear-gradient(36deg, $fitbit-pink, $fitbit-light-pink);
+		background-color: $fitbit-pink;
 	}
 	&-blue-gradient {
 		background: -webkit-linear-gradient(36deg, $fitbit-light-blue, $fitbit-dark-blue);
+		background-color: $fitbit-light-blue;
 	}
 	&-purple-gradient {
 		background: -webkit-linear-gradient(36deg, $fitbit-light-purple, $fitbit-purple);
+		background-color: $fitbit-purple;
 	}
 	&-teal-gradient {
 		background: -webkit-linear-gradient(36deg, $fitbit-light-teal, $fitbit-teal);
+		background-color: $fitbit-teal;
 	}
 }
 
@@ -126,6 +131,7 @@ h1	{
 p {
 	-webkit-margin-before: 0;
     -webkit-margin-after: 0;
+    margin: 0;
 }
 
 .title {
