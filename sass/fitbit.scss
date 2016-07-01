@@ -86,7 +86,7 @@ $white:					#FFF;
 	}
 	&-purple-gradient {
 		background: -webkit-linear-gradient(36deg, $fitbit-light-purple, $fitbit-purple);
-		background-color: $fitbit-purple;
+		background-color: $fitbit-light-purple;
 	}
 	&-teal-gradient {
 		background: -webkit-linear-gradient(36deg, $fitbit-light-teal, $fitbit-teal);
