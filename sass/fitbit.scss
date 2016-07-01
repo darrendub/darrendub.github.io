@@ -88,10 +88,6 @@ $white:					#FFF;
 		background: -webkit-linear-gradient(36deg, $fitbit-light-purple, $fitbit-purple);
 		background-color: $fitbit-light-purple;
 	}
-	&-teal-gradient {
-		background: -webkit-linear-gradient(36deg, $fitbit-light-teal, $fitbit-teal);
-		background-color: $fitbit-teal;
-	}
 }
 
 //--------------------------------------------------------------------
@@ -175,6 +171,10 @@ a {
 	text-decoration: none;
 }
 
+.bold {
+	font-weight: 500;
+}
+
 //--------------------------------------------------------------------
 // Structure
 //--------------------------------------------------------------------
@@ -209,6 +209,11 @@ body {
 	border-radius: 10px;
 	padding: $unit-small;
 }
+
+.bg-teal-gradient {
+		background: -webkit-linear-gradient(36deg, $fitbit-light-teal, $fitbit-teal);
+		background-color: $fitbit-teal;
+	}
 .circle {
 	border-radius: 50%;
 	max-width: 50px;
