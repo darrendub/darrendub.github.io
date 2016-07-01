@@ -453,7 +453,10 @@ a {
   text-decoration: none; }
 
 .bold {
-  font-weight: 500; }
+  font-weight: 500px; }
+
+.fitbit-teal {
+  color: #3EC1C1; }
 
 body {
   webkit-font-smoothing: antialiased; }
