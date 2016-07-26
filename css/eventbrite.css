@@ -448,13 +448,10 @@ textarea {
   font: inherit;
   /* 2 */ }
 
-/*--------------------------------------------------------------------
- * Darren Wants To Work At Twitter
- *------------------------------------------------------------------*/
 body {
   font-family: "Helvetica", Helvetica, Arial, sans-serif;
   webkit-font-smoothing: antialiased;
-  font-weight: normal; }
+  font-weight: 100; }
 
 .container {
   max-width: 1050px;
@@ -504,13 +501,11 @@ section {
       margin-top: 50px;
       padding-left: 0; } }
 
-.body-text-padding {
-  padding-left: 25px;
-  padding-right: 25px; }
-  @media (min-width: 600px) {
-    .body-text-padding {
-      padding-left: 100px;
-      padding-right: 100px; } }
+@media (min-width: 600px) {
+  .body-text-padding {
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 686px; } }
 
 .bg-gray {
   background-color: #f8f9ff; }
@@ -540,8 +535,13 @@ h2 {
 
 blockquote {
   margin: 0;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 100; }
+  @media (min-width: 600px) {
+    blockquote {
+      font-size: 28px;
+      padding-top: 25px;
+      padding-bottom: 25px; } }
 
 .text-white {
   color: #fff; }
@@ -572,18 +572,28 @@ blockquote {
 
 nav {
   background-color: #fff;
-  padding: 20px 20px 0 20px;
+  padding: 10px 10px 0 10px;
   position: fixed;
   width: 100%;
   z-index: 200; }
+  @media (min-width: 600px) {
+    nav {
+      padding: 20px 20px 0 20px; } }
 
 .logo {
-  max-width: 100px; }
+  max-width: 100px;
+  margin-top: 7px; }
+  @media (min-width: 600px) {
+    .logo {
+      margin-top: 0; } }
 
 .nav-actions {
   float: right;
-  margin-top: -20px;
-  margin-right: 20px; }
+  margin-top: -10px; }
+  @media (min-width: 600px) {
+    .nav-actions {
+      margin-right: 20px;
+      margin-top: -20px; } }
   .nav-actions p {
     text-transform: uppercase;
     display: inline-block;
@@ -596,7 +606,7 @@ nav {
         padding-right: 40px; } }
 
 .nav-button {
-  padding: 25px;
+  padding: 20px;
   color: #fff;
   background-color: #39c2c8;
   display: inline-block;
@@ -620,8 +630,11 @@ img {
 
 .title {
   background-color: #f8f9ff;
-  margin-top: -150px;
+  margin-top: -50px;
   z-index: 300; }
+  @media (min-width: 600px) {
+    .title {
+      margin-top: -150px; } }
   .title h1 {
     padding: 25px;
     color: #3c3c3c;
@@ -678,10 +691,13 @@ hr {
       margin-top: -100px; } }
 
 .width-325 {
-  max-width: 240px; }
+  max-width: 300px; }
   @media (min-width: 600px) {
     .width-325 {
       max-width: 325px; } }
+
+.card-intro {
+  padding-right: 25px; }
 
 .card-hover {
   cursor: pointer;
@@ -780,24 +796,38 @@ hr {
     margin-left: 100px; } }
 
 .pie {
-  max-width: 240px; }
-  @media (min-width: 600px) {
+  max-width: 180px; }
+  @media (min-width: 720px) {
     .pie {
       position: absolute; } }
+  @media (min-width: 1160px) {
+    .pie {
+      max-width: 240px; } }
 
-@media (min-width: 600px) {
-  .pie-sales {
-    left: 50px; } }
+.pie-sales {
+  left: 25px; }
+  @media (min-width: 1160px) {
+    .pie-sales {
+      left: 50px; } }
 
-@media (min-width: 600px) {
-  .pie-tickets {
-    left: 300px;
-    top: 150px; } }
+.pie-tickets {
+  left: 150px;
+  top: 157px; }
+  @media (min-width: 1160px) {
+    .pie-tickets {
+      left: 300px;
+      top: 150px; } }
 
-@media (min-width: 600px) {
-  .pie-shows {
-    left: 50px;
-    top: 300px; } }
+.pie-shows {
+  left: 25px;
+  top: 300px; }
+  @media (min-width: 1160px) {
+    .pie-shows {
+      left: 50px;
+      top: 300px; } }
+
+.pie-text {
+  padding-right: 25px !important; }
 
 .video-container {
   position: relative; }
