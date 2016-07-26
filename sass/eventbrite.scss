@@ -1,0 +1,328 @@
+/*--------------------------------------------------------------------
+ * darrendub.com
+ *------------------------------------------------------------------*/
+
+//--------------------------------------------------------------------
+// Breakpoints
+//--------------------------------------------------------------------
+
+$bp-small:		26em;
+$bp-medium:		35em;
+$bp-large:		48em;
+$bp-xlarge:		60em;
+
+ //--------------------------------------------------------------------
+// Import
+//--------------------------------------------------------------------
+@import "_grid.scss";
+@import "_twitter-normalizer.scss";
+
+
+/*--------------------------------------------------------------------
+ * Darren Wants To Work At Twitter
+ *------------------------------------------------------------------*/
+
+
+// Colors 
+$eventbrite-teal: 		#39c2c8; 
+$eventbrite-gray: 		#f8f9ff;
+$coal:					#3c3c3c;
+$eventbrite-midnight:	#282c35;
+
+
+// Typeface 
+$font-sans:				"Helvetica",Helvetica,Arial,sans-serif;
+
+// Units
+$unit-xsmall:			12px;
+$unit-small:			25px;
+$unit-medium:			50px;
+$unit-large:			100px;
+$bp-medium:				600px;
+
+// Structure 
+
+body {
+	font-family: $font-sans;
+	webkit-font-smoothing: antialiased;
+	font-weight: normal;
+}
+.container {
+	max-width: 1050px;
+  width: 90%;
+  clear: left;
+	display: block; // centers container
+	margin-left: auto; // centers container
+	margin-right: auto; // centers container
+	padding-left: $unit-small; // adds spacing
+	padding-right: $unit-small; // adds spacing
+}
+
+.content {
+  padding: $unit-small;
+  padding-top: $unit-medium;
+  @media (min-width: $bp-small) {
+    padding: $unit-medium;
+  }
+  @media (min-width: $bp-large) {
+    padding: $unit-large;
+  }
+}
+.content-small {
+  padding: $unit-small;
+  @media (min-width: $bp-small) {
+    padding: $unit-medium;
+  }
+  @media (min-width: $bp-medium) {
+    padding: $unit-medium;
+  }
+}
+
+section {
+  padding-top: $unit-small;
+  padding-bottom: $unit-small;
+  @media (min-width: $bp-medium) {
+    padding-top: $unit-medium;
+    padding-bottom: $unit-medium;
+  }
+  p { // Really need to rethink this...
+    &:last-of-type {
+      margin-bottom: 0; // If a para is in a section remove 
+    }
+  }
+}
+.midnight {
+	background-color: $eventbrite-midnight;
+}
+.body-text-padding {
+	padding-left: $unit-small;
+	padding-right: $unit-small;
+	@media (min-width: $bp-medium) {
+		padding-left: $unit-large;
+		padding-right: $unit-large;
+	}
+}
+
+.bg-gray {
+	background-color: $eventbrite-gray;
+}
+
+// Type
+
+h1 {
+	font-size: 30px;
+	font-weight: 100;
+	@media (min-width: $bp-medium) {
+		font-size: 60px;
+	}
+}
+
+h2 {
+	font-weight: 100;
+	font-size: 20px;
+	@media (min-width: $bp-medium) {
+		font-size: 36px;
+	}
+}
+.body-text {
+	font-size: 15px;
+	line-height: 1.2;
+	color: $coal;
+}
+blockquote {
+	margin: 0;
+	font-size: 28px;
+	font-weight: 100;
+}
+.text-white {
+	color: #fff;
+}
+.card-text {
+	background-color: #fff;
+	padding:18px;
+}
+
+.card-title {
+	font-size: 24px;
+	color: $coal;
+	margin: 0;
+	font-weight: 100;
+}
+.card-desc {
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 0.2px;
+	color: #929499;
+}
+
+
+// Nav
+nav {
+	background-color: #fff;
+	padding: 20px 20px 0 20px;
+	position: fixed;
+	width:100%;
+}
+.logo {
+	max-width: $unit-large;
+}
+.nav-actions {
+	float: right;
+	margin-top: -20px;
+	margin-right: 20px;
+	p {
+		text-transform: uppercase;
+		display: inline-block;
+		text-align: right;
+		font-size: $unit-xsmall;
+		letter-spacing: 1px;
+		padding-right: 40px;
+		font-weight: 100;
+	}
+}
+.nav-button {
+	padding: $unit-small;
+	color:#fff;
+	background-color: $eventbrite-teal;
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: $unit-xsmall;
+	letter-spacing: 1px;
+
+}
+
+// Image
+
+img {
+	width: 100%;
+}
+
+.hero {
+	position: relative;
+	z-index: -200;
+}
+
+// Styles
+
+.title {
+	background-color: $eventbrite-gray;
+	margin-top: -$unit-large + -$unit-medium;
+	z-index: 300;
+	h1 {
+		padding:$unit-small;
+		color: $coal;
+		font-weight: 100;
+		@media (min-width: $bp-medium) {
+			padding:$unit-small $unit-large;
+		}
+	}
+}
+hr {
+	width:78px;
+	display: inline-block;
+	height: 1px;
+}
+.rule-dark {
+	background-color: #45484e;
+}
+
+.rule-light {
+	background-color: #fff;
+}
+
+.button {
+	padding: 17px 20px;
+	border-radius: 4px;
+	max-width: 150px;
+	display: inline-block;
+	margin-top: $unit-small;
+	p {
+		color: #fff;
+		font-size: 15px;
+		text-align: center;
+		font-weight: 200;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		margin:0;
+	}
+}
+.orange-gradient {
+	background-image: -webkit-linear-gradient(36deg, #f5592f, #feb01f);
+}
+
+.pt-0 {
+	padding-top: 0;
+	@media (min-width: $bp-medium) {
+		padding-top: 1em;
+	}
+}
+
+.pl-50 {
+	padding-left: 0;
+	@media (min-width: $bp-medium) {
+		padding-left: $unit-medium;
+	}
+}
+
+.mt-20 {
+	margin-top: 0;
+	@media (min-width: $bp-medium) {
+		margin-top: -$unit-large;
+	}
+}
+.width-325 {
+	max-width: 325px;
+}
+
+.card-hover {
+	cursor: pointer;
+	display: block;
+	position: relative;
+	transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+	&:hover {
+		box-shadow: 0 14px 28px rgba(0,0,0,0.1), 0 10px 10px rgba(0,0,0,0.1);
+		top:-2.5px; 
+	}
+	img {
+		margin:0;
+	}
+} 
+
+// Animations 
+#fade, #fade1 {
+	visibility: hidden;
+}
+
+
+.card-fade{
+	animation-name: fadeIn;
+
+	animation-duration: 1.5s;	
+
+	animation-timing-function: ease-in-out;	
+
+	visibility: visible !important;	
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0.0;		
+	}
+	80% {
+		opacity: 1;	
+	}	
+	100% {
+		opacity: 1;	
+	}		
+}
+
+// Pie Chart
+
+
+
+
+
+
+
+
+

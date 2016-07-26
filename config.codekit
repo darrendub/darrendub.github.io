@@ -364,6 +364,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/eventbrite.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/eventbrite.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/fitbit.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -914,6 +923,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/eventbrite-homework.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/eventbrite-homework.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/hemingway.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -968,6 +986,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/mothers-day.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/open-garage.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/open-garage.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1424,6 +1451,204 @@
 		"initialSize": 100009,
 		"inputAbbreviatedPath": "\/public\/img\/email\/email-system-home.png",
 		"outputAbbreviatedPath": "\/public\/img\/email\/email-system-home.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/eventbrite\/Card 01_img.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 207222,
+		"inputAbbreviatedPath": "\/public\/img\/eventbrite\/Card 01_img.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/eventbrite\/Card 01_img.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/eventbrite\/Card 02_img.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86726,
+		"inputAbbreviatedPath": "\/public\/img\/eventbrite\/Card 02_img.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/eventbrite\/Card 02_img.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/eventbrite\/Card 03_img.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71590,
+		"inputAbbreviatedPath": "\/public\/img\/eventbrite\/Card 03_img.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/eventbrite\/Card 03_img.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/eventbrite\/Card 04 app img.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 103775,
+		"inputAbbreviatedPath": "\/public\/img\/eventbrite\/Card 04 app img.png",
+		"outputAbbreviatedPath": "\/public\/img\/eventbrite\/Card 04 app img.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/eventbrite\/Card 05 icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30445,
+		"inputAbbreviatedPath": "\/public\/img\/eventbrite\/Card 05 icon.png",
+		"outputAbbreviatedPath": "\/public\/img\/eventbrite\/Card 05 icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/eventbrite\/Card 05_grad.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45598,
+		"inputAbbreviatedPath": "\/public\/img\/eventbrite\/Card 05_grad.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/eventbrite\/Card 05_grad.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/eventbrite\/card-download.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/public\/img\/eventbrite\/card-download.png",
+		"outputAbbreviatedPath": "\/public\/img\/eventbrite\/card-download.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/eventbrite\/card-serious.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/public\/img\/eventbrite\/card-serious.png",
+		"outputAbbreviatedPath": "\/public\/img\/eventbrite\/card-serious.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/eventbrite\/eventbrite-logo-small.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3619,
+		"inputAbbreviatedPath": "\/public\/img\/eventbrite\/eventbrite-logo-small.png",
+		"outputAbbreviatedPath": "\/public\/img\/eventbrite\/eventbrite-logo-small.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/eventbrite\/Eventbrite_wordmark_orange.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66104,
+		"inputAbbreviatedPath": "\/public\/img\/eventbrite\/Eventbrite_wordmark_orange.png",
+		"outputAbbreviatedPath": "\/public\/img\/eventbrite\/Eventbrite_wordmark_orange.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/eventbrite\/Eventbrite_wordmark_white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26814,
+		"inputAbbreviatedPath": "\/public\/img\/eventbrite\/Eventbrite_wordmark_white.png",
+		"outputAbbreviatedPath": "\/public\/img\/eventbrite\/Eventbrite_wordmark_white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/eventbrite\/header_photo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 581561,
+		"inputAbbreviatedPath": "\/public\/img\/eventbrite\/header_photo.jpg",
+		"outputAbbreviatedPath": "\/public\/img\/eventbrite\/header_photo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/eventbrite\/Pie chart background ring_01.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4104,
+		"inputAbbreviatedPath": "\/public\/img\/eventbrite\/Pie chart background ring_01.png",
+		"outputAbbreviatedPath": "\/public\/img\/eventbrite\/Pie chart background ring_01.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/eventbrite\/Pie chart background ring_02.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4104,
+		"inputAbbreviatedPath": "\/public\/img\/eventbrite\/Pie chart background ring_02.png",
+		"outputAbbreviatedPath": "\/public\/img\/eventbrite\/Pie chart background ring_02.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/eventbrite\/Pie chart background ring_03.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4104,
+		"inputAbbreviatedPath": "\/public\/img\/eventbrite\/Pie chart background ring_03.png",
+		"outputAbbreviatedPath": "\/public\/img\/eventbrite\/Pie chart background ring_03.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/eventbrite\/Pie chart grad_01.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7064,
+		"inputAbbreviatedPath": "\/public\/img\/eventbrite\/Pie chart grad_01.png",
+		"outputAbbreviatedPath": "\/public\/img\/eventbrite\/Pie chart grad_01.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/eventbrite\/Pie chart grad_02.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8311,
+		"inputAbbreviatedPath": "\/public\/img\/eventbrite\/Pie chart grad_02.png",
+		"outputAbbreviatedPath": "\/public\/img\/eventbrite\/Pie chart grad_02.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/eventbrite\/Pie chart grad_03.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9433,
+		"inputAbbreviatedPath": "\/public\/img\/eventbrite\/Pie chart grad_03.png",
+		"outputAbbreviatedPath": "\/public\/img\/eventbrite\/Pie chart grad_03.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2011,6 +2236,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/js\/parallax.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/js\/parallax.min.js",
+		"outputAbbreviatedPath": "\/public\/js\/min\/parallax.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/README.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
@@ -2201,6 +2437,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/sass\/eventbrite.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/eventbrite.scss",
+		"outputAbbreviatedPath": "\/css\/eventbrite.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/sass\/fitbit.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -2309,7 +2561,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Michael Kuykendall",
+"lastSavedByUser": "Darren Wong",
 "manualImportLinks": {
 	},
 "projectAttributes": {
