@@ -13,10 +13,12 @@ title: Open Garage
         <p class="text-white">Design an experience that would help either sellers or buyers get more from their garage sales.</p>
       </div>
     </div>
+      <h4 class="text-white">Identify</h4>
+      <p class="text-white">I began by identifying the key players: <b>Sellers and Buyers</b>, listing out everything I knew about them and the initial problems they faced.</p>
 
     <div class="grid grid-gutters grid-full mt1">
-      <h4 class="text-white">Users</h4>
       <div class="grid-cell">
+        <img class="img-100" src="/public/img/open-garage/avatar-seller.svg">
         <p class="text-white"><b>Sellers</b></p>
     <ul class="text-white">
       <li>Families</li>
@@ -28,15 +30,16 @@ title: Open Garage
     </ul>
     <p class="text-white"><b>Sellers' Problems</b></p>
     <p class="text-white"><em>Preparing for a sale is a daunting task</em></p>
-    <ul class="text-white">
+    <!-- <ul class="text-white">
       <li>Signage</li>
       <li>Marketing</li>
       <li>Hours spent working the sale</li>
       <li>Figuring out which items to sell</li>
       <li>Gauging interest in items</li>
-    </ul>
+    </ul> -->
       </div>
       <div class="grid-cell">
+        <img class="img-100" src="/public/img/open-garage/avatar-buyer.svg">
         <p class="text-white"><b>Buyers</b></p>
     <ul class="text-white">
       <li>Families or single</li>
@@ -48,22 +51,25 @@ title: Open Garage
     </ul>
     <p class="text-white"><b>Buyers' Problems</b></p>
     <p class="text-white"><em>Difficult to find sales and purchase merchandise</em></p>
-    <ul class="text-white">
+    <!-- <ul class="text-white">
       <li>Doesn't know where garage sales are</li>
       <li>Usually mobile and happen upon them</li>
       <li>Cash only?</li>
       <li>Figuring out which items to sell</li>
       <li>Doesn't know what to expect from a garage sale</li>
-    </ul>
+    </ul> -->
       </div>
     </div>
 </section>
-<section>
+<section class="bg-light-gray">
   <div class="container">
     <h4>Map</h4>
     <p>With this information about the two types of users I created a map to visualize their individual journeys.</p>
-    <img src="">
-    From what I learned about the users and their journey I decided to focus on the seller journey specifically around hosting a garage sale. Given more time to dive in I would of looked into how this related to the buyer journey seeing where there were similarities and making that hand-off as seamless as possible.
+    <img src="/public/img/open-garage/sketch-map.jpg">
+    <p><img class="icon-inline" src="/public/img/open-garage/avatar-seller-dark.svg"> <b>Seller</b> &#8594; Has something to sell &#8594; Hosts a garage sale &#8594; Makes all the money!</p>
+    <p><img class="icon-inline" src="/public/img/open-garage/avatar-buyer-dark.svg"> <b>Buyer</b> &#8594; Actively or passively looking &#8594; Sees a thing they want &#8594; Buys thing!</p>
+    <p>From what I learned about the users and their journey I decided to focus on the <b>seller</b> journey specifically around <b>hosting a garage sale</b>. Given more time to dive in I would of looked into how this related to the buyer journey seeing where there were similarities and making that hand-off as seamless as possible.</p>
+    
   </div>
 </section>
 <section>
@@ -71,15 +77,22 @@ title: Open Garage
     <h1 class="text-center mt1">The Process</h1>
     <h4>Research</h4>
     <p>I looked at examples of similar applications, platforms for buyers and sellers, market places, and analyzed patterns and systems that I thought were effective. I liked the big images of Snkrs and Canopy. Yelp's nearby filter. Etsy's collection and search filters. Since I had a clear focus on this seller journey some things made sense and some things would be more beneficial to the buyer i.e. collections, nearby, etc.</p>
-    <p>Then I started to list out all the things that would make a Seller successful in hosting an event:</p>
+    <img src="/public/img/open-garage/research.jpg">
+    <p>Then I started to sketch/list out all the things that would make a Seller successful in hosting an event:</p>
+    <img src="/public/img/open-garage/sketch-research.jpg">
     <ul>
       <li>Easy to upload photos</li>
       <li>Easy to show location of garage sale</li>
       <li>Times and dates of garage sale</li>
       <li>Pricing of items</li>
     </ul>
-    <h4>Storyboard</h4>
+  </div>
+</section>
+<section class="bg-light-gray">
+  <div class="container">
+        <h4>Storyboard</h4>
     <p>From there I began to storyboard out how a seller might discover, download, create a garage sale using Open Garage.</p>
+    <img src="/public/img/open-garage/sketch-storyboard.jpg">
     <ol>
       <li>Perhaps they see an ad on social media (or are looking for it in the app store)</li>
       <li>Download app from app store</li>
@@ -94,21 +107,45 @@ title: Open Garage
       <li>There will be a prompt with a link to share on social media and sms</li>
       <li>After their event has been uploaded they are taken back to the initial screen with a list of nearby garage sales</li>
     </ol>
-    <img src="">
 
     <h4>Prototype</h4>
     <p>After putting together the storyboard I needed to validate the solutions I believed the app was accomplishing. However, I had a very limited time to run tests, I was able to have one tester run through the prototype which is not nearly as many data points as I would like but it did reveal some findings. I gave the tester a prompt of downloading an app that would help them create a garage sale. I then asked them to create a garage sale once they dowloaded the app.</p>
 
-    <h4>High Fidelity Mock</h4>
-    <p>I chose to focus on the add item feature, specifically the adding information and saving actions. As a user selects images to add to their OpenGarage event they are prompted to add additional information about each item. If multiple images are selected cards build up and stack behind the first image. There are three actions, saving, deleting, and skipping. When a item is saved, a blue border appears around the card and the entire card is whisked away to the right of the screen. If the item is deleted is moves to the left of the screen. When all cards have been saved, deleted, or skipped, a final card appears denoting that the user is finished with this task and prompts the user to view and publish their event.</p>
-
+    <p class="text-center">Here is the Marvel prototype</p>
+    <iframe class="center mt1" src="https://marvelapp.com/g31bj3?emb=1" width="402" height="823" allowTransparency="true" frameborder="0"></iframe>
   </div>
 </section>
 <section class="bg-light-blue">
+  <div class="container">
+    <h4>High Fidelity Mock</h4>
+    <p>I chose to focus on the add item feature, specifically the adding information and saving actions. As a user selects images to add to their OpenGarage event they are prompted to add additional information about each item. If multiple images are selected cards build up and stack behind the first image. There are three actions, saving, deleting, and skipping. When a item is saved, a blue border appears around the card and the entire card is whisked away to the right of the screen. If the item is deleted is moves to the left of the screen. When all cards have been saved, deleted, or skipped, a final card appears denoting that the user is finished with this task and prompts the user to view and publish their event.</p>
+    <div class="grid grid-gutters grid-full mt1">
+      <div class="grid-cell">
+        <img class="drop-shadow" src="/public/img/open-garage/screen-1.jpg">
+        <span class="text-center mt1">Cards to add item information</span>
+      </div>
+      <div class="grid-cell">
+        <img class="drop-shadow" src="/public/img/open-garage/screen-2.jpg">
+        <span class="text-center mt1">Action for when a card is saved</span>
+      </div>
+    </div>
+    <div class="grid grid-gutters grid-full mt1">
+      <div class="grid-cell">
+        <img class="drop-shadow" src="/public/img/open-garage/screen-3.jpg">
+        <span class="text-center mt1">Action for when an item is deleted</span>
+      </div>
+      <div class="grid-cell">
+        <img class="drop-shadow" src="/public/img/open-garage/screen-4.jpg">
+        <span class="text-center mt1">Action completed screen</span>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="bg-deep-sea-blue-dark">
 	<div class="container">
-		<h4>Learnings</h4>
-    <p>It was confusing to launch the tester into a "facebook-type" screen I think clearer instructions would have helped here. I am unsure if the details of prompting the user to allow the app to access the camera/location of the device was necessary, possibly distracting from completing the goal at hand. I did not include an onboarding set of screens which made it confusing when the tester arrived in the OpenGarage app for the first time. The goal was to easily host a garage sale however the CTA was very small and did not look like a button which caused the tester to almost miss it. The remaining flow went pretty well the tester was able to add photos and begin a garage sale. Another piece of advice was to show the newly added garage sale on the last screen. Some clear next steps are to add a simple onboarding screen to help orient a new user. Ensure the host event CTA has more prominence, potentially adding to to the nav bar at the bottom of the screen. Including the created garage sale on the final screen.</p>
-    <h4>Final Thoughts</h4>
-    <p>This solves a few of the problems experienced by Sellers. If an app can allow easy uploading of photos and can create and event with dates and times with a few taps the experience of hosting a garage sale will less daunting. Outside of an app, OpenGarage would send sellers a Host Kit which would include materials for signs, markets, flags, shirts, square reader, and other elements that would help with a seamless event experience.</p>
+		<h4 class="text-white">Learnings</h4>
+    <p class="text-white">It was confusing to launch the tester into a "facebook-type" screen I think clearer instructions would have helped here. I am unsure if the details of prompting the user to allow the app to access the camera/location of the device was necessary, possibly distracting from completing the goal at hand. I did not include an onboarding set of screens which made it confusing when the tester arrived in the OpenGarage app for the first time. The goal was to easily host a garage sale however the CTA was very small and did not look like a button which caused the tester to almost miss it. The remaining flow went pretty well the tester was able to add photos and begin a garage sale. Another piece of advice was to show the newly added garage sale on the last screen. Some clear next steps are to add a simple onboarding screen to help orient a new user. Ensure the host event CTA has more prominence, potentially adding to to the nav bar at the bottom of the screen. Including the created garage sale on the final screen.</p>
+    <h4 class="text-white">Final Thoughts</h4>
+    <p class="text-white">This solves a few of the problems experienced by Sellers. If an app can allow easy uploading of photos and can create and event with dates and times with a few taps the experience of hosting a garage sale will less daunting. Outside of an app, OpenGarage would send sellers a Host Kit which would include materials for signs, markets, flags, shirts, square reader, and other elements that would help with a seamless event experience.</p>
 	</div>
 </section>
