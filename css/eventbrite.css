@@ -496,11 +496,13 @@ section {
     margin-bottom: 0; }
 
 .midnight {
-  background-color: #282c35; }
+  background-color: #282c35;
+  padding-left: 25px; }
   @media (min-width: 600px) {
     .midnight {
       padding-bottom: 250px;
-      margin-top: 50px; } }
+      margin-top: 50px;
+      padding-left: 0; } }
 
 .body-text-padding {
   padding-left: 25px;
@@ -512,6 +514,10 @@ section {
 
 .bg-gray {
   background-color: #f8f9ff; }
+
+.bg-light-gray {
+  background-color: #d7dae3;
+  margin-top: -4px; }
 
 h1 {
   font-size: 30px;
@@ -529,7 +535,7 @@ h2 {
 
 .body-text {
   font-size: 15px;
-  line-height: 1.2;
+  line-height: 1.4;
   color: #3c3c3c; }
 
 blockquote {
@@ -539,6 +545,9 @@ blockquote {
 
 .text-white {
   color: #fff; }
+
+.text-center {
+  text-align: center; }
 
 .card-text {
   background-color: #fff;
@@ -602,6 +611,13 @@ img {
   position: relative;
   z-index: -200; }
 
+.footer-logo {
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 12px; }
+
 .title {
   background-color: #f8f9ff;
   margin-top: -150px;
@@ -662,8 +678,7 @@ hr {
       margin-top: -100px; } }
 
 .width-325 {
-  max-width: 240px;
-  padding-left: 12px; }
+  max-width: 240px; }
   @media (min-width: 600px) {
     .width-325 {
       max-width: 325px; } }

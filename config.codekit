@@ -1543,6 +1543,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/img\/eventbrite\/eventbrite-logo-small-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4711,
+		"inputAbbreviatedPath": "\/public\/img\/eventbrite\/eventbrite-logo-small-white.png",
+		"outputAbbreviatedPath": "\/public\/img\/eventbrite\/eventbrite-logo-small-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/img\/eventbrite\/eventbrite-logo-small.png": {
 		"fileType": 32768,
 		"ignore": 0,

@@ -26,6 +26,7 @@ $bp-xlarge:		60em;
 // Colors 
 $eventbrite-teal: 		#39c2c8; 
 $eventbrite-gray: 		#f8f9ff;
+$eventbrite-light-gray:	#d7dae3;
 $coal:					#3c3c3c;
 $eventbrite-midnight:	#282c35;
 
@@ -93,9 +94,11 @@ section {
 }
 .midnight {
 	background-color: $eventbrite-midnight;
+	padding-left: $unit-small;
 	@media (min-width: $bp-medium) {
 		padding-bottom: $unit-large*2.5;
 		margin-top: $unit-medium;
+		padding-left: 0;	
 	}
 }
 .body-text-padding {
@@ -110,6 +113,11 @@ section {
 .bg-gray {
 	background-color: $eventbrite-gray;
 }
+.bg-light-gray {
+	background-color: $eventbrite-light-gray;
+	margin-top: -4px;
+}
+
 
 // Type
 
@@ -130,7 +138,7 @@ h2 {
 }
 .body-text {
 	font-size: 15px;
-	line-height: 1.2;
+	line-height: 1.4;
 	color: $coal;
 }
 blockquote {
@@ -140,6 +148,9 @@ blockquote {
 }
 .text-white {
 	color: #fff;
+}
+.text-center {
+	text-align: center;
 }
 .card-text {
 	background-color: #fff;
@@ -203,7 +214,7 @@ nav {
 
 }
 
-// Image
+// Images
 
 img {
 	width: 100%;
@@ -212,6 +223,14 @@ img {
 .hero {
 	position: relative;
 	z-index: -200;
+}
+
+.footer-logo {
+	max-width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: $unit-xsmall;
 }
 
 // Styles
@@ -284,7 +303,6 @@ hr {
 }
 .width-325 {
 		max-width: 240px;
-		padding-left: $unit-xsmall;
 	@media (min-width: $bp-medium) {
 		max-width: 325px;
 	}
