@@ -497,6 +497,10 @@ section {
 
 .midnight {
   background-color: #282c35; }
+  @media (min-width: 600px) {
+    .midnight {
+      padding-bottom: 250px;
+      margin-top: 50px; } }
 
 .body-text-padding {
   padding-left: 25px;
@@ -538,7 +542,12 @@ blockquote {
 
 .card-text {
   background-color: #fff;
-  padding: 18px; }
+  padding: 18px;
+  max-width: 206px;
+  margin-top: -4px; }
+  @media (min-width: 600px) {
+    .card-text {
+      max-width: 240px; } }
 
 .card-title {
   font-size: 24px;
@@ -556,7 +565,8 @@ nav {
   background-color: #fff;
   padding: 20px 20px 0 20px;
   position: fixed;
-  width: 100%; }
+  width: 100%;
+  z-index: 200; }
 
 .logo {
   max-width: 100px; }
@@ -571,8 +581,10 @@ nav {
     text-align: right;
     font-size: 12px;
     letter-spacing: 1px;
-    padding-right: 40px;
     font-weight: 100; }
+    @media (min-width: 600px) {
+      .nav-actions p {
+        padding-right: 40px; } }
 
 .nav-button {
   padding: 25px;
@@ -650,7 +662,11 @@ hr {
       margin-top: -100px; } }
 
 .width-325 {
-  max-width: 325px; }
+  max-width: 240px;
+  padding-left: 12px; }
+  @media (min-width: 600px) {
+    .width-325 {
+      max-width: 325px; } }
 
 .card-hover {
   cursor: pointer;
@@ -658,9 +674,10 @@ hr {
   position: relative;
   -webkit-transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
   transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1); }
-  .card-hover:hover {
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.1);
-    top: -2.5px; }
+  @media (min-width: 600px) {
+    .card-hover:hover {
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.1);
+      top: -2.5px; } }
   .card-hover img {
     margin: 0; }
 
@@ -691,3 +708,106 @@ hr {
     opacity: 1; }
   100% {
     opacity: 1; } }
+#slide, #slide1, #slide2 {
+  visibility: hidden; }
+
+.slide-up {
+  -webkit-animation-name: slideUp;
+          animation-name: slideUp;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  visibility: visible !important; }
+
+@-webkit-keyframes slideUp {
+  0% {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%); }
+  50% {
+    -webkit-transform: translateY(-8%);
+            transform: translateY(-8%); }
+  65% {
+    -webkit-transform: translateY(4%);
+            transform: translateY(4%); }
+  80% {
+    -webkit-transform: translateY(-4%);
+            transform: translateY(-4%); }
+  95% {
+    -webkit-transform: translateY(2%);
+            transform: translateY(2%); }
+  100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%); } }
+
+@keyframes slideUp {
+  0% {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%); }
+  50% {
+    -webkit-transform: translateY(-8%);
+            transform: translateY(-8%); }
+  65% {
+    -webkit-transform: translateY(4%);
+            transform: translateY(4%); }
+  80% {
+    -webkit-transform: translateY(-4%);
+            transform: translateY(-4%); }
+  95% {
+    -webkit-transform: translateY(2%);
+            transform: translateY(2%); }
+  100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%); } }
+@media (min-width: 600px) {
+  .pie-container {
+    position: relative;
+    margin-left: 100px; } }
+
+.pie {
+  max-width: 240px; }
+  @media (min-width: 600px) {
+    .pie {
+      position: absolute; } }
+
+@media (min-width: 600px) {
+  .pie-sales {
+    left: 50px; } }
+
+@media (min-width: 600px) {
+  .pie-tickets {
+    left: 300px;
+    top: 150px; } }
+
+@media (min-width: 600px) {
+  .pie-shows {
+    left: 50px;
+    top: 300px; } }
+
+.video-container {
+  position: relative; }
+
+video {
+  width: 100%;
+  opacity: 0.2;
+  background-color: #111; }
+
+.video-text {
+  width: 50%;
+  height: 50%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 100;
+  text-align: center; }
+
+.cta {
+  background-color: #00A8FA;
+  color: #fff;
+  padding: 11px 20px;
+  text-transform: uppercase;
+  font-size: 15px; }

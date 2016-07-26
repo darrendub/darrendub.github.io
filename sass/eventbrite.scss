@@ -93,6 +93,10 @@ section {
 }
 .midnight {
 	background-color: $eventbrite-midnight;
+	@media (min-width: $bp-medium) {
+		padding-bottom: $unit-large*2.5;
+		margin-top: $unit-medium;
+	}
 }
 .body-text-padding {
 	padding-left: $unit-small;
@@ -140,6 +144,11 @@ blockquote {
 .card-text {
 	background-color: #fff;
 	padding:18px;
+	max-width: 206px;
+	margin-top: -4px;
+	@media (min-width: $bp-medium) {
+		max-width: 240px;
+	}
 }
 
 .card-title {
@@ -162,6 +171,7 @@ nav {
 	padding: 20px 20px 0 20px;
 	position: fixed;
 	width:100%;
+	z-index: 200;
 }
 .logo {
 	max-width: $unit-large;
@@ -176,8 +186,10 @@ nav {
 		text-align: right;
 		font-size: $unit-xsmall;
 		letter-spacing: 1px;
-		padding-right: 40px;
 		font-weight: 100;
+		@media (min-width: $bp-medium) {
+			padding-right: 40px;	
+		}
 	}
 }
 .nav-button {
@@ -271,7 +283,11 @@ hr {
 	}
 }
 .width-325 {
-	max-width: 325px;
+		max-width: 240px;
+		padding-left: $unit-xsmall;
+	@media (min-width: $bp-medium) {
+		max-width: 325px;
+	}
 }
 
 .card-hover {
@@ -279,9 +295,11 @@ hr {
 	display: block;
 	position: relative;
 	transition: all 0.5s cubic-bezier(.25,.8,.25,1);
-	&:hover {
-		box-shadow: 0 14px 28px rgba(0,0,0,0.1), 0 10px 10px rgba(0,0,0,0.1);
-		top:-2.5px; 
+	@media (min-width: $bp-medium) {
+		&:hover {
+			box-shadow: 0 14px 28px rgba(0,0,0,0.1), 0 10px 10px rgba(0,0,0,0.1);
+			top:-2.5px; 
+		}
 	}
 	img {
 		margin:0;
@@ -316,8 +334,100 @@ hr {
 	}		
 }
 
-// Pie Chart
+#slide, #slide1, #slide2 {
+	visibility: hidden;
+}
 
+
+.slide-up{
+	animation-name: slideUp;
+
+	animation-duration: 1s;	
+
+	animation-timing-function: ease;	
+
+	visibility: visible !important;			
+}
+
+@keyframes slideUp {
+	0% {
+		transform: translateY(100%);
+	}
+	50%{
+		transform: translateY(-8%);
+	}
+	65%{
+		transform: translateY(4%);
+	}
+	80%{
+		transform: translateY(-4%);
+	}
+	95%{
+		transform: translateY(2%);
+	}			
+	100% {
+		transform: translateY(0%);
+	}	
+}
+
+// Pie Chart
+.pie-container {
+	@media (min-width: $bp-medium) {
+	position: relative;
+	margin-left: 100px;
+	}
+}
+.pie {
+	max-width: 240px;
+	@media (min-width: $bp-medium) {
+	position: absolute;
+	}
+}
+.pie-sales {
+	@media (min-width: $bp-medium) {
+	left: 50px;
+	}
+}
+.pie-tickets {
+	@media (min-width: $bp-medium) {
+	left: 300px;
+	top:150px;
+	}
+}
+.pie-shows {
+	@media (min-width: $bp-medium) {
+	left: 50px;
+	top:300px;
+	}
+}
+
+// Video
+.video-container {
+	position: relative;
+}
+video {
+	width:100%;
+	opacity: 0.2;
+	background-color:#111; 
+}
+.video-text {
+	width: 50%;
+  height: 50%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+	z-index: 100;
+	text-align: center;
+
+}
+.cta {
+	background-color: #00A8FA;
+	color:#fff;
+	padding:11px 20px;
+	text-transform: uppercase;
+	font-size: 15px;
+}
 
 
 

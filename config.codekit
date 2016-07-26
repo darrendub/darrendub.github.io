@@ -1653,6 +1653,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/img\/eventbrite\/pie-sales.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49320,
+		"inputAbbreviatedPath": "\/public\/img\/eventbrite\/pie-sales.png",
+		"outputAbbreviatedPath": "\/public\/img\/eventbrite\/pie-sales.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/eventbrite\/pie-shows.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56951,
+		"inputAbbreviatedPath": "\/public\/img\/eventbrite\/pie-shows.png",
+		"outputAbbreviatedPath": "\/public\/img\/eventbrite\/pie-shows.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/eventbrite\/pie-tickets.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59405,
+		"inputAbbreviatedPath": "\/public\/img\/eventbrite\/pie-tickets.png",
+		"outputAbbreviatedPath": "\/public\/img\/eventbrite\/pie-tickets.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/eventbrite\/video-poster.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 618822,
+		"inputAbbreviatedPath": "\/public\/img\/eventbrite\/video-poster.png",
+		"outputAbbreviatedPath": "\/public\/img\/eventbrite\/video-poster.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/img\/fitbit\/curiosity.png": {
 		"fileType": 32768,
 		"ignore": 0,

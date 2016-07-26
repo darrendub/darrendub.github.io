@@ -66,8 +66,10 @@
     </div>
     <section class="midnight">
         <div class="grid grid-gutters grid-full mt1">
-      <div class="grid-cell">
-        <!-- <img style="max-width:244px;" src="public/img/eventbrite/Pie chart background ring_01.png"> -->
+      <div class="grid-cell pie-container">
+        <img id="slide" class="pie pie-sales" src="public/img/eventbrite/pie-sales.png">
+        <img id="slide" class="pie pie-tickets"  src="public/img/eventbrite/pie-tickets.png">
+        <img id="slide" class="pie pie-shows"  src="public/img/eventbrite/pie-shows.png">
       </div>
 
       <div class="grid-cell">
@@ -95,7 +97,7 @@
                 </div>
             </div>
 
-            <div class="grid-cell">
+            <div class="grid-cell" class="parallax-window" data-parallax="scroll">
                 <div class="grid grid-gutters-custom">
                     <div class="grid-cell pt-0">
                         <a id="fade" class="card-hover">
@@ -132,8 +134,17 @@
         </div>
     </div>
     </section>
-
-    
+    <div class="video-container">
+    <div class="video-text">
+        <h2>Learn something new today</h2>
+        <a class="cta">Get Started</a>
+    </div>
+        <video autoplay  poster="public/img/eventbrite/video-poster.png" loop>
+        <source src="public/img/eventbrite/create.webm" type="video/webm">
+        <source src="public/img/eventbrite/create.mp4" type="video/mp4">
+        </video>
+        
+    </div>
     <footer></footer>
   </body>
 
@@ -145,6 +156,14 @@
         var topOfWindow = $(window).scrollTop();
             if (imagePos < topOfWindow+400) {
                 $(this).addClass("card-fade");
+            }
+        });
+        $('#slide, #slide1, #slide2').each(function(){
+        var imagePos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+            if (imagePos < topOfWindow+400) {
+                $(this).addClass("slide-up");
             }
         });
     });
