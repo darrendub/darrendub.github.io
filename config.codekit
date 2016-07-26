@@ -1898,6 +1898,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/public\/img\/open-garage\/prototype-tester.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 205140,
+		"inputAbbreviatedPath": "\/_site\/public\/img\/open-garage\/prototype-tester.png",
+		"outputAbbreviatedPath": "\/_site\/public\/img\/open-garage\/prototype-tester.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/public\/img\/open-garage\/research.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1905,6 +1916,17 @@
 		"initialSize": 135952,
 		"inputAbbreviatedPath": "\/_site\/public\/img\/open-garage\/research.jpg",
 		"outputAbbreviatedPath": "\/_site\/public\/img\/open-garage\/research.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/public\/img\/open-garage\/Screen Shot 2016-07-26 at 2.14.18 PM.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 205140,
+		"inputAbbreviatedPath": "\/_site\/public\/img\/open-garage\/Screen Shot 2016-07-26 at 2.14.18 PM.png",
+		"outputAbbreviatedPath": "\/_site\/public\/img\/open-garage\/Screen Shot 2016-07-26 at 2.14.18 PM.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4134,6 +4156,17 @@
 		"initialSize": 109874,
 		"inputAbbreviatedPath": "\/public\/img\/inkling-inspiration\/inspiration-wireframe.jpg",
 		"outputAbbreviatedPath": "\/public\/img\/inkling-inspiration\/inspiration-wireframe.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/img\/open-garage\/prototype-tester.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 205140,
+		"inputAbbreviatedPath": "\/public\/img\/open-garage\/prototype-tester.png",
+		"outputAbbreviatedPath": "\/public\/img\/open-garage\/prototype-tester.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

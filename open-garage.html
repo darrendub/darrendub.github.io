@@ -5,7 +5,7 @@ title: Open Garage
 <section class="bg-warm-blue">
 	<div class="container">
 
-		<h1 class="text-white text-center">Open Garage</h1>
+		<h1 class="text-white text-center">OpenGarage</h1>
 
     <div class="grid grid-gutters grid-full mt1">
       <div class="grid-cell">
@@ -14,7 +14,7 @@ title: Open Garage
       </div>
     </div>
       <h4 class="text-white">Identify</h4>
-      <p class="text-white">I began by identifying the key players: <b>Sellers and Buyers</b>, listing out everything I knew about them and the initial problems they faced.</p>
+      <p class="text-white">I began by identifying the key players: <b>sellers and buyers</b>, listing out everything I knew about them and the initial problems they faced.</p>
 
     <div class="grid grid-gutters grid-full mt1">
       <div class="grid-cell">
@@ -68,7 +68,7 @@ title: Open Garage
     <img src="/public/img/open-garage/sketch-map.jpg">
     <p><img class="icon-inline" src="/public/img/open-garage/avatar-seller-dark.svg"> <b>Seller</b> &#8594; Has something to sell &#8594; Hosts a garage sale &#8594; Makes all the money!</p>
     <p><img class="icon-inline" src="/public/img/open-garage/avatar-buyer-dark.svg"> <b>Buyer</b> &#8594; Actively or passively looking &#8594; Sees a thing they want &#8594; Buys thing!</p>
-    <p>From what I learned about the users and their journey I decided to focus on the <b>seller</b> journey specifically around <b>hosting a garage sale</b>. Given more time to dive in I would of looked into how this related to the buyer journey seeing where there were similarities and making that hand-off as seamless as possible.</p>
+    <p>I decided to focus on the <b>seller</b> journey specifically around <b>hosting a garage sale</b>. Given more time to dive in, I would of looked into how this related to the buyer journey seeing where there were similarities and making that hand-off as seamless as possible.</p>
     
   </div>
 </section>
@@ -76,9 +76,9 @@ title: Open Garage
   <div class="container">
     <h1 class="text-center mt1">The Process</h1>
     <h4>Research</h4>
-    <p>I looked at examples of similar applications, platforms for buyers and sellers, market places, and analyzed patterns and systems that I thought were effective. I liked the big images of Snkrs and Canopy. Yelp's nearby filter. Etsy's collection and search filters. Since I had a clear focus on this seller journey some things made sense and some things would be more beneficial to the buyer i.e. collections, nearby, etc.</p>
+    <p>I looked at examples of similar platforms for buyers and sellers, analyzing patterns and systems that I thought were effective. I liked the big images of <a class="link-text" href="https://itunes.apple.com/us/app/snkrs/id911130812?mt=8">Snkrs</a> and <a class="link-text" href="https://canopy.co/">Canopy</a>. Yelp's nearby filter. Etsy's collection and search filters. I had a clear focus on the seller journey which helped narrow the feature set relevant to sellers.</p>
     <img src="/public/img/open-garage/research.jpg">
-    <p>Then I started to sketch/list out all the things that would make a Seller successful in hosting an event:</p>
+    <p>Then I started to sketch/list out all the things that would make a seller successful in hosting an event:</p>
     <img src="/public/img/open-garage/sketch-research.jpg">
     <ul>
       <li>Easy to upload photos</li>
@@ -91,7 +91,7 @@ title: Open Garage
 <section class="bg-light-gray">
   <div class="container">
         <h4>Storyboard</h4>
-    <p>From there I began to storyboard out how a seller might discover, download, create a garage sale using Open Garage.</p>
+    <p>From there I began to storyboard out how a seller might discover, download, create a garage sale using OpenGarage.</p>
     <img src="/public/img/open-garage/sketch-storyboard.jpg">
     <ol>
       <li>Perhaps they see an ad on social media (or are looking for it in the app store)</li>
@@ -110,9 +110,20 @@ title: Open Garage
 
     <h4>Prototype</h4>
     <p>After putting together the storyboard I needed to validate the solutions I believed the app was accomplishing. However, I had a very limited time to run tests, I was able to have one tester run through the prototype which is not nearly as many data points as I would like but it did reveal some findings. I gave the tester a prompt of downloading an app that would help them create a garage sale. I then asked them to create a garage sale once they dowloaded the app.</p>
-
-    <p class="text-center">Here is the Marvel prototype</p>
-    <iframe class="center mt1" src="https://marvelapp.com/g31bj3?emb=1" width="402" height="823" allowTransparency="true" frameborder="0"></iframe>
+    <div class="grid grid-gutters grid-full mt1">
+      <div class="grid-cell">
+        <p class="text-center">Here is the <a class="link-text" href="https://marvelapp.com/g31bj3">Marvel prototype</a></p>
+    <iframe class="center mt1" src="https://marvelapp.com/g31bj3?emb=1" max-width="350" height="525" allowTransparency="true" frameborder="0"></iframe>
+      </div>
+      <div class="grid-cell">
+        <p class="text-center">Here is a screen capture of the test</a></p>
+        <video class="center mt1 dropshadow" src="/public/img/open-garage/prototype-tester.mp4" controls poster="/public/img/open-garage/prototype-tester.png">
+  Sorry, your browser doesn't support embedded videos, 
+  but don't worry, you can <a href="/public/img/open-garage/prototype-tester.mp4">download it</a>
+  and watch it with your favorite video player!
+</video>
+      </div>
+    </div>
   </div>
 </section>
 <section class="bg-light-blue">
@@ -144,8 +155,12 @@ title: Open Garage
 <section class="bg-deep-sea-blue-dark">
 	<div class="container">
 		<h4 class="text-white">Learnings</h4>
-    <p class="text-white">It was confusing to launch the tester into a "facebook-type" screen I think clearer instructions would have helped here. I am unsure if the details of prompting the user to allow the app to access the camera/location of the device was necessary, possibly distracting from completing the goal at hand. I did not include an onboarding set of screens which made it confusing when the tester arrived in the OpenGarage app for the first time. The goal was to easily host a garage sale however the CTA was very small and did not look like a button which caused the tester to almost miss it. The remaining flow went pretty well the tester was able to add photos and begin a garage sale. Another piece of advice was to show the newly added garage sale on the last screen. Some clear next steps are to add a simple onboarding screen to help orient a new user. Ensure the host event CTA has more prominence, potentially adding to to the nav bar at the bottom of the screen. Including the created garage sale on the final screen.</p>
+    <p class="text-white"><b>Onboarding</b><br>While conducting the test, it became clear that launching the tester into a "facebook-type" screen was confusing. I think clearer instructions would have helped here. I also think an initial onboarding screen introducing the app and guiding sellers </p>
+    
+    <p class="text-white"><b>Call to action</b><br>The goal of this experience was to enable a seller to easily host a garage sale. There are two ways to achieve this goal: a "Host your own garage sale" CTA near the top of the screen and an "Add event" icon in the nav bar below. The CTA was visually smaller than most of the elements on the page and did not command the correct hierarchy of an action</p>
+    <p class="text-white"><b>Updates</b><br>
+     The rest of the flow went as expected, the tester was able to add photos and begin a garage sale. Some clear next steps are to add a simple onboarding screen to help orient a new user. Ensure the host event CTA has more prominent and include the created garage sale on the final screen.</p>
     <h4 class="text-white">Final Thoughts</h4>
-    <p class="text-white">This solves a few of the problems experienced by Sellers. If an app can allow easy uploading of photos and can create and event with dates and times with a few taps the experience of hosting a garage sale will less daunting. Outside of an app, OpenGarage would send sellers a Host Kit which would include materials for signs, markets, flags, shirts, square reader, and other elements that would help with a seamless event experience.</p>
+    <p class="text-white">This solves a few of the problems experienced by sellers. If an app can allow easy uploading of photos and can create and event with dates and times with a few taps the experience of hosting a garage sale will less daunting. Outside of an app, OpenGarage would send sellers a Host Kit which would include materials for signs, markets, flags, shirts, square reader, and other elements that would help with a seamless event experience.</p>
 	</div>
 </section>

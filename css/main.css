@@ -878,3 +878,6 @@ footer .social-icon {
 .icon-inline {
   max-width: 30px;
   display: inline; }
+
+video {
+  width: 100%; }
