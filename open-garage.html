@@ -1,6 +1,6 @@
 ---
 layout: landing
-title: Open Garage
+title: OpenGarage
 ---
 <section class="bg-warm-blue">
 	<div class="container">
@@ -30,13 +30,6 @@ title: Open Garage
     </ul>
     <p class="text-white"><b>Sellers' Problems</b></p>
     <p class="text-white"><em>Preparing for a sale is a daunting task</em></p>
-    <!-- <ul class="text-white">
-      <li>Signage</li>
-      <li>Marketing</li>
-      <li>Hours spent working the sale</li>
-      <li>Figuring out which items to sell</li>
-      <li>Gauging interest in items</li>
-    </ul> -->
       </div>
       <div class="grid-cell">
         <img class="img-100" src="/public/img/open-garage/avatar-buyer.svg">
@@ -51,13 +44,6 @@ title: Open Garage
     </ul>
     <p class="text-white"><b>Buyers' Problems</b></p>
     <p class="text-white"><em>Difficult to find sales and purchase merchandise</em></p>
-    <!-- <ul class="text-white">
-      <li>Doesn't know where garage sales are</li>
-      <li>Usually mobile and happen upon them</li>
-      <li>Cash only?</li>
-      <li>Figuring out which items to sell</li>
-      <li>Doesn't know what to expect from a garage sale</li>
-    </ul> -->
       </div>
     </div>
 </section>
@@ -69,47 +55,52 @@ title: Open Garage
     <p><img class="icon-inline" src="/public/img/open-garage/avatar-seller-dark.svg"> <b>Seller</b> &#8594; Has something to sell &#8594; Hosts a garage sale &#8594; Makes all the money!</p>
     <p><img class="icon-inline" src="/public/img/open-garage/avatar-buyer-dark.svg"> <b>Buyer</b> &#8594; Actively or passively looking &#8594; Sees a thing they want &#8594; Buys thing!</p>
     <p>I decided to focus on the <b>seller</b> journey specifically around <b>hosting a garage sale</b>. Given more time to dive in, I would of looked into how this related to the buyer journey seeing where there were similarities and making that hand-off as seamless as possible.</p>
-    
+  </div>
+</section>
+<section class="bg-inspiration-royal">
+  <div class="container">
+    <h4 class="text-white">Hypothesis</h4>
+      <p class="text-white">An app that allows sellers to easily upload images and advertise their physical garage sales will make it easier to host a garage sale, increase customer traffic, and drive more sales.</p>
   </div>
 </section>
 <section>
   <div class="container">
-    <h1 class="text-center mt1">The Process</h1>
     <h4>Research</h4>
-    <p>I looked at examples of similar platforms for buyers and sellers, analyzing patterns and systems that I thought were effective. I liked the big images of <a class="link-text" href="https://itunes.apple.com/us/app/snkrs/id911130812?mt=8">Snkrs</a> and <a class="link-text" href="https://canopy.co/">Canopy</a>. Yelp's nearby filter. Etsy's collection and search filters. I had a clear focus on the seller journey which helped narrow the feature set relevant to sellers.</p>
+    <p>I looked at examples of similar platforms for buyers and sellers, analyzing patterns and systems that I thought were effective. <a class="link-text" href="https://itunes.apple.com/us/app/snkrs/id911130812?mt=8">Snkrs</a> and <a class="link-text" href="https://canopy.co/">Canopy</a> used large images which focuses a buyers attention, potentially leading to more sales. Yelp uses a nearby filter lets a user know how close they are to a restaurant increasing the chances of a user visiting that restaurant. I had a clear focus on the seller journey which helped narrow the features relevant to sellers.</p>
     <img src="/public/img/open-garage/research.jpg">
-    <p>Then I started to sketch/list out all the things that would make a seller successful in hosting an event:</p>
-    <img src="/public/img/open-garage/sketch-research.jpg">
-    <ul>
+    <p>Based on that research, I sketched/listed out all the digital features that would make a seller successful at their physical garage sale:</p>
+     <ul>
       <li>Easy to upload photos</li>
       <li>Easy to show location of garage sale</li>
       <li>Times and dates of garage sale</li>
+      <li>Easy to share garage sale</li>
       <li>Pricing of items</li>
     </ul>
+    <img src="/public/img/open-garage/sketch-research.jpg">
   </div>
 </section>
 <section class="bg-light-gray">
   <div class="container">
         <h4>Storyboard</h4>
-    <p>From there I began to storyboard out how a seller might discover, download, create a garage sale using OpenGarage.</p>
+    <p>From there I began to storyboard out how a seller might discover, download, and create a garage sale using OpenGarage.</p>
     <img src="/public/img/open-garage/sketch-storyboard.jpg">
     <ol>
-      <li>Perhaps they see an ad on social media for a garage sale app (or are looking for it in the app store)</li>
-      <li>Download app from app store</li>
-      <li>On launch, OpenGarage asks if it can use location to show you nearby garage (this will help give the seller an idea about how they want to set up their garage sale, this also reduces the barrier to entry, once they see the value they are more likely to sign up)</li>
-      <li>Seller is prompted or sees the CTA to "host a garage sale"</li>
-      <li>OpenGarage asks for name, email, location, date of event (will use this information to populate event)</li>
-      <li>Asks for name of event, other information (name, email, etc.) has already been provided by previous screens and prompts user to add photos</li>
-      <li>Asks if OpenGarage can access photos, user can take photo or choose from library</li>
+      <li>User sees ad on social media for a garage sale app</li>
+      <li>Download OpenGarage from app store</li>
+      <li>On launch, OpenGarage shows examples of garage sales happening nearby. Seeing examples will help a seller visualize how they would set up their own garage sale.</li>
+      <li>Seller sees the CTA to "host a garage sale"</li>
+      <li>OpenGarage asks for name, email, location, date of event (OpenGarage will use this information to populate event)</li>
+      <li>The garage sale screen will asks for name of event and prompt user to add photos</li>
+      <li>OpenGarage asks to access photos, user can take photos or choose from photo library to begin building inventory for garage sale</li>
       <li>User selects photos</li>
-      <li>Cards will build in prompting the user to name item, identify price, and comment on condition.</li>
+      <li>Item cards will build in prompting the user to name item, identify price, and comment on condition.</li>
       <li>Once the photos have been added, users can publish their garage sale</li>
-      <li>There will be a prompt with a link to share on social media and sms</li>
+      <li>There will be a prompt with a link to share on social media</li>
       <li>After their event has been uploaded they are taken back to the initial screen with a list of nearby garage sales</li>
     </ol>
 
     <h4>Prototype</h4>
-    <p>After putting together the storyboard I needed to validate the solutions I believed the app was accomplishing. However, I had a very limited time to run tests, I was able to have one tester run through the prototype which is not nearly as many data points as I would like but it did reveal some findings. I gave the tester a prompt of downloading an app that would help them create a garage sale. I then asked them to create a garage sale once they dowloaded the app.</p>
+    <p>After putting together the storyboard I needed to validate the solutions I believed the app was accomplishing. I had one tester run through the prototype which is not nearly as many data points as I would like but it did reveal some findings. I gave the tester a prompt of downloading an app that would help them create a garage sale. I then asked them to create a garage sale once they downloaded the app.</p>
     <div class="grid grid-gutters grid-full mt1">
       <div class="grid-cell">
         <p class="text-center">Here is the <a class="link-text" href="https://marvelapp.com/g31bj3">Marvel prototype</a></p>
@@ -155,8 +146,7 @@ title: Open Garage
 <section class="bg-deep-sea-blue-dark">
 	<div class="container">
 		<h4 class="text-white">Learnings</h4>
-    <p class="text-white"><b>Onboarding</b><br>While conducting the test, it became clear that launching the tester into a "facebook-type" screen was confusing. I think clearer instructions would have helped here. I also think an initial onboarding screen introducing the app and guiding sellers </p>
-    
+    <p class="text-white"><b>Onboarding</b><br>While conducting the test, it became clear that launching the tester into a "facebook-type" screen was confusing. I think clearer instructions would have helped here. I also think an initial onboarding would help orient a user and guide them to view garage sales or create their own.</p>
     <p class="text-white"><b>Call to action</b><br>The goal of this experience was to enable a seller to easily host a garage sale. There are two ways to achieve this goal: a "Host your own garage sale" CTA near the top of the screen and an "Add event" icon in the nav bar below. The CTA was visually smaller than most of the elements on the page and did not command the correct hierarchy of an action</p>
     <p class="text-white"><b>Updates</b><br>
      The rest of the flow went as expected, the tester was able to add photos and begin a garage sale. Some clear next steps are to add a simple onboarding screen to help orient a new user. Ensure the host event CTA has more prominent and include the created garage sale on the final screen.</p>
