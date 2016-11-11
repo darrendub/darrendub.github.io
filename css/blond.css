@@ -1,0 +1,110 @@
+/* Blond Styles */
+.text-container {
+  height: 90vh; }
+
+.bg-black {
+  background-color: #111; }
+
+.text-lato {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300; }
+
+.text-shrik {
+  font-family: 'Shrikhand', cursive; }
+
+/* Siegfried Lyric Styles */
+.siegfried {
+  -webkit-animation: siegfried 3s alternate infinite;
+          animation: siegfried 3s alternate infinite;
+  color: #111;
+  cursor: pointer;
+  /*text-shadow: 0 0 10px #fff, 0 0 20px #ff0, 0 0 30px #ff0;*/
+  /*text-shadow:0 0 20px #000;*/ }
+
+#dark:hover {
+  text-shadow: 0 0 10px #fff, 0 0 10px #ff0, 0 0 10px #ff0;
+  transition: text-shadow .3s ease-in-out;
+  -moz-transition: text-shadow .3s ease-in-out;
+  -webkit-transition: text-shadow .3s ease-in-out; }
+
+@-webkit-keyframes siegfried {
+  0% {
+    opacity: 0.1; }
+  100% {
+    opacity: 0.9;
+    text-shadow: 0 0 20px #000; } }
+
+@keyframes siegfried {
+  0% {
+    opacity: 0.1; }
+  100% {
+    opacity: 0.9;
+    text-shadow: 0 0 20px #000; } }
+
+/* Ivy Lyric 1 Styles */
+.ivy {
+  background-image: -webkit-linear-gradient(bottom left, white, #eee);
+  background-image: linear-gradient(to top right, white, #eee); }
+  .ivy-circle {
+    max-width: 360px;
+    margin: 0 auto;
+    display: block;
+    -webkit-animation: rotate 10s linear infinite;
+            animation: rotate 10s linear infinite; }
+  .ivy-words {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+  .ivy-is {
+    margin-left: -20px; }
+  .ivy-good {
+    margin-left: -50px; }
+
+.deep-down {
+  position: absolute;
+  margin: 0 auto;
+  left: 50%;
+  top: 20%; }
+  .deep-down-text {
+    color: #BC0D0F;
+    z-index: 100;
+    text-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%); }
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+/* Ivy Lyric 2 Styles*/
+.cloud {
+  opacity: 0.9;
+  cursor: pointer;
+  position: absolute;
+  max-width: 250px; }
+  .cloud:hover {
+    -webkit-transition-timing-function: ease-out;
+            transition-timing-function: ease-out;
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+    -webkit-transform: translate(20px, 10px);
+            transform: translate(20px, 10px); }
+
+.cloud-text {
+  max-width: 600px; }
+
+.bg-blue-gradient {
+  background-image: -webkit-linear-gradient(top left, #00C6FF, #0072FF);
+  background-image: linear-gradient(to bottom right, #00C6FF, #0072FF); }

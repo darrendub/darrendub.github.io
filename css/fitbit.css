@@ -9,8 +9,8 @@
  * 1. Change the default font family in all browsers (opinionated).
  * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
  */
-@import "https://fonts.googleapis.com/css?family=Roboto+Mono:100,300,500";
-@import "https://fonts.googleapis.com/css?family=Montserrat:400,700";
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100,300,500';
+@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700';
 html {
   font-family: sans-serif;
   /* 1 */
@@ -395,12 +395,15 @@ textarea {
 .bg-yellow-gradient {
   background: -webkit-linear-gradient(36deg, #EFCD4D, #EF7C4D);
   background-color: #EF7C4D; }
+
 .bg-pink-gradient {
   background: -webkit-linear-gradient(36deg, #F23A6D, #F782A2);
   background-color: #F23A6D; }
+
 .bg-blue-gradient {
   background: -webkit-linear-gradient(36deg, #ABF9FF, #00558C);
   background-color: #ABF9FF; }
+
 .bg-purple-gradient {
   background: -webkit-linear-gradient(36deg, #C86DD7, #3023AE);
   background-color: #C86DD7; }
@@ -529,6 +532,7 @@ body {
 
 .graph .title {
   padding-bottom: 25px; }
+
 .graph .description {
   padding-bottom: 25px; }
   @media (min-width: 35em) {
@@ -584,31 +588,26 @@ hr {
  *------------------------------------------------------------------*/
 .grid {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   list-style: none;
   margin: 0;
   padding: 0; }
 
 .grid-cell {
   -webkit-box-flex: 1;
-  -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1; }
 
 .grid-full .grid-cell {
   -webkit-box-flex: 0;
-  -webkit-flex: 0 0 100%;
       -ms-flex: 0 0 100%;
           flex: 0 0 100%; }
   @media (min-width: 35em) {
     .grid-full .grid-cell {
       -webkit-box-flex: 1;
-      -webkit-flex: 1;
           -ms-flex: 1;
               flex: 1; } }
 
@@ -620,43 +619,33 @@ hr {
 .grid-reverse {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
-  -webkit-flex-direction: row-reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse; }
 
 .grid-start {
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  -webkit-align-self: flex-start;
-      -ms-flex-item-align: start;
-          align-self: flex-start; }
+  -ms-flex-item-align: start;
+      align-self: flex-start; }
 
 .grid-center {
   -webkit-box-align: center;
-  -webkit-align-items: center;
       -ms-flex-align: center;
-              -ms-grid-row-align: center;
           align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center; }
 
 .grid-end {
   -webkit-box-align: end;
-  -webkit-align-items: flex-end;
       -ms-flex-align: end;
-              -ms-grid-row-align: flex-end;
           align-items: flex-end;
   -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  -webkit-align-self: flex-end;
-      -ms-flex-item-align: end;
-          align-self: flex-end; }
+  -ms-flex-item-align: end;
+      align-self: flex-end; }
 
 .grid-gutters {
   margin: -1em 1em 1em -1em; }

@@ -58,31 +58,26 @@ img {
  *------------------------------------------------------------------*/
 .grid {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   list-style: none;
   margin: 0;
   padding: 0; }
 
 .grid-cell {
   -webkit-box-flex: 1;
-  -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1; }
 
 .grid-full .grid-cell {
   -webkit-box-flex: 0;
-  -webkit-flex: 0 0 100%;
       -ms-flex: 0 0 100%;
           flex: 0 0 100%; }
   @media (min-width: 35em) {
     .grid-full .grid-cell {
       -webkit-box-flex: 1;
-      -webkit-flex: 1;
           -ms-flex: 1;
               flex: 1; } }
 
@@ -94,43 +89,33 @@ img {
 .grid-reverse {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
-  -webkit-flex-direction: row-reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse; }
 
 .grid-start {
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  -webkit-align-self: flex-start;
-      -ms-flex-item-align: start;
-          align-self: flex-start; }
+  -ms-flex-item-align: start;
+      align-self: flex-start; }
 
 .grid-center {
   -webkit-box-align: center;
-  -webkit-align-items: center;
       -ms-flex-align: center;
-              -ms-grid-row-align: center;
           align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center; }
 
 .grid-end {
   -webkit-box-align: end;
-  -webkit-align-items: flex-end;
       -ms-flex-align: end;
-              -ms-grid-row-align: flex-end;
           align-items: flex-end;
   -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  -webkit-align-self: flex-end;
-      -ms-flex-item-align: end;
-          align-self: flex-end; }
+  -ms-flex-item-align: end;
+      align-self: flex-end; }
 
 /*--------------------------------------------------------------------
  * Nav
@@ -617,6 +602,7 @@ footer .social-icon {
     max-width: 500px;
     width: 500px;
     height: 500px; } }
+
 .album-title {
   margin-bottom: 10px; }
 
@@ -631,6 +617,7 @@ footer .social-icon {
     max-width: 300px;
     bottom: 30%;
     left: 20%; } }
+
 .so-far-gone-confetti {
   max-width: 40px;
   position: absolute; }
@@ -638,6 +625,7 @@ footer .social-icon {
 @media (min-width: 35em) {
   .so-far-gone-confetti {
     max-width: 60px; } }
+
 .money-1 {
   top: -10%;
   right: 40%; }
@@ -693,9 +681,11 @@ footer .social-icon {
 @-webkit-keyframes rain {
   100% {
     top: 120%; } }
+
 @keyframes rain {
   100% {
     top: 120%; } }
+
 .views {
   z-index: 1;
   position: absolute; }
@@ -731,6 +721,7 @@ footer .social-icon {
 @media (min-width: 35em) {
   .eye-position-7 {
     left: 57%; } }
+
 .eye-position-8 {
   top: 45%;
   left: 64%; }
@@ -771,11 +762,11 @@ footer .social-icon {
   .eye {
     width: 40px;
     height: 20px; }
-
   .eye:before {
     content: '';
     width: 41px;
     height: 21px; } }
+
 .eye-ball {
   width: 15px;
   height: 15px;
@@ -793,10 +784,12 @@ footer .social-icon {
   50% {
     -webkit-transform: translate(0, 20px);
     transform: translate(0, 20px); } }
+
 @keyframes eye-blink {
   50% {
     -webkit-transform: translate(0, 20px);
     transform: translate(0, 20px); } }
+
 .eye-small {
   width: 30px;
   height: 15px; }
@@ -824,10 +817,12 @@ footer .social-icon {
   50% {
     -webkit-transform: translate(0, 16px);
     transform: translate(0, 16px); } }
+
 @keyframes eye-blink-sm {
   50% {
     -webkit-transform: translate(0, 16px);
     transform: translate(0, 16px); } }
+
 .eye-medium {
   width: 35px;
   height: 17px; }
@@ -855,10 +850,12 @@ footer .social-icon {
   50% {
     -webkit-transform: translate(0, 17px);
     transform: translate(0, 17px); } }
+
 @keyframes eye-blink-md {
   50% {
     -webkit-transform: translate(0, 17px);
     transform: translate(0, 17px); } }
+
 .if-reading-parental {
   max-width: 30px;
   position: absolute;
@@ -869,6 +866,7 @@ footer .social-icon {
 @media (min-width: 35em) {
   .if-reading-parental {
     max-width: 50px; } }
+
 .bg-black {
   background-color: #000; }
 
