@@ -307,6 +307,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/_site\/css\/blond.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/_site\/css\/blond-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/_site\/css\/eventbrite.css": {
 		"aP": 0,
 		"bl": 0,
@@ -912,6 +922,12 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/page6\/index.html",
+		"oF": 0
+		},
+	"\/_site\/paige\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/paige\/index.html",
 		"oF": 0
 		},
 	"\/_site\/paradise-soccer-club\/index.html": {
@@ -1868,6 +1884,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/_site\/public\/img\/home\/paige.png": {
+		"ft": 32768,
+		"iS": 4037234,
+		"oA": 0,
+		"oAP": "\/_site\/public\/img\/home\/paige.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/_site\/public\/img\/home\/side-project-drake.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2376,6 +2400,19 @@
 		"oA": 0,
 		"oAP": "\/_site\/resume\/index.html",
 		"oF": 0
+		},
+	"\/_site\/sass\/blond.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/css\/blond.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/_site\/sass\/eventbrite.scss": {
 		"aP": 0,
@@ -3456,6 +3493,12 @@
 		"oAP": "\/open-garage.html",
 		"oF": 0
 		},
+	"\/paige.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/paige.html",
+		"oF": 0
+		},
 	"\/paradise-soccer-club.html": {
 		"ft": 8192,
 		"oA": 0,
@@ -4407,6 +4450,14 @@
 		"iS": 560553,
 		"oA": 0,
 		"oAP": "\/public\/img\/home\/mothers-day.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/img\/home\/paige.png": {
+		"ft": 32768,
+		"iS": 4037234,
+		"oA": 0,
+		"oAP": "\/public\/img\/home\/paige.png",
 		"oF": 0,
 		"opt": 0
 		},

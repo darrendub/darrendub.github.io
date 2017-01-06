@@ -4,13 +4,28 @@
  <title>Darren Wong</title>
  <link href="darrendub.comatom.xml" rel="self"/>
  <link href="darrendub.com"/>
- <updated>2016-12-03T18:20:54-08:00</updated>
+ <updated>2017-01-05T20:36:01-08:00</updated>
  <id>darrendub.com</id>
  <author>
    <name>Darren Wong</name>
    <email>darrendavenwong@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Resolutions</title>
+   <link href="darrendub.com/weblog/2017/01/05/resolutions/"/>
+   <updated>2017-01-05T00:00:00-08:00</updated>
+   <id>darrendub.com/weblog/2017/01/05/resolutions</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;Finish &lt;a href=&quot;http://blondedlife.com&quot;&gt;blondedlife&lt;/a&gt; &lt;small style=&quot;text-transform:uppercase; font-size:0.6em;&quot;&gt;(Early Feburary)&lt;/small&gt;&lt;/li&gt;
+  &lt;li&gt;Participate in the &lt;a href=&quot;http://www.may1reboot.com/&quot;&gt;May 1st Reboot&lt;/a&gt; &lt;small style=&quot;text-transform:uppercase; font-size:0.6em;&quot;&gt;(May 01)&lt;/small&gt;&lt;/li&gt;
+  &lt;li&gt;Run the San Francisco Half Marathon &lt;small style=&quot;text-transform:uppercase; font-size:0.6em;&quot;&gt;(July 23)&lt;/small&gt;&lt;/li&gt;
+  &lt;li&gt;Learn to tango &lt;small style=&quot;text-transform:uppercase; font-size:0.6em;&quot;&gt;(October)&lt;/small&gt;&lt;/li&gt;
+  &lt;li&gt;Eat at one new restaurant per month &lt;small style=&quot;text-transform:uppercase; font-size:0.6em;&quot;&gt;(Ongoing)&lt;/small&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Wireframes</title>
