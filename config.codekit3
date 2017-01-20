@@ -7,7 +7,7 @@
 		"uuidString": "C039615E-4BF4-4866-ACF3-D2C1B24CDB41"
 		}
 	],
-"creatorBuild": "25444",
+"creatorBuild": "25504",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -253,6 +253,24 @@
 		"ft": 4096,
 		"oA": 0,
 		"oAP": "\/_posts\/2015-07-07-wireframes.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/_posts\/2017-01-05-resolutions.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/_posts\/2017-01-05-resolutions.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -922,6 +940,12 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/page6\/index.html",
+		"oF": 0
+		},
+	"\/_site\/page7\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/page7\/index.html",
 		"oF": 0
 		},
 	"\/_site\/paige\/index.html": {
@@ -2530,6 +2554,12 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/weblog\/2015\/07\/07\/wireframes\/index.html",
+		"oF": 0
+		},
+	"\/_site\/weblog\/2017\/01\/05\/resolutions\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/weblog\/2017\/01\/05\/resolutions\/index.html",
 		"oF": 0
 		},
 	"\/_site\/weblog\/index.html": {
@@ -5894,6 +5924,10 @@
 			"active": 0,
 			"optionString": "{'properties': 'always'}"
 			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
 		"class-methods-use-this": {
 			"active": 0,
 			"optionString": "{'exceptMethods': []}"
@@ -6058,6 +6092,10 @@
 			"active": 0,
 			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
 			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -6087,6 +6125,10 @@
 			"optionString": ""
 			},
 		"no-array-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-await-in-loop": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -6422,6 +6464,10 @@
 			"active": 0,
 			"optionString": "'except-parens'"
 			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-script-url": {
 			"active": 0,
 			"optionString": ""
@@ -6626,6 +6672,10 @@
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
 			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
@@ -6653,6 +6703,10 @@
 		"radix": {
 			"active": 0,
 			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-jsdoc": {
 			"active": 0,
@@ -7486,6 +7540,10 @@
 			},
 		"space-colon": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"toplevel": {
