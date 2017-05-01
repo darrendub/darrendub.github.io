@@ -3,57 +3,44 @@
 
   {% include head.html %}
 
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@darrendub" />
+  <meta name="twitter:title" content="Darren Wong" />
+  <meta name="twitter:description" content="A designer and developer for screens and things." />
+  <meta name="twitter:image" content="http://darrendub.com/public/img/home/avatar.png" />
+
+  <meta property="og:title" content="Darren Wong">
+  <meta property="og:type" content="Website">
+  <meta property="og:image" content="http://darrendub.com/public/img/home/avatar.png">
+  <meta property="og:url" content="http://darrendub.com/">
+  <meta property="og:description" content="A designer and developer for screens and things.">
+  <meta property="og:site_name" content="Darren Wong">
+  <meta property="og:locale" content="en_US">
+  <meta property="article:author" content="Darren Wong">
+
   <body>
 
-  <div class="menu-container bg-white">
+
+    
+
+  <div class="menu-container">
     <a class="darren-logo" href="/">
     <img class="nav-avatar" src="{{ site.baseurl }}/public/img/home/avatar.png">
     </a>
-    <a class="menu" id="menu">
-      <span>Menu &#9776;</span>
-    </a>
+    <h4 class="text-center">Darren Wong</h4>
+    <ul class="nav-links">
+    <li><a href="/">Work</a></li>
+    <li><a href="/weblog">Words</a></li>
+    <li><a href="/about">Who</a></li>
+    </ul>
 </div>
-<nav>
-  <ul>
-    <h5 class="text-center">Selected Work</h5>
-    <li><a href="/inkling-inspiration">Inkling Inspiration</a></li>
-    <li><a href="/paradise-soccer-club">Paradise Soccer Club</a></li>
-    <li><a href="/email">Email System</a></li>
-    <li><a href="/hemingway">Project Hemingway</a></li>
-    <li><a href="/curiosity-shoppe">Curiosity Shoppe Icons</a></li>
-    <li><a href="/drake-css-albums">Drake CSS Albums</a></li>
-    <hr>
-    <h5 class="mt1">Information</h5>
-    <li><a href="/about">About</a></li>
-    <li><a href="/weblog">Weblog</a></li>
-  </ul>
-</nav>
 
 <div class="container content">
       <main>
         {{ content }}
       </main>
-      <footer>
-      <div class="">
-        <p class="text-white text-center">Hand-typed by Darren Wong in San Francisco, California.</p>
-        <div class="text-center">
-          <a href="https://twitter.com/darrendub">
-            <img class="social-icon" src="{{ site.baseurl }}/public/img/social/logo-twitter.svg">
-          </a>
-          <a href="https://dribbble.com/darrendub">
-            <img class="social-icon" src="{{ site.baseurl }}/public/img/social/logo-dribbble.svg">
-          </a>
-        </div>
-      </div>
-</footer>
+      {% include footer.html %} 
     </div>
   </body>
-    <script>
-$('#menu').click(function(){
-  $('nav').toggleClass("is-visible");
-  $(window).scroll(function () {
-    $('nav').removeClass("is-visible", ($(window).scrollTop() > 100));
-   });
-});
-</script>
+
 </html>

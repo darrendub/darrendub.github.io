@@ -58,31 +58,26 @@ img {
  *------------------------------------------------------------------*/
 .grid {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   list-style: none;
   margin: 0;
   padding: 0; }
 
 .grid-cell {
   -webkit-box-flex: 1;
-  -webkit-flex: 1;
       -ms-flex: 1;
           flex: 1; }
 
 .grid-full .grid-cell {
   -webkit-box-flex: 0;
-  -webkit-flex: 0 0 100%;
       -ms-flex: 0 0 100%;
           flex: 0 0 100%; }
   @media (min-width: 35em) {
     .grid-full .grid-cell {
       -webkit-box-flex: 1;
-      -webkit-flex: 1;
           -ms-flex: 1;
               flex: 1; } }
 
@@ -94,43 +89,33 @@ img {
 .grid-reverse {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
-  -webkit-flex-direction: row-reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse; }
 
 .grid-start {
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  -webkit-align-self: flex-start;
-      -ms-flex-item-align: start;
-          align-self: flex-start; }
+  -ms-flex-item-align: start;
+      align-self: flex-start; }
 
 .grid-center {
   -webkit-box-align: center;
-  -webkit-align-items: center;
       -ms-flex-align: center;
-              -ms-grid-row-align: center;
           align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center; }
 
 .grid-end {
   -webkit-box-align: end;
-  -webkit-align-items: flex-end;
       -ms-flex-align: end;
-              -ms-grid-row-align: flex-end;
           align-items: flex-end;
   -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  -webkit-align-self: flex-end;
-      -ms-flex-item-align: end;
-          align-self: flex-end; }
+  -ms-flex-item-align: end;
+      align-self: flex-end; }
 
 /*--------------------------------------------------------------------
  * Base
@@ -478,6 +463,7 @@ blockquote {
   to {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg); } }
+
 .rotating {
   -webkit-animation: rotating 2.5s linear infinite;
           animation: rotating 2.5s linear infinite; }
@@ -507,17 +493,23 @@ blockquote {
           animation-timing-function: linear; }
 
 @-webkit-keyframes thank-move {
+  0% { }
   50% {
     -webkit-transform: translate(-2px, 0);
-            transform: translate(-2px, 0); } }
+            transform: translate(-2px, 0); }
+  100% { } }
 
 @keyframes thank-move {
+  0% { }
   50% {
     -webkit-transform: translate(-2px, 0);
-            transform: translate(-2px, 0); } }
+            transform: translate(-2px, 0); }
+  100% { } }
+
 @font-face {
   font-family: 'Late-Regular';
   src: url("Late-Regular.woff2") format("woff2"), url("Late-Regular.woff") format("woff"), url("Late-Regular.ttf") format("truetype"); }
+
 .if-text {
   font-family: 'Late-Regular';
   font-size: 2.75em;
@@ -558,6 +550,7 @@ blockquote {
   from {
     width: 0;
     opacity: 1; } }
+
 .if-reading-parental {
   max-width: 30px;
   position: absolute;
@@ -583,6 +576,7 @@ blockquote {
 @keyframes blink {
   to {
     opacity: .0; } }
+
 .hide-mobile {
   display: none; }
   @media (min-width: 35em) {
@@ -681,14 +675,19 @@ blockquote {
           animation-timing-function: ease; }
 
 @-webkit-keyframes eye-blink {
+  0% { }
   50% {
     -webkit-transform: translate(0, 20px);
-            transform: translate(0, 20px); } }
+            transform: translate(0, 20px); }
+  100% { } }
 
 @keyframes eye-blink {
+  0% { }
   50% {
     -webkit-transform: translate(0, 20px);
-            transform: translate(0, 20px); } }
+            transform: translate(0, 20px); }
+  100% { } }
+
 .eye-small {
   width: 30px;
   height: 15px; }
@@ -711,14 +710,19 @@ blockquote {
           animation-timing-function: ease; }
 
 @-webkit-keyframes eye-blink-sm {
+  0% { }
   50% {
     -webkit-transform: translate(0, 16px);
-            transform: translate(0, 16px); } }
+            transform: translate(0, 16px); }
+  100% { } }
 
 @keyframes eye-blink-sm {
+  0% { }
   50% {
     -webkit-transform: translate(0, 16px);
-            transform: translate(0, 16px); } }
+            transform: translate(0, 16px); }
+  100% { } }
+
 .eye-medium {
   width: 35px;
   height: 17px; }
@@ -741,14 +745,19 @@ blockquote {
           animation-timing-function: ease; }
 
 @-webkit-keyframes eye-blink-md {
+  0% { }
   50% {
     -webkit-transform: translate(0, 17px);
-            transform: translate(0, 17px); } }
+            transform: translate(0, 17px); }
+  100% { } }
 
 @keyframes eye-blink-md {
+  0% { }
   50% {
     -webkit-transform: translate(0, 17px);
-            transform: translate(0, 17px); } }
+            transform: translate(0, 17px); }
+  100% { } }
+
 .candle {
   position: absolute;
   top: 6%;
@@ -801,6 +810,7 @@ blockquote {
     opacity: 0.25; }
   100% {
     opacity: 0.8; } }
+
 .sparkle {
   width: 0;
   height: 0;
@@ -824,6 +834,7 @@ blockquote {
   25% {
     -webkit-transform: scale(1.5);
             transform: scale(1.5); }
+  50% { }
   75% {
     -webkit-transform: scale(1);
             transform: scale(1); }
@@ -836,11 +847,13 @@ blockquote {
   25% {
     -webkit-transform: scale(1.5);
             transform: scale(1.5); }
+  50% { }
   75% {
     -webkit-transform: scale(1);
             transform: scale(1); }
   100% {
     opacity: 0; } }
+
 .sparkle {
   -webkit-animation: sparkle 1.75s infinite;
           animation: sparkle 1.75s infinite;
@@ -945,6 +958,7 @@ blockquote {
   100% {
     -webkit-transform: translate(-1000px);
             transform: translate(-1000px); } }
+
 @media (min-width: 35em) {
   @-webkit-keyframes clouds {
     0% {
@@ -960,6 +974,7 @@ blockquote {
     100% {
       -webkit-transform: translate(-1450px);
               transform: translate(-1450px); } } }
+
 .so-far-gone-drake {
   max-width: 220px;
   position: absolute;
@@ -1031,12 +1046,15 @@ blockquote {
           animation-delay: 2s; }
 
 @-webkit-keyframes rain {
+  0% { }
   100% {
     top: 120%; } }
 
 @keyframes rain {
+  0% { }
   100% {
     top: 120%; } }
+
 /*--------------------------------------------------------------------
  * Shame - Temporary Styles
  *------------------------------------------------------------------*/
