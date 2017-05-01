@@ -2,44 +2,35 @@
  * Nav
  *------------------------------------------------------------------*/
 
-nav {
-  left: 0;
-  top: 0;
-  padding: $unit-small;
-  background-color:$white;
-  z-index: $z-100;
-  position: fixed;
-  width: 100%;
-  transform: translateY(-110%);
-  transition-property: transform;
-  transition-duration: 0.5s;
-  @extend .drop-shadow;
-  @media (min-width: $bp-medium) {
-    padding: $unit-medium;
+  .menu-container {
+    position: relative;
+    padding: $unit-small;
   }
-  h5 {
-    margin-bottom: 0;
-      @media (min-width: $bp-medium) {
-        margin-bottom:0.5rem;
-      }
-  }
-  ul {
+
+.nav-avatar {
+  max-width: 50px;
+  border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: $unit-small/2;
+}
+
+.nav-links {
     list-style: none;
     margin-left:0;
     text-align: center;
-    margin-top: $unit-medium;
-    @media (min-width: $bp-medium) {
-      margin-top: $unit-small;
-    }
+    margin-top: $unit-small/2;
 
     li {
-      font-size: .9em;
-      padding-left: $unit-medium;
-      padding-right: $unit-medium;
+      font-size: 0.8rem;
+      padding-left: $unit-small;
+      padding-right: $unit-small;
       padding-top: $unit-small/2;
-      @media (min-width: 646px) {
-        display:inline-block;
-        font-size: 1.2em;
+      display:inline-block;
+      @media (min-width: 646px) {  
+        padding-left: $unit-medium;
+        padding-right: $unit-medium;      
       }
       a {
         color: $coal;
@@ -48,47 +39,6 @@ nav {
         }
       }
     }
-  }
-}
-
-  .menu-container {
-    position: relative;
-    padding: $unit-medium;
-  }
-  .menu {
-    color: $coal;
-    height: $unit-medium;
-    padding-top: $unit-small+5;
-    z-index:$z-200;
-    position: absolute;
-    text-align: center;
-    top: 0; left: 65%; bottom: 0; right: 0;
-    cursor: pointer;
-    font-family: $sans;
-    &:visited {
-      color: $coal;
-    }
-    span{
-      font-weight: 600;
-    }
-    @media (min-width: 768px) {
-        left: 80%;
-    }
-    @media (min-width: 850px) {
-        left: 85%;
-    }
-  }
-
-
-.is-visible {
-  transform: translateY(0);
-}
-.nav-avatar {
-  position: absolute;
-  max-width: 50px;
-  z-index: 300;
-  top:20px;
-  border-radius: 100%;
 }
 
 

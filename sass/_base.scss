@@ -4,15 +4,15 @@
 
 html {
 	-webkit-font-smoothing: antialiased;
- 	font-size: 19px;
+ 	font-size: 17px;
   	line-height: 1.5;
   	@media (min-width: $bp-medium) {
-  		font-size: 22px;
+  		font-size: 19px;
   	}
 }
 
 body {
-  font-family: $serif;
+  font-family: $sans;
   font-weight: 300;
   color: $coal;
   -webkit-text-size-adjust: 100%;  //fix for iOS
@@ -20,7 +20,6 @@ body {
 
 .container {
 	max-width: $bp-medium;
-  width: 90%;
   clear: left;
 	display: block; // centers container
 	margin-left: auto; // centers container

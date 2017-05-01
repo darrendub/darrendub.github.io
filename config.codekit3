@@ -7,7 +7,7 @@
 		"uuidString": "C039615E-4BF4-4866-ACF3-D2C1B24CDB41"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25813",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -303,12 +303,6 @@
 		"oAP": "\/_site\/atom.xml",
 		"oF": 0
 		},
-	"\/_site\/blond.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/blond.html",
-		"oF": 0
-		},
 	"\/_site\/CNAME": {
 		"ft": 8192,
 		"oA": 2,
@@ -397,12 +391,6 @@
 		"oAP": "\/_site\/darrenfit.html",
 		"oF": 0
 		},
-	"\/_site\/design-systems\/index.html": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/design-systems\/index.html",
-		"oF": 0
-		},
 	"\/_site\/drake-albums\/css\/Late-Regular.otf": {
 		"ft": 8192,
 		"oA": 2,
@@ -443,7 +431,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/drake-albums\/img\/albums\/1035x1035-9cd0f669d4df4cd85d57b059f6ff29f3.1000x1000x1.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/drake-albums\/img\/albums\/1035x1035-drake.jpg": {
 		"ft": 16384,
@@ -451,7 +441,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/drake-albums\/img\/albums\/1035x1035-drake.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/drake-albums\/img\/albums\/1280x1280.jpg": {
 		"ft": 16384,
@@ -459,7 +451,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/drake-albums\/img\/albums\/1280x1280.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/drake-albums\/img\/albums\/91gMAln-dPL._SL1500_.jpg": {
 		"ft": 16384,
@@ -467,7 +461,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/drake-albums\/img\/albums\/91gMAln-dPL._SL1500_.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/drake-albums\/img\/albums\/drake-comeback-season1.jpg": {
 		"ft": 16384,
@@ -475,7 +471,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/drake-albums\/img\/albums\/drake-comeback-season1.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/drake-albums\/img\/albums\/Drake_So_Far_Gone-front-large.jpg": {
 		"ft": 16384,
@@ -483,7 +481,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/drake-albums\/img\/albums\/Drake_So_Far_Gone-front-large.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/drake-albums\/img\/albums\/IMG_2543.JPG": {
 		"ft": 16384,
@@ -491,7 +491,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/drake-albums\/img\/albums\/IMG_2543.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/drake-albums\/img\/albums\/NWTS.jpg": {
 		"ft": 16384,
@@ -499,7 +501,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/drake-albums\/img\/albums\/NWTS.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/drake-albums\/img\/albums\/thank-me-now.ai": {
 		"ft": 8192,
@@ -513,7 +517,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/drake-albums\/img\/albums\/thank-me-now.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/drake-albums\/img\/fb-summary-sq.png": {
 		"ft": 32768,
@@ -521,7 +527,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/drake-albums\/img\/fb-summary-sq.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/drake-albums\/img\/iyrtitl-1.svg": {
 		"ft": 2097152,
@@ -579,7 +588,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/drake-albums\/img\/nwts-clouds-2.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/drake-albums\/img\/nwts-clouds-3.png": {
 		"ft": 32768,
@@ -587,7 +599,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/drake-albums\/img\/nwts-clouds-3.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/drake-albums\/img\/nwts-clouds.png": {
 		"ft": 32768,
@@ -595,7 +610,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/drake-albums\/img\/nwts-clouds.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/drake-albums\/img\/nwts-drake.png": {
 		"ft": 32768,
@@ -603,7 +621,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/drake-albums\/img\/nwts-drake.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/drake-albums\/img\/nwts-logo.png": {
 		"ft": 32768,
@@ -611,7 +632,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/drake-albums\/img\/nwts-logo.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/drake-albums\/img\/parental.svg": {
 		"ft": 2097152,
@@ -689,7 +713,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/drake-albums\/img\/take-care-candle.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/drake-albums\/img\/take-care-logo.svg": {
 		"ft": 2097152,
@@ -707,7 +734,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/drake-albums\/img\/take-care.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/drake-albums\/img\/thank-me-1.png": {
 		"ft": 32768,
@@ -715,7 +744,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/drake-albums\/img\/thank-me-1.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/drake-albums\/img\/thank-me-2.png": {
 		"ft": 32768,
@@ -723,7 +755,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/drake-albums\/img\/thank-me-2.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/drake-albums\/img\/thank-me-black.png": {
 		"ft": 32768,
@@ -731,7 +766,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/drake-albums\/img\/thank-me-black.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/drake-albums\/img\/thank-me-logo.svg": {
 		"ft": 2097152,
@@ -749,7 +787,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/drake-albums\/img\/thank-me-red.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/drake-albums\/img\/twitter-summary.png": {
 		"ft": 32768,
@@ -757,7 +798,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/drake-albums\/img\/twitter-summary.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/drake-albums\/img\/views-6-bg.png": {
 		"ft": 32768,
@@ -765,7 +809,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/drake-albums\/img\/views-6-bg.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/drake-albums\/img\/views-6-eye.png": {
 		"ft": 32768,
@@ -773,7 +820,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/drake-albums\/img\/views-6-eye.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/drake-albums\/img\/views-6.svg": {
 		"ft": 2097152,
@@ -819,7 +869,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/drake-albums\/img\/what-a-time.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/drake-albums\/index.html": {
 		"ft": 8192,
@@ -828,7 +880,7 @@
 		"oF": 0
 		},
 	"\/_site\/drake-albums\/sass\/main.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -900,18 +952,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/_site\/mothers-day\/index.html": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/mothers-day\/index.html",
-		"oF": 0
-		},
-	"\/_site\/open-garage\/index.html": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/open-garage\/index.html",
-		"oF": 0
-		},
 	"\/_site\/page2\/index.html": {
 		"ft": 8192,
 		"oA": 0,
@@ -948,17 +988,21 @@
 		"oAP": "\/_site\/page7\/index.html",
 		"oF": 0
 		},
-	"\/_site\/paige\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/paige\/index.html",
-		"oF": 0
-		},
 	"\/_site\/paradise-soccer-club\/index.html": {
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/paradise-soccer-club\/index.html",
 		"oF": 0
+		},
+	"\/_site\/public\/css\/poole-ck.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/_site\/public\/css\/poole-ck-ck.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/_site\/public\/css\/poole.css": {
 		"aP": 0,
@@ -986,7 +1030,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/2015-04-17-redesign\/cave.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/2015-05-21-website-inspiration\/huge-1.jpg": {
 		"ft": 16384,
@@ -994,7 +1040,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/2015-05-21-website-inspiration\/huge-1.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/2015-05-21-website-inspiration\/huge-2.jpg": {
 		"ft": 16384,
@@ -1002,7 +1050,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/2015-05-21-website-inspiration\/huge-2.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/2015-05-21-website-inspiration\/never-bland-1.jpg": {
 		"ft": 16384,
@@ -1010,7 +1060,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/2015-05-21-website-inspiration\/never-bland-1.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/2015-05-21-website-inspiration\/papermodelplane.jpg": {
 		"ft": 16384,
@@ -1018,7 +1070,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/2015-05-21-website-inspiration\/papermodelplane.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/2015-05-21-website-inspiration\/rally-1.jpg": {
 		"ft": 16384,
@@ -1026,7 +1080,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/2015-05-21-website-inspiration\/rally-1.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/2015-05-21-website-inspiration\/rally-2.jpg": {
 		"ft": 16384,
@@ -1034,7 +1090,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/2015-05-21-website-inspiration\/rally-2.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/2015-05-21-website-inspiration\/stammy-1.jpg": {
 		"ft": 16384,
@@ -1042,7 +1100,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/2015-05-21-website-inspiration\/stammy-1.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/2015-05-21-website-inspiration\/stammy-2.jpg": {
 		"ft": 16384,
@@ -1050,7 +1110,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/2015-05-21-website-inspiration\/stammy-2.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/2015-05-21-website-inspiration\/teehanlax-1.jpg": {
 		"ft": 16384,
@@ -1058,7 +1120,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/2015-05-21-website-inspiration\/teehanlax-1.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/2015-05-21-website-inspiration\/teehanlax-2.jpg": {
 		"ft": 16384,
@@ -1066,7 +1130,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/2015-05-21-website-inspiration\/teehanlax-2.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/2015-05-21-website-inspiration\/underbelly.jpg": {
 		"ft": 16384,
@@ -1074,7 +1140,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/2015-05-21-website-inspiration\/underbelly.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/2015-05-21-website-inspiration\/weightshift-1.jpg": {
 		"ft": 16384,
@@ -1082,7 +1150,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/2015-05-21-website-inspiration\/weightshift-1.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/2015-05-21-website-inspiration\/weightshift-2.jpg": {
 		"ft": 16384,
@@ -1090,7 +1160,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/2015-05-21-website-inspiration\/weightshift-2.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/2015-07-07-wireframes\/website-wireframes.jpg": {
 		"ft": 16384,
@@ -1098,7 +1170,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/2015-07-07-wireframes\/website-wireframes.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/2015-07-07-wireframes\/wireframes-home.jpg": {
 		"ft": 16384,
@@ -1106,7 +1180,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/2015-07-07-wireframes\/wireframes-home.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/2015-07-07-wireframes\/wireframes-paper.jpg": {
 		"ft": 16384,
@@ -1114,7 +1190,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/2015-07-07-wireframes\/wireframes-paper.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/2015-07-07-wireframes\/wireframes-work-pattern.jpg": {
 		"ft": 16384,
@@ -1122,7 +1200,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/2015-07-07-wireframes\/wireframes-work-pattern.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/2015-07-07-wireframes\/wireframes-work.jpg": {
 		"ft": 16384,
@@ -1130,7 +1210,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/2015-07-07-wireframes\/wireframes-work.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/2015-07-23-psc\/phase-one.png": {
 		"ft": 32768,
@@ -1138,7 +1220,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/2015-07-23-psc\/phase-one.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/2015-07-23-psc\/phase-two.png": {
 		"ft": 32768,
@@ -1146,7 +1231,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/2015-07-23-psc\/phase-two.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/2015-07-23-psc\/video-block.jpg": {
 		"ft": 16384,
@@ -1154,15 +1242,19 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/2015-07-23-psc\/video-block.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/_site\/public\/img\/about\/about-profile.jpg": {
+	"\/_site\/public\/img\/about\/about-portrait.jpg": {
 		"ft": 16384,
-		"iS": 85455,
+		"iS": 253112,
 		"oA": 0,
-		"oAP": "\/_site\/public\/img\/about\/about-profile.jpg",
+		"oAP": "\/_site\/public\/img\/about\/about-portrait.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/about\/darren-wong-resume.pdf": {
 		"ft": 8192,
@@ -1206,7 +1298,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/case-study-psc\/intro.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/case-study-psc\/intro.png": {
 		"ft": 32768,
@@ -1214,7 +1308,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/case-study-psc\/intro.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/curiosity-shoppe\/crouwel-inkling.png": {
 		"ft": 32768,
@@ -1222,7 +1319,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/curiosity-shoppe\/crouwel-inkling.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/curiosity-shoppe\/curiosity-shoppe-hero.gif": {
 		"ft": 4194304,
@@ -1248,7 +1348,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/curiosity-shoppe\/curiosity-shoppe-homepage.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/curiosity-shoppe\/curiosity-shoppe-icons-black.svg": {
 		"ft": 2097152,
@@ -1284,7 +1387,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/curiosity-shoppe\/curiosity-shoppe-modal.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/curiosity-shoppe\/curiosity-shoppe-onboard.png": {
 		"ft": 32768,
@@ -1292,7 +1398,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/curiosity-shoppe\/curiosity-shoppe-onboard.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/curiosity-shoppe\/curiosity-shoppe.svg": {
 		"ft": 2097152,
@@ -1332,7 +1441,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/curiosity-shoppe\/noma.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/curiosity-shoppe\/taste-test-1.jpg": {
 		"ft": 16384,
@@ -1340,7 +1452,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/curiosity-shoppe\/taste-test-1.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/curiosity-shoppe\/taste-test-2.jpg": {
 		"ft": 16384,
@@ -1348,7 +1462,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/curiosity-shoppe\/taste-test-2.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/drake-albums\/drake-album-tweets.jpg": {
 		"ft": 16384,
@@ -1356,7 +1472,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/drake-albums\/drake-album-tweets.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/drake-albums\/drake-album-tweets.png": {
 		"ft": 32768,
@@ -1364,7 +1482,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/drake-albums\/drake-album-tweets.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/drake-albums\/parental.svg": {
 		"ft": 2097152,
@@ -1382,7 +1503,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/drake-albums\/sfg-500.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/drake-albums\/so-far-gone-drake.svg": {
 		"ft": 2097152,
@@ -1450,7 +1574,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/drake-albums\/views-500.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/drake-albums\/views-knocked.svg": {
 		"ft": 2097152,
@@ -1476,7 +1603,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/email\/email-case-study-1.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/email\/email-case-study-2.png": {
 		"ft": 32768,
@@ -1484,7 +1614,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/email\/email-case-study-2.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/email\/email-system-home.png": {
 		"ft": 32768,
@@ -1492,7 +1625,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/email\/email-system-home.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/eventbrite\/Card 01_img.jpg": {
 		"ft": 16384,
@@ -1500,7 +1636,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/eventbrite\/Card 01_img.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/eventbrite\/Card 02_img.jpg": {
 		"ft": 16384,
@@ -1508,7 +1646,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/eventbrite\/Card 02_img.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/eventbrite\/Card 03_img.jpg": {
 		"ft": 16384,
@@ -1516,7 +1656,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/eventbrite\/Card 03_img.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/eventbrite\/Card 04 app img.png": {
 		"ft": 32768,
@@ -1524,7 +1666,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/eventbrite\/Card 04 app img.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/eventbrite\/Card 05 icon.png": {
 		"ft": 32768,
@@ -1532,7 +1677,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/eventbrite\/Card 05 icon.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/eventbrite\/Card 05_grad.jpg": {
 		"ft": 16384,
@@ -1540,7 +1688,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/eventbrite\/Card 05_grad.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/eventbrite\/card-download.png": {
 		"ft": 32768,
@@ -1548,7 +1698,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/eventbrite\/card-download.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/eventbrite\/card-serious.png": {
 		"ft": 32768,
@@ -1556,7 +1709,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/eventbrite\/card-serious.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/eventbrite\/create.mp4": {
 		"ft": 8192,
@@ -1576,7 +1732,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/eventbrite\/eventbrite-logo-small-white.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/eventbrite\/eventbrite-logo-small.png": {
 		"ft": 32768,
@@ -1584,7 +1743,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/eventbrite\/eventbrite-logo-small.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/eventbrite\/Eventbrite_wordmark_orange.png": {
 		"ft": 32768,
@@ -1592,7 +1754,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/eventbrite\/Eventbrite_wordmark_orange.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/eventbrite\/Eventbrite_wordmark_white.png": {
 		"ft": 32768,
@@ -1600,7 +1765,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/eventbrite\/Eventbrite_wordmark_white.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/eventbrite\/header_photo.jpg": {
 		"ft": 16384,
@@ -1608,7 +1776,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/eventbrite\/header_photo.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/eventbrite\/Pie chart background ring_01.png": {
 		"ft": 32768,
@@ -1616,7 +1786,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/eventbrite\/Pie chart background ring_01.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/eventbrite\/Pie chart background ring_02.png": {
 		"ft": 32768,
@@ -1624,7 +1797,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/eventbrite\/Pie chart background ring_02.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/eventbrite\/Pie chart background ring_03.png": {
 		"ft": 32768,
@@ -1632,7 +1808,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/eventbrite\/Pie chart background ring_03.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/eventbrite\/Pie chart grad_01.png": {
 		"ft": 32768,
@@ -1640,7 +1819,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/eventbrite\/Pie chart grad_01.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/eventbrite\/Pie chart grad_02.png": {
 		"ft": 32768,
@@ -1648,7 +1830,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/eventbrite\/Pie chart grad_02.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/eventbrite\/Pie chart grad_03.png": {
 		"ft": 32768,
@@ -1656,7 +1841,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/eventbrite\/Pie chart grad_03.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/eventbrite\/pie-sales.png": {
 		"ft": 32768,
@@ -1664,7 +1852,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/eventbrite\/pie-sales.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/eventbrite\/pie-shows.png": {
 		"ft": 32768,
@@ -1672,7 +1863,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/eventbrite\/pie-shows.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/eventbrite\/pie-tickets.png": {
 		"ft": 32768,
@@ -1680,7 +1874,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/eventbrite\/pie-tickets.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/eventbrite\/video-poster.png": {
 		"ft": 32768,
@@ -1688,7 +1885,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/eventbrite\/video-poster.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/fitbit\/curiosity.png": {
 		"ft": 32768,
@@ -1696,7 +1896,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/fitbit\/curiosity.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/fitbit\/flag-cn.png": {
 		"ft": 32768,
@@ -1704,7 +1907,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/fitbit\/flag-cn.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/fitbit\/flag-ph.png": {
 		"ft": 32768,
@@ -1712,7 +1918,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/fitbit\/flag-ph.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/fitbit\/flag-pr.png": {
 		"ft": 32768,
@@ -1720,7 +1929,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/fitbit\/flag-pr.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/fitbit\/flag-pt.png": {
 		"ft": 32768,
@@ -1728,7 +1940,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/fitbit\/flag-pt.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/fitbit\/flag-se.png": {
 		"ft": 32768,
@@ -1736,7 +1951,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/fitbit\/flag-se.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/fitbit\/flag-us.png": {
 		"ft": 32768,
@@ -1744,7 +1962,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/fitbit\/flag-us.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/fitbit\/hemingway.png": {
 		"ft": 32768,
@@ -1752,7 +1973,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/fitbit\/hemingway.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/fitbit\/inspiration.png": {
 		"ft": 32768,
@@ -1760,7 +1984,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/fitbit\/inspiration.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/hemingway\/darrendub-tweet.png": {
 		"ft": 32768,
@@ -1768,7 +1995,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/hemingway\/darrendub-tweet.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/hemingway\/hemingway-bg-large.png": {
 		"ft": 32768,
@@ -1776,7 +2006,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/hemingway\/hemingway-bg-large.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/hemingway\/hemingway-case-study-1.png": {
 		"ft": 32768,
@@ -1784,7 +2017,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/hemingway\/hemingway-case-study-1.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/hemingway\/hemingway-case-study-2.png": {
 		"ft": 32768,
@@ -1792,7 +2028,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/hemingway\/hemingway-case-study-2.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/home\/avatar-16.png": {
 		"ft": 32768,
@@ -1800,7 +2039,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/home\/avatar-16.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/home\/avatar-32.png": {
 		"ft": 32768,
@@ -1808,7 +2050,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/home\/avatar-32.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/home\/avatar-48.png": {
 		"ft": 32768,
@@ -1816,7 +2061,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/home\/avatar-48.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/home\/avatar-64.png": {
 		"ft": 32768,
@@ -1824,7 +2072,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/home\/avatar-64.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/home\/avatar-96.png": {
 		"ft": 32768,
@@ -1832,7 +2083,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/home\/avatar-96.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/home\/avatar.png": {
 		"ft": 32768,
@@ -1840,7 +2094,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/home\/avatar.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/home\/card-psc.png": {
 		"ft": 32768,
@@ -1848,7 +2105,43 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/home\/card-psc.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/public\/img\/home\/hero-hemingway.png": {
+		"ft": 32768,
+		"iS": 49641,
+		"oA": 0,
+		"oAP": "\/_site\/public\/img\/home\/hero-hemingway.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/public\/img\/home\/hero-inspiration.png": {
+		"ft": 32768,
+		"iS": 45787,
+		"oA": 0,
+		"oAP": "\/_site\/public\/img\/home\/hero-inspiration.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/public\/img\/home\/hero-paradise.png": {
+		"ft": 32768,
+		"iS": 46102,
+		"oA": 0,
+		"oAP": "\/_site\/public\/img\/home\/hero-paradise.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/home\/home-bg-inspiration.jpg": {
 		"ft": 16384,
@@ -1856,7 +2149,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/home\/home-bg-inspiration.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/home\/home-curiosity.svg": {
 		"ft": 2097152,
@@ -1874,7 +2169,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/home\/home-hemingway.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/home\/home-inspiration.png": {
 		"ft": 32768,
@@ -1882,7 +2180,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/home\/home-inspiration.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/home\/home-placeholder.png": {
 		"ft": 32768,
@@ -1890,7 +2191,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/home\/home-placeholder.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/home\/home-psc-img.png": {
 		"ft": 32768,
@@ -1898,7 +2202,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/home\/home-psc-img.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/home\/mothers-day.jpg": {
 		"ft": 16384,
@@ -1906,7 +2213,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/home\/mothers-day.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/home\/paige.png": {
 		"ft": 32768,
@@ -1914,37 +2223,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/home\/paige.png",
 		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/public\/img\/home\/side-project-drake.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/public\/img\/home\/side-project-drake.svg",
-		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/public\/img\/home\/side-project-sms.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/public\/img\/home\/side-project-sms.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/public\/img\/home\/side-project-three-things.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/public\/img\/home\/side-project-three-things.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/inkling-inspiration\/inspiration-beauty-success.mp4": {
 		"ft": 8192,
@@ -1964,7 +2246,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/inkling-inspiration\/inspiration-case-study.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/inkling-inspiration\/inspiration-everywhere.mp4": {
 		"ft": 8192,
@@ -2032,7 +2317,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/inkling-inspiration\/inspiration-wireframe.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/open-garage\/avatar-buyer-dark.svg": {
 		"ft": 2097152,
@@ -2086,7 +2373,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/open-garage\/prototype-tester.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/open-garage\/research.jpg": {
 		"ft": 16384,
@@ -2094,7 +2384,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/open-garage\/research.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/open-garage\/screen-1.jpg": {
 		"ft": 16384,
@@ -2102,7 +2394,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/open-garage\/screen-1.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/open-garage\/screen-2.jpg": {
 		"ft": 16384,
@@ -2110,7 +2404,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/open-garage\/screen-2.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/open-garage\/screen-3.jpg": {
 		"ft": 16384,
@@ -2118,7 +2414,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/open-garage\/screen-3.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/open-garage\/screen-4.jpg": {
 		"ft": 16384,
@@ -2126,7 +2424,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/open-garage\/screen-4.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/open-garage\/sketch-map.jpg": {
 		"ft": 16384,
@@ -2134,7 +2434,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/open-garage\/sketch-map.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/open-garage\/sketch-research.jpg": {
 		"ft": 16384,
@@ -2142,7 +2444,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/open-garage\/sketch-research.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/open-garage\/sketch-storyboard.jpg": {
 		"ft": 16384,
@@ -2150,7 +2454,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/open-garage\/sketch-storyboard.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/psc\/email-correspondence.png": {
 		"ft": 32768,
@@ -2158,7 +2464,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/psc\/email-correspondence.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/psc\/event-2v2.jpg": {
 		"ft": 16384,
@@ -2166,7 +2475,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/psc\/event-2v2.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/psc\/event-3v3.jpg": {
 		"ft": 16384,
@@ -2174,7 +2485,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/psc\/event-3v3.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/psc\/event-world-cup.jpg": {
 		"ft": 16384,
@@ -2182,7 +2495,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/psc\/event-world-cup.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/psc\/navigation.png": {
 		"ft": 32768,
@@ -2190,7 +2505,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/psc\/navigation.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/psc\/newsletter-1.jpg": {
 		"ft": 16384,
@@ -2198,7 +2516,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/psc\/newsletter-1.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/psc\/newsletter-2.jpg": {
 		"ft": 16384,
@@ -2206,7 +2526,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/psc\/newsletter-2.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/psc\/phase-1.jpg": {
 		"ft": 16384,
@@ -2214,7 +2536,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/psc\/phase-1.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/psc\/phase-2.jpg": {
 		"ft": 16384,
@@ -2222,7 +2546,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/psc\/phase-2.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/psc\/phase-3.png": {
 		"ft": 32768,
@@ -2230,7 +2556,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/psc\/phase-3.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/psc\/phase-launch.png": {
 		"ft": 32768,
@@ -2238,7 +2567,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/psc\/phase-launch.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/psc\/psc-logo.svg": {
 		"ft": 2097152,
@@ -2276,7 +2608,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/sparks\/twitter-sparks.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/sparks\/wine-limo.mp4": {
 		"ft": 8192,
@@ -2290,7 +2625,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/timeline\/2015-07-13.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/timeline\/2016-01-20-nav.png": {
 		"ft": 32768,
@@ -2298,7 +2635,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/timeline\/2016-01-20-nav.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/timeline\/2016-02-01-update.jpg": {
 		"ft": 16384,
@@ -2306,7 +2646,9 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/timeline\/2016-02-01-update.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_site\/public\/img\/twitter\/dannybracco.png": {
 		"ft": 32768,
@@ -2314,7 +2656,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/twitter\/dannybracco.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/twitter\/drake-twitter-summary.png": {
 		"ft": 32768,
@@ -2322,7 +2667,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/twitter\/drake-twitter-summary.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/twitter\/icon-pin.svg": {
 		"ft": 2097152,
@@ -2340,7 +2688,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/twitter\/icon-play-blue.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/twitter\/o0V7z4AgBApRIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAKk8L88Rzkq8L2QAAAABJRU5ErkJggg==.png": {
 		"ft": 32768,
@@ -2348,7 +2699,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/twitter\/o0V7z4AgBApRIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAKk8L88Rzkq8L2QAAAABJRU5ErkJggg==.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/twitter\/peri-intro-poster.png": {
 		"ft": 32768,
@@ -2356,7 +2710,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/twitter\/peri-intro-poster.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/twitter\/peri-intro.mp4": {
 		"ft": 8192,
@@ -2370,7 +2727,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/twitter\/periscope-behind-scenes-poster.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/twitter\/periscope-behind-scenes.mp4": {
 		"ft": 8192,
@@ -2384,7 +2744,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/twitter\/periscope-logo.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/twitter\/tweet-curiosity.png": {
 		"ft": 32768,
@@ -2392,7 +2755,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/twitter\/tweet-curiosity.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/twitter\/tweet-hemingway.png": {
 		"ft": 32768,
@@ -2400,7 +2766,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/twitter\/tweet-hemingway.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/img\/twitter\/tweet-inspiration.png": {
 		"ft": 32768,
@@ -2408,7 +2777,10 @@
 		"oA": 0,
 		"oAP": "\/_site\/public\/img\/twitter\/tweet-inspiration.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/public\/js\/parallax.min.js": {
 		"ft": 64,
@@ -2426,7 +2798,7 @@
 		"oF": 0
 		},
 	"\/_site\/sass\/blond.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -2439,7 +2811,7 @@
 		"uL": 1
 		},
 	"\/_site\/sass\/eventbrite.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -2452,7 +2824,7 @@
 		"uL": 1
 		},
 	"\/_site\/sass\/fitbit.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -2465,7 +2837,7 @@
 		"uL": 1
 		},
 	"\/_site\/sass\/main.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -2478,7 +2850,7 @@
 		"uL": 1
 		},
 	"\/_site\/sass\/twitter.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -2568,6 +2940,36 @@
 		"oAP": "\/_site\/weblog\/index.html",
 		"oF": 0
 		},
+	"\/_site\/words\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/words\/index.html",
+		"oF": 0
+		},
+	"\/_site\/z-archive\/blond.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/z-archive\/blond.html",
+		"oF": 0
+		},
+	"\/_site\/z-archive\/mothers-day\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/z-archive\/mothers-day\/index.html",
+		"oF": 0
+		},
+	"\/_site\/z-archive\/open-garage\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/z-archive\/open-garage\/index.html",
+		"oF": 0
+		},
+	"\/_site\/z-archive\/paige\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/z-archive\/paige\/index.html",
+		"oF": 0
+		},
 	"\/about.html": {
 		"ft": 8192,
 		"oA": 0,
@@ -2578,12 +2980,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/atom.xml",
-		"oF": 0
-		},
-	"\/blond.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/blond.html",
 		"oF": 0
 		},
 	"\/CNAME": {
@@ -2674,12 +3070,6 @@
 		"oAP": "\/darrenfit.html",
 		"oF": 0
 		},
-	"\/design-systems.html": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/design-systems.html",
-		"oF": 0
-		},
 	"\/drake-albums\/css\/Late-Regular.otf": {
 		"ft": 8192,
 		"oA": 2,
@@ -2720,7 +3110,9 @@
 		"oA": 0,
 		"oAP": "\/drake-albums\/img\/albums\/1035x1035-9cd0f669d4df4cd85d57b059f6ff29f3.1000x1000x1.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/drake-albums\/img\/albums\/1035x1035-drake.jpg": {
 		"ft": 16384,
@@ -2728,7 +3120,9 @@
 		"oA": 0,
 		"oAP": "\/drake-albums\/img\/albums\/1035x1035-drake.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/drake-albums\/img\/albums\/1280x1280.jpg": {
 		"ft": 16384,
@@ -2736,7 +3130,9 @@
 		"oA": 0,
 		"oAP": "\/drake-albums\/img\/albums\/1280x1280.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/drake-albums\/img\/albums\/91gMAln-dPL._SL1500_.jpg": {
 		"ft": 16384,
@@ -2744,7 +3140,9 @@
 		"oA": 0,
 		"oAP": "\/drake-albums\/img\/albums\/91gMAln-dPL._SL1500_.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/drake-albums\/img\/albums\/drake-comeback-season1.jpg": {
 		"ft": 16384,
@@ -2752,7 +3150,9 @@
 		"oA": 0,
 		"oAP": "\/drake-albums\/img\/albums\/drake-comeback-season1.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/drake-albums\/img\/albums\/Drake_So_Far_Gone-front-large.jpg": {
 		"ft": 16384,
@@ -2760,7 +3160,9 @@
 		"oA": 0,
 		"oAP": "\/drake-albums\/img\/albums\/Drake_So_Far_Gone-front-large.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/drake-albums\/img\/albums\/IMG_2543.JPG": {
 		"ft": 16384,
@@ -2768,7 +3170,9 @@
 		"oA": 0,
 		"oAP": "\/drake-albums\/img\/albums\/IMG_2543.JPG",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/drake-albums\/img\/albums\/NWTS.jpg": {
 		"ft": 16384,
@@ -2776,7 +3180,9 @@
 		"oA": 0,
 		"oAP": "\/drake-albums\/img\/albums\/NWTS.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/drake-albums\/img\/albums\/thank-me-now.ai": {
 		"ft": 8192,
@@ -2790,7 +3196,9 @@
 		"oA": 0,
 		"oAP": "\/drake-albums\/img\/albums\/thank-me-now.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/drake-albums\/img\/fb-summary-sq.png": {
 		"ft": 32768,
@@ -2798,7 +3206,10 @@
 		"oA": 0,
 		"oAP": "\/drake-albums\/img\/fb-summary-sq.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/drake-albums\/img\/iyrtitl-1.svg": {
 		"ft": 2097152,
@@ -2856,7 +3267,10 @@
 		"oA": 0,
 		"oAP": "\/drake-albums\/img\/nwts-clouds-2.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/drake-albums\/img\/nwts-clouds-3.png": {
 		"ft": 32768,
@@ -2864,7 +3278,10 @@
 		"oA": 0,
 		"oAP": "\/drake-albums\/img\/nwts-clouds-3.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/drake-albums\/img\/nwts-clouds.png": {
 		"ft": 32768,
@@ -2872,7 +3289,10 @@
 		"oA": 0,
 		"oAP": "\/drake-albums\/img\/nwts-clouds.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/drake-albums\/img\/nwts-drake.png": {
 		"ft": 32768,
@@ -2880,7 +3300,10 @@
 		"oA": 0,
 		"oAP": "\/drake-albums\/img\/nwts-drake.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/drake-albums\/img\/nwts-logo.png": {
 		"ft": 32768,
@@ -2888,7 +3311,10 @@
 		"oA": 0,
 		"oAP": "\/drake-albums\/img\/nwts-logo.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/drake-albums\/img\/parental.svg": {
 		"ft": 2097152,
@@ -2966,7 +3392,10 @@
 		"oA": 0,
 		"oAP": "\/drake-albums\/img\/take-care-candle.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/drake-albums\/img\/take-care-logo.svg": {
 		"ft": 2097152,
@@ -2984,7 +3413,9 @@
 		"oA": 0,
 		"oAP": "\/drake-albums\/img\/take-care.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/drake-albums\/img\/thank-me-1.png": {
 		"ft": 32768,
@@ -2992,7 +3423,10 @@
 		"oA": 0,
 		"oAP": "\/drake-albums\/img\/thank-me-1.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/drake-albums\/img\/thank-me-2.png": {
 		"ft": 32768,
@@ -3000,7 +3434,10 @@
 		"oA": 0,
 		"oAP": "\/drake-albums\/img\/thank-me-2.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/drake-albums\/img\/thank-me-black.png": {
 		"ft": 32768,
@@ -3008,7 +3445,10 @@
 		"oA": 0,
 		"oAP": "\/drake-albums\/img\/thank-me-black.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/drake-albums\/img\/thank-me-logo.svg": {
 		"ft": 2097152,
@@ -3026,7 +3466,10 @@
 		"oA": 0,
 		"oAP": "\/drake-albums\/img\/thank-me-red.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/drake-albums\/img\/twitter-summary.png": {
 		"ft": 32768,
@@ -3034,7 +3477,10 @@
 		"oA": 0,
 		"oAP": "\/drake-albums\/img\/twitter-summary.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/drake-albums\/img\/views-6-bg.png": {
 		"ft": 32768,
@@ -3042,7 +3488,10 @@
 		"oA": 0,
 		"oAP": "\/drake-albums\/img\/views-6-bg.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/drake-albums\/img\/views-6-eye.png": {
 		"ft": 32768,
@@ -3050,7 +3499,10 @@
 		"oA": 0,
 		"oAP": "\/drake-albums\/img\/views-6-eye.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/drake-albums\/img\/views-6.svg": {
 		"ft": 2097152,
@@ -3096,7 +3548,9 @@
 		"oA": 0,
 		"oAP": "\/drake-albums\/img\/what-a-time.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/drake-albums\/index.html": {
 		"ft": 8192,
@@ -3511,29 +3965,21 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/mothers-day.html": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/mothers-day.html",
-		"oF": 0
-		},
-	"\/open-garage.html": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/open-garage.html",
-		"oF": 0
-		},
-	"\/paige.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/paige.html",
-		"oF": 0
-		},
 	"\/paradise-soccer-club.html": {
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/paradise-soccer-club.html",
 		"oF": 0
+		},
+	"\/public\/css\/poole-ck.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/public\/css\/poole-ck-ck.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/public\/css\/poole.css": {
 		"aP": 0,
@@ -3561,7 +4007,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/2015-04-17-redesign\/cave.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/2015-05-21-website-inspiration\/huge-1.jpg": {
 		"ft": 16384,
@@ -3569,7 +4017,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/2015-05-21-website-inspiration\/huge-1.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/2015-05-21-website-inspiration\/huge-2.jpg": {
 		"ft": 16384,
@@ -3577,7 +4027,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/2015-05-21-website-inspiration\/huge-2.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/2015-05-21-website-inspiration\/never-bland-1.jpg": {
 		"ft": 16384,
@@ -3585,7 +4037,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/2015-05-21-website-inspiration\/never-bland-1.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/2015-05-21-website-inspiration\/papermodelplane.jpg": {
 		"ft": 16384,
@@ -3593,7 +4047,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/2015-05-21-website-inspiration\/papermodelplane.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/2015-05-21-website-inspiration\/rally-1.jpg": {
 		"ft": 16384,
@@ -3601,7 +4057,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/2015-05-21-website-inspiration\/rally-1.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/2015-05-21-website-inspiration\/rally-2.jpg": {
 		"ft": 16384,
@@ -3609,7 +4067,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/2015-05-21-website-inspiration\/rally-2.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/2015-05-21-website-inspiration\/stammy-1.jpg": {
 		"ft": 16384,
@@ -3617,7 +4077,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/2015-05-21-website-inspiration\/stammy-1.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/2015-05-21-website-inspiration\/stammy-2.jpg": {
 		"ft": 16384,
@@ -3625,7 +4087,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/2015-05-21-website-inspiration\/stammy-2.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/2015-05-21-website-inspiration\/teehanlax-1.jpg": {
 		"ft": 16384,
@@ -3633,7 +4097,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/2015-05-21-website-inspiration\/teehanlax-1.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/2015-05-21-website-inspiration\/teehanlax-2.jpg": {
 		"ft": 16384,
@@ -3641,7 +4107,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/2015-05-21-website-inspiration\/teehanlax-2.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/2015-05-21-website-inspiration\/underbelly.jpg": {
 		"ft": 16384,
@@ -3649,7 +4117,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/2015-05-21-website-inspiration\/underbelly.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/2015-05-21-website-inspiration\/weightshift-1.jpg": {
 		"ft": 16384,
@@ -3657,7 +4127,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/2015-05-21-website-inspiration\/weightshift-1.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/2015-05-21-website-inspiration\/weightshift-2.jpg": {
 		"ft": 16384,
@@ -3665,7 +4137,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/2015-05-21-website-inspiration\/weightshift-2.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/2015-07-07-wireframes\/website-wireframes.jpg": {
 		"ft": 16384,
@@ -3673,7 +4147,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/2015-07-07-wireframes\/website-wireframes.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/2015-07-07-wireframes\/wireframes-home.jpg": {
 		"ft": 16384,
@@ -3681,7 +4157,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/2015-07-07-wireframes\/wireframes-home.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/2015-07-07-wireframes\/wireframes-paper.jpg": {
 		"ft": 16384,
@@ -3689,7 +4167,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/2015-07-07-wireframes\/wireframes-paper.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/2015-07-07-wireframes\/wireframes-work-pattern.jpg": {
 		"ft": 16384,
@@ -3697,7 +4177,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/2015-07-07-wireframes\/wireframes-work-pattern.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/2015-07-07-wireframes\/wireframes-work.jpg": {
 		"ft": 16384,
@@ -3705,7 +4187,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/2015-07-07-wireframes\/wireframes-work.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/2015-07-23-psc\/phase-one.png": {
 		"ft": 32768,
@@ -3713,7 +4197,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/2015-07-23-psc\/phase-one.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/2015-07-23-psc\/phase-two.png": {
 		"ft": 32768,
@@ -3721,7 +4208,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/2015-07-23-psc\/phase-two.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/2015-07-23-psc\/video-block.jpg": {
 		"ft": 16384,
@@ -3729,15 +4219,19 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/2015-07-23-psc\/video-block.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
-	"\/public\/img\/about\/about-profile.jpg": {
+	"\/public\/img\/about\/about-portrait.jpg": {
 		"ft": 16384,
-		"iS": 85455,
+		"iS": 253112,
 		"oA": 0,
-		"oAP": "\/public\/img\/about\/about-profile.jpg",
+		"oAP": "\/public\/img\/about\/about-portrait.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/about\/darren-wong-resume.pdf": {
 		"ft": 8192,
@@ -3781,7 +4275,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/case-study-psc\/intro.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/case-study-psc\/intro.png": {
 		"ft": 32768,
@@ -3789,7 +4285,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/case-study-psc\/intro.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/curiosity-shoppe\/crouwel-inkling.png": {
 		"ft": 32768,
@@ -3797,7 +4296,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/curiosity-shoppe\/crouwel-inkling.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/curiosity-shoppe\/curiosity-shoppe-hero.gif": {
 		"ft": 4194304,
@@ -3823,7 +4325,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/curiosity-shoppe\/curiosity-shoppe-homepage.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/curiosity-shoppe\/curiosity-shoppe-icons-black.svg": {
 		"ft": 2097152,
@@ -3859,7 +4364,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/curiosity-shoppe\/curiosity-shoppe-modal.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/curiosity-shoppe\/curiosity-shoppe-onboard.png": {
 		"ft": 32768,
@@ -3867,7 +4375,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/curiosity-shoppe\/curiosity-shoppe-onboard.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/curiosity-shoppe\/curiosity-shoppe.svg": {
 		"ft": 2097152,
@@ -3907,7 +4418,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/curiosity-shoppe\/noma.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/curiosity-shoppe\/taste-test-1.jpg": {
 		"ft": 16384,
@@ -3915,7 +4429,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/curiosity-shoppe\/taste-test-1.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/curiosity-shoppe\/taste-test-2.jpg": {
 		"ft": 16384,
@@ -3923,7 +4439,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/curiosity-shoppe\/taste-test-2.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/drake-albums\/drake-album-tweets.jpg": {
 		"ft": 16384,
@@ -3931,7 +4449,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/drake-albums\/drake-album-tweets.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/drake-albums\/drake-album-tweets.png": {
 		"ft": 32768,
@@ -3939,7 +4459,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/drake-albums\/drake-album-tweets.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/drake-albums\/parental.svg": {
 		"ft": 2097152,
@@ -3957,7 +4480,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/drake-albums\/sfg-500.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/drake-albums\/so-far-gone-drake.svg": {
 		"ft": 2097152,
@@ -4025,7 +4551,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/drake-albums\/views-500.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/drake-albums\/views-knocked.svg": {
 		"ft": 2097152,
@@ -4051,7 +4580,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/email\/email-case-study-1.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/email\/email-case-study-2.png": {
 		"ft": 32768,
@@ -4059,7 +4591,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/email\/email-case-study-2.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/email\/email-system-home.png": {
 		"ft": 32768,
@@ -4067,7 +4602,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/email\/email-system-home.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/eventbrite\/Card 01_img.jpg": {
 		"ft": 16384,
@@ -4075,7 +4613,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/eventbrite\/Card 01_img.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/eventbrite\/Card 02_img.jpg": {
 		"ft": 16384,
@@ -4083,7 +4623,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/eventbrite\/Card 02_img.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/eventbrite\/Card 03_img.jpg": {
 		"ft": 16384,
@@ -4091,7 +4633,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/eventbrite\/Card 03_img.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/eventbrite\/Card 04 app img.png": {
 		"ft": 32768,
@@ -4099,7 +4643,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/eventbrite\/Card 04 app img.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/eventbrite\/Card 05 icon.png": {
 		"ft": 32768,
@@ -4107,7 +4654,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/eventbrite\/Card 05 icon.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/eventbrite\/Card 05_grad.jpg": {
 		"ft": 16384,
@@ -4115,7 +4665,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/eventbrite\/Card 05_grad.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/eventbrite\/card-download.png": {
 		"ft": 32768,
@@ -4123,7 +4675,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/eventbrite\/card-download.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/eventbrite\/card-serious.png": {
 		"ft": 32768,
@@ -4131,7 +4686,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/eventbrite\/card-serious.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/eventbrite\/create.mp4": {
 		"ft": 8192,
@@ -4151,7 +4709,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/eventbrite\/eventbrite-logo-small-white.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/eventbrite\/eventbrite-logo-small.png": {
 		"ft": 32768,
@@ -4159,7 +4720,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/eventbrite\/eventbrite-logo-small.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/eventbrite\/Eventbrite_wordmark_orange.png": {
 		"ft": 32768,
@@ -4167,7 +4731,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/eventbrite\/Eventbrite_wordmark_orange.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/eventbrite\/Eventbrite_wordmark_white.png": {
 		"ft": 32768,
@@ -4175,7 +4742,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/eventbrite\/Eventbrite_wordmark_white.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/eventbrite\/header_photo.jpg": {
 		"ft": 16384,
@@ -4183,7 +4753,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/eventbrite\/header_photo.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/eventbrite\/Pie chart background ring_01.png": {
 		"ft": 32768,
@@ -4191,7 +4763,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/eventbrite\/Pie chart background ring_01.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/eventbrite\/Pie chart background ring_02.png": {
 		"ft": 32768,
@@ -4199,7 +4774,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/eventbrite\/Pie chart background ring_02.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/eventbrite\/Pie chart background ring_03.png": {
 		"ft": 32768,
@@ -4207,7 +4785,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/eventbrite\/Pie chart background ring_03.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/eventbrite\/Pie chart grad_01.png": {
 		"ft": 32768,
@@ -4215,7 +4796,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/eventbrite\/Pie chart grad_01.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/eventbrite\/Pie chart grad_02.png": {
 		"ft": 32768,
@@ -4223,7 +4807,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/eventbrite\/Pie chart grad_02.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/eventbrite\/Pie chart grad_03.png": {
 		"ft": 32768,
@@ -4231,7 +4818,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/eventbrite\/Pie chart grad_03.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/eventbrite\/pie-sales.png": {
 		"ft": 32768,
@@ -4239,7 +4829,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/eventbrite\/pie-sales.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/eventbrite\/pie-shows.png": {
 		"ft": 32768,
@@ -4247,7 +4840,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/eventbrite\/pie-shows.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/eventbrite\/pie-tickets.png": {
 		"ft": 32768,
@@ -4255,7 +4851,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/eventbrite\/pie-tickets.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/eventbrite\/video-poster.png": {
 		"ft": 32768,
@@ -4263,7 +4862,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/eventbrite\/video-poster.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/fitbit\/curiosity.png": {
 		"ft": 32768,
@@ -4271,7 +4873,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/fitbit\/curiosity.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/fitbit\/flag-cn.png": {
 		"ft": 32768,
@@ -4279,7 +4884,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/fitbit\/flag-cn.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/fitbit\/flag-ph.png": {
 		"ft": 32768,
@@ -4287,7 +4895,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/fitbit\/flag-ph.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/fitbit\/flag-pr.png": {
 		"ft": 32768,
@@ -4295,7 +4906,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/fitbit\/flag-pr.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/fitbit\/flag-pt.png": {
 		"ft": 32768,
@@ -4303,7 +4917,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/fitbit\/flag-pt.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/fitbit\/flag-se.png": {
 		"ft": 32768,
@@ -4311,7 +4928,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/fitbit\/flag-se.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/fitbit\/flag-us.png": {
 		"ft": 32768,
@@ -4319,7 +4939,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/fitbit\/flag-us.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/fitbit\/hemingway.png": {
 		"ft": 32768,
@@ -4327,7 +4950,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/fitbit\/hemingway.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/fitbit\/inspiration.png": {
 		"ft": 32768,
@@ -4335,7 +4961,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/fitbit\/inspiration.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/hemingway\/darrendub-tweet.png": {
 		"ft": 32768,
@@ -4343,7 +4972,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/hemingway\/darrendub-tweet.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/hemingway\/hemingway-bg-large.png": {
 		"ft": 32768,
@@ -4351,7 +4983,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/hemingway\/hemingway-bg-large.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/hemingway\/hemingway-case-study-1.png": {
 		"ft": 32768,
@@ -4359,7 +4994,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/hemingway\/hemingway-case-study-1.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/hemingway\/hemingway-case-study-2.png": {
 		"ft": 32768,
@@ -4367,7 +5005,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/hemingway\/hemingway-case-study-2.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/home\/avatar-16.png": {
 		"ft": 32768,
@@ -4375,7 +5016,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/home\/avatar-16.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/home\/avatar-32.png": {
 		"ft": 32768,
@@ -4383,7 +5027,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/home\/avatar-32.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/home\/avatar-48.png": {
 		"ft": 32768,
@@ -4391,7 +5038,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/home\/avatar-48.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/home\/avatar-64.png": {
 		"ft": 32768,
@@ -4399,7 +5049,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/home\/avatar-64.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/home\/avatar-96.png": {
 		"ft": 32768,
@@ -4407,7 +5060,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/home\/avatar-96.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/home\/avatar.png": {
 		"ft": 32768,
@@ -4415,7 +5071,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/home\/avatar.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/home\/card-psc.png": {
 		"ft": 32768,
@@ -4423,7 +5082,43 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/home\/card-psc.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/img\/home\/hero-hemingway.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/public\/img\/home\/hero-hemingway.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/img\/home\/hero-inspiration.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/public\/img\/home\/hero-inspiration.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/public\/img\/home\/hero-paradise.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/public\/img\/home\/hero-paradise.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/home\/home-bg-inspiration.jpg": {
 		"ft": 16384,
@@ -4431,7 +5126,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/home\/home-bg-inspiration.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/home\/home-curiosity.svg": {
 		"ft": 2097152,
@@ -4449,7 +5146,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/home\/home-hemingway.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/home\/home-inspiration.png": {
 		"ft": 32768,
@@ -4457,7 +5157,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/home\/home-inspiration.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/home\/home-placeholder.png": {
 		"ft": 32768,
@@ -4465,7 +5168,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/home\/home-placeholder.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/home\/home-psc-img.png": {
 		"ft": 32768,
@@ -4473,7 +5179,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/home\/home-psc-img.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/home\/mothers-day.jpg": {
 		"ft": 16384,
@@ -4481,7 +5190,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/home\/mothers-day.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/home\/paige.png": {
 		"ft": 32768,
@@ -4489,37 +5200,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/home\/paige.png",
 		"oF": 0,
-		"opt": 0
-		},
-	"\/public\/img\/home\/side-project-drake.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/home\/side-project-drake.svg",
-		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/home\/side-project-sms.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/home\/side-project-sms.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/public\/img\/home\/side-project-three-things.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/public\/img\/home\/side-project-three-things.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/inkling-inspiration\/inspiration-beauty-success.mp4": {
 		"ft": 8192,
@@ -4539,7 +5223,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/inkling-inspiration\/inspiration-case-study.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/inkling-inspiration\/inspiration-everywhere.mp4": {
 		"ft": 8192,
@@ -4607,7 +5294,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/inkling-inspiration\/inspiration-wireframe.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/open-garage\/avatar-buyer-dark.svg": {
 		"ft": 2097152,
@@ -4661,7 +5350,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/open-garage\/prototype-tester.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/open-garage\/research.jpg": {
 		"ft": 16384,
@@ -4669,7 +5361,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/open-garage\/research.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/open-garage\/screen-1.jpg": {
 		"ft": 16384,
@@ -4677,7 +5371,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/open-garage\/screen-1.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/open-garage\/screen-2.jpg": {
 		"ft": 16384,
@@ -4685,7 +5381,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/open-garage\/screen-2.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/open-garage\/screen-3.jpg": {
 		"ft": 16384,
@@ -4693,7 +5391,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/open-garage\/screen-3.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/open-garage\/screen-4.jpg": {
 		"ft": 16384,
@@ -4701,7 +5401,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/open-garage\/screen-4.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/open-garage\/sketch-map.jpg": {
 		"ft": 16384,
@@ -4709,7 +5411,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/open-garage\/sketch-map.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/open-garage\/sketch-research.jpg": {
 		"ft": 16384,
@@ -4717,7 +5421,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/open-garage\/sketch-research.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/open-garage\/sketch-storyboard.jpg": {
 		"ft": 16384,
@@ -4725,7 +5431,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/open-garage\/sketch-storyboard.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/psc\/email-correspondence.png": {
 		"ft": 32768,
@@ -4733,7 +5441,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/psc\/email-correspondence.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/psc\/event-2v2.jpg": {
 		"ft": 16384,
@@ -4741,7 +5452,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/psc\/event-2v2.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/psc\/event-3v3.jpg": {
 		"ft": 16384,
@@ -4749,7 +5462,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/psc\/event-3v3.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/psc\/event-world-cup.jpg": {
 		"ft": 16384,
@@ -4757,7 +5472,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/psc\/event-world-cup.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/psc\/navigation.png": {
 		"ft": 32768,
@@ -4765,7 +5482,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/psc\/navigation.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/psc\/newsletter-1.jpg": {
 		"ft": 16384,
@@ -4773,7 +5493,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/psc\/newsletter-1.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/psc\/newsletter-2.jpg": {
 		"ft": 16384,
@@ -4781,7 +5503,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/psc\/newsletter-2.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/psc\/phase-1.jpg": {
 		"ft": 16384,
@@ -4789,7 +5513,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/psc\/phase-1.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/psc\/phase-2.jpg": {
 		"ft": 16384,
@@ -4797,7 +5523,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/psc\/phase-2.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/psc\/phase-3.png": {
 		"ft": 32768,
@@ -4805,7 +5533,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/psc\/phase-3.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/psc\/phase-launch.png": {
 		"ft": 32768,
@@ -4813,7 +5544,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/psc\/phase-launch.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/psc\/psc-logo.svg": {
 		"ft": 2097152,
@@ -4851,7 +5585,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/sparks\/twitter-sparks.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/sparks\/wine-limo.mp4": {
 		"ft": 8192,
@@ -4865,7 +5602,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/timeline\/2015-07-13.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/timeline\/2016-01-20-nav.png": {
 		"ft": 32768,
@@ -4873,7 +5612,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/timeline\/2016-01-20-nav.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/timeline\/2016-02-01-update.jpg": {
 		"ft": 16384,
@@ -4881,7 +5623,9 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/timeline\/2016-02-01-update.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/img\/twitter\/dannybracco.png": {
 		"ft": 32768,
@@ -4889,7 +5633,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/twitter\/dannybracco.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/twitter\/drake-twitter-summary.png": {
 		"ft": 32768,
@@ -4897,7 +5644,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/twitter\/drake-twitter-summary.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/twitter\/icon-pin.svg": {
 		"ft": 2097152,
@@ -4915,7 +5665,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/twitter\/icon-play-blue.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/twitter\/o0V7z4AgBApRIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAKk8L88Rzkq8L2QAAAABJRU5ErkJggg==.png": {
 		"ft": 32768,
@@ -4923,7 +5676,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/twitter\/o0V7z4AgBApRIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAKk8L88Rzkq8L2QAAAABJRU5ErkJggg==.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/twitter\/peri-intro-poster.png": {
 		"ft": 32768,
@@ -4931,7 +5687,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/twitter\/peri-intro-poster.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/twitter\/peri-intro.mp4": {
 		"ft": 8192,
@@ -4945,7 +5704,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/twitter\/periscope-behind-scenes-poster.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/twitter\/periscope-behind-scenes.mp4": {
 		"ft": 8192,
@@ -4959,7 +5721,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/twitter\/periscope-logo.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/twitter\/tweet-curiosity.png": {
 		"ft": 32768,
@@ -4967,7 +5732,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/twitter\/tweet-curiosity.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/twitter\/tweet-hemingway.png": {
 		"ft": 32768,
@@ -4975,7 +5743,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/twitter\/tweet-hemingway.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/img\/twitter\/tweet-inspiration.png": {
 		"ft": 32768,
@@ -4983,7 +5754,10 @@
 		"oA": 0,
 		"oAP": "\/public\/img\/twitter\/tweet-inspiration.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/public\/js\/parallax.min.js": {
 		"ft": 64,
@@ -5469,6 +6243,36 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/weblog.html",
+		"oF": 0
+		},
+	"\/words.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/words.html",
+		"oF": 0
+		},
+	"\/z-archive\/blond.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/z-archive\/blond.html",
+		"oF": 0
+		},
+	"\/z-archive\/mothers-day.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/z-archive\/mothers-day.html",
+		"oF": 0
+		},
+	"\/z-archive\/open-garage.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/z-archive\/open-garage.html",
+		"oF": 0
+		},
+	"\/z-archive\/paige.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/z-archive\/paige.html",
 		"oF": 0
 		}
 	},
@@ -6152,6 +6956,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -6352,6 +7160,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -6429,6 +7241,10 @@
 			"optionString": ""
 			},
 		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-prototype-builtins": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -6628,6 +7444,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
 		"object-curly-newline": {
 			"active": 0,
 			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
@@ -6679,6 +7499,10 @@
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -6773,6 +7597,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
@@ -7219,7 +8047,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -7242,14 +8071,6 @@
 		"autoOutputPathStyle": 0,
 		"orderOutput": 0,
 		"outputStyle": 1
-		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
@@ -7312,7 +8133,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,

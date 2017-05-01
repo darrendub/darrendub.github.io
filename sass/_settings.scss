@@ -7,7 +7,11 @@
 //--------------------------------------------------------------------
 
 $serif: 'Vollkorn', serif;
-$sans: 'Chivo', sans-serif;
+$sans: "Whitney SSm A", "Whitney SSm B";
+
+$weight-book: 	400;
+$weight-medium: 500;
+$weight-semi:	600;
 
 //--------------------------------------------------------------------
 // Color
@@ -35,7 +39,7 @@ $unit-large:	100px;
 //--------------------------------------------------------------------
 
 $bp-small:		26em;
-$bp-medium:		35em;
+$bp-medium:		40em;
 $bp-large:		48em;
 $bp-xlarge:		60em;
 

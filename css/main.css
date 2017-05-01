@@ -32,19 +32,19 @@ img {
 
 .one-half {
   width: 100%; }
-  @media (min-width: 35em) {
+  @media (min-width: 40em) {
     .one-half {
       width: 50%; } }
 
 .one-third {
   width: 100%; }
-  @media (min-width: 35em) {
+  @media (min-width: 40em) {
     .one-third {
       width: 33%; } }
 
 .two-thirds {
   width: 100%; }
-  @media (min-width: 35em) {
+  @media (min-width: 40em) {
     .two-thirds {
       width: 75%; } }
 
@@ -75,7 +75,7 @@ img {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 100%;
           flex: 0 0 100%; }
-  @media (min-width: 35em) {
+  @media (min-width: 40em) {
     .grid-full .grid-cell {
       -webkit-box-flex: 1;
           -ms-flex: 1;
@@ -120,111 +120,57 @@ img {
 /*--------------------------------------------------------------------
  * Nav
  *------------------------------------------------------------------*/
-nav {
-  left: 0;
-  top: 0;
-  padding: 25px;
-  background-color: #fff;
-  z-index: 100;
-  position: fixed;
-  width: 100%;
-  -webkit-transform: translateY(-110%);
-          transform: translateY(-110%);
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
-  transition-property: transform;
-  transition-property: transform, -webkit-transform;
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s; }
-  @media (min-width: 35em) {
-    nav {
-      padding: 50px; } }
-  nav h5 {
-    margin-bottom: 0; }
-    @media (min-width: 35em) {
-      nav h5 {
-        margin-bottom: 0.5rem; } }
-  nav ul {
-    list-style: none;
-    margin-left: 0;
-    text-align: center;
-    margin-top: 50px; }
-    @media (min-width: 35em) {
-      nav ul {
-        margin-top: 25px; } }
-    nav ul li {
-      font-size: .9em;
-      padding-left: 50px;
-      padding-right: 50px;
-      padding-top: 12.5px; }
-      @media (min-width: 646px) {
-        nav ul li {
-          display: inline-block;
-          font-size: 1.2em; } }
-      nav ul li a {
-        color: #444; }
-        nav ul li a:visited {
-          color: #444; }
-
 .menu-container {
   position: relative;
-  padding: 50px; }
-
-.menu {
-  color: #444;
-  height: 50px;
-  padding-top: 30px;
-  z-index: 200;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  left: 65%;
-  bottom: 0;
-  right: 0;
-  cursor: pointer;
-  font-family: "Chivo", sans-serif; }
-  .menu:visited {
-    color: #444; }
-  .menu span {
-    font-weight: 600; }
-  @media (min-width: 768px) {
-    .menu {
-      left: 80%; } }
-  @media (min-width: 850px) {
-    .menu {
-      left: 85%; } }
-
-.is-visible {
-  -webkit-transform: translateY(0);
-          transform: translateY(0); }
+  padding: 25px; }
 
 .nav-avatar {
-  position: absolute;
   max-width: 50px;
-  z-index: 300;
-  top: 20px;
-  border-radius: 100%; }
+  border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 12.5px; }
+
+.nav-links {
+  list-style: none;
+  margin-left: 0;
+  text-align: center;
+  margin-top: 12.5px; }
+  .nav-links li {
+    font-size: 0.8rem;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 12.5px;
+    display: inline-block; }
+    @media (min-width: 646px) {
+      .nav-links li {
+        padding-left: 50px;
+        padding-right: 50px; } }
+    .nav-links li a {
+      color: #444; }
+      .nav-links li a:visited {
+        color: #444; }
 
 /*--------------------------------------------------------------------
  * Base
  *------------------------------------------------------------------*/
 html {
   -webkit-font-smoothing: antialiased;
-  font-size: 19px;
+  font-size: 17px;
   line-height: 1.5; }
-  @media (min-width: 35em) {
+  @media (min-width: 40em) {
     html {
-      font-size: 22px; } }
+      font-size: 19px; } }
 
 body {
-  font-family: "Vollkorn", serif;
+  font-family: "Whitney SSm A", "Whitney SSm B";
   font-weight: 300;
   color: #444;
   -webkit-text-size-adjust: 100%; }
 
 .container {
-  max-width: 35em;
-  width: 90%;
+  max-width: 40em;
   clear: left;
   display: block;
   margin-left: auto;
@@ -247,14 +193,14 @@ body {
   @media (min-width: 26em) {
     .content-small {
       padding: 50px; } }
-  @media (min-width: 35em) {
+  @media (min-width: 40em) {
     .content-small {
       padding: 50px; } }
 
 section {
   padding-top: 25px;
   padding-bottom: 25px; }
-  @media (min-width: 35em) {
+  @media (min-width: 40em) {
     section {
       padding-top: 50px;
       padding-bottom: 50px; } }
@@ -271,56 +217,63 @@ section {
  *------------------------------------------------------------------*/
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
-  line-height: 1.25;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Chivo", sans-serif; }
+  font-family: "Whitney SSm A", "Whitney SSm B"; }
 
 h1 {
-  font-size: 1.75rem; }
-  @media (min-width: 35em) {
+  font-size: 2rem;
+  line-height: 2;
+  font-weight: 600; }
+  @media (min-width: 40em) {
     h1 {
-      font-size: 2rem; } }
+      font-size: 3rem; } }
 
 h2 {
-  font-size: 1.25rem; }
-  @media (min-width: 35em) {
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 1.8; }
+  @media (min-width: 40em) {
     h2 {
-      font-size: 1.5rem; } }
+      font-size: 2.25rem; } }
 
 h3 {
-  font-size: 1.3rem;
-  font-weight: 600; }
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.6; }
+  @media (min-width: 40em) {
+    h3 {
+      font-size: 1.5rem; } }
 
 h4 {
-  font-size: 1.2rem;
-  font-weight: 600;
-  letter-spacing: -1px; }
-  @media (min-width: 35em) {
-    h4 {
-      letter-spacing: 0; } }
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 600; }
 
 h5 {
   font-size: 1rem;
+  line-height: 1.4;
   font-weight: 600; }
 
 h6 {
   font-size: .75rem;
   text-transform: uppercase;
   letter-spacing: 2px;
+  line-height: 1.2;
   font-weight: 600; }
 
 p {
   font-size: 1rem;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  font-weight: 400; }
 
 a {
   text-decoration: none; }
 
 .large-type {
   font-size: 2rem; }
-  @media (min-width: 35em) {
+  @media (min-width: 40em) {
     .large-type {
       font-size: 4rem; } }
 
@@ -334,7 +287,7 @@ em {
   font-style: italic; }
 
 b, .bold {
-  font-weight: 700; }
+  font-weight: 600; }
 
 hr {
   position: relative;
@@ -349,7 +302,8 @@ ul, ol {
     margin-bottom: 0; }
 
 li {
-  font-size: 1rem; }
+  font-size: 1rem;
+  font-weight: 400; }
 
 .list-checkmark {
   list-style-type: none;
@@ -389,7 +343,7 @@ blockquote {
   text-align: center;
   text-indent: -0.5em;
   color: #0074D9; }
-  @media (min-width: 35em) {
+  @media (min-width: 40em) {
     blockquote {
       font-size: 2rem; } }
   blockquote:before {
@@ -399,7 +353,7 @@ blockquote {
     text-indent: 0;
     font-size: 2rem;
     margin-bottom: -1rem; }
-    @media (min-width: 35em) {
+    @media (min-width: 40em) {
       blockquote:before {
         font-size: 3rem; } }
 
@@ -412,14 +366,27 @@ blockquote {
   color: #fff; }
 
 .project-title {
-  font-family: "Chivo", sans-serif;
+  font-family: "Whitney SSm A", "Whitney SSm B";
   text-align: center;
   color: #fff; }
 
-.project-description {
-  text-align: center;
-  color: #fff;
-  font-size: 0.75rem; }
+@media (min-width: 40em) {
+  .project-description {
+    margin-top: 50px; } }
+
+.project-description p {
+  color: #444; }
+
+.project-description a {
+  display: block;
+  font-weight: 600; }
+
+.project-divider {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.text-strike {
+  text-decoration: line-through; }
 
 /*--------------------------------------------------------------------
  * Helper
@@ -515,7 +482,7 @@ blockquote {
   height: 268px;
   margin-top: 10px;
   margin-left: 10px; }
-  @media (min-width: 35em) {
+  @media (min-width: 40em) {
     .bg-hemingway {
       margin-left: -28px;
       margin-top: -28px;
@@ -548,7 +515,7 @@ blockquote {
   .button-blue:visited {
     color: white; }
 
-.drop-shadow, nav, .video-poster {
+.drop-shadow, .video-poster {
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.3); }
 
 .rounded-corners {
@@ -563,7 +530,7 @@ blockquote {
 .homepage-intro {
   padding-top: 50px;
   padding-bottom: 25px; }
-  @media (min-width: 35em) {
+  @media (min-width: 40em) {
     .homepage-intro {
       padding-bottom: 100px;
       padding-top: 0; } }
@@ -572,7 +539,7 @@ blockquote {
   max-width: 800px;
   margin-bottom: 50px;
   padding: 25px; }
-  @media (min-width: 35em) {
+  @media (min-width: 40em) {
     .work-card {
       margin-bottom: 100px;
       padding: 50px; } }

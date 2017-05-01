@@ -4,7 +4,6 @@
 
  h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
-  line-height: 1.25;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -13,48 +12,56 @@
 }
 
 h1 {
-	font-size: 1.75rem;
+	font-size: 2rem;
+  line-height: 2;
+  font-weight: $weight-semi;
   	@media (min-width: $bp-medium) {
-     font-size: 2rem; 
+     font-size: 3rem; 
     }
 }
 
 h2 {
-	font-size: 1.25rem;	
+	font-size: 1.75rem;
+  font-weight: $weight-book;
+  line-height: 1.8;	
     @media (min-width: $bp-medium) {
-     font-size: 1.5rem; 
+     font-size: 2.25rem; 
     }
 }
 
 h3 {
-	font-size: 1.3rem;	
-  font-weight: 600;
+	font-size: 1.25rem;
+  font-weight: $weight-medium;	
+  line-height: 1.6;
+  @media (min-width: $bp-medium) {
+     font-size: 1.5rem; 
+    }
 }
 
 h4 {
-	font-size: 1.2rem;
-	font-weight: 600;
-  letter-spacing:-1px;
-  @media (min-width: $bp-medium) {
-     letter-spacing:0;
-    }
+	font-size: 1rem;
+  line-height: 1.4;
+	font-weight: $weight-semi;
   
 }
 
 h5 {
   font-size: 1rem;
-  font-weight: 600; 
+  line-height: 1.4;
+  font-weight: $weight-semi;
 }
 h6 {
   font-size: .75rem;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-weight: 600; 
+  line-height: 1.2;
+  font-weight: $weight-semi;
 }
 
 p {
 	font-size: 1rem;
 	margin-bottom: 1rem;
+  font-weight: $weight-book;
 }
 
 a {
@@ -80,7 +87,7 @@ em {
 }
 
 b, .bold {
-  font-weight: 700;
+  font-weight: $weight-semi;
 }
 
 hr {
@@ -101,6 +108,7 @@ ul, ol {
 
 li {
 	font-size: 1rem;
+  font-weight: $weight-book;
 }
 
 .list-checkmark {
@@ -154,9 +162,9 @@ blockquote {
       text-indent: 0;
       font-size: 2rem;
       margin-bottom: -1rem;
-      @media (min-width: $bp-medium) {
-      font-size: 3rem;
-    }
+        @media (min-width: $bp-medium) {
+          font-size: 3rem;
+        }
       }
 }
 
@@ -171,12 +179,29 @@ blockquote {
   color: $white;
 }
  .project-title {
-    font-family:"Chivo", sans-serif; 
+    font-family: $sans;
     text-align: center;
     color: $white;
   }
+
   .project-description {
-    text-align: center;
-    color: $white;
-    font-size: 0.75rem;
+    @media (min-width: $bp-medium) {
+          margin-top: $unit-medium;
+        }
   }
+
+  .project-description p {
+    color: $coal;
+  }
+  .project-description a {
+    display: block;
+    font-weight: $weight-semi;
+  }
+
+  .project-divider {
+    margin-top: $unit-medium;
+    margin-bottom: $unit-medium;
+  }
+.text-strike {
+  text-decoration: line-through;
+}
