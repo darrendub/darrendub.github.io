@@ -19,7 +19,8 @@ tr, tt, u, ul, var, video, :before, :after, div, section {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 img {
   width: 100%; }
@@ -422,12 +423,11 @@ blockquote {
  * Shame - Temporary Styles
  *------------------------------------------------------------------*/
 .message {
-  font-family: serif;
   padding: 1em;
   padding: 1em;
   color: #444;
-  font-size: .6rem;
-  text-align: center; }
+  text-align: center;
+  background-color: #f8f8f8; }
   .message p {
     margin-bottom: 0 !important; }
   .message a {
@@ -499,7 +499,8 @@ blockquote {
     color: white; }
 
 .drop-shadow, .video-poster {
-  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.3); }
+  -webkit-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.3); }
 
 .rounded-corners {
   border-radius: 6px; }

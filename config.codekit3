@@ -7,37 +7,41 @@
 		"uuidString": "C039615E-4BF4-4866-ACF3-D2C1B24CDB41"
 		}
 	],
-"creatorBuild": "25813",
+"creatorBuild": "26261",
 "files": {
 	"\/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
 	"\/.htaccess": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.htaccess",
 		"oF": 0
 		},
 	"\/404.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/404.html",
 		"oF": 0
 		},
 	"\/_config.yml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_config.yml",
 		"oF": 0
 		},
 	"\/_drafts\/2014-01-01-example-content.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -52,10 +56,10 @@
 		"uCM": 0
 		},
 	"\/_drafts\/2015-05-16-inventory.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -70,10 +74,10 @@
 		"uCM": 0
 		},
 	"\/_drafts\/2015-07-23-case-study-psc.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -88,76 +92,87 @@
 		"uCM": 0
 		},
 	"\/_drafts\/sparks-old.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_drafts\/sparks-old.html",
 		"oF": 0
 		},
 	"\/_includes\/disqus.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_includes\/disqus.html",
 		"oF": 0
 		},
 	"\/_includes\/footer.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_includes\/footer.html",
 		"oF": 0
 		},
 	"\/_includes\/head.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_includes\/head.html",
 		"oF": 0
 		},
 	"\/_includes\/live-head.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_includes\/live-head.html",
 		"oF": 0
 		},
 	"\/_layouts\/default.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_layouts\/default.html",
 		"oF": 0
 		},
 	"\/_layouts\/landing.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_layouts\/landing.html",
 		"oF": 0
 		},
 	"\/_layouts\/page.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_layouts\/page.html",
 		"oF": 0
 		},
 	"\/_layouts\/post.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_layouts\/post.html",
 		"oF": 0
 		},
 	"\/_layouts\/sparks-video.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_layouts\/sparks-video.html",
 		"oF": 0
 		},
 	"\/_layouts\/timeline.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_layouts\/timeline.html",
 		"oF": 0
 		},
 	"\/_posts\/2015-04-15-open-redesign.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -172,10 +187,10 @@
 		"uCM": 0
 		},
 	"\/_posts\/2015-04-17-redesign-brief.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -190,10 +205,10 @@
 		"uCM": 0
 		},
 	"\/_posts\/2015-05-01-whats-working.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -208,10 +223,10 @@
 		"uCM": 0
 		},
 	"\/_posts\/2015-05-04-performance-boss.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -226,10 +241,10 @@
 		"uCM": 0
 		},
 	"\/_posts\/2015-05-21-website-inspiration.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -244,10 +259,10 @@
 		"uCM": 0
 		},
 	"\/_posts\/2015-07-07-wireframes.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -262,10 +277,10 @@
 		"uCM": 0
 		},
 	"\/_posts\/2017-01-05-resolutions.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -280,30 +295,35 @@
 		"uCM": 0
 		},
 	"\/_site\/.htaccess": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/.htaccess",
 		"oF": 0
 		},
 	"\/_site\/404.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/404.html",
 		"oF": 0
 		},
 	"\/_site\/about\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/about\/index.html",
 		"oF": 0
 		},
 	"\/_site\/atom.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/atom.xml",
 		"oF": 0
 		},
 	"\/_site\/CNAME": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/CNAME",
@@ -349,16 +369,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/_site\/css\/main.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/_site\/css\/main-ck.css",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/_site\/css\/twitter.css": {
 		"aP": 0,
 		"bl": 0,
@@ -370,36 +380,42 @@
 		"oS": 0
 		},
 	"\/_site\/curiosity-shoppe\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/curiosity-shoppe\/index.html",
 		"oF": 0
 		},
 	"\/_site\/darrenfit.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/darrenfit.html",
 		"oF": 0
 		},
 	"\/_site\/drake-albums\/css\/Late-Regular.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/drake-albums\/css\/Late-Regular.otf",
 		"oF": 0
 		},
 	"\/_site\/drake-albums\/css\/Late-Regular.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/drake-albums\/css\/Late-Regular.ttf",
 		"oF": 0
 		},
 	"\/_site\/drake-albums\/css\/Late-Regular.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/drake-albums\/css\/Late-Regular.woff",
 		"oF": 0
 		},
 	"\/_site\/drake-albums\/css\/Late-Regular.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/drake-albums\/css\/Late-Regular.woff2",
@@ -496,6 +512,7 @@
 		"q": 100
 		},
 	"\/_site\/drake-albums\/img\/albums\/thank-me-now.ai": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/drake-albums\/img\/albums\/thank-me-now.ai",
@@ -864,6 +881,7 @@
 		"q": 100
 		},
 	"\/_site\/drake-albums\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/drake-albums\/index.html",
@@ -883,30 +901,35 @@
 		"uL": 1
 		},
 	"\/_site\/email\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/email\/index.html",
 		"oF": 0
 		},
 	"\/_site\/favicon.ico": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/favicon.ico",
 		"oF": 0
 		},
 	"\/_site\/hemingway\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/hemingway\/index.html",
 		"oF": 0
 		},
 	"\/_site\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/index.html",
 		"oF": 0
 		},
 	"\/_site\/inkling-inspiration\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/inkling-inspiration\/index.html",
@@ -914,6 +937,7 @@
 		},
 	"\/_site\/js\/jquery.magnific-popup.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/_site\/js\/min\/jquery.magnific-popup.min-min.js",
@@ -923,6 +947,7 @@
 		},
 	"\/_site\/js\/script.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/_site\/js\/min\/script-min.js",
@@ -931,42 +956,49 @@
 		"tS": 0
 		},
 	"\/_site\/page2\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/page2\/index.html",
 		"oF": 0
 		},
 	"\/_site\/page3\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/page3\/index.html",
 		"oF": 0
 		},
 	"\/_site\/page4\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/page4\/index.html",
 		"oF": 0
 		},
 	"\/_site\/page5\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/page5\/index.html",
 		"oF": 0
 		},
 	"\/_site\/page6\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/page6\/index.html",
 		"oF": 0
 		},
 	"\/_site\/page7\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/page7\/index.html",
 		"oF": 0
 		},
 	"\/_site\/paradise-soccer-club\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/paradise-soccer-club\/index.html",
@@ -1013,6 +1045,7 @@
 		"oS": 0
 		},
 	"\/_site\/public\/fonts\/568643\/14100B8581C3CB258.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/public\/fonts\/568643\/14100B8581C3CB258.eot",
@@ -1039,6 +1072,7 @@
 		"oS": 0
 		},
 	"\/_site\/public\/fonts\/568643\/1A58EDFB7F7F1A9D8.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/public\/fonts\/568643\/1A58EDFB7F7F1A9D8.eot",
@@ -1105,6 +1139,7 @@
 		"oS": 0
 		},
 	"\/_site\/public\/fonts\/568643\/4A072FF20B1E73113.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/public\/fonts\/568643\/4A072FF20B1E73113.eot",
@@ -1141,6 +1176,7 @@
 		"oS": 0
 		},
 	"\/_site\/public\/fonts\/568643\/54B9CC9B005792EBD.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/public\/fonts\/568643\/54B9CC9B005792EBD.eot",
@@ -1157,6 +1193,7 @@
 		"oS": 0
 		},
 	"\/_site\/public\/fonts\/568643\/5E199A8734DAD6BD9.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/public\/fonts\/568643\/5E199A8734DAD6BD9.eot",
@@ -1233,6 +1270,7 @@
 		"oS": 0
 		},
 	"\/_site\/public\/fonts\/568643\/83795CAE3B030639E.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/public\/fonts\/568643\/83795CAE3B030639E.eot",
@@ -1259,12 +1297,14 @@
 		"oS": 0
 		},
 	"\/_site\/public\/fonts\/568643\/90637DFDEEE765E48.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/public\/fonts\/568643\/90637DFDEEE765E48.eot",
 		"oF": 0
 		},
 	"\/_site\/public\/fonts\/568643\/90FDC83653C224611.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/public\/fonts\/568643\/90FDC83653C224611.eot",
@@ -1351,12 +1391,14 @@
 		"oS": 0
 		},
 	"\/_site\/public\/fonts\/568643\/C18A31BBF533C8F12.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/public\/fonts\/568643\/C18A31BBF533C8F12.eot",
 		"oF": 0
 		},
 	"\/_site\/public\/fonts\/568643\/C7F2BF8DDD4BF693B.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/public\/fonts\/568643\/C7F2BF8DDD4BF693B.eot",
@@ -1373,6 +1415,7 @@
 		"oS": 0
 		},
 	"\/_site\/public\/fonts\/568643\/D4CC37BE6EE23C6B6.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/public\/fonts\/568643\/D4CC37BE6EE23C6B6.eot",
@@ -1439,6 +1482,7 @@
 		"oS": 0
 		},
 	"\/_site\/public\/fonts\/568643\/F3B6A3E118FC0E26E.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/public\/fonts\/568643\/F3B6A3E118FC0E26E.eot",
@@ -1707,6 +1751,7 @@
 		"q": 100
 		},
 	"\/_site\/public\/img\/about\/darren-wong-resume.pdf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/public\/img\/about\/darren-wong-resume.pdf",
@@ -1860,6 +1905,7 @@
 		"opt": 0
 		},
 	"\/_site\/public\/img\/curiosity-shoppe\/illustration-homepage.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/public\/img\/curiosity-shoppe\/illustration-homepage.mp4",
@@ -2145,12 +2191,14 @@
 		"q": 100
 		},
 	"\/_site\/public\/img\/eventbrite\/create.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/public\/img\/eventbrite\/create.mp4",
 		"oF": 0
 		},
 	"\/_site\/public\/img\/eventbrite\/create.webm": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/public\/img\/eventbrite\/create.webm",
@@ -2659,12 +2707,14 @@
 		"q": 100
 		},
 	"\/_site\/public\/img\/inkling-inspiration\/inspiration-beauty-success.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/public\/img\/inkling-inspiration\/inspiration-beauty-success.mp4",
 		"oF": 0
 		},
 	"\/_site\/public\/img\/inkling-inspiration\/inspiration-beauty-success.ogv": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/public\/img\/inkling-inspiration\/inspiration-beauty-success.ogv",
@@ -2682,60 +2732,70 @@
 		"q": 100
 		},
 	"\/_site\/public\/img\/inkling-inspiration\/inspiration-everywhere.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/public\/img\/inkling-inspiration\/inspiration-everywhere.mp4",
 		"oF": 0
 		},
 	"\/_site\/public\/img\/inkling-inspiration\/inspiration-everywhere.ogv": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/public\/img\/inkling-inspiration\/inspiration-everywhere.ogv",
 		"oF": 0
 		},
 	"\/_site\/public\/img\/inkling-inspiration\/inspiration-flashcards.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/public\/img\/inkling-inspiration\/inspiration-flashcards.mp4",
 		"oF": 0
 		},
 	"\/_site\/public\/img\/inkling-inspiration\/inspiration-flashcards.ogv": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/public\/img\/inkling-inspiration\/inspiration-flashcards.ogv",
 		"oF": 0
 		},
 	"\/_site\/public\/img\/inkling-inspiration\/inspiration-poptips.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/public\/img\/inkling-inspiration\/inspiration-poptips.mp4",
 		"oF": 0
 		},
 	"\/_site\/public\/img\/inkling-inspiration\/inspiration-poptips.ogv": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/public\/img\/inkling-inspiration\/inspiration-poptips.ogv",
 		"oF": 0
 		},
 	"\/_site\/public\/img\/inkling-inspiration\/inspiration-slideline.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/public\/img\/inkling-inspiration\/inspiration-slideline.mp4",
 		"oF": 0
 		},
 	"\/_site\/public\/img\/inkling-inspiration\/inspiration-slideline.ogv": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/public\/img\/inkling-inspiration\/inspiration-slideline.ogv",
 		"oF": 0
 		},
 	"\/_site\/public\/img\/inkling-inspiration\/inspiration-start-here.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/public\/img\/inkling-inspiration\/inspiration-start-here.mp4",
 		"oF": 0
 		},
 	"\/_site\/public\/img\/inkling-inspiration\/inspiration-start-here.ogv": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/public\/img\/inkling-inspiration\/inspiration-start-here.ogv",
@@ -2792,6 +2852,7 @@
 		"prP": 0
 		},
 	"\/_site\/public\/img\/open-garage\/prototype-tester.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/public\/img\/open-garage\/prototype-tester.mp4",
@@ -3172,6 +3233,86 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/_site\/public\/img\/restaurants-2017\/09-alba.jpg": {
+		"ft": 16384,
+		"iS": 135594,
+		"oA": 0,
+		"oAP": "\/_site\/public\/img\/restaurants-2017\/09-alba.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/public\/img\/restaurants-2017\/09-black.jpg": {
+		"ft": 16384,
+		"iS": 171571,
+		"oA": 0,
+		"oAP": "\/_site\/public\/img\/restaurants-2017\/09-black.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/public\/img\/restaurants-2017\/10-isa.jpg": {
+		"ft": 16384,
+		"iS": 171312,
+		"oA": 0,
+		"oAP": "\/_site\/public\/img\/restaurants-2017\/10-isa.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/public\/img\/restaurants-2017\/10-khan.jpg": {
+		"ft": 16384,
+		"iS": 186037,
+		"oA": 0,
+		"oAP": "\/_site\/public\/img\/restaurants-2017\/10-khan.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/public\/img\/restaurants-2017\/11-lazy.jpg": {
+		"ft": 16384,
+		"iS": 142162,
+		"oA": 0,
+		"oAP": "\/_site\/public\/img\/restaurants-2017\/11-lazy.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/public\/img\/restaurants-2017\/11-mister.jpg": {
+		"ft": 16384,
+		"iS": 136843,
+		"oA": 0,
+		"oAP": "\/_site\/public\/img\/restaurants-2017\/11-mister.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/public\/img\/restaurants-2017\/12-progress.jpg": {
+		"ft": 16384,
+		"iS": 208752,
+		"oA": 0,
+		"oAP": "\/_site\/public\/img\/restaurants-2017\/12-progress.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/public\/img\/restaurants-2017\/12-tajima.jpg": {
+		"ft": 16384,
+		"iS": 139917,
+		"oA": 0,
+		"oAP": "\/_site\/public\/img\/restaurants-2017\/12-tajima.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/_site\/public\/img\/social\/logo-dribbble.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -3204,6 +3345,7 @@
 		"q": 100
 		},
 	"\/_site\/public\/img\/sparks\/wine-limo.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/public\/img\/sparks\/wine-limo.mp4",
@@ -3306,6 +3448,7 @@
 		"q": 100
 		},
 	"\/_site\/public\/img\/twitter\/peri-intro.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/public\/img\/twitter\/peri-intro.mp4",
@@ -3323,6 +3466,7 @@
 		"q": 100
 		},
 	"\/_site\/public\/img\/twitter\/periscope-behind-scenes.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/public\/img\/twitter\/periscope-behind-scenes.mp4",
@@ -3374,6 +3518,7 @@
 		},
 	"\/_site\/public\/js\/parallax.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/_site\/public\/js\/min\/parallax.min-min.js",
@@ -3382,12 +3527,14 @@
 		"tS": 0
 		},
 	"\/_site\/restaurants-2017\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/restaurants-2017\/index.html",
 		"oF": 0
 		},
 	"\/_site\/resume\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/resume\/index.html",
@@ -3446,120 +3593,140 @@
 		"uL": 1
 		},
 	"\/_site\/sitemap.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/sitemap.xml",
 		"oF": 0
 		},
 	"\/_site\/sparks\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/sparks\/index.html",
 		"oF": 0
 		},
 	"\/_site\/styleguide\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/styleguide\/index.html",
 		"oF": 0
 		},
 	"\/_site\/timeline\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/timeline\/index.html",
 		"oF": 0
 		},
 	"\/_site\/wants-to-work-@twitter.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/wants-to-work-@twitter.html",
 		"oF": 0
 		},
 	"\/_site\/weblog\/2015\/04\/15\/open-redesign\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/weblog\/2015\/04\/15\/open-redesign\/index.html",
 		"oF": 0
 		},
 	"\/_site\/weblog\/2015\/04\/17\/redesign-brief\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/weblog\/2015\/04\/17\/redesign-brief\/index.html",
 		"oF": 0
 		},
 	"\/_site\/weblog\/2015\/05\/01\/whats-working\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/weblog\/2015\/05\/01\/whats-working\/index.html",
 		"oF": 0
 		},
 	"\/_site\/weblog\/2015\/05\/04\/performance-boss\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/weblog\/2015\/05\/04\/performance-boss\/index.html",
 		"oF": 0
 		},
 	"\/_site\/weblog\/2015\/05\/21\/website-inspiration\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/weblog\/2015\/05\/21\/website-inspiration\/index.html",
 		"oF": 0
 		},
 	"\/_site\/weblog\/2015\/07\/07\/wireframes\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/weblog\/2015\/07\/07\/wireframes\/index.html",
 		"oF": 0
 		},
 	"\/_site\/weblog\/2017\/01\/05\/resolutions\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/weblog\/2017\/01\/05\/resolutions\/index.html",
 		"oF": 0
 		},
 	"\/_site\/weblog\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/weblog\/index.html",
 		"oF": 0
 		},
 	"\/_site\/words\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/words\/index.html",
 		"oF": 0
 		},
 	"\/_site\/z-archive\/mothers-day\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/z-archive\/mothers-day\/index.html",
 		"oF": 0
 		},
 	"\/_site\/z-archive\/open-garage\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/z-archive\/open-garage\/index.html",
 		"oF": 0
 		},
 	"\/_site\/z-archive\/paige\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/z-archive\/paige\/index.html",
 		"oF": 0
 		},
 	"\/about.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/about.html",
 		"oF": 0
 		},
 	"\/atom.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/atom.xml",
 		"oF": 0
 		},
 	"\/CNAME": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/CNAME",
@@ -3626,36 +3793,42 @@
 		"oS": 0
 		},
 	"\/curiosity-shoppe.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/curiosity-shoppe.html",
 		"oF": 0
 		},
 	"\/darrenfit.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/darrenfit.html",
 		"oF": 0
 		},
 	"\/drake-albums\/css\/Late-Regular.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/drake-albums\/css\/Late-Regular.otf",
 		"oF": 0
 		},
 	"\/drake-albums\/css\/Late-Regular.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/drake-albums\/css\/Late-Regular.ttf",
 		"oF": 0
 		},
 	"\/drake-albums\/css\/Late-Regular.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/drake-albums\/css\/Late-Regular.woff",
 		"oF": 0
 		},
 	"\/drake-albums\/css\/Late-Regular.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/drake-albums\/css\/Late-Regular.woff2",
@@ -3752,6 +3925,7 @@
 		"q": 100
 		},
 	"\/drake-albums\/img\/albums\/thank-me-now.ai": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/drake-albums\/img\/albums\/thank-me-now.ai",
@@ -4120,198 +4294,231 @@
 		"q": 100
 		},
 	"\/drake-albums\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/drake-albums\/index.html",
 		"oF": 0
 		},
 	"\/drake-albums\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_base.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/drake-albums\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_base.scssc",
 		"oF": 0
 		},
 	"\/drake-albums\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_grid.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/drake-albums\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_grid.scssc",
 		"oF": 0
 		},
 	"\/drake-albums\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_helper.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/drake-albums\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_helper.scssc",
 		"oF": 0
 		},
 	"\/drake-albums\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_mixins.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/drake-albums\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_mixins.scssc",
 		"oF": 0
 		},
 	"\/drake-albums\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_nav.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/drake-albums\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_nav.scssc",
 		"oF": 0
 		},
 	"\/drake-albums\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_reset.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/drake-albums\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_reset.scssc",
 		"oF": 0
 		},
 	"\/drake-albums\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_settings.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/drake-albums\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_settings.scssc",
 		"oF": 0
 		},
 	"\/drake-albums\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_shame.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/drake-albums\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_shame.scssc",
 		"oF": 0
 		},
 	"\/drake-albums\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_type.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/drake-albums\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_type.scssc",
 		"oF": 0
 		},
 	"\/drake-albums\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/main.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/drake-albums\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/main.scssc",
 		"oF": 0
 		},
 	"\/drake-albums\/sass\/.sass-cache\/6c96df5504d6d308b9ebba7315497cd865c7f2a8\/_album.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/drake-albums\/sass\/.sass-cache\/6c96df5504d6d308b9ebba7315497cd865c7f2a8\/_album.scssc",
 		"oF": 0
 		},
 	"\/drake-albums\/sass\/.sass-cache\/6c96df5504d6d308b9ebba7315497cd865c7f2a8\/_base.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/drake-albums\/sass\/.sass-cache\/6c96df5504d6d308b9ebba7315497cd865c7f2a8\/_base.scssc",
 		"oF": 0
 		},
 	"\/drake-albums\/sass\/.sass-cache\/6c96df5504d6d308b9ebba7315497cd865c7f2a8\/_grid.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/drake-albums\/sass\/.sass-cache\/6c96df5504d6d308b9ebba7315497cd865c7f2a8\/_grid.scssc",
 		"oF": 0
 		},
 	"\/drake-albums\/sass\/.sass-cache\/6c96df5504d6d308b9ebba7315497cd865c7f2a8\/_helper.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/drake-albums\/sass\/.sass-cache\/6c96df5504d6d308b9ebba7315497cd865c7f2a8\/_helper.scssc",
 		"oF": 0
 		},
 	"\/drake-albums\/sass\/.sass-cache\/6c96df5504d6d308b9ebba7315497cd865c7f2a8\/_mixins.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/drake-albums\/sass\/.sass-cache\/6c96df5504d6d308b9ebba7315497cd865c7f2a8\/_mixins.scssc",
 		"oF": 0
 		},
 	"\/drake-albums\/sass\/.sass-cache\/6c96df5504d6d308b9ebba7315497cd865c7f2a8\/_nav.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/drake-albums\/sass\/.sass-cache\/6c96df5504d6d308b9ebba7315497cd865c7f2a8\/_nav.scssc",
 		"oF": 0
 		},
 	"\/drake-albums\/sass\/.sass-cache\/6c96df5504d6d308b9ebba7315497cd865c7f2a8\/_reset.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/drake-albums\/sass\/.sass-cache\/6c96df5504d6d308b9ebba7315497cd865c7f2a8\/_reset.scssc",
 		"oF": 0
 		},
 	"\/drake-albums\/sass\/.sass-cache\/6c96df5504d6d308b9ebba7315497cd865c7f2a8\/_settings.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/drake-albums\/sass\/.sass-cache\/6c96df5504d6d308b9ebba7315497cd865c7f2a8\/_settings.scssc",
 		"oF": 0
 		},
 	"\/drake-albums\/sass\/.sass-cache\/6c96df5504d6d308b9ebba7315497cd865c7f2a8\/_shame.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/drake-albums\/sass\/.sass-cache\/6c96df5504d6d308b9ebba7315497cd865c7f2a8\/_shame.scssc",
 		"oF": 0
 		},
 	"\/drake-albums\/sass\/.sass-cache\/6c96df5504d6d308b9ebba7315497cd865c7f2a8\/_type.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/drake-albums\/sass\/.sass-cache\/6c96df5504d6d308b9ebba7315497cd865c7f2a8\/_type.scssc",
 		"oF": 0
 		},
 	"\/drake-albums\/sass\/.sass-cache\/6c96df5504d6d308b9ebba7315497cd865c7f2a8\/main.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/drake-albums\/sass\/.sass-cache\/6c96df5504d6d308b9ebba7315497cd865c7f2a8\/main.scssc",
 		"oF": 0
 		},
 	"\/drake-albums\/sass\/.sass-cache\/75d3e5b090ff4574fe98628d5c853303cf078af2\/_album.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/drake-albums\/sass\/.sass-cache\/75d3e5b090ff4574fe98628d5c853303cf078af2\/_album.scssc",
 		"oF": 0
 		},
 	"\/drake-albums\/sass\/.sass-cache\/75d3e5b090ff4574fe98628d5c853303cf078af2\/_base.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/drake-albums\/sass\/.sass-cache\/75d3e5b090ff4574fe98628d5c853303cf078af2\/_base.scssc",
 		"oF": 0
 		},
 	"\/drake-albums\/sass\/.sass-cache\/75d3e5b090ff4574fe98628d5c853303cf078af2\/_grid.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/drake-albums\/sass\/.sass-cache\/75d3e5b090ff4574fe98628d5c853303cf078af2\/_grid.scssc",
 		"oF": 0
 		},
 	"\/drake-albums\/sass\/.sass-cache\/75d3e5b090ff4574fe98628d5c853303cf078af2\/_helper.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/drake-albums\/sass\/.sass-cache\/75d3e5b090ff4574fe98628d5c853303cf078af2\/_helper.scssc",
 		"oF": 0
 		},
 	"\/drake-albums\/sass\/.sass-cache\/75d3e5b090ff4574fe98628d5c853303cf078af2\/_mixins.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/drake-albums\/sass\/.sass-cache\/75d3e5b090ff4574fe98628d5c853303cf078af2\/_mixins.scssc",
 		"oF": 0
 		},
 	"\/drake-albums\/sass\/.sass-cache\/75d3e5b090ff4574fe98628d5c853303cf078af2\/_nav.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/drake-albums\/sass\/.sass-cache\/75d3e5b090ff4574fe98628d5c853303cf078af2\/_nav.scssc",
 		"oF": 0
 		},
 	"\/drake-albums\/sass\/.sass-cache\/75d3e5b090ff4574fe98628d5c853303cf078af2\/_reset.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/drake-albums\/sass\/.sass-cache\/75d3e5b090ff4574fe98628d5c853303cf078af2\/_reset.scssc",
 		"oF": 0
 		},
 	"\/drake-albums\/sass\/.sass-cache\/75d3e5b090ff4574fe98628d5c853303cf078af2\/_settings.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/drake-albums\/sass\/.sass-cache\/75d3e5b090ff4574fe98628d5c853303cf078af2\/_settings.scssc",
 		"oF": 0
 		},
 	"\/drake-albums\/sass\/.sass-cache\/75d3e5b090ff4574fe98628d5c853303cf078af2\/_shame.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/drake-albums\/sass\/.sass-cache\/75d3e5b090ff4574fe98628d5c853303cf078af2\/_shame.scssc",
 		"oF": 0
 		},
 	"\/drake-albums\/sass\/.sass-cache\/75d3e5b090ff4574fe98628d5c853303cf078af2\/_type.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/drake-albums\/sass\/.sass-cache\/75d3e5b090ff4574fe98628d5c853303cf078af2\/_type.scssc",
 		"oF": 0
 		},
 	"\/drake-albums\/sass\/.sass-cache\/75d3e5b090ff4574fe98628d5c853303cf078af2\/main.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/drake-albums\/sass\/.sass-cache\/75d3e5b090ff4574fe98628d5c853303cf078af2\/main.scssc",
@@ -4461,42 +4668,49 @@
 		"uL": 1
 		},
 	"\/email.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/email.html",
 		"oF": 0
 		},
 	"\/favicon.ico": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/favicon.ico",
 		"oF": 0
 		},
 	"\/Gemfile": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Gemfile",
 		"oF": 0
 		},
 	"\/Gemfile.lock": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/Gemfile.lock",
 		"oF": 0
 		},
 	"\/hemingway.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/hemingway.html",
 		"oF": 0
 		},
 	"\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/index.html",
 		"oF": 0
 		},
 	"\/inkling-inspiration.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/inkling-inspiration.html",
@@ -4504,6 +4718,7 @@
 		},
 	"\/js\/jquery.magnific-popup.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/min\/jquery.magnific-popup.min-min.js",
@@ -4513,6 +4728,7 @@
 		},
 	"\/js\/script.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/min\/script-min.js",
@@ -4521,6 +4737,7 @@
 		"tS": 0
 		},
 	"\/paradise-soccer-club.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/paradise-soccer-club.html",
@@ -4567,6 +4784,7 @@
 		"oS": 0
 		},
 	"\/public\/fonts\/568643\/14100B8581C3CB258.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/fonts\/568643\/14100B8581C3CB258.eot",
@@ -4593,6 +4811,7 @@
 		"oS": 0
 		},
 	"\/public\/fonts\/568643\/1A58EDFB7F7F1A9D8.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/fonts\/568643\/1A58EDFB7F7F1A9D8.eot",
@@ -4659,6 +4878,7 @@
 		"oS": 0
 		},
 	"\/public\/fonts\/568643\/4A072FF20B1E73113.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/fonts\/568643\/4A072FF20B1E73113.eot",
@@ -4695,6 +4915,7 @@
 		"oS": 0
 		},
 	"\/public\/fonts\/568643\/54B9CC9B005792EBD.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/fonts\/568643\/54B9CC9B005792EBD.eot",
@@ -4711,6 +4932,7 @@
 		"oS": 0
 		},
 	"\/public\/fonts\/568643\/5E199A8734DAD6BD9.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/fonts\/568643\/5E199A8734DAD6BD9.eot",
@@ -4787,6 +5009,7 @@
 		"oS": 0
 		},
 	"\/public\/fonts\/568643\/83795CAE3B030639E.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/fonts\/568643\/83795CAE3B030639E.eot",
@@ -4813,12 +5036,14 @@
 		"oS": 0
 		},
 	"\/public\/fonts\/568643\/90637DFDEEE765E48.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/fonts\/568643\/90637DFDEEE765E48.eot",
 		"oF": 0
 		},
 	"\/public\/fonts\/568643\/90FDC83653C224611.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/fonts\/568643\/90FDC83653C224611.eot",
@@ -4905,12 +5130,14 @@
 		"oS": 0
 		},
 	"\/public\/fonts\/568643\/C18A31BBF533C8F12.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/fonts\/568643\/C18A31BBF533C8F12.eot",
 		"oF": 0
 		},
 	"\/public\/fonts\/568643\/C7F2BF8DDD4BF693B.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/fonts\/568643\/C7F2BF8DDD4BF693B.eot",
@@ -4927,6 +5154,7 @@
 		"oS": 0
 		},
 	"\/public\/fonts\/568643\/D4CC37BE6EE23C6B6.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/fonts\/568643\/D4CC37BE6EE23C6B6.eot",
@@ -4993,6 +5221,7 @@
 		"oS": 0
 		},
 	"\/public\/fonts\/568643\/F3B6A3E118FC0E26E.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/fonts\/568643\/F3B6A3E118FC0E26E.eot",
@@ -5261,6 +5490,7 @@
 		"q": 100
 		},
 	"\/public\/img\/about\/darren-wong-resume.pdf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/img\/about\/darren-wong-resume.pdf",
@@ -5414,6 +5644,7 @@
 		"opt": 0
 		},
 	"\/public\/img\/curiosity-shoppe\/illustration-homepage.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/img\/curiosity-shoppe\/illustration-homepage.mp4",
@@ -5699,12 +5930,14 @@
 		"q": 100
 		},
 	"\/public\/img\/eventbrite\/create.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/img\/eventbrite\/create.mp4",
 		"oF": 0
 		},
 	"\/public\/img\/eventbrite\/create.webm": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/img\/eventbrite\/create.webm",
@@ -6213,12 +6446,14 @@
 		"q": 100
 		},
 	"\/public\/img\/inkling-inspiration\/inspiration-beauty-success.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/img\/inkling-inspiration\/inspiration-beauty-success.mp4",
 		"oF": 0
 		},
 	"\/public\/img\/inkling-inspiration\/inspiration-beauty-success.ogv": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/img\/inkling-inspiration\/inspiration-beauty-success.ogv",
@@ -6236,60 +6471,70 @@
 		"q": 100
 		},
 	"\/public\/img\/inkling-inspiration\/inspiration-everywhere.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/img\/inkling-inspiration\/inspiration-everywhere.mp4",
 		"oF": 0
 		},
 	"\/public\/img\/inkling-inspiration\/inspiration-everywhere.ogv": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/img\/inkling-inspiration\/inspiration-everywhere.ogv",
 		"oF": 0
 		},
 	"\/public\/img\/inkling-inspiration\/inspiration-flashcards.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/img\/inkling-inspiration\/inspiration-flashcards.mp4",
 		"oF": 0
 		},
 	"\/public\/img\/inkling-inspiration\/inspiration-flashcards.ogv": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/img\/inkling-inspiration\/inspiration-flashcards.ogv",
 		"oF": 0
 		},
 	"\/public\/img\/inkling-inspiration\/inspiration-poptips.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/img\/inkling-inspiration\/inspiration-poptips.mp4",
 		"oF": 0
 		},
 	"\/public\/img\/inkling-inspiration\/inspiration-poptips.ogv": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/img\/inkling-inspiration\/inspiration-poptips.ogv",
 		"oF": 0
 		},
 	"\/public\/img\/inkling-inspiration\/inspiration-slideline.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/img\/inkling-inspiration\/inspiration-slideline.mp4",
 		"oF": 0
 		},
 	"\/public\/img\/inkling-inspiration\/inspiration-slideline.ogv": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/img\/inkling-inspiration\/inspiration-slideline.ogv",
 		"oF": 0
 		},
 	"\/public\/img\/inkling-inspiration\/inspiration-start-here.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/img\/inkling-inspiration\/inspiration-start-here.mp4",
 		"oF": 0
 		},
 	"\/public\/img\/inkling-inspiration\/inspiration-start-here.ogv": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/img\/inkling-inspiration\/inspiration-start-here.ogv",
@@ -6346,6 +6591,7 @@
 		"prP": 0
 		},
 	"\/public\/img\/open-garage\/prototype-tester.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/img\/open-garage\/prototype-tester.mp4",
@@ -6786,6 +7032,26 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/public\/img\/restaurants-2017\/12-progress.jpg": {
+		"ft": 16384,
+		"iS": 208752,
+		"oA": 0,
+		"oAP": "\/public\/img\/restaurants-2017\/12-progress.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/public\/img\/restaurants-2017\/12-tajima.jpg": {
+		"ft": 16384,
+		"iS": 139917,
+		"oA": 0,
+		"oAP": "\/public\/img\/restaurants-2017\/12-tajima.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/public\/img\/social\/logo-dribbble.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -6818,6 +7084,7 @@
 		"q": 100
 		},
 	"\/public\/img\/sparks\/wine-limo.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/img\/sparks\/wine-limo.mp4",
@@ -6920,6 +7187,7 @@
 		"q": 100
 		},
 	"\/public\/img\/twitter\/peri-intro.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/img\/twitter\/peri-intro.mp4",
@@ -6937,6 +7205,7 @@
 		"q": 100
 		},
 	"\/public\/img\/twitter\/periscope-behind-scenes.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/public\/img\/twitter\/periscope-behind-scenes.mp4",
@@ -6988,6 +7257,7 @@
 		},
 	"\/public\/js\/parallax.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/public\/js\/min\/parallax.min-min.js",
@@ -6996,10 +7266,10 @@
 		"tS": 0
 		},
 	"\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -7014,228 +7284,266 @@
 		"uCM": 0
 		},
 	"\/restaurants-2017.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/restaurants-2017.html",
 		"oF": 0
 		},
 	"\/resume.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/resume.html",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_base.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_base.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_grid.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_grid.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_helper.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_helper.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_mixins.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_mixins.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_nav.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_nav.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_reset.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_reset.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_settings.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_settings.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_shame.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_shame.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_type.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/_type.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/main.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sass\/.sass-cache\/32ff510ebeea34820269faeebcb4361d7a2cf41c\/main.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/3c885ed28bd10e0a6e779f155edcf58ce80bae3f\/_base.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/3c885ed28bd10e0a6e779f155edcf58ce80bae3f\/_base.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/3c885ed28bd10e0a6e779f155edcf58ce80bae3f\/_grid.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/3c885ed28bd10e0a6e779f155edcf58ce80bae3f\/_grid.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/3c885ed28bd10e0a6e779f155edcf58ce80bae3f\/_helper.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/3c885ed28bd10e0a6e779f155edcf58ce80bae3f\/_helper.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/3c885ed28bd10e0a6e779f155edcf58ce80bae3f\/_mixins.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/3c885ed28bd10e0a6e779f155edcf58ce80bae3f\/_mixins.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/3c885ed28bd10e0a6e779f155edcf58ce80bae3f\/_nav.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/3c885ed28bd10e0a6e779f155edcf58ce80bae3f\/_nav.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/3c885ed28bd10e0a6e779f155edcf58ce80bae3f\/_reset.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/3c885ed28bd10e0a6e779f155edcf58ce80bae3f\/_reset.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/3c885ed28bd10e0a6e779f155edcf58ce80bae3f\/_settings.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/3c885ed28bd10e0a6e779f155edcf58ce80bae3f\/_settings.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/3c885ed28bd10e0a6e779f155edcf58ce80bae3f\/_shame.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/3c885ed28bd10e0a6e779f155edcf58ce80bae3f\/_shame.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/3c885ed28bd10e0a6e779f155edcf58ce80bae3f\/_type.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/3c885ed28bd10e0a6e779f155edcf58ce80bae3f\/_type.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/3c885ed28bd10e0a6e779f155edcf58ce80bae3f\/main.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sass\/.sass-cache\/3c885ed28bd10e0a6e779f155edcf58ce80bae3f\/main.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/61fceccc20186680d64eb4e98681385e8f11bdff\/_grid.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/61fceccc20186680d64eb4e98681385e8f11bdff\/_grid.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/61fceccc20186680d64eb4e98681385e8f11bdff\/_twitter-normalizer.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/61fceccc20186680d64eb4e98681385e8f11bdff\/_twitter-normalizer.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/61fceccc20186680d64eb4e98681385e8f11bdff\/eventbrite.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sass\/.sass-cache\/61fceccc20186680d64eb4e98681385e8f11bdff\/eventbrite.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/de30cb0f376b5c413951825d24491346472689be\/_base.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/de30cb0f376b5c413951825d24491346472689be\/_base.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/de30cb0f376b5c413951825d24491346472689be\/_grid.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/de30cb0f376b5c413951825d24491346472689be\/_grid.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/de30cb0f376b5c413951825d24491346472689be\/_helper.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/de30cb0f376b5c413951825d24491346472689be\/_helper.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/de30cb0f376b5c413951825d24491346472689be\/_mixins.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/de30cb0f376b5c413951825d24491346472689be\/_mixins.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/de30cb0f376b5c413951825d24491346472689be\/_nav.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/de30cb0f376b5c413951825d24491346472689be\/_nav.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/de30cb0f376b5c413951825d24491346472689be\/_reset.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/de30cb0f376b5c413951825d24491346472689be\/_reset.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/de30cb0f376b5c413951825d24491346472689be\/_settings.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/de30cb0f376b5c413951825d24491346472689be\/_settings.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/de30cb0f376b5c413951825d24491346472689be\/_shame.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/de30cb0f376b5c413951825d24491346472689be\/_shame.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/de30cb0f376b5c413951825d24491346472689be\/_twitter-normalizer.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/de30cb0f376b5c413951825d24491346472689be\/_twitter-normalizer.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/de30cb0f376b5c413951825d24491346472689be\/_type.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/sass\/.sass-cache\/de30cb0f376b5c413951825d24491346472689be\/_type.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/de30cb0f376b5c413951825d24491346472689be\/fitbit.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sass\/.sass-cache\/de30cb0f376b5c413951825d24491346472689be\/fitbit.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/de30cb0f376b5c413951825d24491346472689be\/main.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sass\/.sass-cache\/de30cb0f376b5c413951825d24491346472689be\/main.scssc",
 		"oF": 0
 		},
 	"\/sass\/.sass-cache\/de30cb0f376b5c413951825d24491346472689be\/twitter.scssc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sass\/.sass-cache\/de30cb0f376b5c413951825d24491346472689be\/twitter.scssc",
@@ -7424,22 +7732,24 @@
 		"uL": 1
 		},
 	"\/sparks.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/sparks.html",
 		"oF": 0
 		},
 	"\/styleguide.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/styleguide.html",
 		"oF": 0
 		},
 	"\/timeline.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -7454,36 +7764,42 @@
 		"uCM": 0
 		},
 	"\/wants-to-work-@twitter.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/wants-to-work-@twitter.html",
 		"oF": 0
 		},
 	"\/weblog.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/weblog.html",
 		"oF": 0
 		},
 	"\/words.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/words.html",
 		"oF": 0
 		},
 	"\/z-archive\/mothers-day.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/z-archive\/mothers-day.html",
 		"oF": 0
 		},
 	"\/z-archive\/open-garage.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/z-archive\/open-garage.html",
 		"oF": 0
 		},
 	"\/z-archive\/paige.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/z-archive\/paige.html",
@@ -7902,6 +8218,10 @@
 			"active": 0,
 			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
 		"array-bracket-spacing": {
 			"active": 0,
 			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
@@ -7909,6 +8229,10 @@
 		"array-callback-return": {
 			"active": 0,
 			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
 			},
 		"arrow-body-style": {
 			"active": 0,
@@ -8006,6 +8330,10 @@
 			"active": 0,
 			"optionString": "'always', {'null': 'always'}"
 			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
 		"func-call-spacing": {
 			"active": 0,
 			"optionString": "'never'"
@@ -8022,9 +8350,17 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
 			"active": 0,
@@ -8049,6 +8385,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
@@ -8082,9 +8422,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -8114,6 +8454,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -8123,14 +8467,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -8153,6 +8489,10 @@
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-caller": {
 			"active": 0,
@@ -8698,6 +9038,10 @@
 			"active": 0,
 			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
 			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
 		"prefer-arrow-callback": {
 			"active": 0,
 			"optionString": ""
@@ -8766,6 +9110,10 @@
 			"active": 0,
 			"optionString": "{'before': false, 'after': true}"
 			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
 		"sort-imports": {
 			"active": 0,
 			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
@@ -8805,6 +9153,10 @@
 		"strict": {
 			"active": 0,
 			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
 			"active": 0,
@@ -9218,7 +9570,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 2,
@@ -9251,6 +9604,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -9292,7 +9646,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -9324,13 +9679,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -9339,7 +9694,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -9359,7 +9715,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -9387,7 +9744,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -9434,9 +9792,11 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
+	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {
