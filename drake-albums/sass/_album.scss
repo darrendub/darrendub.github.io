@@ -17,16 +17,59 @@
 
 .album-title {
 	margin-bottom:10px;
-	
-	// @media (min-width: $bp-medium) {
-	// 	margin-bottom:-13px;
-	// 	cursor: pointer;
-	// 	transition: margin-bottom 1s ease;
-	// 		&:hover {
-	// 		margin-bottom: 10px;
-	// 		}
-	// }
 }
+
+// Scorpion 
+.scorpion {
+	p {
+		@include vertical-align;
+		font-family: $sans;
+	}
+}
+
+// More Life
+
+.more-life-smoke {
+	width: 125px;
+    position: absolute;
+    left: 27%;
+    top: 28px;
+    animation: smoke 2s infinite;
+	animation-timing-function: linear;
+	animation-direction: alternate;
+
+}
+
+.more-life-flicker {
+	width: 6px;
+	height: 3px;
+	background-color: #fd6923;
+	position: absolute;
+	border-radius: 100%;
+	animation: more-life-flicker 6s infinite;
+	left: 43.3%;
+	top: 49.3%;
+	opacity: 0;
+	transform:rotate(15deg);
+}
+
+@keyframes smoke {
+  from {
+  	opacity:0;
+  }
+  to {
+  	opacity: 1;
+  	top: 20px;
+  }
+}
+
+@keyframes more-life-flicker {
+  0%   { opacity:0.5; }
+  50%  { opacity:0; }
+  100% { opacity:0.5; }
+}
+
+
 
 // Views From The 6 
 

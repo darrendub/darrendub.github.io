@@ -19,7 +19,8 @@ tr, tt, u, ul, var, video, :before, :after, div, section {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 img {
   width: 100%; }
@@ -383,6 +384,9 @@ blockquote {
 .text-white {
   color: #fff; }
 
+.text-center {
+  text-align: center; }
+
 /*--------------------------------------------------------------------
  * Helper
  *------------------------------------------------------------------*/
@@ -430,6 +434,69 @@ blockquote {
 
 .album-title {
   margin-bottom: 10px; }
+
+.scorpion p {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-family: "Chivo", sans-serif; }
+
+.more-life-smoke {
+  width: 125px;
+  position: absolute;
+  left: 27%;
+  top: 28px;
+  -webkit-animation: smoke 2s infinite;
+          animation: smoke 2s infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate; }
+
+.more-life-flicker {
+  width: 6px;
+  height: 3px;
+  background-color: #fd6923;
+  position: absolute;
+  border-radius: 100%;
+  -webkit-animation: more-life-flicker 6s infinite;
+          animation: more-life-flicker 6s infinite;
+  left: 43.3%;
+  top: 49.3%;
+  opacity: 0;
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg); }
+
+@-webkit-keyframes smoke {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1;
+    top: 20px; } }
+
+@keyframes smoke {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1;
+    top: 20px; } }
+
+@-webkit-keyframes more-life-flicker {
+  0% {
+    opacity: 0.5; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 0.5; } }
+
+@keyframes more-life-flicker {
+  0% {
+    opacity: 0.5; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 0.5; } }
 
 .views-6-eye {
   max-width: 83px;
@@ -1105,7 +1172,8 @@ blockquote {
     color: white; }
 
 .drop-shadow, nav {
-  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.3); }
+  -webkit-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.3); }
 
 .rounded-corners {
   border-radius: 6px; }
