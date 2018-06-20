@@ -19,12 +19,53 @@
 	margin-bottom:10px;
 }
 
+
 // Scorpion 
-.scorpion {
-	p {
-		@include vertical-align;
-		font-family: $sans;
-	}
+
+.scorpion-autograph {
+	width: 230px;
+	position: absolute;
+	bottom: 20px;
+    right: 12px;
+    fill:none;
+    stroke:#aaa9aa;
+    stroke-linecap:round;
+    stroke-miterlimit:10;
+    stroke-width:6px;
+    opacity: .75;
+    border: 0;
+
+}
+.first {
+	stroke-dasharray: 1000;
+ 	stroke-dashoffset: 1000;
+ 	animation: dash 5s linear infinite; 
+
+}
+
+.last {
+	stroke-dasharray: 1000;
+ 	stroke-dashoffset: 1000;
+	animation: dash-delay 5s linear infinite;
+}
+
+
+@keyframes dash {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dash-delay {
+  35% {
+    stroke-dashoffset: 1000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
 }
 
 // More Life

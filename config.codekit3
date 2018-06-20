@@ -4045,6 +4045,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/drake-albums\/img\/autograph-new.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/drake-albums\/img\/autograph-new.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/drake-albums\/img\/fb-summary-sq.png": {
 		"ft": 32768,
 		"iS": 37658,
@@ -4192,6 +4202,28 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/drake-albums\/img\/scorpion-base.jpg": {
+		"ft": 16384,
+		"iS": 127454,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/drake-albums\/img\/scorpion-base.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/drake-albums\/img\/scorpion.jpg": {
+		"ft": 16384,
+		"iS": 131779,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/drake-albums\/img\/scorpion.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/drake-albums\/img\/so-far-gone-drake.svg": {
 		"ft": 2097152,
