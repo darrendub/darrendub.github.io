@@ -17,16 +17,100 @@
 
 .album-title {
 	margin-bottom:10px;
-	
-	// @media (min-width: $bp-medium) {
-	// 	margin-bottom:-13px;
-	// 	cursor: pointer;
-	// 	transition: margin-bottom 1s ease;
-	// 		&:hover {
-	// 		margin-bottom: 10px;
-	// 		}
-	// }
 }
+
+
+// Scorpion 
+
+.scorpion-autograph {
+	width: 230px;
+	position: absolute;
+	bottom: 20px;
+    right: 12px;
+    fill:none;
+    stroke:#aaa9aa;
+    stroke-linecap:round;
+    stroke-miterlimit:10;
+    stroke-width:6px;
+    opacity: .75;
+    border: 0;
+
+}
+.first {
+	stroke-dasharray: 1000;
+ 	stroke-dashoffset: 1000;
+ 	animation: dash 5s linear infinite; 
+
+}
+
+.last {
+	stroke-dasharray: 1000;
+ 	stroke-dashoffset: 1000;
+	animation: dash-delay 5s linear infinite;
+}
+
+
+@keyframes dash {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dash-delay {
+  35% {
+    stroke-dashoffset: 1000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+// More Life
+
+.more-life-smoke {
+	width: 125px;
+    position: absolute;
+    left: 27%;
+    top: 28px;
+    animation: smoke 2s infinite;
+	animation-timing-function: linear;
+	animation-direction: alternate;
+
+}
+
+.more-life-flicker {
+	width: 6px;
+	height: 3px;
+	background-color: #fd6923;
+	position: absolute;
+	border-radius: 100%;
+	animation: more-life-flicker 6s infinite;
+	left: 43.3%;
+	top: 49.3%;
+	opacity: 0;
+	transform:rotate(15deg);
+}
+
+@keyframes smoke {
+  from {
+  	opacity:0;
+  }
+  to {
+  	opacity: 1;
+  	top: 20px;
+  }
+}
+
+@keyframes more-life-flicker {
+  0%   { opacity:0.5; }
+  50%  { opacity:0; }
+  100% { opacity:0.5; }
+}
+
+
 
 // Views From The 6 
 
