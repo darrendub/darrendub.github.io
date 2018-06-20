@@ -436,9 +436,9 @@ blockquote {
   margin-bottom: 10px; }
 
 .scorpion-autograph {
-  width: 230px;
+  width: 134px;
   position: absolute;
-  bottom: 20px;
+  bottom: 10px;
   right: 12px;
   fill: none;
   stroke: #aaa9aa;
@@ -447,6 +447,10 @@ blockquote {
   stroke-width: 6px;
   opacity: .75;
   border: 0; }
+  @media (min-width: 35em) {
+    .scorpion-autograph {
+      bottom: 20px;
+      width: 230px; } }
 
 .first {
   stroke-dasharray: 1000;
@@ -485,7 +489,7 @@ blockquote {
     stroke-dashoffset: 0; } }
 
 .more-life-smoke {
-  width: 125px;
+  width: 73px;
   position: absolute;
   left: 27%;
   top: 28px;
@@ -495,6 +499,9 @@ blockquote {
           animation-timing-function: linear;
   -webkit-animation-direction: alternate;
           animation-direction: alternate; }
+  @media (min-width: 35em) {
+    .more-life-smoke {
+      width: 125px; } }
 
 .more-life-flicker {
   width: 6px;

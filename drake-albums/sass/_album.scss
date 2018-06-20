@@ -23,9 +23,9 @@
 // Scorpion 
 
 .scorpion-autograph {
-	width: 230px;
+	width: 134px;
 	position: absolute;
-	bottom: 20px;
+	bottom: 10px;
     right: 12px;
     fill:none;
     stroke:#aaa9aa;
@@ -34,6 +34,10 @@
     stroke-width:6px;
     opacity: .75;
     border: 0;
+    @media (min-width: $bp-medium) {
+    bottom: 20px;	
+    width: 230px;
+    }
 
 }
 .first {
@@ -71,13 +75,16 @@
 // More Life
 
 .more-life-smoke {
-	width: 125px;
+	width: 73px;
     position: absolute;
     left: 27%;
     top: 28px;
     animation: smoke 2s infinite;
 	animation-timing-function: linear;
 	animation-direction: alternate;
+	@media (min-width: $bp-medium) {
+		width: 125px;	
+	}
 
 }
 
