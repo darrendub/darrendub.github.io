@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Darren Wong</title>
- <link href="darrendub.comatom.xml" rel="self"/>
- <link href="darrendub.com"/>
- <updated>2018-02-19T12:09:33-08:00</updated>
- <id>darrendub.com</id>
+ <link href="http://localhost:4000atom.xml" rel="self"/>
+ <link href="http://localhost:4000"/>
+ <updated>2018-12-22T12:56:15-08:00</updated>
+ <id>http://localhost:4000</id>
  <author>
    <name>Darren Wong</name>
    <email>darrendavenwong@gmail.com</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Resolutions</title>
-   <link href="darrendub.com/weblog/2017/01/05/resolutions/"/>
+   <link href="http://localhost:4000/weblog/2017/01/05/resolutions/"/>
    <updated>2017-01-05T00:00:00-08:00</updated>
-   <id>darrendub.com/weblog/2017/01/05/resolutions</id>
+   <id>http://localhost:4000/weblog/2017/01/05/resolutions</id>
    <content type="html">&lt;ul&gt;
   &lt;li&gt;&lt;del&gt;Finish &lt;a href=&quot;http://blondedlife.com&quot;&gt;blondedlife&lt;/a&gt; &lt;small style=&quot;text-transform:uppercase; font-size:0.6em;&quot;&gt;(Early Feburary)&lt;/small&gt;&lt;/del&gt;&lt;/li&gt;
   &lt;li&gt;Participate in the &lt;a href=&quot;http://www.may1reboot.com/&quot;&gt;May 1st Reboot&lt;/a&gt; &lt;small style=&quot;text-transform:uppercase; font-size:0.6em;&quot;&gt;(May 01)&lt;/small&gt;&lt;/li&gt;
@@ -30,9 +30,9 @@
  
  <entry>
    <title>Wireframes</title>
-   <link href="darrendub.com/weblog/2015/07/07/wireframes/"/>
+   <link href="http://localhost:4000/weblog/2015/07/07/wireframes/"/>
    <updated>2015-07-07T00:00:00-07:00</updated>
-   <id>darrendub.com/weblog/2015/07/07/wireframes</id>
+   <id>http://localhost:4000/weblog/2015/07/07/wireframes</id>
    <content type="html">&lt;p&gt;As I began to sketch out the wireframes for my site, two pages in particular stood out to me: the home page and work page.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/public/img/2015-07-07-wireframes/wireframes-paper.jpg&quot; alt=&quot;Wireframe Sketches&quot; /&gt;&lt;/p&gt;
@@ -70,10 +70,10 @@ A recurring theme throughout my &lt;a href=&quot;/weblog/2015/05/21/website-insp
  
  <entry>
    <title>Website Inspiration</title>
-   <link href="darrendub.com/weblog/2015/05/21/website-inspiration/"/>
+   <link href="http://localhost:4000/weblog/2015/05/21/website-inspiration/"/>
    <updated>2015-05-21T00:00:00-07:00</updated>
-   <id>darrendub.com/weblog/2015/05/21/website-inspiration</id>
-   <content type="html">&lt;h3 id=&quot;neverblandhttpneverblandcom&quot;&gt;&lt;a href=&quot;http://neverbland.com/&quot;&gt;Neverbland&lt;/a&gt;&lt;/h3&gt;
+   <id>http://localhost:4000/weblog/2015/05/21/website-inspiration</id>
+   <content type="html">&lt;h3 id=&quot;neverbland&quot;&gt;&lt;a href=&quot;http://neverbland.com/&quot;&gt;Neverbland&lt;/a&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Beautiful collection of work and a great use of the grid&lt;/li&gt;
@@ -83,7 +83,7 @@ A recurring theme throughout my &lt;a href=&quot;/weblog/2015/05/21/website-insp
 
 &lt;p&gt;&lt;img src=&quot;/public/img/2015-05-21-website-inspiration/never-bland-1.jpg&quot; alt=&quot;Neverbland Homepage&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;hugehttpwwwhugeinccom&quot;&gt;&lt;a href=&quot;http://www.hugeinc.com/&quot;&gt;Huge&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;huge&quot;&gt;&lt;a href=&quot;http://www.hugeinc.com/&quot;&gt;Huge&lt;/a&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;HUGE typography!&lt;/li&gt;
@@ -94,7 +94,7 @@ A recurring theme throughout my &lt;a href=&quot;/weblog/2015/05/21/website-insp
 &lt;p&gt;&lt;img src=&quot;/public/img/2015-05-21-website-inspiration/huge-1.jpg&quot; alt=&quot;Huge Nike&quot; /&gt;
 &lt;img src=&quot;/public/img/2015-05-21-website-inspiration/huge-2.jpg&quot; alt=&quot;Huge Harvard Business Revieww&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;rallyhttpbetarallyinteractivecom&quot;&gt;&lt;a href=&quot;http://beta.rallyinteractive.com/&quot;&gt;Rally&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;rally&quot;&gt;&lt;a href=&quot;http://beta.rallyinteractive.com/&quot;&gt;Rally&lt;/a&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Site is snappy, just feels good to the click &amp;amp; scroll&lt;/li&gt;
@@ -107,7 +107,7 @@ A recurring theme throughout my &lt;a href=&quot;/weblog/2015/05/21/website-insp
 &lt;p&gt;&lt;img src=&quot;/public/img/2015-05-21-website-inspiration/rally-1.jpg&quot; alt=&quot;Rally National Parks&quot; /&gt;
 &lt;img src=&quot;/public/img/2015-05-21-website-inspiration/rally-2.jpg&quot; alt=&quot;Rally National Parks Case Study&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;weightshifthttpweightshiftcom&quot;&gt;&lt;a href=&quot;http://weightshift.com/&quot;&gt;Weightshift&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;weightshift&quot;&gt;&lt;a href=&quot;http://weightshift.com/&quot;&gt;Weightshift&lt;/a&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Interesting use of a fixed left sidebar in case studies&lt;/li&gt;
@@ -119,7 +119,7 @@ A recurring theme throughout my &lt;a href=&quot;/weblog/2015/05/21/website-insp
 &lt;p&gt;&lt;img src=&quot;/public/img/2015-05-21-website-inspiration/weightshift-1.jpg&quot; alt=&quot;Weightshift Homepage&quot; /&gt;
 &lt;img src=&quot;/public/img/2015-05-21-website-inspiration/weightshift-2.jpg&quot; alt=&quot;Weightshift Rdio Case Study&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;paper-model-planehttppapermodelplanecom&quot;&gt;&lt;a href=&quot;http://papermodelplane.com/&quot;&gt;Paper Model Plane&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;paper-model-plane&quot;&gt;&lt;a href=&quot;http://papermodelplane.com/&quot;&gt;Paper Model Plane&lt;/a&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Background image transitions are so slick&lt;/li&gt;
@@ -129,7 +129,7 @@ A recurring theme throughout my &lt;a href=&quot;/weblog/2015/05/21/website-insp
 
 &lt;p&gt;&lt;img src=&quot;/public/img/2015-05-21-website-inspiration/papermodelplane.jpg&quot; alt=&quot;Paper Model Plane Homepage&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;paul-stamatiouhttppaulstamatioucom&quot;&gt;&lt;a href=&quot;http://paulstamatiou.com/&quot;&gt;Paul Stamatiou&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;paul-stamatiou&quot;&gt;&lt;a href=&quot;http://paulstamatiou.com/&quot;&gt;Paul Stamatiou&lt;/a&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Really in-depth case studies, really&lt;/li&gt;
@@ -140,7 +140,7 @@ A recurring theme throughout my &lt;a href=&quot;/weblog/2015/05/21/website-insp
 &lt;p&gt;&lt;img src=&quot;/public/img/2015-05-21-website-inspiration/stammy-1.jpg&quot; alt=&quot;Paul Stamatiou Photosets&quot; /&gt;
 &lt;img src=&quot;/public/img/2015-05-21-website-inspiration/stammy-2.jpg&quot; alt=&quot;Paul Stamatiou Twitter Video Case Study&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;teehan--laxhttpwwwteehanlaxcom-rip-&quot;&gt;&lt;a href=&quot;http://www.teehanlax.com/&quot;&gt;Teehan + Lax&lt;/a&gt; (R.I.P. 🙏😭)&lt;/h3&gt;
+&lt;h3 id=&quot;teehan--lax-rip-&quot;&gt;&lt;a href=&quot;http://www.teehanlax.com/&quot;&gt;Teehan + Lax&lt;/a&gt; (R.I.P. 🙏😭)&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Case studies are very genuine they offer not only the design decisions made but the feelings and heart that went into each project&lt;/li&gt;
@@ -170,9 +170,9 @@ A recurring theme throughout my &lt;a href=&quot;/weblog/2015/05/21/website-insp
  
  <entry>
    <title>Performance Boss</title>
-   <link href="darrendub.com/weblog/2015/05/04/performance-boss/"/>
+   <link href="http://localhost:4000/weblog/2015/05/04/performance-boss/"/>
    <updated>2015-05-04T00:00:00-07:00</updated>
-   <id>darrendub.com/weblog/2015/05/04/performance-boss</id>
+   <id>http://localhost:4000/weblog/2015/05/04/performance-boss</id>
    <content type="html">&lt;p&gt;&lt;em&gt;Paid tha Cost to Be da Bo$$&lt;/em&gt; was the sixth album by American rapper Snoop Dogg. As you listen to the album a certain theme begins to emerge: success is only attained through hard work. In a &lt;em&gt;dev-signers&lt;/em&gt; world, that hard work might look like ensuring your site performs well. Snoop would know what it takes to be a great developer, just as &lt;a href=&quot;https://medium.com/@darrendub/6-reasons-why-drake-would-be-a-great-designer-530ee138ea35&quot;&gt;Drake knows what it takes to be a great designer&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;To be the performance bo$$ I need a &lt;a href=&quot;http://danielmall.com/articles/how-to-make-a-performance-budget/&quot;&gt;performance budget&lt;/a&gt;:&lt;/p&gt;
@@ -242,9 +242,9 @@ Defined by PageSpeed score and YSlow score, they don’t provide an in-depth acc
  
  <entry>
    <title>What’s Working & What Isn’t</title>
-   <link href="darrendub.com/weblog/2015/05/01/whats-working/"/>
+   <link href="http://localhost:4000/weblog/2015/05/01/whats-working/"/>
    <updated>2015-05-01T00:00:00-07:00</updated>
-   <id>darrendub.com/weblog/2015/05/01/whats-working</id>
+   <id>http://localhost:4000/weblog/2015/05/01/whats-working</id>
    <content type="html">&lt;p&gt;Here is my &lt;a href=&quot;http://darrendavenwong.com&quot;&gt;old site&lt;/a&gt; in all of its glory. Take it all in. Look at the fixed grid, the tiled thumbnails, and embrace the gray background.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;What’s working:&lt;/strong&gt;&lt;/p&gt;
@@ -335,9 +335,9 @@ Defined by PageSpeed score and YSlow score, they don’t provide an in-depth acc
  
  <entry>
    <title>Redesign Brief</title>
-   <link href="darrendub.com/weblog/2015/04/17/redesign-brief/"/>
+   <link href="http://localhost:4000/weblog/2015/04/17/redesign-brief/"/>
    <updated>2015-04-17T00:00:00-07:00</updated>
-   <id>darrendub.com/weblog/2015/04/17/redesign-brief</id>
+   <id>http://localhost:4000/weblog/2015/04/17/redesign-brief</id>
    <content type="html">&lt;h3 id=&quot;background&quot;&gt;Background&lt;/h3&gt;
 &lt;p&gt;One of the most difficult challenges designers face today is the inability to create for ourselves (or at least be satisfied with the things we create). This issue has roots that trace back to the world’s earliest designers who used cave walls to display their mock ups.&lt;/p&gt;
 
@@ -484,9 +484,9 @@ Via &lt;a href=&quot;http://en.wikipedia.org/wiki/File:SantaCruz-CuevaManos-P221
  
  <entry>
    <title>Open Redesign</title>
-   <link href="darrendub.com/weblog/2015/04/15/open-redesign/"/>
+   <link href="http://localhost:4000/weblog/2015/04/15/open-redesign/"/>
    <updated>2015-04-15T00:00:00-07:00</updated>
-   <id>darrendub.com/weblog/2015/04/15/open-redesign</id>
+   <id>http://localhost:4000/weblog/2015/04/15/open-redesign</id>
    <content type="html">&lt;p&gt;Hey there, my name is Darren and I design things for the Internet and people like you. I will be using this space to document the open redesign of my brand new site! I am doing this for a few reasons:&lt;/p&gt;
 
 &lt;ul&gt;
