@@ -10,7 +10,7 @@ paginate_path:    "page:num"
 baseurl:          ""
 author:
   name:           Darren Wong
-  description:    Interactive designer at Inkling. Connoisseur of Wes Anderson films and Drake lyrics.
+  description:    Product designer, connoisseur of Wes Anderson films and Drake lyrics.
   url:            darrendub.com
   email:          darrendavenwong@gmail.com
 
@@ -26,7 +26,7 @@ highlighter:      rouge
 #  style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-gems:
+plugins:
   - jemoji # Emoji please!
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-paginate 
