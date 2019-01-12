@@ -169,3 +169,24 @@ footer {
     width: 100%;
   }
 
+  .book-complete {
+	&:before {
+	content: "✅";
+	position: absolute;
+	font-size: 2rem;
+    margin-left: -$unit-small/2;
+    margin-top: -$unit-small/2;
+	}
+  }
+
+  .book-progress {
+  	&:before {
+	content: "🔄";
+	position: absolute;
+	font-size: 2rem;
+    margin-left: -$unit-small/2;
+    margin-top: -$unit-small/2;
+	}
+
+  }
+

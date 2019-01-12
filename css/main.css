@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*--------------------------------------------------------------------
  * darrendub.com
  *------------------------------------------------------------------*/
@@ -19,8 +20,7 @@ tr, tt, u, ul, var, video, :before, :after, div, section {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+  box-sizing: border-box; }
 
 img {
   width: 100%; }
@@ -58,29 +58,20 @@ img {
  * http://philipwalton.github.io/solved-by-flexbox/
  *------------------------------------------------------------------*/
 .grid {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   list-style: none;
   margin: 0;
   padding: 0; }
 
 .grid-cell {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1; }
+  flex: 1; }
 
 .grid-full .grid-cell {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 100%;
-          flex: 0 0 100%; }
+  flex: 0 0 100%; }
   @media (min-width: 40em) {
     .grid-full .grid-cell {
-      -webkit-box-flex: 1;
-          -ms-flex: 1;
-              flex: 1; } }
+      flex: 1; } }
 
 .grid-gutters {
   margin: -1em 0 1em -1em; }
@@ -88,35 +79,20 @@ img {
     padding: 1em 0 0 1em; }
 
 .grid-reverse {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse; }
+  flex-direction: row-reverse; }
 
 .grid-start {
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -ms-flex-item-align: start;
-      align-self: flex-start; }
+  justify-content: flex-start;
+  align-self: flex-start; }
 
 .grid-center {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+  align-items: center;
+  justify-content: center; }
 
 .grid-end {
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -ms-flex-item-align: end;
-      align-self: flex-end; }
+  align-items: flex-end;
+  justify-content: flex-end;
+  align-self: flex-end; }
 
 /*--------------------------------------------------------------------
  * Nav
@@ -499,8 +475,7 @@ blockquote {
     color: white; }
 
 .drop-shadow, .video-poster {
-  -webkit-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.3); }
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.3); }
 
 .rounded-corners {
   border-radius: 6px; }
@@ -552,3 +527,17 @@ footer .social-icon {
 
 video {
   width: 100%; }
+
+.book-complete:before {
+  content: "✅";
+  position: absolute;
+  font-size: 2rem;
+  margin-left: -12.5px;
+  margin-top: -12.5px; }
+
+.book-progress:before {
+  content: "🔄";
+  position: absolute;
+  font-size: 2rem;
+  margin-left: -12.5px;
+  margin-top: -12.5px; }
