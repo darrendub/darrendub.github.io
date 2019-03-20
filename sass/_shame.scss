@@ -169,24 +169,42 @@ footer {
     width: 100%;
   }
 
-  .book-complete {
-	&:before {
-	content: "✅";
-	position: absolute;
-	font-size: 2rem;
-    margin-left: -$unit-small/2;
-    margin-top: -$unit-small/2;
-	}
-  }
+  // Book Goal Styling
 
-  .book-progress {
-  	&:before {
-	content: "🔄";
-	position: absolute;
-	font-size: 2rem;
-    margin-left: -$unit-small/2;
-    margin-top: -$unit-small/2;
-	}
+  .book-table {
+  border-collapse: collapse;
+  width: 100%;
+}
 
-  }
+td, th {
+  border: 1px solid $silver;
+  text-align: left;
+  padding: 1rem;
+  vertical-align: middle;
+}
 
+th {
+	@extend h4;
+}
+
+.book-img {
+	max-width: 100px;
+}
+
+.badge {
+	padding: 8px;
+	font-size: .75rem;
+	font-weight: $weight-semi;
+	border-radius: 16px;
+}
+.badge-completed {
+	background-color: $moss;
+}
+
+.badge-progress {
+	background-color: $sunflower;
+}
+
+.badge-not-started {
+	background-color: $silver;
+}
