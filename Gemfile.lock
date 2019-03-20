@@ -242,8 +242,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  commonmarker
   github-pages
   jemoji
 
 BUNDLED WITH
-   1.17.2
+   2.0.1
