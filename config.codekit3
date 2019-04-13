@@ -1026,6 +1026,14 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/favicon.ico",
+		"oF": 0
+		},
 	"/hire-darren/@twitter.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1408,12 +1416,86 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/img/avatar/avatar-16.png": {
+		"ft": 32768,
+		"iS": 826,
+		"oA": 0,
+		"oAP": "/img/avatar/avatar-16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/avatar/avatar-32.png": {
+		"ft": 32768,
+		"iS": 2696,
+		"oA": 0,
+		"oAP": "/img/avatar/avatar-32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/avatar/avatar-48.png": {
+		"ft": 32768,
+		"iS": 5573,
+		"oA": 0,
+		"oAP": "/img/avatar/avatar-48.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/avatar/avatar-64.png": {
+		"ft": 32768,
+		"iS": 9645,
+		"oA": 0,
+		"oAP": "/img/avatar/avatar-64.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/avatar/avatar-96.png": {
+		"ft": 32768,
+		"iS": 20043,
+		"oA": 0,
+		"oAP": "/img/avatar/avatar-96.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/avatar/avatar.png": {
+		"ft": 32768,
+		"iS": 75580,
+		"oA": 0,
+		"oAP": "/img/avatar/avatar.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/index.html",
+		"oF": 0
+		},
+	"/README.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/README.html",
 		"oF": 0
 		},
 	"/README.md": {
