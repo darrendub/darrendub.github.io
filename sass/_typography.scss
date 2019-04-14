@@ -1,0 +1,44 @@
+/*--------------------------------------------------------------------
+ * Typography
+ *------------------------------------------------------------------*/
+.type-xxl, .type-xl, .type-lg, .type-md, .type-sm {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $sans;
+  color: $coal;
+}
+
+.type-xxl {
+	font-size: 3.13em; // 50px
+	line-height: 2;
+	font-weight: $weight-semi;
+}
+
+.type-xl {
+	font-size: 2.25em; // 36px
+	line-height: 1.8;
+}
+
+.type-lg {
+	font-size: 1.7em; // 27px
+	line-height: 1.6;
+}
+
+.type-md {
+	font-size: 1.31em; // 21px
+	line-height: 1.4;
+}
+
+.type-sm {
+	font-size: 1em; // 16px
+	line-height: 1.2;
+}
+
+.type-link {
+	color: $link;
+}
+
+strong, b {
+	font-weight: $weight-semi;
+}
