@@ -1,44 +1,79 @@
 /*--------------------------------------------------------------------
  * Typography
  *------------------------------------------------------------------*/
+
+ // Type Sizes
+
 .type-xxl, .type-xl, .type-lg, .type-md, .type-sm {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: $sans;
   color: $coal;
+  line-height: 1.5;
 }
 
 .type-xxl {
 	font-size: 3.13em; // 50px
-	line-height: 2;
 	font-weight: $weight-semi;
 }
 
 .type-xl {
 	font-size: 2.25em; // 36px
-	line-height: 1.8;
 }
 
 .type-lg {
 	font-size: 1.7em; // 27px
-	line-height: 1.6;
 }
 
 .type-md {
 	font-size: 1.31em; // 21px
-	line-height: 1.4;
 }
 
 .type-sm {
 	font-size: 1em; // 16px
-	line-height: 1.2;
 }
+
+// Type Colors
+
+.type-concrete {
+	color: $concrete;
+}
+
+.type-coal {
+	color: $coal;
+}
+
+.type-ruby {
+	color: $ruby;
+}
+
+// Type Styles
 
 .type-link {
 	color: $link;
+	background-color: rgba( $link, 0.1 );
+	padding: 2px;
+	border-radius: 2px;
+	font-weight: $weight-semi;
 }
 
-strong, b {
+code, .type-code {
+	font-family: Andale Mono, Courier, monospace;
+	color: $ruby;
+	background-color: $fog;
+	border: 1px solid darken( $fog, 10% );
+	padding: 2px;
+	border-radius: 2px;
+	font-size: .75em;
+}
+
+strong, b, .type-bold {
 	font-weight: $weight-semi;
+}
+
+
+.hr-rule {
+	 border: none;
+   border-top: 1px solid $fog;
 }

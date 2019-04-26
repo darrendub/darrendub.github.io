@@ -2,14 +2,28 @@
  * Helper
  *------------------------------------------------------------------*/
 .pt-sm {
-	padding-top: $pt-sm;
+	padding-top: $unit-sm;
 }
 .pt-md {
-	padding-top: $pt-md;
+	padding-top: $unit-md;
 }
 .pt-lg {
-	padding-top: $pt-lg;
+	padding-top: $unit-lg;
 }
 .pt-xl {
-	padding-top: $pt-xl;
+	padding-top: $unit-xl;
+}
+
+
+.pb-sm {
+	padding-bottom: $unit-sm;
+}
+.pb-md {
+	padding-bottom: $unit-md;
+}
+.pb-lg {
+	padding-bottom: $unit-lg;
+}
+.pb-xl {
+	padding-bottom: $unit-xl;
 }

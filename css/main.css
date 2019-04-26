@@ -35,34 +35,56 @@ img {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "Whitney SSm A", "Whitney SSm B", "Whitney", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  color: #444; }
+  color: #444d56;
+  line-height: 1.5; }
 
 .type-xxl {
   font-size: 3.13em;
-  line-height: 2;
   font-weight: 600; }
 
 .type-xl {
-  font-size: 2.25em;
-  line-height: 1.8; }
+  font-size: 2.25em; }
 
 .type-lg {
-  font-size: 1.7em;
-  line-height: 1.6; }
+  font-size: 1.7em; }
 
 .type-md {
-  font-size: 1.31em;
-  line-height: 1.4; }
+  font-size: 1.31em; }
 
 .type-sm {
-  font-size: 1em;
-  line-height: 1.2; }
+  font-size: 1em; }
+
+.type-concrete {
+  color: #959da5; }
+
+.type-coal {
+  color: #444d56; }
+
+.type-ruby {
+  color: #E01D5A; }
 
 .type-link {
-  color: #268bd2; }
-
-strong, b {
+  color: #4B88F0;
+  background-color: rgba(75, 136, 240, 0.1);
+  padding: 2px;
+  border-radius: 2px;
   font-weight: 600; }
+
+code, .type-code {
+  font-family: Andale Mono, Courier, monospace;
+  color: #E01D5A;
+  background-color: #f6f8fa;
+  border: 1px solid #d5dfe8;
+  padding: 2px;
+  border-radius: 2px;
+  font-size: .75em; }
+
+strong, b, .type-bold {
+  font-weight: 600; }
+
+.hr-rule {
+  border: none;
+  border-top: 1px solid #f6f8fa; }
 
 /*--------------------------------------------------------------------
  * Grid
@@ -314,3 +336,15 @@ strong, b {
 
 .pt-xl {
   padding-top: 32px; }
+
+.pb-sm {
+  padding-bottom: 8px; }
+
+.pb-md {
+  padding-bottom: 16px; }
+
+.pb-lg {
+  padding-bottom: 24px; }
+
+.pb-xl {
+  padding-bottom: 32px; }

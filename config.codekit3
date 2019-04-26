@@ -1599,6 +1599,14 @@
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
+		},
+	"/styleguide.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/styleguide.html",
+		"oF": 0
 		}
 	},
 "hooks": [
