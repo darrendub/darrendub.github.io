@@ -348,3 +348,27 @@ strong, b, .type-bold {
 
 .pb-xl {
   padding-bottom: 32px; }
+
+.mt-sm {
+  margin-top: 8px; }
+
+.mt-md {
+  margin-top: 16px; }
+
+.mt-lg {
+  margin-top: 24px; }
+
+.mt-xl {
+  margin-top: 32px; }
+
+.mb-sm {
+  margin-bottom: 8px; }
+
+.mb-md {
+  margin-bottom: 16px; }
+
+.mb-lg {
+  margin-bottom: 24px; }
+
+.mb-xl {
+  margin-bottom: 32px; }
