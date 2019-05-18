@@ -70,6 +70,9 @@ img {
   border-radius: 2px;
   font-weight: 600; }
 
+.type-center {
+  text-align: center; }
+
 code, .type-code {
   font-family: Andale Mono, Courier, monospace;
   color: #E01D5A;
@@ -320,7 +323,53 @@ strong, b, .type-bold {
  * Layout
  *------------------------------------------------------------------*/
 .container {
-  padding: 16px; }
+  margin: 0 auto; }
+
+.container-lg {
+  max-width: 900px; }
+
+.container-md {
+  max-width: 600px; }
+
+/*--------------------------------------------------------------------
+ * Nav
+ *------------------------------------------------------------------*/
+nav {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  align-items: center; }
+
+.nav-avatar-img {
+  max-width: 32px; }
+
+.nav-avatar {
+  display: flex;
+  align-items: center; }
+
+.nav-avatar-title {
+  font-family: "Whitney SSm A", "Whitney SSm B", "Whitney", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #444d56;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 16px; }
+
+.nav-list li {
+  display: inline-block;
+  margin-left: 24px;
+  font-family: "Whitney SSm A", "Whitney SSm B", "Whitney", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #444d56;
+  font-weight: 600; }
+
+.nav-list a {
+  text-decoration: none; }
+
+.nav-list a:visited {
+  color: #444d56; }
 
 /*--------------------------------------------------------------------
  * Helper

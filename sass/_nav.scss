@@ -1,0 +1,45 @@
+/*--------------------------------------------------------------------
+ * Nav
+ *------------------------------------------------------------------*/
+nav {
+	margin-top: $unit-xxl;
+	margin-bottom: $unit-xxl;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+	max-width: $width-lg;
+	align-items: center;
+}
+
+.nav-avatar-img {
+	max-width: $unit-xl;
+}
+
+.nav-avatar {
+	display: flex;
+	align-items: center;
+}
+.nav-avatar-title {
+	font-family: $sans;
+  color: $coal;
+  font-weight: $weight-semi;
+  text-decoration: none;
+  margin-left: $unit-md;
+}
+
+.nav-list li {
+	display: inline-block;
+	margin-left: $unit-lg;
+	font-family: $sans;
+  color: $coal;
+  font-weight: $weight-semi;
+}
+
+.nav-list a {
+	text-decoration: none;
+}
+
+.nav-list a:visited {
+	color: $coal;
+}

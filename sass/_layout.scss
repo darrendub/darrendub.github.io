@@ -2,5 +2,13 @@
  * Layout
  *------------------------------------------------------------------*/
 .container {
-	padding: $unit-md;
+	margin: 0 auto;
+}
+
+.container-lg {
+	max-width: $width-lg;
+}
+
+.container-md {
+	max-width: $width-md;
 }

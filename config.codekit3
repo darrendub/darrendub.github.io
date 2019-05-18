@@ -1482,6 +1482,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/avatar/nav-avatar.jpg": {
+		"ft": 16384,
+		"iS": 3306,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/avatar/nav-avatar.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1544,6 +1555,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/sass/_layout.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/sass/_nav.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/sass/_nav.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
