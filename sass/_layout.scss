@@ -2,7 +2,8 @@
  * Layout
  *------------------------------------------------------------------*/
 .container {
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .container-lg {
@@ -11,4 +12,56 @@
 
 .container-md {
 	max-width: $width-md;
+}
+
+.dark-mode {
+	background-color: $coal;
+}
+
+// Study Card
+
+.study-card {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	background-color: $white;
+	border: 1px solid $fog;
+	border-radius: $unit-sm/2;
+	box-shadow: 0 12px 26px rgba(0,0,0,0.20), 0 8px 8px rgba(0,0,0,0.20);
+	padding: $unit-xxl*3 $unit-xxl*2;
+	margin-top: $unit-xxl;
+
+	&:hover {
+		box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.30);
+		transition: box-shadow 0.4s cubic-bezier(.25,.8,.25,1);
+	}
+}	
+
+.study-text {
+	margin-left: $unit-xxl*2;
+}
+
+.study-badge-list {
+	display: inline-flex;
+	list-style: none;
+	margin-bottom: $unit-sm;
+}
+.study-badge {
+	@extend .type-bold;
+	font-family: $sans;
+	color: $coal;
+	font-size: .75em;
+	background-color: $fog;
+	padding: $unit-sm/2 $unit-sm;
+	border-radius: $unit-md;
+	margin-right: $unit-sm;
+}
+
+.study-card-link {
+	text-decoration: none;
+	width: 100%;
+}
+
+.study-soon {
+	opacity: .6;
 }

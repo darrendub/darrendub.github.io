@@ -4,11 +4,10 @@
 nav {
 	margin-top: $unit-xxl;
 	margin-bottom: $unit-xxl;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: $unit-lg;
+	margin-right: $unit-lg;
 	display: flex;
 	justify-content: space-between;
-	max-width: $width-lg;
 	align-items: center;
 }
 
@@ -28,6 +27,10 @@ nav {
   margin-left: $unit-md;
 }
 
+a.type-white {
+	color: $white;
+}
+
 .nav-list li {
 	display: inline-block;
 	margin-left: $unit-lg;
@@ -42,4 +45,8 @@ nav {
 
 .nav-list a:visited {
 	color: $coal;
+}
+
+.type-white a:visited {
+	color: $white;
 }

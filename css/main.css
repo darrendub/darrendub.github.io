@@ -40,7 +40,8 @@ img {
 
 .type-xxl {
   font-size: 3.13em;
-  font-weight: 600; }
+  font-weight: 600;
+  line-height: 1.25; }
 
 .type-xl {
   font-size: 2.25em; }
@@ -57,11 +58,27 @@ img {
 .type-concrete {
   color: #959da5; }
 
+.type-white {
+  color: #ffffff; }
+
 .type-coal {
   color: #444d56; }
 
 .type-ruby {
   color: #E01D5A; }
+
+.type-sky-blue {
+  color: #8CC2FF; }
+
+.type-hover-mint:hover {
+  color: #90D6B6;
+  transition: color 0.4s;
+  transition-timing-function: ease-in-out; }
+
+.type-hover-plum:hover {
+  color: #8E8DBE;
+  transition: color 0.4s;
+  transition-timing-function: ease-in-out; }
 
 .type-link {
   color: #4B88F0;
@@ -73,6 +90,10 @@ img {
 .type-center {
   text-align: center; }
 
+.type-upper {
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
 code, .type-code {
   font-family: Andale Mono, Courier, monospace;
   color: #E01D5A;
@@ -82,7 +103,7 @@ code, .type-code {
   border-radius: 2px;
   font-size: .75em; }
 
-strong, b, .type-bold {
+strong, b, .type-bold, .study-badge {
   font-weight: 600; }
 
 .hr-rule {
@@ -323,7 +344,8 @@ strong, b, .type-bold {
  * Layout
  *------------------------------------------------------------------*/
 .container {
-  margin: 0 auto; }
+  margin-left: auto;
+  margin-right: auto; }
 
 .container-lg {
   max-width: 900px; }
@@ -331,17 +353,57 @@ strong, b, .type-bold {
 .container-md {
   max-width: 600px; }
 
+.dark-mode {
+  background-color: #444d56; }
+
+.study-card {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid #f6f8fa;
+  border-radius: 4px;
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.2), 0 8px 8px rgba(0, 0, 0, 0.2);
+  padding: 120px 80px;
+  margin-top: 40px; }
+  .study-card:hover {
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1); }
+
+.study-text {
+  margin-left: 80px; }
+
+.study-badge-list {
+  display: inline-flex;
+  list-style: none;
+  margin-bottom: 8px; }
+
+.study-badge {
+  font-family: "Whitney SSm A", "Whitney SSm B", "Whitney", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #444d56;
+  font-size: .75em;
+  background-color: #f6f8fa;
+  padding: 4px 8px;
+  border-radius: 16px;
+  margin-right: 8px; }
+
+.study-card-link {
+  text-decoration: none;
+  width: 100%; }
+
+.study-soon {
+  opacity: .6; }
+
 /*--------------------------------------------------------------------
  * Nav
  *------------------------------------------------------------------*/
 nav {
   margin-top: 40px;
   margin-bottom: 40px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 24px;
+  margin-right: 24px;
   display: flex;
   justify-content: space-between;
-  max-width: 900px;
   align-items: center; }
 
 .nav-avatar-img {
@@ -358,6 +420,9 @@ nav {
   text-decoration: none;
   margin-left: 16px; }
 
+a.type-white {
+  color: #ffffff; }
+
 .nav-list li {
   display: inline-block;
   margin-left: 24px;
@@ -370,6 +435,17 @@ nav {
 
 .nav-list a:visited {
   color: #444d56; }
+
+.type-white a:visited {
+  color: #ffffff; }
+
+/*--------------------------------------------------------------------
+ * Footer
+ *------------------------------------------------------------------*/
+footer {
+  background-color: #1C2024;
+  padding: 32px;
+  margin-top: 40px; }
 
 /*--------------------------------------------------------------------
  * Helper

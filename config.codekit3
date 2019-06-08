@@ -1026,6 +1026,14 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/highlights.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/highlights.html",
+		"oF": 0
+		},
 	"/hire-darren/@twitter.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1519,6 +1527,19 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"/sass/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/sass/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"/sass/_grid.scss": {
 		"aP": 0,
