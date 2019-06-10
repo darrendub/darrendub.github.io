@@ -18,16 +18,16 @@ nav {
 .nav-avatar {
 	display: flex;
 	align-items: center;
-}
-.nav-avatar-title {
 	font-family: $sans;
   color: $coal;
   font-weight: $weight-semi;
   text-decoration: none;
-  margin-left: $unit-md;
+}
+.nav-avatar-title {
+	margin-left: $unit-md;
 }
 
-a.type-white {
+a.type-white, p.type-white {
 	color: $white;
 }
 

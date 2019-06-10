@@ -33,6 +33,14 @@
 		"oAP": "/404.html",
 		"oF": 0
 		},
+	"/about.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/about.html",
+		"oF": 0
+		},
 	"/CNAME": {
 		"cB": 0,
 		"ft": 8192,
@@ -1424,6 +1432,61 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"/img/about/about-family.jpg": {
+		"ft": 16384,
+		"iS": 379498,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/about/about-family.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/about/about-friends.jpg": {
+		"ft": 16384,
+		"iS": 383918,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/about/about-friends.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/about/about-home.jpg": {
+		"ft": 16384,
+		"iS": 414094,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/about/about-home.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/about/about-sf.jpg": {
+		"ft": 16384,
+		"iS": 253501,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/about/about-sf.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/about/about-sophia.jpg": {
+		"ft": 16384,
+		"iS": 186551,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/about/about-sophia.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/avatar/avatar-16.png": {
 		"ft": 32768,
 		"iS": 826,
@@ -1490,15 +1553,81 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/img/avatar/nav-avatar.jpg": {
-		"ft": 16384,
-		"iS": 3306,
-		"jF": 0,
+	"/img/avatar/nav-avatar.png": {
+		"ft": 32768,
+		"iS": 9554,
 		"oA": 0,
-		"oAP": "/img/avatar/nav-avatar.jpg",
+		"oAP": "/img/avatar/nav-avatar.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/case-studies/highlights/highlights-hero.png": {
+		"ft": 32768,
+		"iS": 256003,
+		"oA": 0,
+		"oAP": "/img/case-studies/highlights/highlights-hero.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/case-studies/highlights/highlights-inspiration.png": {
+		"ft": 32768,
+		"iS": 1577084,
+		"oA": 0,
+		"oAP": "/img/case-studies/highlights/highlights-inspiration.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/case-studies/highlights/highlights-iteration.png": {
+		"ft": 32768,
+		"iS": 2417790,
+		"oA": 0,
+		"oAP": "/img/case-studies/highlights/highlights-iteration.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/case-studies/highlights/hlr-solution-filter.png": {
+		"ft": 32768,
+		"iS": 901451,
+		"oA": 0,
+		"oAP": "/img/case-studies/highlights/hlr-solution-filter.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/case-studies/highlights/hlr-solution.png": {
+		"ft": 32768,
+		"iS": 346825,
+		"oA": 0,
+		"oAP": "/img/case-studies/highlights/hlr-solution.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/case-studies/highlights/mural-opportunity.png": {
+		"ft": 32768,
+		"iS": 263084,
+		"oA": 0,
+		"oAP": "/img/case-studies/highlights/mural-opportunity.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/index.html": {

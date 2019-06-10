@@ -30,7 +30,7 @@ img {
 /*--------------------------------------------------------------------
  * Typography
  *------------------------------------------------------------------*/
-.type-xxl, .type-xl, .type-lg, .type-md, .type-sm {
+.type-xxl, .type-xl, .type-lg, .type-md, .timeline-title, .type-sm, .timeline-time, .timeline-activity {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -49,10 +49,10 @@ img {
 .type-lg {
   font-size: 1.7em; }
 
-.type-md {
+.type-md, .timeline-title {
   font-size: 1.31em; }
 
-.type-sm {
+.type-sm, .timeline-time, .timeline-activity {
   font-size: 1em; }
 
 .type-concrete {
@@ -71,7 +71,7 @@ img {
   color: #8CC2FF; }
 
 .type-hover-mint:hover {
-  color: #90D6B6;
+  color: #0EB76B;
   transition: color 0.4s;
   transition-timing-function: ease-in-out; }
 
@@ -87,10 +87,17 @@ img {
   border-radius: 2px;
   font-weight: 600; }
 
+.type-link-white {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 2px;
+  border-radius: 2px;
+  font-weight: 600; }
+
 .type-center {
   text-align: center; }
 
-.type-upper {
+.type-upper, .timeline-time {
   text-transform: uppercase;
   letter-spacing: 1px; }
 
@@ -103,12 +110,36 @@ code, .type-code {
   border-radius: 2px;
   font-size: .75em; }
 
-strong, b, .type-bold, .study-badge {
+strong, b, .type-bold, .badge, .timeline-time {
   font-weight: 600; }
+
+em, .type-italic {
+  font-style: italic; }
 
 .hr-rule {
   border: none;
   border-top: 1px solid #f6f8fa; }
+
+.type-list {
+  margin-left: 16px;
+  line-height: 2; }
+
+.type-list-none {
+  list-style: none;
+  margin-left: -8px; }
+
+.badge {
+  font-family: "Whitney SSm A", "Whitney SSm B", "Whitney", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #444d56;
+  font-size: .75em;
+  background-color: #f6f8fa;
+  padding: 4px 8px;
+  border-radius: 16px;
+  margin-right: 8px; }
+
+.badge-dark {
+  background-color: #959da5;
+  color: #ffffff; }
 
 /*--------------------------------------------------------------------
  * Grid
@@ -343,21 +374,37 @@ strong, b, .type-bold, .study-badge {
 /*--------------------------------------------------------------------
  * Layout
  *------------------------------------------------------------------*/
+html, body {
+  height: 100%; }
+
+body {
+  display: flex;
+  flex-direction: column; }
+
 .container {
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  flex: 1 0 auto; }
+  @media (max-width: 624px) {
+    .container {
+      margin-left: 16px;
+      margin-right: 16px; } }
+
+.container-xl {
+  max-width: 1200px; }
 
 .container-lg {
   max-width: 900px; }
 
 .container-md {
-  max-width: 600px; }
+  max-width: 624px; }
 
 .dark-mode {
   background-color: #444d56; }
 
 .study-card {
   display: flex;
+  position: relative;
   align-items: center;
   width: 100%;
   background-color: #ffffff;
@@ -366,26 +413,24 @@ strong, b, .type-bold, .study-badge {
   box-shadow: 0 12px 26px rgba(0, 0, 0, 0.2), 0 8px 8px rgba(0, 0, 0, 0.2);
   padding: 120px 80px;
   margin-top: 40px; }
+  @media (max-width: 624px) {
+    .study-card {
+      padding: 24px 16px;
+      display: block; } }
   .study-card:hover {
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.3);
     transition: box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1); }
 
 .study-text {
   margin-left: 80px; }
+  @media (max-width: 480px) {
+    .study-text {
+      margin-left: 8px; } }
 
 .study-badge-list {
   display: inline-flex;
   list-style: none;
   margin-bottom: 8px; }
-
-.study-badge {
-  font-family: "Whitney SSm A", "Whitney SSm B", "Whitney", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  color: #444d56;
-  font-size: .75em;
-  background-color: #f6f8fa;
-  padding: 4px 8px;
-  border-radius: 16px;
-  margin-right: 8px; }
 
 .study-card-link {
   text-decoration: none;
@@ -393,6 +438,62 @@ strong, b, .type-bold, .study-badge {
 
 .study-soon {
   opacity: .6; }
+  .study-soon:before {
+    content: 'Coming Soon';
+    background-color: #0EB76B;
+    color: #ffffff;
+    padding: 8px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    border-radius: 4px;
+    font-family: "Whitney SSm A", "Whitney SSm B", "Whitney", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 600;
+    opacity: 1; }
+
+.background-mint {
+  background-color: #0EB76B; }
+
+.background-fog {
+  background-color: #f6f8fa; }
+
+.timeline {
+  position: relative; }
+  .timeline:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 2px;
+    background: #444d56; }
+  .timeline ul {
+    list-style: none;
+    padding-left: 8px; }
+  .timeline span {
+    display: block; }
+
+.timeline-time {
+  margin-top: 16px; }
+  .timeline-time:before {
+    content: '';
+    display: inline-block;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border: 3px solid #444d56;
+    border-radius: 100%;
+    background-clip: padding-box;
+    margin-left: -16px;
+    margin-right: 8px;
+    vertical-align: middle; }
+
+.timeline-title {
+  margin-left: 8px; }
+
+.timeline-activity {
+  color: #959da5;
+  margin-left: 8px; }
 
 /*--------------------------------------------------------------------
  * Nav
@@ -411,16 +512,16 @@ nav {
 
 .nav-avatar {
   display: flex;
-  align-items: center; }
-
-.nav-avatar-title {
+  align-items: center;
   font-family: "Whitney SSm A", "Whitney SSm B", "Whitney", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: #444d56;
   font-weight: 600;
-  text-decoration: none;
+  text-decoration: none; }
+
+.nav-avatar-title {
   margin-left: 16px; }
 
-a.type-white {
+a.type-white, p.type-white {
   color: #ffffff; }
 
 .nav-list li {
@@ -444,8 +545,8 @@ a.type-white {
  *------------------------------------------------------------------*/
 footer {
   background-color: #1C2024;
-  padding: 32px;
-  margin-top: 40px; }
+  padding: 40px 32px;
+  flex-shrink: 0; }
 
 /*--------------------------------------------------------------------
  * Helper
