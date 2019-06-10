@@ -39,6 +39,15 @@ body {
 
 // Study Card
 
+.card {
+	width: 100%;
+	background-color: $white;
+	border: 1px solid $fog;
+	border-radius: $unit-sm/2;
+	padding: $unit-lg $unit-md;
+	box-shadow: 0 12px 26px rgba(0,0,0,0.20), 0 8px 8px rgba(0,0,0,0.20);
+}
+
 .study-card {
 	@media (max-width: $width-md) {
 		padding: $unit-lg $unit-md;
@@ -48,10 +57,6 @@ body {
 	position: relative;
 	align-items: center;
 	width: 100%;
-	background-color: $white;
-	border: 1px solid $fog;
-	border-radius: $unit-sm/2;
-	box-shadow: 0 12px 26px rgba(0,0,0,0.20), 0 8px 8px rgba(0,0,0,0.20);
 	padding: $unit-xxl*3 $unit-xxl*2;
 	margin-top: $unit-xxl;
 
@@ -103,7 +108,11 @@ body {
 }
 
 .background-fog {
-	background-color: $fog
+	background-color: $fog;
+}
+
+.background-coal {
+	background-color: $coal;
 }
 
 // Timeline
