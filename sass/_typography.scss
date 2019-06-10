@@ -1,0 +1,153 @@
+/*--------------------------------------------------------------------
+ * Typography
+ *------------------------------------------------------------------*/
+
+ // Type Sizes
+
+.type-xxl, .type-xl, .type-lg, .type-md, .type-sm {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $sans;
+  color: $coal;
+  line-height: 1.5;
+}
+
+.type-xxl {
+	font-size: 3.13em; // 50px
+	font-weight: $weight-semi;
+	line-height: 1.25;
+}
+
+.type-xl {
+	font-size: 2.25em; // 36px
+}
+
+.type-lg {
+	font-size: 1.7em; // 27px
+}
+
+.type-md {
+	font-size: 1.31em; // 21px
+}
+
+.type-sm {
+	font-size: 1em; // 16px
+}
+
+// Type Colors
+
+.type-concrete {
+	color: $concrete;
+}
+
+.type-white {
+	color: $white;
+}
+
+.type-coal {
+	color: $coal;
+}
+
+.type-ruby {
+	color: $ruby;
+}
+
+.type-sky-blue {
+	color: $sky-blue;
+}
+
+// Type Hovers
+
+.type-hover-mint {
+	&:hover {
+	color: $mint;
+	transition: color 0.4s;
+	transition-timing-function: ease-in-out;
+	}
+}
+
+.type-hover-plum {
+	&:hover {
+	color: $plum;
+	transition: color 0.4s;
+	transition-timing-function: ease-in-out;
+	}
+}
+
+// Type Styles
+
+.type-link {
+	color: $link;
+	background-color: rgba( $link, 0.1 );
+	padding: 2px;
+	border-radius: 2px;
+	font-weight: $weight-semi;
+}
+
+.type-link-white {
+	color: $white;
+	background-color: rgba( $white, 0.1 );
+	padding: 2px;
+	border-radius: 2px;
+	font-weight: $weight-semi;
+}
+
+.type-center {
+	text-align: center;
+}
+
+.type-upper {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+code, .type-code {
+	font-family: Andale Mono, Courier, monospace;
+	color: $ruby;
+	background-color: $fog;
+	border: 1px solid darken( $fog, 10% );
+	padding: 2px;
+	border-radius: 2px;
+	font-size: .75em;
+}
+
+strong, b, .type-bold {
+	font-weight: $weight-semi;
+}
+
+em, .type-italic {
+	font-style: italic;
+}
+
+.hr-rule {
+	 border: none;
+   border-top: 1px solid $fog;
+}
+
+.type-list {
+	margin-left: $unit-md;
+	line-height: 2;
+}
+
+.type-list-none {
+	list-style: none;
+	margin-left: -$unit-sm;
+}
+
+// Badge
+.badge {
+	@extend .type-bold;
+	font-family: $sans;
+	color: $coal;
+	font-size: .75em;
+	background-color: $fog;
+	padding: $unit-sm/2 $unit-sm;
+	border-radius: $unit-md;
+	margin-right: $unit-sm;
+}
+
+.badge-dark {
+	background-color: $concrete;
+	color: $white;
+}

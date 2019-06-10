@@ -1,0 +1,822 @@
+/*--------------------------------------------------------------------
+ * darrendub.com
+ *------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------
+ * darrenfit: A dashboard of Darren Wong
+ *------------------------------------------------------------------*/
+
+/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
+ */
+
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ * 2. Add the correct display in IE.
+ */
+
+article,
+aside,
+details, /* 1 */
+figcaption,
+figure,
+footer,
+header,
+main, /* 2 */
+menu,
+nav,
+section,
+summary { /* 1 */
+  display: block;
+}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Add the correct display in IE 10-.
+ * 1. Add the correct display in IE.
+ */
+
+template, /* 1 */
+[hidden] {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+
+a {
+  background-color: transparent; /* 1 */
+  -webkit-text-decoration-skip: objects; /* 2 */
+}
+
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+
+b,
+strong {
+  font-weight: inherit;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+
+img {
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct margin in IE 8.
+ */
+
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change font properties to `inherit` in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+select,
+textarea {
+  font: inherit; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Restore the font weight unset by the previous rule.
+ */
+
+optgroup {
+  font-weight: bold;
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+html [type="button"], /* 1 */
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.
+ */
+
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Correct the text style of placeholders in Chrome, Edge, and Safari.
+ */
+
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+//--------------------------------------------------------------------
+// Spacing
+//--------------------------------------------------------------------
+
+$unit-small:	25px;
+$unit-medium:	50px;
+$unit-large:	100px;
+
+
+//--------------------------------------------------------------------
+// Breakpoints
+//--------------------------------------------------------------------
+
+$bp-small:		26em;
+$bp-medium:		35em;
+$bp-large:		48em;
+$bp-xlarge:		60em;
+
+
+//--------------------------------------------------------------------
+// Colors
+//--------------------------------------------------------------------
+$fitbit-teal:			#3EC1C1;
+$fitbit-light-teal:		#90DCE2;
+$fitbit-pink:			#F23A6D;
+$fitbit-light-pink:		#F782A2;
+$fitbit-orange:			#EF7C4D;
+$fitbit-light-blue:		#ABF9FF;
+$fitbit-dark-blue:		#00558C;
+$fitbit-yellow:			#EFCD4D;
+$fitbit-purple:			#3023AE;
+$fitbit-light-purple:	#C86DD7;
+$coal:					#343233;
+$white:					#FFF;
+
+.yellow-gradient {
+	background: -webkit-linear-gradient(36deg, $fitbit-yellow, $fitbit-orange);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.pink-gradient {
+	background: -webkit-linear-gradient(36deg, $fitbit-pink, $fitbit-light-pink);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.blue-gradient {
+	background: -webkit-linear-gradient(36deg, $fitbit-light-blue, $fitbit-dark-blue);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.purple-gradient {
+	background: -webkit-linear-gradient(36deg, $fitbit-light-purple, $fitbit-purple);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+.bg {
+	&-yellow-gradient {
+		background: -webkit-linear-gradient(36deg, $fitbit-yellow, $fitbit-orange);
+		background-color: $fitbit-orange;
+	}
+	&-pink-gradient {
+		background: -webkit-linear-gradient(36deg, $fitbit-pink, $fitbit-light-pink);
+		background-color: $fitbit-pink;
+	}
+	&-blue-gradient {
+		background: -webkit-linear-gradient(36deg, $fitbit-light-blue, $fitbit-dark-blue);
+		background-color: $fitbit-light-blue;
+	}
+	&-purple-gradient {
+		background: -webkit-linear-gradient(36deg, $fitbit-light-purple, $fitbit-purple);
+		background-color: $fitbit-light-purple;
+	}
+}
+
+//--------------------------------------------------------------------
+// Typefaces
+//--------------------------------------------------------------------
+
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100,300,500';
+@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700';
+
+$font-sans:				'Montserrat', sans-serif;	
+$font-mono:				'Roboto Mono', monospace;
+
+//--------------------------------------------------------------------
+// Units
+//--------------------------------------------------------------------
+$unit-xsmall:			12px;
+$unit-small:			25px;
+$unit-medium:			50px;
+$unit-large:			100px;
+
+
+//--------------------------------------------------------------------
+// Headings
+//--------------------------------------------------------------------
+h1	{
+	font-family: $font-sans;
+	font-weight: 400; 
+	text-align: center;
+	color: $white;
+	font-size: 3em;
+}
+
+//--------------------------------------------------------------------
+// Type
+//--------------------------------------------------------------------
+
+p {
+	-webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    margin: 0;
+}
+
+.title {
+	font-family: $font-mono;
+	font-size: .75em;
+	letter-spacing: .5em;
+	text-transform: uppercase;
+	font-weight: 500;
+	padding-bottom: 5px;
+	color: $white;
+}
+.description {
+	font-family: $font-mono;
+	font-size: 1em;
+	font-weight: 300;
+	color: $white;
+}
+
+.data {
+	font-family: $font-mono;
+	font-size: 3em;
+	font-weight: 100;
+	color: $white;
+	@media (min-width: $bp-medium) {
+		font-size: 5em;
+	}
+}
+
+.thick {
+	font-weight: 700;
+	// -webkit-text-stroke-width: 1px;
+   // -webkit-text-stroke-color: $white;
+}
+.thin {
+	font-weight: 400;
+	-webkit-text-stroke-width: 1.5px;
+   -webkit-text-stroke-color: $fitbit-teal;
+}
+
+a {
+	text-decoration: none;
+}
+
+.bold {
+	font-weight: 500px;
+}
+
+.fitbit-teal {
+	color: $fitbit-teal;
+}
+
+//--------------------------------------------------------------------
+// Structure
+//--------------------------------------------------------------------
+
+body {
+	webkit-font-smoothing: antialiased;
+}
+
+.intro {
+	padding: $unit-medium;
+	background: $fitbit-teal;
+	@media (min-width: $bp-medium) {
+		padding: $unit-large;
+	}
+	p {
+		font-family: $font-mono;
+		color: $white;
+		text-align: center;
+		font-weight: 400;
+	}
+}
+
+.container {
+	padding: $unit-small;
+	@media (min-width: $bp-medium) {
+		padding: $unit-medium;
+	}
+}
+.tile {
+	background-image: linear-gradient(-135deg, #085A92 0%, #001945 100%);
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.25);
+	border-radius: 10px;
+	padding: $unit-small;
+}
+
+.bg-teal-gradient {
+		background: -webkit-linear-gradient(36deg, $fitbit-light-teal, $fitbit-teal);
+		background-color: $fitbit-teal;
+	}
+.circle {
+	border-radius: 50%;
+	max-width: 50px;
+}
+.data-point {
+	border-radius: $unit-large;
+	width: 80%;
+	padding: $unit-xsmall;
+	margin-bottom: $unit-small;
+	position: relative;
+	@media (min-width: $bp-medium) {
+	width: $unit-small;
+	height: $unit-small;
+	cursor: pointer;
+	transition: all 0.75s;
+		&:hover {
+			width: 80%;
+			.data-point-info {
+					opacity: 1;
+			}
+		}
+	}
+}
+.data-point-info {
+	color: $white;
+	font-family: $font-mono;
+	padding: $unit-xsmall/2;
+	font-size: .5em;
+	font-weight: 600;
+	opacity: 1;
+	transition: all 0.25s;
+	width: 100%;	
+	@media (min-width: $bp-medium) {
+		opacity: 0;
+		position: absolute;
+	}
+}
+.graph {
+
+	.title {
+		padding-bottom: $unit-small;
+	}
+
+	.description {
+		padding-bottom: $unit-small;
+		@media (min-width: $bp-medium) {
+			padding-bottom: 0;
+		}
+	}
+
+}
+.project-title {
+	background: $white;
+	padding: $unit-small;
+	margin-top: -5px;
+	color: $coal;
+	text-align: center;
+	font-family: $font-mono;
+	border-bottom-left-radius: .5em;
+	border-bottom-right-radius: .5em;
+	font-size: 1em;
+	font-weight: 300;
+}
+
+
+footer {
+	padding: $unit-small;
+	font-family: $font-mono;
+	color: $coal;
+	text-align: center;
+}
+//--------------------------------------------------------------------
+// Images
+//--------------------------------------------------------------------
+ img {
+ 	width:100%; 
+ }
+
+.project-img {
+	max-width: 500px;
+	padding-top: $unit-small;
+	@media (min-width: $bp-medium) {
+		padding-top: 0;
+	}
+}
+
+.flag {
+	max-width: $unit-medium + 10;
+	padding-right: 1em;
+	vertical-align: middle;
+}
+
+
+//--------------------------------------------------------------------
+// Helper
+//--------------------------------------------------------------------
+
+.mt1 {
+	margin-top:1em;
+}
+
+.pb1 {
+	padding-bottom: 1em;
+}
+
+hr {
+	margin-top: $unit-medium;
+}
+
+//--------------------------------------------------------------------
+// Import
+//--------------------------------------------------------------------
+/*--------------------------------------------------------------------
+ * Grid 
+ * Adapted from Philip Walton 
+ * http://philipwalton.github.io/solved-by-flexbox/
+ *------------------------------------------------------------------*/
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.grid-cell {
+  flex: 1;
+}
+
+
+.grid-full {
+  .grid-cell {
+    flex: 0 0 100%;
+    @media (min-width: $bp-medium) {
+      flex: 1;
+    }
+  }
+}
+
+.grid-gutters {
+  margin: -1em 0 1em -1em;
+    .grid-cell {
+      padding: 1em 0 0 1em;
+    }
+}
+
+// @media (min-width: $bp-medium) {
+//   .grid-full {
+//     .grid-cell {
+//       flex: 1;
+//     }
+//   }
+// }
+
+// add this to flip your grid (2up) - ensure the HTML is the same (img + text) as none-reversed grid
+.grid-reverse {
+  flex-direction: row-reverse;
+}
+
+.grid-start {
+  justify-content: flex-start;
+  align-self: flex-start;
+}
+
+.grid-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-end {
+  align-items: flex-end;
+  justify-content: flex-end;
+  align-self: flex-end;
+}
+
+
+
+
+
+.grid-gutters {
+  margin: -1em 1em 1em -1em;
+    .grid-cell {
+      padding: 1em 0 0 1em;
+    }
+}
+

@@ -1,82 +1,60 @@
 /*--------------------------------------------------------------------
- * Settings - Variables for project
+ * Settings - Variables
  *------------------------------------------------------------------*/
 
 //--------------------------------------------------------------------
 // Type
 //--------------------------------------------------------------------
 
-$serif: serif;
-$sans: "Whitney SSm A", "Whitney SSm B", "Whitney", sans-serif;
-
+$sans: "Whitney SSm A", "Whitney SSm B", "Whitney", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $weight-book: 	400;
 $weight-medium: 500;
 $weight-semi:	600;
 
 //--------------------------------------------------------------------
-// Color
+// Unit
 //--------------------------------------------------------------------
 
-$coal: 			#444;
-$white: 		#fff;
-$deep-sea-blue: #2c3e50;
-$blue:			#0074D9;
-$link-blue: 	#268bd2;
-$clouds: 		#f8f8f8;
-$silver: 		#e1e1e1;
-$moss:			#B2FFA9;
-$sunflower:		#FFEAB6;
+$unit-sm:		8px;
+$unit-md:		16px;
+$unit-lg:		24px;
+$unit-xl:		32px;
+$unit-xxl:	40px;
 
-//--------------------------------------------------------------------
-// Spacing
-//--------------------------------------------------------------------
-
-$unit-small:	25px;
-$unit-medium:	50px;
-$unit-large:	100px;
-
-
-//--------------------------------------------------------------------
-// Breakpoints
-//--------------------------------------------------------------------
-
-$bp-small:		26em;
-$bp-medium:		40em;
-$bp-large:		48em;
-$bp-xlarge:		60em;
-
-//--------------------------------------------------------------------
-// Z Index
-//--------------------------------------------------------------------
-
-$z-100:			100;
-$z-200:			200;
-$z-300:			300;	
 
 //--------------------------------------------------------------------
 // Widths
 //--------------------------------------------------------------------
 
-.one-whole {
-	width: 100%;
-}
+$width-sm: 480px;
+$width-md: 624px;
+$width-lg: 900px;
+$width-xl: 1200px;
 
-.one-half {
-	width: 100%;
-	@media (min-width: $bp-medium) {
-		width: 50%;	
-	}
-}
 
-.one-third {
-	width: 100%;
-	@media (min-width: $bp-medium) {
-		width: 33%;	
-	}
-}
-.two-thirds {
-	width: 100%;
-	@media (min-width: $bp-medium) {
-		width: 75%;	
-	}
-}
+//--------------------------------------------------------------------
+// Screen Sizes
+//--------------------------------------------------------------------
+
+$screen-sm: $width-sm;
+$screen-md: $width-md;
+$screen-lg: 744px;
+
+
+
+//--------------------------------------------------------------------
+// Color
+//--------------------------------------------------------------------
+
+$coal: 			#444d56;
+$dark-coal:	#1C2024;
+$concrete:	#959da5;
+$fog:				#f6f8fa;
+$link:			#4B88F0;
+$ruby:			#E01D5A;
+$white: 		#ffffff;
+$mint:			#0EB76B;
+$plum:			#8E8DBE;
+$sky-blue:	#8CC2FF;
+
+

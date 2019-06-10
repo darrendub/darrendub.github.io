@@ -1,1 +1,1 @@
-# An open redesign of darrendub.com
+# The internet site of @darrendub
