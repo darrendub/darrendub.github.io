@@ -402,15 +402,19 @@ body {
 .dark-mode {
   background-color: #444d56; }
 
+.card {
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid #f6f8fa;
+  border-radius: 4px;
+  padding: 24px 16px;
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.2), 0 8px 8px rgba(0, 0, 0, 0.2); }
+
 .study-card {
   display: flex;
   position: relative;
   align-items: center;
   width: 100%;
-  background-color: #ffffff;
-  border: 1px solid #f6f8fa;
-  border-radius: 4px;
-  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.2), 0 8px 8px rgba(0, 0, 0, 0.2);
   padding: 120px 80px;
   margin-top: 40px; }
   @media (max-width: 624px) {
@@ -456,6 +460,9 @@ body {
 
 .background-fog {
   background-color: #f6f8fa; }
+
+.background-coal {
+  background-color: #444d56; }
 
 .timeline {
   position: relative; }
@@ -545,7 +552,7 @@ a.type-white, p.type-white {
  *------------------------------------------------------------------*/
 footer {
   background-color: #1C2024;
-  padding: 40px 32px;
+  padding: 80px 32px;
   flex-shrink: 0; }
 
 /*--------------------------------------------------------------------
