@@ -17,6 +17,9 @@
 	font-size: 3.13em; // 50px
 	font-weight: $weight-semi;
 	line-height: 1.25;
+	@media (max-width: $width-md) {
+		font-size: 2.25em;
+	}
 }
 
 .type-xl {
