@@ -42,7 +42,7 @@ img {
   font-size: 3.13em;
   font-weight: 600;
   line-height: 1.25; }
-  @media (max-width: 624px) {
+  @media (max-width: 680px) {
     .type-xxl {
       font-size: 2.25em; } }
 
@@ -364,7 +364,7 @@ em, .type-italic {
     flex: 100%;
     max-width: 100%; } }
 
-@media only screen and (max-width: 624px) {
+@media only screen and (max-width: 680px) {
   .col-md {
     flex: 100%;
     max-width: 100%; } }
@@ -388,7 +388,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   flex: 1 0 auto; }
-  @media (max-width: 624px) {
+  @media (max-width: 680px) {
     .container {
       margin-left: 16px;
       margin-right: 16px; } }
@@ -400,7 +400,7 @@ body {
   max-width: 900px; }
 
 .container-md {
-  max-width: 624px; }
+  max-width: 680px; }
 
 .dark-mode {
   background-color: #444d56; }
@@ -420,7 +420,7 @@ body {
   width: 100%;
   padding: 120px 80px;
   margin-top: 40px; }
-  @media (max-width: 624px) {
+  @media (max-width: 680px) {
     .study-card {
       padding: 24px 16px;
       display: block; } }
