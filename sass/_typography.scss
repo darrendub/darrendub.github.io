@@ -10,7 +10,7 @@
   -moz-osx-font-smoothing: grayscale;
   font-family: $sans;
   color: $coal;
-  line-height: 1.5;
+  line-height: 1.8;
 }
 
 .type-xxl {
@@ -153,4 +153,9 @@ em, .type-italic {
 .badge-dark {
 	background-color: $concrete;
 	color: $white;
+}
+
+// Caption
+figcaption {
+	color: $concrete;
 }
