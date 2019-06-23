@@ -400,7 +400,7 @@ body {
   max-width: 1200px; }
 
 .container-lg {
-  max-width: 900px; }
+  max-width: 800px; }
 
 .container-md {
   max-width: 680px; }
@@ -469,6 +469,12 @@ body {
 
 .background-coal {
   background-color: #444d56; }
+
+.background-plum {
+  background-color: #8E8DBE; }
+
+.background-cobalt {
+  background-color: #336DD8; }
 
 .timeline {
   position: relative; }
