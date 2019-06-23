@@ -88,14 +88,16 @@ img {
   background-color: rgba(75, 136, 240, 0.1);
   padding: 2px;
   border-radius: 2px;
-  font-weight: 600; }
+  font-weight: 600;
+  word-wrap: break-word; }
 
 .type-link-white {
   color: #ffffff;
   background-color: rgba(255, 255, 255, 0.1);
   padding: 2px;
   border-radius: 2px;
-  font-weight: 600; }
+  font-weight: 600;
+  word-wrap: break-word; }
 
 .type-center {
   text-align: center; }
