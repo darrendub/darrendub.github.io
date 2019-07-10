@@ -35,7 +35,74 @@ body {
 
 
 .dark-mode {
-	background-color: $coal;
+	background-color: $dark-coal;
+}
+
+//
+
+.intro-header {
+
+}
+.intro-avatar {
+	max-width: $unit-xxl*2;
+}
+
+.intro-switch {
+	max-width: ($unit-xxl + $unit-md);
+	position: absolute;
+  margin-left: ($unit-xxl + $unit-md);
+  margin-top: -$unit-md;
+}
+
+.icon-xxl {
+	max-width: $unit-xxl*2;
+}
+
+.divider-right {
+	border-right: 1px solid $fog;
+	@media (max-width: $width-md) {
+		border-right: none;
+	}
+}
+
+.cs-img {
+	max-width: 500px;
+}
+
+.highlight-blob-1 {
+	position: absolute;
+	max-width: 600px;
+	right: 0;
+  z-index: -10;
+  fill: $mint;
+  animation: move 10s ease-in-out infinite;
+  transform-origin: 50% 50%;
+}
+
+.highlight-blob-2 {
+	position: absolute;
+	max-width: 600px;
+	right: 0;
+	top:-100px;
+  z-index: -10;
+  fill: $dark-mint;
+  animation: move-reverse 20s ease-in-out infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes move {
+  0%   { transform: scale(1)   translate(10px, -30px); }
+  25%  { transform: scale(0.8, 1) translate(-100px, 10px) rotate(160deg); }
+  75%  { transform: scale(1.3) translate(-100px, 10px) rotate(-20deg); }
+  100% { transform: scale(1)   translate(10px, -30px); }
+}
+
+@keyframes move-reverse {
+	100% { transform: scale(1)   translate(10px, -30px); }
+	75%  { transform: scale(1.3) translate(-100px, 10px) rotate(-20deg); }
+	25%  { transform: scale(0.8, 1) translate(-100px, 10px) rotate(160deg); }
+  0%   { transform: scale(1)   translate(10px, -30px); }
+  
 }
 
 

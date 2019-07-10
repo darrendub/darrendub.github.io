@@ -49,7 +49,7 @@
     flex-basis: 0;
     max-width: 100%;
     min-width: 0;
-    padding: 0 $unit-sm 0 $unit-sm;
+    padding: 0 $unit-md 0 $unit-md;
 }
 
 ////////////////////////
@@ -90,6 +90,10 @@
     justify-content: center;
     flex-direction: column;
     display: flex;
+}
+
+.col-relative {
+    position: relative;
 }
 
 //Horizontal Grid Alignment

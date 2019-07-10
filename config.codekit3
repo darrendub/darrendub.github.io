@@ -2067,9 +2067,31 @@
 		},
 	"/img/avatar/nav-avatar.png": {
 		"ft": 32768,
-		"iS": 9554,
+		"iS": 35851,
 		"oA": 0,
 		"oAP": "/img/avatar/nav-avatar.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/avatar/switch-dark.png": {
+		"ft": 32768,
+		"iS": 11554,
+		"oA": 0,
+		"oAP": "/img/avatar/switch-dark.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/avatar/switch-light.png": {
+		"ft": 32768,
+		"iS": 12226,
+		"oA": 0,
+		"oAP": "/img/avatar/switch-light.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2252,6 +2274,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/case-studies/highlights/cs-highlights.png": {
+		"ft": 32768,
+		"iS": 99031,
+		"oA": 0,
+		"oAP": "/img/case-studies/highlights/cs-highlights.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/case-studies/highlights/highlights-hero.png": {
 		"ft": 32768,
 		"iS": 256003,
@@ -2344,6 +2377,19 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"/sass/_button.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/sass/_button.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"/sass/_footer.scss": {
 		"aP": 0,
