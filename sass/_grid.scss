@@ -49,7 +49,7 @@
     flex-basis: 0;
     max-width: 100%;
     min-width: 0;
-    padding: 0 $unit-sm 0 $unit-sm;
+    padding: 0 $unit-md 0 $unit-md;
 }
 
 ////////////////////////
@@ -74,6 +74,10 @@
 }
 
 //Column Content Alignment Classes
+
+.col-ml {
+    @extend .ml-xl;
+}
 .col-top {
     justify-content: flex-start !important;
     flex-direction: column;
@@ -90,6 +94,10 @@
     justify-content: center;
     flex-direction: column;
     display: flex;
+}
+
+.col-relative {
+    position: relative;
 }
 
 //Horizontal Grid Alignment

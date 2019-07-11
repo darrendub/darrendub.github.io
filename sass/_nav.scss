@@ -11,10 +11,6 @@ nav {
 	align-items: center;
 }
 
-.nav-avatar-img {
-	max-width: $unit-xl;
-}
-
 .nav-avatar {
 	display: flex;
 	align-items: center;
@@ -22,9 +18,6 @@ nav {
   color: $coal;
   font-weight: $weight-semi;
   text-decoration: none;
-}
-.nav-avatar-title {
-	margin-left: $unit-md;
 }
 
 a.type-white, p.type-white {

@@ -25,12 +25,36 @@
 		"oAP": "/.htaccess",
 		"oF": 0
 		},
+	"/400.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/400.html",
+		"oF": 0
+		},
+	"/401.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/401.html",
+		"oF": 0
+		},
 	"/404.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/404.html",
+		"oF": 0
+		},
+	"/500.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/500.html",
 		"oF": 0
 		},
 	"/about.html": {
@@ -2001,7 +2025,7 @@
 		},
 	"/img/avatar/avatar-16.png": {
 		"ft": 32768,
-		"iS": 826,
+		"iS": 869,
 		"oA": 0,
 		"oAP": "/img/avatar/avatar-16.png",
 		"oF": 0,
@@ -2012,7 +2036,7 @@
 		},
 	"/img/avatar/avatar-32.png": {
 		"ft": 32768,
-		"iS": 2696,
+		"iS": 2427,
 		"oA": 0,
 		"oAP": "/img/avatar/avatar-32.png",
 		"oF": 0,
@@ -2023,7 +2047,7 @@
 		},
 	"/img/avatar/avatar-48.png": {
 		"ft": 32768,
-		"iS": 5573,
+		"iS": 4753,
 		"oA": 0,
 		"oAP": "/img/avatar/avatar-48.png",
 		"oF": 0,
@@ -2034,7 +2058,7 @@
 		},
 	"/img/avatar/avatar-64.png": {
 		"ft": 32768,
-		"iS": 9645,
+		"iS": 7767,
 		"oA": 0,
 		"oAP": "/img/avatar/avatar-64.png",
 		"oF": 0,
@@ -2045,7 +2069,7 @@
 		},
 	"/img/avatar/avatar-96.png": {
 		"ft": 32768,
-		"iS": 20043,
+		"iS": 15213,
 		"oA": 0,
 		"oAP": "/img/avatar/avatar-96.png",
 		"oF": 0,
@@ -2056,7 +2080,7 @@
 		},
 	"/img/avatar/avatar.png": {
 		"ft": 32768,
-		"iS": 75580,
+		"iS": 52217,
 		"oA": 0,
 		"oAP": "/img/avatar/avatar.png",
 		"oF": 0,
@@ -2067,9 +2091,31 @@
 		},
 	"/img/avatar/nav-avatar.png": {
 		"ft": 32768,
-		"iS": 9554,
+		"iS": 35851,
 		"oA": 0,
 		"oAP": "/img/avatar/nav-avatar.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/avatar/switch-dark.png": {
+		"ft": 32768,
+		"iS": 11554,
+		"oA": 0,
+		"oAP": "/img/avatar/switch-dark.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/avatar/switch-light.png": {
+		"ft": 32768,
+		"iS": 12226,
+		"oA": 0,
+		"oAP": "/img/avatar/switch-light.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2318,6 +2364,127 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/index/icon-blond.png": {
+		"ft": 32768,
+		"iS": 7920,
+		"oA": 0,
+		"oAP": "/img/index/icon-blond.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/index/icon-drake.png": {
+		"ft": 32768,
+		"iS": 7478,
+		"oA": 0,
+		"oAP": "/img/index/icon-drake.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/index/icon-goals.png": {
+		"ft": 32768,
+		"iS": 7943,
+		"oA": 0,
+		"oAP": "/img/index/icon-goals.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/index/icon-three-things.png": {
+		"ft": 32768,
+		"iS": 7160,
+		"oA": 0,
+		"oAP": "/img/index/icon-three-things.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/index/index-connect.png": {
+		"ft": 32768,
+		"iS": 174339,
+		"oA": 0,
+		"oAP": "/img/index/index-connect.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/index/index-highlights.png": {
+		"ft": 32768,
+		"iS": 245942,
+		"oA": 0,
+		"oAP": "/img/index/index-highlights.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/index/index-swim.png": {
+		"ft": 32768,
+		"iS": 2039364,
+		"oA": 0,
+		"oAP": "/img/index/index-swim.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/index/social-connect.png": {
+		"ft": 32768,
+		"iS": 75620,
+		"oA": 0,
+		"oAP": "/img/index/social-connect.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/index/social-highlight.png": {
+		"ft": 32768,
+		"iS": 66041,
+		"oA": 0,
+		"oAP": "/img/index/social-highlight.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/index/social-index.png": {
+		"ft": 32768,
+		"iS": 171266,
+		"oA": 0,
+		"oAP": "/img/index/social-index.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/index/social-swim.png": {
+		"ft": 32768,
+		"iS": 388917,
+		"oA": 0,
+		"oAP": "/img/index/social-swim.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -2344,6 +2511,19 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"/sass/_button.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/sass/_button.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"/sass/_footer.scss": {
 		"aP": 0,

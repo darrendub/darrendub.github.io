@@ -48,6 +48,12 @@
 .mt-xxl {
 	margin-top: $unit-xxl;
 }
+.mt-xxxl {
+	margin-top: $unit-xxl*4;
+		@media (max-width: $width-md) {
+			margin-top: $unit-xxl;
+		}
+}
 
 .mb-sm {
 	margin-bottom: $unit-sm;
@@ -63,4 +69,20 @@
 }
 .mb-xxl {
 	margin-bottom: $unit-xxl;
+}
+
+.ml-sm {
+	margin-left: $unit-sm;
+}
+.ml-md {
+	margin-left: $unit-md;
+}
+.ml-lg {
+	margin-left: $unit-lg;
+}
+.ml-xl {
+	margin-left: $unit-xl;
+}
+.ml-xxl {
+	margin-left: $unit-xxl;
 }
