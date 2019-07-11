@@ -2452,22 +2452,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/img/index/social-highlight.png": {
+	"/img/index/social-highlights.png": {
 		"ft": 32768,
 		"iS": 66041,
 		"oA": 0,
-		"oAP": "/img/index/social-highlight.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/index/social-index.png": {
-		"ft": 32768,
-		"iS": 171266,
-		"oA": 0,
-		"oAP": "/img/index/social-index.png",
+		"oAP": "/img/index/social-highlights.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
