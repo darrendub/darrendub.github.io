@@ -60,23 +60,6 @@
 	color: $sky-blue;
 }
 
-// Type Hovers
-
-.type-hover-mint {
-	&:hover {
-	color: $mint;
-	transition: color 0.4s;
-	transition-timing-function: ease-in-out;
-	}
-}
-
-.type-hover-plum {
-	&:hover {
-	color: $plum;
-	transition: color 0.4s;
-	transition-timing-function: ease-in-out;
-	}
-}
 
 // Type Styles
 

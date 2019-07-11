@@ -73,16 +73,6 @@ img {
 .type-sky-blue {
   color: #8CC2FF; }
 
-.type-hover-mint:hover {
-  color: #0EB76B;
-  transition: color 0.4s;
-  transition-timing-function: ease-in-out; }
-
-.type-hover-plum:hover {
-  color: #8E8DBE;
-  transition: color 0.4s;
-  transition-timing-function: ease-in-out; }
-
 .type-link {
   color: #4B88F0;
   background-color: rgba(75, 136, 240, 0.1);
