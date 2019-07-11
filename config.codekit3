@@ -2274,17 +2274,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/img/case-studies/highlights/cs-highlights.png": {
-		"ft": 32768,
-		"iS": 99031,
-		"oA": 0,
-		"oAP": "/img/case-studies/highlights/cs-highlights.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/img/case-studies/highlights/highlights-hero.png": {
 		"ft": 32768,
 		"iS": 256003,
@@ -2345,6 +2334,83 @@
 		"iS": 263084,
 		"oA": 0,
 		"oAP": "/img/case-studies/highlights/mural-opportunity.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/index/icon-blond.png": {
+		"ft": 32768,
+		"iS": 7920,
+		"oA": 0,
+		"oAP": "/img/index/icon-blond.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/index/icon-drake.png": {
+		"ft": 32768,
+		"iS": 7478,
+		"oA": 0,
+		"oAP": "/img/index/icon-drake.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/index/icon-goals.png": {
+		"ft": 32768,
+		"iS": 7943,
+		"oA": 0,
+		"oAP": "/img/index/icon-goals.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/index/icon-three-things.png": {
+		"ft": 32768,
+		"iS": 7160,
+		"oA": 0,
+		"oAP": "/img/index/icon-three-things.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/index/index-connect.png": {
+		"ft": 32768,
+		"iS": 174339,
+		"oA": 0,
+		"oAP": "/img/index/index-connect.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/index/index-highlights.png": {
+		"ft": 32768,
+		"iS": 245942,
+		"oA": 0,
+		"oAP": "/img/index/index-highlights.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/index/index-swim.png": {
+		"ft": 32768,
+		"iS": 2039364,
+		"oA": 0,
+		"oAP": "/img/index/index-swim.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
