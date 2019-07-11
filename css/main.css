@@ -440,8 +440,13 @@ body {
 .dark-mode {
   background-color: #1C2024; }
 
-.intro-avatar {
-  max-width: 80px; }
+.card {
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid #f6f8fa;
+  border-radius: 4px;
+  padding: 24px 16px;
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.2), 0 8px 8px rgba(0, 0, 0, 0.2); }
 
 .intro-switch {
   max-width: 56px;
@@ -522,6 +527,9 @@ body {
 .background-coal {
   background-color: #444d56; }
 
+.background-coal-dark {
+  background-color: #1C2024; }
+
 .background-plum {
   background-color: #8E8DBE; }
 
@@ -577,9 +585,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center; }
-
-.nav-avatar-img {
-  max-width: 32px; }
 
 .nav-avatar {
   display: flex;
@@ -678,3 +683,18 @@ footer {
 
 .mb-xxl {
   margin-bottom: 40px; }
+
+.ml-sm {
+  margin-left: 8px; }
+
+.ml-md {
+  margin-left: 16px; }
+
+.ml-lg {
+  margin-left: 24px; }
+
+.ml-xl, .col-ml {
+  margin-left: 32px; }
+
+.ml-xxl {
+  margin-left: 40px; }

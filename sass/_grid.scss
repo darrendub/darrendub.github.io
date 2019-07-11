@@ -74,6 +74,10 @@
 }
 
 //Column Content Alignment Classes
+
+.col-ml {
+    @extend .ml-xl;
+}
 .col-top {
     justify-content: flex-start !important;
     flex-direction: column;
