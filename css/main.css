@@ -500,7 +500,7 @@ body {
 
 @keyframes move-flip {
   100% {
-    transform: scale(1) translate(-30px); }
+    transform: scale(1) translate(-10px, 30px); }
   75% {
     transform: scale(1.1) translate(10px) rotate(-20deg); }
   25% {
@@ -563,6 +563,22 @@ body {
 .timeline-activity {
   color: #959da5;
   margin-left: 8px; }
+
+.drop-cap {
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  color: #fff;
+  background-color: #8CC2FF;
+  font-size: 80px;
+  line-height: 120px;
+  margin-right: 24px;
+  float: left;
+  display: block;
+  position: relative;
+  font-family: Georgia, serif;
+  font-weight: 400;
+  border-radius: 8px; }
 
 /*--------------------------------------------------------------------
  * Nav
