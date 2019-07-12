@@ -1578,6 +1578,38 @@
 		"oAP": "/highlights.html",
 		"oF": 0
 		},
+	"/hire-darren/400.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/hire-darren/400.html",
+		"oF": 0
+		},
+	"/hire-darren/401.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/hire-darren/401.html",
+		"oF": 0
+		},
+	"/hire-darren/404.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/hire-darren/404.html",
+		"oF": 0
+		},
+	"/hire-darren/500.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/hire-darren/500.html",
+		"oF": 0
+		},
 	"/hire-darren/@twitter.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -2457,6 +2489,17 @@
 		"iS": 66041,
 		"oA": 0,
 		"oAP": "/img/index/social-highlights.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/index/social-index.png": {
+		"ft": 32768,
+		"iS": 158362,
+		"oA": 0,
+		"oAP": "/img/index/social-index.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

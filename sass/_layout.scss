@@ -116,7 +116,7 @@ body {
 }
 
 @keyframes move-flip {
-	100% { transform: scale(1)   translate(-30px); }
+	100% { transform: scale(1)   translate(-10px, 30px); }
 	75%  { transform: scale(1.1) translate(10px) rotate(-20deg); }
 	25%  { transform: scale(1, 0.8) translate(-50px, 10px) rotate(10deg); }
   0%   { transform: scale(1)   translate(-10px, 30px); }
@@ -203,4 +203,21 @@ body {
 	@extend .type-sm;
 	color: $concrete;
 	margin-left: $unit-sm;
+}
+
+// Dropcap
+.drop-cap	{
+	  width: $unit-xxl*3;
+    height: $unit-xxl*3;
+    text-align: center;
+    color: $white;
+    background-color: $sky-blue;
+    font-size: $unit-xxl*2;
+    line-height: $unit-xxl*3;
+    margin-right: $unit-lg;
+    float: left;
+    display: block;
+    position: relative;
+    font-family: Georgia, serif;
+    border-radius: $unit-sm;
 }
