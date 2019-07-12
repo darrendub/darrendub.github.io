@@ -568,7 +568,7 @@ body {
   width: 120px;
   height: 120px;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
   background-color: #8CC2FF;
   font-size: 80px;
   line-height: 120px;
@@ -577,7 +577,6 @@ body {
   display: block;
   position: relative;
   font-family: Georgia, serif;
-  font-weight: 400;
   border-radius: 8px; }
 
 /*--------------------------------------------------------------------

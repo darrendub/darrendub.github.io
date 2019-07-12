@@ -210,7 +210,7 @@ body {
 	  width: $unit-xxl*3;
     height: $unit-xxl*3;
     text-align: center;
-    color: #fff;
+    color: $white;
     background-color: $sky-blue;
     font-size: $unit-xxl*2;
     line-height: $unit-xxl*3;
@@ -219,6 +219,5 @@ body {
     display: block;
     position: relative;
     font-family: Georgia, serif;
-    font-weight: 400;
     border-radius: $unit-sm;
 }
