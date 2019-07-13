@@ -37,6 +37,10 @@ body {
 	background-color: $dark-coal;
 }
 
+.light-mode {
+	background-color: $fog;
+}
+
 // Card
 
 .card {
@@ -54,6 +58,10 @@ body {
 	position: absolute;
   margin-left: ($unit-xxl + $unit-md);
   margin-top: -$unit-md;
+  transition: margin-top 0.5s ease;
+  &:hover {
+  	margin-top: -($unit-md + 4px);
+  }
 }
 
 .icon-xxl {
@@ -62,6 +70,13 @@ body {
 
 .divider-right {
 	border-right: 1px solid $fog;
+	@media (max-width: $width-md) {
+		border-right: none;
+	}
+}
+
+.divider-right-dark {
+	border-right: 1px solid $coal;
 	@media (max-width: $width-md) {
 		border-right: none;
 	}

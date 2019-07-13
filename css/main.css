@@ -430,6 +430,9 @@ body {
 .dark-mode {
   background-color: #1C2024; }
 
+.light-mode {
+  background-color: #f6f8fa; }
+
 .card {
   width: 100%;
   background-color: #ffffff;
@@ -442,7 +445,10 @@ body {
   max-width: 56px;
   position: absolute;
   margin-left: 56px;
-  margin-top: -16px; }
+  margin-top: -16px;
+  transition: margin-top 0.5s ease; }
+  .intro-switch:hover {
+    margin-top: -20px; }
 
 .icon-xxl {
   max-width: 80px; }
@@ -451,6 +457,12 @@ body {
   border-right: 1px solid #f6f8fa; }
   @media (max-width: 680px) {
     .divider-right {
+      border-right: none; } }
+
+.divider-right-dark {
+  border-right: 1px solid #444d56; }
+  @media (max-width: 680px) {
+    .divider-right-dark {
       border-right: none; } }
 
 .case-study-img {
