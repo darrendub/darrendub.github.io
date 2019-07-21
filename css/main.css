@@ -145,7 +145,7 @@ figcaption {
 .button {
   font-family: "Whitney SSm A", "Whitney SSm B", "Whitney", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   padding: 16px 24px;
-  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.2), 0 8px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05), 0 3px 6px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   font-weight: 600;
   text-decoration: none; }
@@ -161,7 +161,7 @@ figcaption {
 .button-sm {
   font-family: "Whitney SSm A", "Whitney SSm B", "Whitney", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   padding: 8px 16px;
-  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.2), 0 8px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05), 0 3px 6px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   font-weight: 600;
   text-decoration: none; }
@@ -439,7 +439,7 @@ body {
   border: 1px solid #f6f8fa;
   border-radius: 4px;
   padding: 24px 16px;
-  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.2), 0 8px 8px rgba(0, 0, 0, 0.2); }
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05), 0 3px 6px rgba(0, 0, 0, 0.1); }
 
 .intro-switch {
   max-width: 56px;
@@ -591,6 +591,9 @@ body {
   font-family: Georgia, serif;
   border-radius: 8px; }
 
+.drop-cap-dark {
+  background-color: #444d56; }
+
 /*--------------------------------------------------------------------
  * Nav
  *------------------------------------------------------------------*/
@@ -714,4 +717,19 @@ footer {
   margin-left: 32px; }
 
 .ml-xxl {
+  margin-left: 40px; }
+
+.mr-sm {
+  margin-left: 8px; }
+
+.mr-md {
+  margin-left: 16px; }
+
+.mr-lg {
+  margin-left: 24px; }
+
+.mr-xl {
+  margin-left: 32px; }
+
+.mr-xxl {
   margin-left: 40px; }

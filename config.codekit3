@@ -57,6 +57,14 @@
 		"oAP": "/500.html",
 		"oF": 0
 		},
+	"/about-light.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/about-light.html",
+		"oF": 0
+		},
 	"/about.html": {
 		"cB": 0,
 		"ft": 8192,
