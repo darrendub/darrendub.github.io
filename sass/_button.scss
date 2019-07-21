@@ -5,7 +5,7 @@
 .button {
 	font-family: $sans;
 	padding: $unit-md $unit-lg;
-	box-shadow: 0 12px 26px rgba(0,0,0,0.20), 0 8px 8px rgba(0,0,0,0.20);
+	box-shadow: 0 3px 6px rgba(0,0,0,0.05), 0 3px 6px rgba(0,0,0,0.10);
 	border-radius: $unit-sm/2;
 	font-weight: $weight-semi;
 	@extend .type-sm;
@@ -25,7 +25,7 @@
 .button-sm {
 	font-family: $sans;
 	padding: $unit-sm $unit-md;
-	box-shadow: 0 12px 26px rgba(0,0,0,0.20), 0 8px 8px rgba(0,0,0,0.20);
+	box-shadow: 0 3px 6px rgba(0,0,0,0.05), 0 3px 6px rgba(0,0,0,0.10);
 	border-radius: $unit-sm/2;
 	font-weight: $weight-semi;
 	@extend .type-sm;
