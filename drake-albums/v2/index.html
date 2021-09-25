@@ -8,6 +8,8 @@
   </title>
   <!-- CSS -->
   <link rel="stylesheet" href="css/main.css">
+  <!-- JS -->
+  <script src="js/flickity.pkgd-min.js"></script>
   <!-- Twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@darrendub" />
@@ -25,34 +27,29 @@
 </head>
 <body>
   <header></header>
-  <section class="container">
-    <div class="album-container">
-        <a class="album-link" href="#1">
-        <div class="album-cover" id="1">
-          <img src="http://placekitten.com/300">
+
+  <div class="main-carousel" data-flickity='{ "contain": true, "wrapAround": true, "freeScroll": true, "pageDots": false }'>
+    <div class="carousel-cell">
+        <div class="album-cover">
+          <img src="img/albums/cbs.png">
         </div>
-        </a>
         <p class="album-title">Comeback Season</p>
         <p class="album-year">2007</p>
     </div>
-    <div class="album-container">
-        <a class="album-link" href="#2">
-        <div class="album-cover" id="2">
-          <img src="http://placekitten.com/300">
+    <div class="carousel-cell">
+      <div class="album-cover">
+          <img src="img/albums/sfg.png">
         </div>
-      </a>
         <p class="album-title">So Far Gone</p>
         <p class="album-year">2009</p>
     </div>
-    <div class="album-container">
-        <a class="album-link" href="#3">
-        <div class="album-cover" id="3">
-          <img src="http://placekitten.com/300">
+    <div class="carousel-cell">
+      <div class="album-cover">
+          <img src="img/albums/tml.png">
         </div>
-        </a>
         <p class="album-title">Thank Me Later</p>
         <p class="album-year">2010</p>
     </div>
-  </section>
+  </div>
 </body>
 </html>
