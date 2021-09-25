@@ -1283,6 +1283,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/drake-albums\/v2\/img\/albums\/cbs.png" : {
+      "ft" : 32768,
+      "iS" : 340902,
+      "oA" : 0,
+      "oAP" : "\/drake-albums\/v2\/img\/albums\/cbs.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/drake-albums\/v2\/img\/albums\/Drake_So_Far_Gone-front-large.jpg" : {
       "ft" : 16384,
       "iS" : 40659,
@@ -1335,6 +1348,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/drake-albums\/v2\/img\/albums\/sfg.png" : {
+      "ft" : 32768,
+      "iS" : 32156,
+      "oA" : 0,
+      "oAP" : "\/drake-albums\/v2\/img\/albums\/sfg.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/drake-albums\/v2\/img\/albums\/thank-me-now.ai" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1352,6 +1378,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/drake-albums\/v2\/img\/albums\/tml.png" : {
+      "ft" : 32768,
+      "iS" : 115779,
+      "oA" : 0,
+      "oAP" : "\/drake-albums\/v2\/img\/albums\/tml.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1826,6 +1865,17 @@
       "oA" : 0,
       "oAP" : "\/drake-albums\/v2\/index.html",
       "oF" : 0
+    },
+    "\/drake-albums\/v2\/js\/flickity.pkgd-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/drake-albums\/v2\/js\/flickity.pkgd-min-min.js",
+      "oF" : 1,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/drake-albums\/v2\/sass\/_album.scss" : {
       "aP" : 0,
