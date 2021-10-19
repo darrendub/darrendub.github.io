@@ -13,6 +13,7 @@
     16px 32px 32px rgba(51, 102, 204, 0.2);
   border-radius: $unit-xsmall;
   overflow:hidden;
+  position: relative;
  }
 
  .album-title {
@@ -30,44 +31,212 @@
  font-family: $sans-reg;
 }
 
-//  .container {
-//  	display: flex;
-//   justify-content: center;
-//   align-items: center;
-//  	height: 100vh;
-//  	background: linear-gradient(180deg, #D64F3D 0%, #9A2515 100%);
-//  	overflow: hidden;
-//  	position: relative;
-//  }
+// START COMEBACK SEASON
 
-// .album-container {
-// 	position: relative;
-// }
-
-// .album-link {
-// 	text-decoration: none;
-// 	width: 100vw;
-
-// }
-// .album {
-// 	width: 300px;
-// 	height: 300px;
-// 	border-radius: $unit-xsmall;
-// 	// display: block;
-// 	// margin: 0 auto;
-// 	filter: drop-shadow(0px 0px 10px rgba(0,0,0,.8));
-// 		-webkit-filter: drop-shadow(0px 3px 10px rgba(0,0,0,.8));
-// 	position: absolute;
-// 	overflow:hidden;
-// }
-
-.bg-sfg {
-	background: linear-gradient(180deg, #D64F3D 0%, #9A2515 100%);
+.cbs-bg {
+	background: url(../img/cbs/bg-cbs.jpg) center no-repeat #9B5A31;
+  z-index: -1;
 }
 
-.bg-cbs {
-	background: linear-gradient(180deg, #9B5A31 0%, #DE853C 100%);
+.cbs-drake {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  position: relative;
 }
+
+.cbs-album-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+svg.leaf {
+  position: absolute;
+
+  rect {
+    fill: #C77D4E;
+    transform: skew(24deg);
+    width: 24px;
+    height: 24px;
+    border-radius: 24px 0px;
+    animation: fall 700ms infinite ease-out;
+  }
+  rect:nth-child(1) {
+    fill:#C77D4E;
+    animation-delay: 88ms;
+    animation-duration: 1000ms;
+  }
+
+  rect:nth-child(2) {
+    fill:#C1852B;
+    animation-delay: 311ms;
+    animation-duration: 900ms;
+  }
+
+  rect:nth-child(3) {
+    fill:#D58836;
+    animation-delay: 105ms;
+    animation-duration: 700ms;
+  }
+
+  rect:nth-child(4) {
+    fill:#D3A945;
+    animation-delay: 149ms;
+    animation-duration: 800ms;
+  }
+  rect:nth-child(5) {
+    fill:#B65E29;
+    animation-delay: 88ms;
+    animation-duration: 1000ms;
+  }
+  rect:nth-child(6) {
+    fill:#D59740;
+    animation-delay: 131ms;
+    animation-duration: 442ms;
+  }
+  rect:nth-child(odd) {
+      z-index: 2;
+  }
+}
+
+@keyframes fall {
+    from {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    to {
+        transform: translateY(300px);
+    }
+}
+
+// END COMEBACK SEASON
+
+// START SO FAR GONE
+
+.sfg-bg {
+  background-color: #010101;
+}
+
+.sfg-man {
+  position: absolute;
+  max-width: $unit-small;
+  left: 140px;
+  animation: sfg-man 6s infinite ease-in-out;
+}
+
+.sfg-rain {
+  position: absolute;
+  max-width: $unit-large;
+  top: -$unit-xlarge;
+  left: 150px;
+  animation: sfg-rain 6s infinite ease-in-out;
+}
+
+.sfg-money {
+  animation-delay: 4s;
+}
+.sfg-heart-1 {
+  animation-delay: 2s;
+
+}
+.sfg-heart-2 {
+
+}
+
+@keyframes sfg-rain {
+    from {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+    to {
+        transform: translateY($unit-large*2);
+    }
+}
+
+
+.sfg-text {
+  height: $unit-med;
+  position: absolute;
+  left: 0;
+  animation: sfg-fade 12s infinite ease-in-out;
+  transform: translateY(0px);
+  opacity: 0;
+
+  &:nth-child(11) {
+    bottom: 0;
+    animation-delay: 9s;
+  }
+  &:nth-child(10) {
+    bottom: $unit-med;
+    animation-delay: 8s;
+  }
+  &:nth-child(9) {
+    bottom: $unit-med*2;
+    animation-delay: 7s;
+  }
+  &:nth-child(8) {
+    bottom: $unit-med*3;
+    animation-delay: 6s;
+  }
+  &:nth-child(7) {
+    bottom: $unit-med*4;
+    animation-delay: 5s;
+  }
+  &:nth-child(6) {
+    bottom: $unit-med*5;
+    animation-delay: 4s;
+  }
+  &:nth-child(5) {
+    bottom: $unit-med*6;
+    animation-delay: 3s;
+  }
+  &:nth-child(4) {
+    bottom: $unit-med*7;
+    animation-delay: 2s;
+  }
+  &:nth-child(3) {
+    bottom: $unit-med*8;
+    height: $unit-xlarge;
+    animation-delay: 1s;
+  }
+
+}
+
+@keyframes sfg-fade {
+    from {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes sfg-man {
+    0% {
+        transform: translateY($unit-med);
+    }
+    50% {
+        transform: translateY($unit-small);
+    }
+    100% {
+        transform: translateY($unit-med);
+    }
+}
+
+// END SO FAR GONE
+
+
+
 
 // .bg-tml {
 // 	background: linear-gradient(180deg, #AE1818 0%, #B01716 100%);
@@ -757,94 +926,4 @@
 // }
 // 	}
 
-
-// // So Far Gone
-
-// .so-far-gone-bg {
-// 	background-color: #D64F3D;
-// }
-
-// .so-far-gone-drake {
-// 	max-width: 220px;
-// 	position: absolute;
-// 	bottom: 20%;
-// 	left: 14%;
-// 	@media (min-width: $bp-medium) {
-// 		max-width: 300px;
-// 		bottom: 30%;
-// 		left: 20%;
-// 	}
-// }
-
-// .so-far-gone-confetti {
-// 	max-width: 40px;
-// 	position: absolute;
-// 	@media (min-width: $bp-medium) {
-// 		max-width: 60px;
-// 	}
-// }
-
-// .money-1 {
-// 	top: -10%;
-// 	right: 40%;
-// }
-
-// .money-2 {
-// 	top: -20%;
-// 	right: 60%;
-// }
-
-// .money-3 {
-// 	top: -40%;
-// 	right: 50%;
-// }
-// .money-4 {
-// 	top: -45%;
-// 	right: 20%;
-// }
-// .money-5 {
-// 	top: -20%;
-// 	right: 10%;
-// }
-// .money-6 {
-// 	top: -30%;
-// 	left: 5%;
-// }
-// .money-7 {
-// 	top: -15%;
-// 	left: 10%;
-// }
-
-// .heart-1 {
-// 	top: -40%;
-// 	right: 65%;
-// }
-
-// .heart-2 {
-// 	top: -20%;
-// 	right: 38%;
-// 	max-width: 30px;
-// }
-
-// .heart-3 {
-// 	top: -30%;
-// 	right: 15%;
-// 	max-width: 40px;
-// }
-
-// .rain {
-// 	animation: rain 3s infinite;
-// 	animation-timing-function: linear;
-// }
-// .rain-delay {
-// 	animation-delay:2s;
-// }
-
-// @keyframes rain {
-//   0% {
-//   }
-//   100% {
-//     top: 120%;
-//   }
-// }
 
