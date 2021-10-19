@@ -371,7 +371,8 @@ h1, h2, h3, h4, h5, h6, p {
   width: 300px;
   box-shadow: 1px 2px 2px rgba(51, 102, 204, 0.2), 2px 4px 4px rgba(51, 102, 204, 0.2), 4px 8px 8px rgba(51, 102, 204, 0.2), 8px 16px 16px rgba(51, 102, 204, 0.2), 16px 32px 32px rgba(51, 102, 204, 0.2);
   border-radius: 8px;
-  overflow: hidden; }
+  overflow: hidden;
+  position: relative; }
 
 .album-title {
   font-size: 32px;
@@ -386,11 +387,148 @@ h1, h2, h3, h4, h5, h6, p {
   color: #fff;
   font-family: "SantaAnaTrial-Regular", sans-serif; }
 
-.bg-sfg {
-  background: linear-gradient(180deg, #D64F3D 0%, #9A2515 100%); }
+.cbs-bg {
+  background: url(../img/cbs/bg-cbs.jpg) center no-repeat #9B5A31;
+  z-index: -1; }
 
-.bg-cbs {
-  background: linear-gradient(180deg, #9B5A31 0%, #DE853C 100%); }
+.cbs-drake {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  position: relative; }
+
+.cbs-album-title {
+  position: absolute;
+  bottom: 0;
+  left: 0; }
+
+svg.leaf {
+  position: absolute; }
+  svg.leaf rect {
+    fill: #C77D4E;
+    transform: skew(24deg);
+    width: 24px;
+    height: 24px;
+    border-radius: 24px 0px;
+    animation: fall 700ms infinite ease-out; }
+  svg.leaf rect:nth-child(1) {
+    fill: #C77D4E;
+    animation-delay: 88ms;
+    animation-duration: 1000ms; }
+  svg.leaf rect:nth-child(2) {
+    fill: #C1852B;
+    animation-delay: 311ms;
+    animation-duration: 900ms; }
+  svg.leaf rect:nth-child(3) {
+    fill: #D58836;
+    animation-delay: 105ms;
+    animation-duration: 700ms; }
+  svg.leaf rect:nth-child(4) {
+    fill: #D3A945;
+    animation-delay: 149ms;
+    animation-duration: 800ms; }
+  svg.leaf rect:nth-child(5) {
+    fill: #B65E29;
+    animation-delay: 88ms;
+    animation-duration: 1000ms; }
+  svg.leaf rect:nth-child(6) {
+    fill: #D59740;
+    animation-delay: 131ms;
+    animation-duration: 442ms; }
+  svg.leaf rect:nth-child(odd) {
+    z-index: 2; }
+
+@keyframes fall {
+  from {
+    opacity: 0; }
+  50% {
+    opacity: 1; }
+  to {
+    transform: translateY(300px); } }
+
+.sfg-bg {
+  background-color: #010101; }
+
+.sfg-man {
+  position: absolute;
+  max-width: 16px;
+  left: 140px;
+  animation: sfg-man 6s infinite ease-in-out; }
+
+.sfg-rain {
+  position: absolute;
+  max-width: 32px;
+  top: -40px;
+  left: 150px;
+  animation: sfg-rain 6s infinite ease-in-out; }
+
+.sfg-money {
+  animation-delay: 4s; }
+
+.sfg-heart-1 {
+  animation-delay: 2s; }
+
+@keyframes sfg-rain {
+  from {
+    opacity: 0; }
+  50% {
+    opacity: 1; }
+  100% {
+    opacity: 0; }
+  to {
+    transform: translateY(64px); } }
+
+.sfg-text {
+  height: 24px;
+  position: absolute;
+  left: 0;
+  animation: sfg-fade 12s infinite ease-in-out;
+  transform: translateY(0px);
+  opacity: 0; }
+  .sfg-text:nth-child(11) {
+    bottom: 0;
+    animation-delay: 9s; }
+  .sfg-text:nth-child(10) {
+    bottom: 24px;
+    animation-delay: 8s; }
+  .sfg-text:nth-child(9) {
+    bottom: 48px;
+    animation-delay: 7s; }
+  .sfg-text:nth-child(8) {
+    bottom: 72px;
+    animation-delay: 6s; }
+  .sfg-text:nth-child(7) {
+    bottom: 96px;
+    animation-delay: 5s; }
+  .sfg-text:nth-child(6) {
+    bottom: 120px;
+    animation-delay: 4s; }
+  .sfg-text:nth-child(5) {
+    bottom: 144px;
+    animation-delay: 3s; }
+  .sfg-text:nth-child(4) {
+    bottom: 168px;
+    animation-delay: 2s; }
+  .sfg-text:nth-child(3) {
+    bottom: 192px;
+    height: 40px;
+    animation-delay: 1s; }
+
+@keyframes sfg-fade {
+  from {
+    opacity: 0; }
+  50% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+@keyframes sfg-man {
+  0% {
+    transform: translateY(24px); }
+  50% {
+    transform: translateY(16px); }
+  100% {
+    transform: translateY(24px); } }
 
 /*! Flickity v2.2.2
 https://flickity.metafizzy.co
