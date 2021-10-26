@@ -235,12 +235,36 @@ svg.leaf {
 
 // END SO FAR GONE
 
+// START THANK ME LATER
+
+.tml {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 300px;
+}
+
+.tml-red {
+  animation: svg-glitch-effect 2.5s infinite reverse;
+}
+
+.tml-black {
+  animation: svg-glitch-effect 2s infinite linear alternate-reverse;
+}
 
 
+$steps: 4;
 
-// .bg-tml {
-// 	background: linear-gradient(180deg, #AE1818 0%, #B01716 100%);
-// }
+@keyframes svg-glitch-effect{
+    @for $i from 0 through $steps{
+        #{percentage($i*(1/$steps))}{
+            clip: rect(random(300) + px, 300px, random(300) + px, 0);
+        }
+    }
+}
+
+// END THANK ME LATER
 
 
 // .album {
