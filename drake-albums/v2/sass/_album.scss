@@ -246,22 +246,30 @@ svg.leaf {
 }
 
 .tml-red {
-  animation: svg-glitch-effect 2.5s infinite reverse;
+  animation: tml-glitch 2s infinite alternate-reverse;
 }
 
 .tml-black {
-  animation: svg-glitch-effect 2s infinite linear alternate-reverse;
+  animation: tml-shake 1s infinite linear reverse;
 }
 
+$steps: 10;
 
-$steps: 4;
-
-@keyframes svg-glitch-effect{
+@keyframes tml-glitch{
     @for $i from 0 through $steps{
         #{percentage($i*(1/$steps))}{
             clip: rect(random(300) + px, 300px, random(300) + px, 0);
         }
     }
+}
+
+@keyframes tml-shake {
+  0% {
+    transform: translateX(-1px);
+  }
+  25% {
+    transform: translateX(1px);
+  }
 }
 
 // END THANK ME LATER
