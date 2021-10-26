@@ -541,31 +541,31 @@ svg.leaf {
   animation: tml-glitch 2s infinite alternate-reverse; }
 
 .tml-black {
-  animation: tml-shake 1s infinite linear reverse; }
+  animation: tml-shake 1s infinite linear alternate-reverse; }
 
 @keyframes tml-glitch {
   0% {
-    clip: rect(149px, 300px, 79px, 0); }
+    clip: rect(12px, 300px, 83px, 0); }
   10% {
-    clip: rect(93px, 300px, 216px, 0); }
+    clip: rect(1px, 300px, 93px, 0); }
   20% {
-    clip: rect(109px, 300px, 259px, 0); }
+    clip: rect(202px, 300px, 188px, 0); }
   30% {
-    clip: rect(172px, 300px, 272px, 0); }
+    clip: rect(217px, 300px, 239px, 0); }
   40% {
-    clip: rect(8px, 300px, 169px, 0); }
+    clip: rect(46px, 300px, 279px, 0); }
   50% {
-    clip: rect(94px, 300px, 100px, 0); }
+    clip: rect(202px, 300px, 161px, 0); }
   60% {
-    clip: rect(291px, 300px, 218px, 0); }
+    clip: rect(280px, 300px, 209px, 0); }
   70% {
-    clip: rect(169px, 300px, 117px, 0); }
+    clip: rect(83px, 300px, 223px, 0); }
   80% {
-    clip: rect(65px, 300px, 146px, 0); }
+    clip: rect(204px, 300px, 26px, 0); }
   90% {
-    clip: rect(82px, 300px, 69px, 0); }
+    clip: rect(192px, 300px, 72px, 0); }
   100% {
-    clip: rect(92px, 300px, 95px, 0); } }
+    clip: rect(190px, 300px, 269px, 0); } }
 
 @keyframes tml-shake {
   0% {

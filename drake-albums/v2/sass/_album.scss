@@ -250,7 +250,7 @@ svg.leaf {
 }
 
 .tml-black {
-  animation: tml-shake 1s infinite linear reverse;
+  animation: tml-shake 1s infinite linear alternate-reverse;
 }
 
 $steps: 10;
