@@ -530,6 +530,31 @@ svg.leaf {
   100% {
     transform: translateY(24px); } }
 
+.tml {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 300px; }
+
+.tml-red {
+  animation: svg-glitch-effect 2.5s infinite reverse; }
+
+.tml-black {
+  animation: svg-glitch-effect 2s infinite linear alternate-reverse; }
+
+@keyframes svg-glitch-effect {
+  0% {
+    clip: rect(195px, 300px, 30px, 0); }
+  25% {
+    clip: rect(30px, 300px, 291px, 0); }
+  50% {
+    clip: rect(25px, 300px, 262px, 0); }
+  75% {
+    clip: rect(207px, 300px, 246px, 0); }
+  100% {
+    clip: rect(173px, 300px, 72px, 0); } }
+
 /*! Flickity v2.2.2
 https://flickity.metafizzy.co
 ---------------------------------------------- */
