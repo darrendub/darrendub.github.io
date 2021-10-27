@@ -18,10 +18,11 @@
 
  .album-title {
  font-size: $unit-large;
- line-height: 2;
+ line-height: 1.4;
  text-align: center;
  color: $white;
  margin-top: $unit-large;
+ padding: 0 $unit-xsmall;
 }
 
 .album-year {
@@ -237,6 +238,9 @@ svg.leaf {
 
 // START THANK ME LATER
 
+// Pure CSS Glitch Animation by Roden
+// https://dev.to/kerthin/how-to-create-pure-css-glitch-animation-for-images-and-svg-ojl
+
 .tml {
   position: absolute;
   top: 0;
@@ -258,7 +262,7 @@ $steps: 10;
 @keyframes tml-glitch{
     @for $i from 0 through $steps{
         #{percentage($i*(1/$steps))}{
-            clip: rect(random(300) + px, 300px, random(300) + px, 0);
+            clip: rect(random(600) + px, 300px, random(600) + px, 0);
         }
     }
 }
@@ -275,23 +279,109 @@ $steps: 10;
 // END THANK ME LATER
 
 
-// .album {
-// 	width: 300px;
-// 	height: 300px;
-// 	position: relative;
-// 	overflow:hidden;
-// 	margin-bottom: 5em;
-// 	border-radius: 2px;
-// 	@media (min-width: $bp-medium) {
-// 		max-width: 500px;
-// 		width: 500px;
-// 		height: 500px;
-// 	}
-// }
+// START TAKE CARE
 
-// .album-title {
-// 	margin-bottom:10px;
-// }
+// Candle Flame Animation by Mamun Khandaker 
+// https://www.uplabs.com/posts/candle-flame-animation-with-pure-css
+
+.dark {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-image: linear-gradient(to right, rgba(22, 22, 22, 1), rgba(22, 22, 22, 0));
+}
+
+.candle {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.flame {
+  width: 4px;
+  height: 16px;
+  position: absolute;
+  top: 24px;
+  right: 65px;
+  border-radius: 50% 50% 20% 20%;
+  background: rgba(255, 255, 255, 1);
+  background: -moz-linear-gradient(white 80%, transparent);
+  background: -webkit-linear-gradient(white 80%, transparent);
+  background: -o-linear-gradient(white 80%, transparent);
+  background: -ms-linear-gradient(white 80%, transparent);
+  background: linear-gradient(white 80%, transparent);
+  animation: moveFlame 6s linear infinite, enlargeFlame 5s linear infinite;
+}
+
+.flame:before {
+  width: 100%;
+  height: 100%;
+  border-radius: 50% 50% 20% 20%;
+  box-shadow: 0 0 15px 0 rgba(247, 93, 0, .4), 0 -6px 4px 0 rgba(247, 128, 0, .7);
+}
+
+@keyframes moveFlame {
+  0%, 100% {
+    transform: translateX(-50%) rotate(-2deg);
+  }
+  50% {
+    transform: translateX(-50%) rotate(2deg);
+  }
+}
+
+@keyframes enlargeFlame {
+  0%, 100% {
+    height: 8px;
+  }
+  50% {
+    height: 16px;
+  }
+}
+
+.glow {
+  position: absolute;
+  width: 26px;
+  height: 60px;
+  border-radius: 50% 50% 35% 35%;
+  left: 50%;
+  top: -48px;
+  transform: translateX(-50%);
+  background: rgba(0, 133, 255, .7);
+  box-shadow: 0 -40px 30px 0 #dc8a0c, 0 40px 50px 0 #dc8a0c, inset 3px 0 2px 0 rgba(0, 133, 255, .6), inset -3px 0 2px 0 rgba(0, 133, 255, .6);
+}
+
+.glow:before {
+  width: 70%;
+  height: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.blinking-glow {
+  position: absolute;
+  top: -64px;
+  right: 0px;
+  width: 100px;
+  height: 180px;
+  border-radius: 50%;
+  background: #ff6000;
+  -webkit-filter: blur(50px);
+  -moz-filter: blur(60px);
+  -o-filter: blur(60px);
+  -ms-filter: blur(60px);
+  filter: blur(60px);
+  animation: blinkIt .1s infinite;
+}
+
+@keyframes blinkIt {
+  50% { opacity: .8;}
+}
+
+// END TAKE CARE
 
 
 // // Scorpion 
