@@ -238,7 +238,7 @@ svg.leaf {
 
 // START THANK ME LATER
 
-// Pure CSS Glitch Animation by Roden
+// Inspired by Pure CSS Glitch Animation by Roden
 // https://dev.to/kerthin/how-to-create-pure-css-glitch-animation-for-images-and-svg-ojl
 
 .tml {
@@ -281,7 +281,7 @@ $steps: 10;
 
 // START TAKE CARE
 
-// Candle Flame Animation by Mamun Khandaker 
+// Inspired by Candle Flame Animation by Mamun Khandaker 
 // https://www.uplabs.com/posts/candle-flame-animation-with-pure-css
 
 .dark {
@@ -311,7 +311,7 @@ $steps: 10;
   background: -o-linear-gradient(white 80%, transparent);
   background: -ms-linear-gradient(white 80%, transparent);
   background: linear-gradient(white 80%, transparent);
-  animation: moveFlame 6s linear infinite, enlargeFlame 5s linear infinite;
+  animation: moveFlame 4s linear infinite, enlargeFlame 4s linear infinite;
 }
 
 .flame:before {
@@ -382,6 +382,53 @@ $steps: 10;
 }
 
 // END TAKE CARE
+
+// START NOTHING WAS THE SAME
+
+.nwts-bg {
+  background: linear-gradient(180deg, #0065BA 0%, #72B2DE 100%);
+  z-index: -1
+}
+.nwts-drake {
+  z-index: 2;
+}
+
+.nwts-clouds {
+  &:before {
+    content: url(../img/nwts/cloud-med.png);
+    position: absolute;
+    top: 0px;
+    left: -360px;
+    animation: cloud-med 16s linear alternate infinite;
+    animation-delay: 2s
+  }
+  &:after {
+    content: url(../img/nwts/cloud-large.png);
+    position: absolute;
+    bottom: -100px;
+    left: -600px;
+    animation: cloud-large 32s linear infinite;
+    z-index: -1
+  }
+}
+
+@keyframes cloud-large {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(1000px);
+  }
+}
+@keyframes cloud-med {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(800px);
+  }
+}
+// END NOTHING WAS THE SAME
 
 
 // // Scorpion 
