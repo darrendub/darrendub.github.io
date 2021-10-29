@@ -5,8 +5,9 @@ https://flickity.metafizzy.co
 .carousel-cell {
   margin-right: $unit-small;
   counter-increment: carousel-cell;
-  opacity: 50%;
+  opacity: 75%;
   transform: scale(0.9);
+  width: 300px;
 }
 
 .carousel-cell.is-selected {
