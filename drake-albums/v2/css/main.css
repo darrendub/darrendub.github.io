@@ -546,27 +546,27 @@ svg.leaf {
 
 @keyframes tml-glitch {
   0% {
-    clip: rect(591px, 300px, 410px, 0); }
+    clip: rect(82px, 300px, 165px, 0); }
   10% {
-    clip: rect(580px, 300px, 166px, 0); }
+    clip: rect(556px, 300px, 452px, 0); }
   20% {
-    clip: rect(428px, 300px, 259px, 0); }
+    clip: rect(111px, 300px, 47px, 0); }
   30% {
-    clip: rect(213px, 300px, 4px, 0); }
+    clip: rect(208px, 300px, 522px, 0); }
   40% {
-    clip: rect(327px, 300px, 281px, 0); }
+    clip: rect(272px, 300px, 492px, 0); }
   50% {
-    clip: rect(281px, 300px, 528px, 0); }
+    clip: rect(138px, 300px, 215px, 0); }
   60% {
-    clip: rect(300px, 300px, 460px, 0); }
+    clip: rect(174px, 300px, 327px, 0); }
   70% {
-    clip: rect(437px, 300px, 26px, 0); }
+    clip: rect(252px, 300px, 383px, 0); }
   80% {
-    clip: rect(357px, 300px, 494px, 0); }
+    clip: rect(34px, 300px, 410px, 0); }
   90% {
-    clip: rect(92px, 300px, 67px, 0); }
+    clip: rect(53px, 300px, 374px, 0); }
   100% {
-    clip: rect(597px, 300px, 437px, 0); } }
+    clip: rect(272px, 300px, 465px, 0); } }
 
 @keyframes tml-shake {
   0% {

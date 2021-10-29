@@ -394,13 +394,6 @@ $steps: 10;
 }
 
 .nwts-clouds {
-  // background: url(../img/nwts/cloud-small.png) center no-repeat;
-  // width: 150px;
-  // height: 62.5px;
-  // position: absolute;
-  // top: 0;
-  // left: -300px;
-  // animation: clouds 8s linear infinite;
   &:before {
     content: url(../img/nwts/cloud-med.png);
     position: absolute;
@@ -435,19 +428,6 @@ $steps: 10;
     transform: translateX(800px);
   }
 }
-
-
-    // width: 250px;
-    // height: 80px;
-    // border-radius: 50%;
-    // filter: url(#filter);
-    // box-shadow: 400px 400px 60px 0px #fff;
-    // position: absolute;
-    // top: -100%;
-    // left: -100%;
-    // z-index: -1;
-
-
 // END NOTHING WAS THE SAME
 
 
