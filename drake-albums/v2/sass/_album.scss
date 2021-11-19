@@ -441,16 +441,15 @@ $steps: 10;
 
 .if-text {
  font-family: 'Late-Regular';
-   font-size: $unit-xlarge+8;
-   padding-left: $unit-large;
-   white-space: nowrap;
-   overflow: hidden;
-   height:$unit-med*2;
-   text-align:left;
-   width: 30em;
-   margin:0;
-   animation: type 6s steps(60, end) infinite;
-   opacity:0;
+ font-size: $unit-xlarge+8;
+ padding-left: $unit-med;
+ white-space: nowrap;
+ overflow: hidden;
+ height:$unit-med*2;
+ width: 30em;
+ margin:0;
+ animation: type 6s steps(60, end) infinite;
+ opacity:0;
 }
 
 // Animation based on this pen: http://codepen.io/rusjames/pen/uAFhE by Rus James
