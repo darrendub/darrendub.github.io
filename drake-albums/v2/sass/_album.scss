@@ -430,6 +430,69 @@ $steps: 10;
 }
 // END NOTHING WAS THE SAME
 
+// START IF YOURE READING
+
+@font-face { // http://www.deasti.com/late-free-download/
+  font-family: 'Late-Regular';
+  src: url('Late-Regular.woff2') format('woff2'),
+       url('Late-Regular.woff') format('woff'),
+       url('Late-Regular.ttf') format('truetype');
+}
+
+.if-text {
+ font-family: 'Late-Regular';
+   font-size: $unit-xlarge+8;
+   padding-left: $unit-large;
+   white-space: nowrap;
+   overflow: hidden;
+   height:$unit-med*2;
+   text-align:left;
+   width: 30em;
+   margin:0;
+   animation: type 6s steps(60, end) infinite;
+   opacity:0;
+}
+
+// Animation based on this pen: http://codepen.io/rusjames/pen/uAFhE by Rus James
+
+.reading-delay-1 {
+ animation-delay:1s;
+}
+.reading-delay-2 {
+ animation-delay:2s;
+}
+.reading-delay-3 {
+ animation-delay:3s;
+}
+
+@keyframes type{ 
+  from { 
+   width: 0; 
+   opacity:1;
+  }  
+} 
+
+.cursor {
+ animation: blink 1s infinite;
+ margin-left:-40px;
+ @media (min-width: $bp-medium) {
+   margin-left:-78px;
+ }
+}
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+.pray-hands {
+  max-width: $unit-large;
+  margin: 0 auto;
+  display: block;
+  margin-top: $unit-large;
+}
+
+// END IF YOURE READING
+
 
 // // Scorpion 
 
@@ -528,151 +591,6 @@ $steps: 10;
 //   100% { opacity:0.5; }
 // }
 
-
-
-// // Views From The 6 
-
-// .views-6-eye {
-// 	max-width: 83px;
-// 	top: 20%;
-//     left: 26%;
-//     position: absolute;
-// }
-
-// .views-6 {
-// 	max-width: 125px;
-// 	top: 25%;
-//     left: 28%;
-//     position: absolute;
-// 	@media (min-width: $bp-medium) {
-// 		max-width: 250px;
-// 		top: 20%;
-//     	left: 26%;
-// 	}
-// }
-
-// @keyframes rotating {
-//   from {
-//     transform: rotate(0deg);
-//   }
-//   to {
-//     transform: rotate(360deg);
-//   }
-// }
-// .rotating {
-//   animation: rotating 2.5s linear infinite;
-// }
-
-// // Thank Me Later 
-
-// .thank-me {
-// 	max-width: 500px;
-// 	position: absolute;
-// }
-// .z-1 {
-// 	z-index:1;
-// }
-// .thank-me-logo {
-// 	max-width: 50px;
-// 	position: absolute;
-// 	bottom: 21%;
-// 	left: 6%;
-// 	@media (min-width: $bp-medium) {
-// 		max-width: 75px;
-// 		bottom: 21%;
-// 		left: 8%;	
-// 	}
-// }
-
-// .thank-move {
-// 	animation: thank-move 1s infinite;
-// 	animation-timing-function: linear;
-// }
-
-// @keyframes thank-move {
-//   0% {
-	
-//   }
-
-//   50% {
-//   	transform: translate(-2px,0);
-
-//   }
-//   100% {
-//   }
-// }
-
-
-// // If You're Reading This It's Too Late
-
-// @font-face { // http://www.deasti.com/late-free-download/
-//   font-family: 'Late-Regular';
-//   src: url('Late-Regular.woff2') format('woff2'),
-//        url('Late-Regular.woff') format('woff'),
-//        url('Late-Regular.ttf') format('truetype');
-// }
-
-// .if-text {
-// 	font-family: 'Late-Regular';
-// 	font-size:2.75em;
-// 	padding-left:0.5em;
-// 	white-space: nowrap;
-//   	overflow: hidden;
-//   	height:1.15em;
-//   	text-align:left;
-//   	white-space: nowrap;
-//   	overflow: hidden;
-//   	width: 30em;
-//   	margin:0;
-//   	animation: type 6s steps(60, end) infinite;
-//   	opacity:0;
-//   	@media (min-width: $bp-medium) {
-// 		font-size:4em;
-// 	}
-  	
-// }
-
-// // Animation based on this pen: http://codepen.io/rusjames/pen/uAFhE by Rus James
-
-// .reading-delay-1 {
-// 	animation-delay:1s;
-// }
-// .reading-delay-2 {
-// 	animation-delay:2s;
-// }
-// .reading-delay-3 {
-// 	animation-delay:3s;
-// }
-
-// @keyframes type{ 
-//   from { 
-//   	width: 0; 
-//   	opacity:1;
-//   }  
-// } 
-
-// .if-reading-parental {
-// 	max-width:30px;
-// 	position:absolute;
-// 	right:5%;
-// 	bottom: 5%;
-// 	z-index:2;
-// 	@media (min-width: $bp-medium) {
-// 		max-width:50px;
-// 	}
-// }
-
-// .cursor {
-// 	animation: blink 1s infinite;
-// 	margin-left:-40px;
-// 	@media (min-width: $bp-medium) {
-// 		margin-left:-78px;
-// 	}
-// }
-
-// @keyframes blink{
-//   to{opacity: .0;}
-// }
 
 
 
@@ -880,56 +798,6 @@ $steps: 10;
 //   }
 // }
 
-
-// // Take Care
-// .candle {
-// 	position:absolute;
-// 	top: 6%;
-//     right: 21.2%;
-// 	width: 11px;
-// 	@media (min-width: $bp-medium) {
-// 		top:8%;
-// 		right: 21.8%;
-// 	}
-// }
-
-// .take-care-logo {
-// 	position:absolute;
-// 	bottom: 8%;
-//     left: 7%;
-//     max-width: 100px;
-//     @media (min-width: $bp-medium) {
-// 		max-width: 150px;
-// 	}
-// }
-
-// .flicker {
-// 	animation: flicker 4s infinite;
-// 	animation-timing-function: linear;
-// }
-
-// @keyframes flicker {
-//   0% {
-//   	opacity:0.8;
-	
-//   }
-
-//   25% {
-//   	opacity: 0.5;
-//   }
-//   50% {
-//   	transform:rotate(25deg);
-//   	opacity:1;
-
-//   }
-//   75% {
-//   	opacity: 0.25;
-//   }
-//   100% {
-//   	opacity:0.8;
-//   }
-// }
-
 // // What A Time To Be Alive
 // .sparkle {
 // 	width: 0;
@@ -1020,79 +888,5 @@ $steps: 10;
 // }
 
 
-// // Nothing Was The Same
-
-// .nwts-drake {
-// 	max-width: 200px;
-// 	position: absolute;
-// 	bottom: 0;
-// 	left: 25%;
-// 	@media (min-width: $bp-medium) {
-// 		max-width: 300px;
-// 	}	
-// }
-
-// .nwts-album {
-// 	background:url(../img/nwts-clouds-2.png);
-// 	height: 300px;
-// 	width: 1500px;
-// 	@media (min-width: $bp-medium) {
-// 		width: 2000px;
-// 		height: 500px;
-// 	}
-// }
-
-// .nwts-logo {
-// 	max-width:70px;
-// 	position:absolute;
-// 	left:5%;
-// 	bottom: 5%;
-// 	@media (min-width: $bp-medium) {
-// 		max-width: 100px;
-// 	}
-// }
-// .nwts-parental {
-// 	max-width:60px;
-// 	position:absolute;
-// 	right:5%;
-// 	top: 5%;
-// }
-
-// .clouds {
-// 	animation: clouds 4s infinite;
-// 	animation-timing-function: linear;
-// }
-
-// // @keyframes clouds {
-// //   0% {
-// //     transform: translate(0px);
-// //   }
-// //   100% {
-// //   	transform: translate(-1200px);
-// //   }
-// // }
-
-// @-webkit-keyframes clouds {
-//   0% {
-//   	transform: translate(-1000px); 
-//   }
-//   50% {
-//   	transform: translate(0px); 
-//   }
-//   100% {
-//   	transform: translate(-1000px); 
-//   } 
-// }
-
-// @media (min-width: $bp-medium) {
-// @keyframes clouds {
-//   0% {
-//   	transform: translate(0px);
-//   }
-//   100% {
-//   	transform: translate(-1450px);
-//   }
-// }
-// 	}
 
 
