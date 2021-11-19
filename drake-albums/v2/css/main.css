@@ -546,27 +546,27 @@ svg.leaf {
 
 @keyframes tml-glitch {
   0% {
-    clip: rect(82px, 300px, 165px, 0); }
+    clip: rect(446px, 300px, 476px, 0); }
   10% {
-    clip: rect(556px, 300px, 452px, 0); }
+    clip: rect(167px, 300px, 175px, 0); }
   20% {
-    clip: rect(111px, 300px, 47px, 0); }
+    clip: rect(396px, 300px, 192px, 0); }
   30% {
-    clip: rect(208px, 300px, 522px, 0); }
+    clip: rect(432px, 300px, 62px, 0); }
   40% {
-    clip: rect(272px, 300px, 492px, 0); }
+    clip: rect(475px, 300px, 315px, 0); }
   50% {
-    clip: rect(138px, 300px, 215px, 0); }
+    clip: rect(526px, 300px, 456px, 0); }
   60% {
-    clip: rect(174px, 300px, 327px, 0); }
+    clip: rect(242px, 300px, 124px, 0); }
   70% {
-    clip: rect(252px, 300px, 383px, 0); }
+    clip: rect(546px, 300px, 596px, 0); }
   80% {
-    clip: rect(34px, 300px, 410px, 0); }
+    clip: rect(248px, 300px, 472px, 0); }
   90% {
-    clip: rect(53px, 300px, 374px, 0); }
+    clip: rect(253px, 300px, 199px, 0); }
   100% {
-    clip: rect(272px, 300px, 465px, 0); } }
+    clip: rect(46px, 300px, 567px, 0); } }
 
 @keyframes tml-shake {
   0% {
@@ -692,6 +692,53 @@ svg.leaf {
     transform: translateX(0px); }
   100% {
     transform: translateX(800px); } }
+
+@font-face {
+  font-family: 'Late-Regular';
+  src: url("Late-Regular.woff2") format("woff2"), url("Late-Regular.woff") format("woff"), url("Late-Regular.ttf") format("truetype"); }
+
+.if-text {
+  font-family: 'Late-Regular';
+  font-size: 48px;
+  padding-left: 32px;
+  white-space: nowrap;
+  overflow: hidden;
+  height: 48px;
+  text-align: left;
+  width: 30em;
+  margin: 0;
+  animation: type 6s steps(60, end) infinite;
+  opacity: 0; }
+
+.reading-delay-1 {
+  animation-delay: 1s; }
+
+.reading-delay-2 {
+  animation-delay: 2s; }
+
+.reading-delay-3 {
+  animation-delay: 3s; }
+
+@keyframes type {
+  from {
+    width: 0;
+    opacity: 1; } }
+
+.cursor {
+  animation: blink 1s infinite;
+  margin-left: -40px; }
+  @media (min-width: 35em) {
+    .cursor {
+      margin-left: -78px; } }
+@keyframes blink {
+  to {
+    opacity: .0; } }
+
+.pray-hands {
+  max-width: 32px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 32px; }
 
 /*! Flickity v2.2.2
 https://flickity.metafizzy.co
