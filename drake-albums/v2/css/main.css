@@ -549,27 +549,27 @@ svg.leaf {
 
 @keyframes tml-glitch {
   0% {
-    clip: rect(594px, 300px, 45px, 0); }
+    clip: rect(330px, 300px, 448px, 0); }
   10% {
-    clip: rect(12px, 300px, 525px, 0); }
+    clip: rect(462px, 300px, 599px, 0); }
   20% {
-    clip: rect(457px, 300px, 380px, 0); }
+    clip: rect(119px, 300px, 515px, 0); }
   30% {
-    clip: rect(47px, 300px, 210px, 0); }
+    clip: rect(210px, 300px, 578px, 0); }
   40% {
-    clip: rect(427px, 300px, 507px, 0); }
+    clip: rect(513px, 300px, 47px, 0); }
   50% {
-    clip: rect(191px, 300px, 325px, 0); }
+    clip: rect(376px, 300px, 286px, 0); }
   60% {
-    clip: rect(537px, 300px, 452px, 0); }
+    clip: rect(182px, 300px, 128px, 0); }
   70% {
-    clip: rect(29px, 300px, 120px, 0); }
+    clip: rect(270px, 300px, 79px, 0); }
   80% {
-    clip: rect(588px, 300px, 87px, 0); }
+    clip: rect(167px, 300px, 545px, 0); }
   90% {
-    clip: rect(579px, 300px, 242px, 0); }
+    clip: rect(9px, 300px, 278px, 0); }
   100% {
-    clip: rect(122px, 300px, 83px, 0); } }
+    clip: rect(492px, 300px, 287px, 0); } }
 
 @keyframes tml-shake {
   0% {
@@ -756,6 +756,21 @@ svg.leaf {
     transform: rotate(0deg); }
   to {
     transform: rotate(360deg); } }
+
+.bg-views {
+  background: url(../img/views/views-album.png) center no-repeat;
+  background-size: 300px; }
+
+.rain {
+  height: 100vh;
+  background: url(https://i.postimg.cc/MKgprHJg/rain.png);
+  animation: rain 0.3s linear infinite; }
+
+@keyframes rain {
+  0% {
+    background-position: 0px 0px; }
+  100% {
+    background-position: 150px 400px; } }
 
 /*! Flickity v2.2.2
 https://flickity.metafizzy.co
