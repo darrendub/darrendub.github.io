@@ -492,6 +492,29 @@ $steps: 10;
 
 // END IF YOURE READING
 
+// START WHAT A TIME TO BE ALIVE
+
+.wattba-diamonds {
+  animation: diamondsdancing 6s infinite linear;
+  margin: 0 auto;
+  display: block;
+  width: 500px;
+  position: absolute;
+  top: -100px;
+  left: -100px;
+}
+
+@keyframes diamondsdancing {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+// END WHAT A TIME TO BE ALIVE
+
 
 // // Scorpion 
 
