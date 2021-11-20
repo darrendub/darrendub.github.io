@@ -2151,6 +2151,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/drake-albums\/v2\/img\/views\/views-album.png" : {
+      "ft" : 32768,
+      "iS" : 353811,
+      "oA" : 0,
+      "oAP" : "\/drake-albums\/v2\/img\/views\/views-album.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/drake-albums\/v2\/img\/wattba\/diamonds.jpg" : {
       "ft" : 16384,
       "iS" : 575942,
@@ -2160,6 +2173,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/drake-albums\/v2\/img\/wattba\/diamonds.png" : {
+      "ft" : 32768,
+      "iS" : 1982017,
+      "oA" : 0,
+      "oAP" : "\/drake-albums\/v2\/img\/wattba\/diamonds.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75

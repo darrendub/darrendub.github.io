@@ -142,9 +142,6 @@ svg.leaf {
   animation-delay: 2s;
 
 }
-.sfg-heart-2 {
-
-}
 
 @keyframes sfg-rain {
     from {
@@ -515,6 +512,25 @@ $steps: 10;
 
 // END WHAT A TIME TO BE ALIVE
 
+// START VIEWS
+
+.bg-views {
+  background: url(../img/views/views-album.png) center no-repeat;
+  background-size: 300px;
+}
+// Based on this pen by Rishi Purwar https://codepen.io/rishi111/pen/wvMdbEm
+.rain {
+  height: 100vh;
+  background: url(https://i.postimg.cc/MKgprHJg/rain.png);
+  animation: rain 0.3s linear infinite;
+}
+
+@keyframes rain {
+  0% {background-position: 0px 0px;}
+  100% {background-position: 150px 400px;}
+}
+
+// END VIEWS
 
 // // Scorpion 
 
