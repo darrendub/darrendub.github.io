@@ -343,6 +343,9 @@ template {
 .bg-white {
   background-color: #fff; }
 
+.bg-black {
+  background-color: #000; }
+
 /*--------------------------------------------------------------------
  * Base
  *------------------------------------------------------------------*/
@@ -549,27 +552,27 @@ svg.leaf {
 
 @keyframes tml-glitch {
   0% {
-    clip: rect(330px, 300px, 448px, 0); }
+    clip: rect(576px, 300px, 124px, 0); }
   10% {
-    clip: rect(462px, 300px, 599px, 0); }
+    clip: rect(278px, 300px, 146px, 0); }
   20% {
-    clip: rect(119px, 300px, 515px, 0); }
+    clip: rect(98px, 300px, 597px, 0); }
   30% {
-    clip: rect(210px, 300px, 578px, 0); }
+    clip: rect(303px, 300px, 539px, 0); }
   40% {
-    clip: rect(513px, 300px, 47px, 0); }
+    clip: rect(13px, 300px, 374px, 0); }
   50% {
-    clip: rect(376px, 300px, 286px, 0); }
+    clip: rect(4px, 300px, 257px, 0); }
   60% {
-    clip: rect(182px, 300px, 128px, 0); }
+    clip: rect(415px, 300px, 153px, 0); }
   70% {
-    clip: rect(270px, 300px, 79px, 0); }
+    clip: rect(566px, 300px, 537px, 0); }
   80% {
-    clip: rect(167px, 300px, 545px, 0); }
+    clip: rect(244px, 300px, 291px, 0); }
   90% {
-    clip: rect(9px, 300px, 278px, 0); }
+    clip: rect(270px, 300px, 264px, 0); }
   100% {
-    clip: rect(492px, 300px, 287px, 0); } }
+    clip: rect(477px, 300px, 194px, 0); } }
 
 @keyframes tml-shake {
   0% {
@@ -729,9 +732,7 @@ svg.leaf {
 .cursor {
   animation: blink 1s infinite;
   margin-left: -40px; }
-  @media (min-width: 35em) {
-    .cursor {
-      margin-left: -78px; } }
+
 @keyframes blink {
   to {
     opacity: .0; } }
@@ -772,13 +773,68 @@ svg.leaf {
   100% {
     background-position: 150px 400px; } }
 
+.more-dennis {
+  animation: scale-dennis 10s linear infinite;
+  transform-origin: center; }
+
+.more-life {
+  position: absolute;
+  width: 200px;
+  height: auto;
+  left: 15%;
+  animation: more-life 10s linear infinite; }
+
+.more-playlist {
+  position: absolute;
+  width: 200px;
+  height: auto;
+  left: 15%;
+  animation: more-playlist 10s linear infinite;
+  bottom: 0; }
+
+@keyframes more-playlist {
+  0% {
+    transform: translateY(32px); }
+  25% {
+    transform: translateY(32px); }
+  50% {
+    transform: translateY(-32px); }
+  75% {
+    transform: translateY(-32px); }
+  100% {
+    transform: translateY(32px); } }
+
+@keyframes more-life {
+  0% {
+    transform: translateY(-32px); }
+  25% {
+    transform: translateY(-32px); }
+  50% {
+    transform: translateY(32px); }
+  75% {
+    transform: translateY(32px); }
+  100% {
+    transform: translateY(-32px); } }
+
+@keyframes scale-dennis {
+  0% {
+    transform: scale(1); }
+  25% {
+    transform: scale(1); }
+  50% {
+    transform: scale(0.5); }
+  75% {
+    transform: scale(0.5); }
+  100% {
+    transform: scale(1); } }
+
 /*! Flickity v2.2.2
 https://flickity.metafizzy.co
 ---------------------------------------------- */
 .carousel-cell {
   margin-right: 16px;
   counter-increment: carousel-cell;
-  opacity: 75%;
+  opacity: 25%;
   transform: scale(0.9);
   width: 300px; }
 
