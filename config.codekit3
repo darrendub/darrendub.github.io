@@ -1895,6 +1895,45 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/drake-albums\/v2\/img\/more\/dennis.png" : {
+      "ft" : 32768,
+      "iS" : 564753,
+      "oA" : 0,
+      "oAP" : "\/drake-albums\/v2\/img\/more\/dennis.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/drake-albums\/v2\/img\/more\/more.png" : {
+      "ft" : 32768,
+      "iS" : 41700,
+      "oA" : 0,
+      "oAP" : "\/drake-albums\/v2\/img\/more\/more.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/drake-albums\/v2\/img\/more\/playlist.png" : {
+      "ft" : 32768,
+      "iS" : 31865,
+      "oA" : 0,
+      "oAP" : "\/drake-albums\/v2\/img\/more\/playlist.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/drake-albums\/v2\/img\/nwts\/bg-nwts.jpg" : {
       "ft" : 16384,
       "iS" : 67738,

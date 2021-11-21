@@ -471,9 +471,6 @@ $steps: 10;
 .cursor {
  animation: blink 1s infinite;
  margin-left:-40px;
- @media (min-width: $bp-medium) {
-   margin-left:-78px;
- }
 }
 
 @keyframes blink{
@@ -531,6 +528,88 @@ $steps: 10;
 }
 
 // END VIEWS
+
+// START MORE LIFE
+
+.more-dennis {
+  animation: scale-dennis 10s linear infinite;
+  transform-origin: center;
+}
+
+.more-life {
+  position: absolute;
+  width: 200px;
+  height: auto;
+  left: 15%;
+  animation: more-life 10s linear infinite;
+  
+}
+
+.more-playlist {
+  position: absolute;
+  width: 200px;
+  height: auto;
+  left: 15%;
+  animation: more-playlist 10s linear infinite;
+  bottom: 0;
+  
+}
+
+@keyframes more-playlist {
+  0% {
+    transform: translateY($unit-large);
+  }
+  25% {
+    transform: translateY($unit-large);
+  }
+  50% {
+    transform: translateY(-$unit-large);
+  }
+  75% {
+    transform: translateY(-$unit-large);
+  }
+  100% {
+    transform: translateY($unit-large);
+  }
+}
+
+@keyframes more-life {
+  0% {
+    transform: translateY(-$unit-large);
+  }
+  25% {
+    transform: translateY(-$unit-large);
+  }
+  50% {
+    transform: translateY($unit-large);
+  }
+  75% {
+    transform: translateY($unit-large);
+  }
+  100% {
+    transform: translateY(-$unit-large);
+  }
+}
+
+@keyframes scale-dennis {
+  0% {
+    transform:scale(1);
+  }
+  25% {
+    transform:scale(1);
+  }
+  50% {
+    transform:scale(.5);
+  }
+  75% {
+    transform:scale(.5);
+  }
+  100% {
+    transform:scale(1);
+  }
+}
+
+// END MORE LIFE
 
 // // Scorpion 
 
