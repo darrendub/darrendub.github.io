@@ -2,6 +2,24 @@
  * Album
  *------------------------------------------------------------------*/
 
+ .title {
+  font-family: $sans-bold;
+  color: $white;
+  font-size: $unit-xlarge;
+  text-align: center;
+  padding: 40px 16px;
+ }
+ footer {
+  background-color: $deep-sea-blue;
+  padding: $unit-med;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-family: $sans-reg;
+  color: $white;
+  font-size: $unit-small;
+  text-align: center;
+ }
  .album-cover {
  	height: 300px;
  	width: 300px;
@@ -611,398 +629,88 @@ $steps: 10;
 
 // END MORE LIFE
 
-// // Scorpion 
+// START SCORPION
 
-// .scorpion-autograph {
-// 	width: 134px;
-// 	position: absolute;
-// 	bottom: 10px;
-//     right: 12px;
-//     fill:none;
-//     stroke:#aaa9aa;
-//     stroke-linecap:round;
-//     stroke-miterlimit:10;
-//     stroke-width:6px;
-//     opacity: .75;
-//     border: 0;
-//     @media (min-width: $bp-medium) {
-//     bottom: 20px;	
-//     width: 230px;
-//     }
+.bg-scorpion {
+  background: url(../img/scorpion/scorpion-album.jpg) center no-repeat;
+  background-size: 300px;
+}
 
-// }
-// .first {
-// 	stroke-dasharray: 1000;
-//  	stroke-dashoffset: 1000;
-//  	animation: dash 5s linear infinite; 
+.scorpion-autograph {
+	width: 134px;
+	position: absolute;
+	bottom: 10px;
+    right: 12px;
+    fill:none;
+    stroke:#aaa9aa;
+    stroke-linecap:round;
+    stroke-miterlimit:10;
+    stroke-width:6px;
+    opacity: .75;
+    border: 0;
+}
+.first {
+	stroke-dasharray: 1000;
+ 	stroke-dashoffset: 1000;
+ 	animation: dash 5s linear infinite; 
 
-// }
+}
 
-// .last {
-// 	stroke-dasharray: 1000;
-//  	stroke-dashoffset: 1000;
-// 	animation: dash-delay 5s linear infinite;
-// }
-
-
-// @keyframes dash {
-//   0% {
-//     stroke-dashoffset: 1000;
-//   }
-//   100% {
-//     stroke-dashoffset: 0;
-//   }
-// }
-
-// @keyframes dash-delay {
-//   35% {
-//     stroke-dashoffset: 1000;
-//   }
-//   100% {
-//     stroke-dashoffset: 0;
-//   }
-// }
-
-// // More Life
-
-// .more-life-smoke {
-// 	width: 73px;
-//     position: absolute;
-//     left: 27%;
-//     top: 28px;
-//     animation: smoke 2s infinite;
-// 	animation-timing-function: linear;
-// 	animation-direction: alternate;
-// 	@media (min-width: $bp-medium) {
-// 		width: 125px;	
-// 	}
-
-// }
-
-// .more-life-flicker {
-// 	width: 6px;
-// 	height: 3px;
-// 	background-color: #fd6923;
-// 	position: absolute;
-// 	border-radius: 100%;
-// 	animation: more-life-flicker 6s infinite;
-// 	left: 43.3%;
-// 	top: 49.3%;
-// 	opacity: 0;
-// 	transform:rotate(15deg);
-// }
-
-// @keyframes smoke {
-//   from {
-//   	opacity:0;
-//   }
-//   to {
-//   	opacity: 1;
-//   	top: 20px;
-//   }
-// }
-
-// @keyframes more-life-flicker {
-//   0%   { opacity:0.5; }
-//   50%  { opacity:0; }
-//   100% { opacity:0.5; }
-// }
+.last {
+	stroke-dasharray: 1000;
+ 	stroke-dashoffset: 1000;
+	animation: dash-delay 5s linear infinite;
+}
 
 
+@keyframes dash {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
 
+@keyframes dash-delay {
+  35% {
+    stroke-dashoffset: 1000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
 
-// // Views From The 6 (Beta)
+// END SCORPION
 
-// .hide-mobile {
-// 	display:none;
-// 	@media (min-width: $bp-medium) {
-// 		display:block;
-// 	}
-// }
+// START CARE PACKAGE
+// END CARE PACKAGE
 
-// .views {
-// 	z-index:1;
-// 	position: absolute;
-// }
+// START DARK DEMO TAPES
+// END DARK DEMO TAPES
 
-// .eye-position-1 {
-// 	top: 40%;
-// 	left: 15%;
-// }
-// .eye-position-2 {
-// 	top: 50%;
-// 	left: 10%;
-// }
+// START CERTIFIED LOVER BOY
 
-// .eye-position-3 {
-// 	top: 55%;
-// 	left: 28%;
-// }
+.clb-cover {
+  padding: 16px;
+}
 
-// .eye-position-4	 {
-// 	top: 44%;
-// 	left: 30%;
-// }
+.clb-ting {
+  max-width: 45px;
+  flex-direction: row;
+}
 
-// .eye-position-5 {
-// 	top: 40%;
-// 	left: 37%;
-// }
+.clb-spacing {
+  margin: 12px 0 12px 0;
+}
 
-// .eye-position-6 {
-// 	top: 55%;
-// 	left: 46%;
-// }
+.clb-grid {
+  display: flex;
+  justify-content: space-evenly;
+}
 
-// .eye-position-7 {
-// 	top: 42%;
-//     left: 62%;
-// 	@media (min-width: $bp-medium) {
-// 		left: 57%;
-// 	}
-// }
-// .eye-position-8 {
-// 	top: 45%;
-// 	left: 64%;
-// }
-// .eye-position-9 {
-// 	top: 56%;
-// 	left: 57%;
-// }
+// END CERTIFIED LOVER BOY
 
-// .eye-position-10 {
-// 	top: 54%;
-// 	left: 72%;
-// }
-
-// .eye-position-11 {
-// 	top: 40%;
-// 	left: 82%;
-// }
-
-// .eye-position-12 {
-// 	top: 50%;
-// 	left: 85%;
-// }
-
-// .eye {
-// 	width:30px;
-// 	height:15px;
-// 	background-color: #fff;
-// 	border-radius: 50%;
-// 	position: absolute;
-// 	&:before {
-// 		content:'';
-// 		width:31px;
-// 		height:16px;
-// 		background-color: #000;
-// 		border-radius: 50%;
-// 		position: absolute;
-// 		top:-21px;
-// 		@extend .eye-blink;
-// 	}
-// 	@media (min-width: $bp-medium) {
-// 		width:40px;
-// 		height:20px;
-// 			&:before {
-// 			content:'';
-// 			width:41px;
-// 			height:21px;
-// 			}
-// 	}
-// }
-// .eye-ball {
-// 	width:15px;
-// 	height:15px;
-// 	border-radius: 100%;
-// 	background-color: #000;
-// 	margin-top:10%;
-// }
-
-// .eye-blink {
-// 	animation: eye-blink 3s infinite;
-// 	animation-timing-function: ease;
-// }
-
-// @keyframes eye-blink {
-//   0% {
-	
-//   }
-
-//   50% {
-//   	transform: translate(0,20px);
-
-//   }
-//   100% {
-//   }
-// }
-
-// .eye-small {
-// 	width: 30px;
-// 	height: 15px;
-
-// 	&:before {
-// 		content:'';
-// 		width:31px;
-// 		height:16px;
-// 		background-color: #000;
-// 		border-radius: 50%;
-// 		position: absolute;
-// 		top:-16px;
-// 		@extend .eye-blink-sm;
-// 	}
-
-// 	.eye-ball {
-// 		width: 12px;
-// 		height: 12px;
-// 	}
-// }
-
-// .eye-blink-sm {
-// 	animation: eye-blink-sm 2s infinite;
-// 	animation-timing-function: ease;
-// }
-
-// @keyframes eye-blink-sm {
-//   0% {
-	
-//   }
-
-//   50% {
-//   	transform: translate(0,16px);
-
-//   }
-//   100% {
-//   }
-// }
-
-// .eye-medium {
-// 	width: 35px;
-// 	height: 17px;
-
-// 	&:before {
-// 		content:'';
-// 		width:35px;
-// 		height:17px;
-// 		background-color: #000;
-// 		border-radius: 50%;
-// 		position: absolute;
-// 		top:-17px;
-// 		@extend .eye-blink-md;
-// 	}
-
-// 	.eye-ball {
-// 		width: 14px;
-// 		height: 14px;
-// 	}
-// }
-
-// .eye-blink-md {
-// 	animation: eye-blink-md 3s infinite;
-// 	animation-timing-function: ease;
-// }
-
-// @keyframes eye-blink-md {
-//   0% {
-	
-//   }
-
-//   50% {
-//   	transform: translate(0,17px);
-
-//   }
-//   100% {
-//   }
-// }
-
-// // What A Time To Be Alive
-// .sparkle {
-// 	width: 0;
-// 	height: 0;
-// 	border: 10px solid transparent;
-// 	border-bottom-color: #fff;
-// 	position: relative;
-// 	top: -10px;
-// 		&:after {
-// 		content: '';
-// 		position: absolute;
-// 		left: -10px;
-// 		top: 10px;
-// 		width: 0;
-// 		height: 0;
-// 		border: 10px solid transparent;
-// 		border-top-color: #fff;
-// 		}
-// }
-
-
-// @keyframes sparkle {
-//   0% {
-//   	opacity:1;
-//   }
-//   25%{
-//   	transform:scale(1.5);
-//   }
-//   50% {
-//   }
-//   75% {
-//   	transform:scale(1);
-//   }
-//   100% {
-//   	opacity:0;
-//   }
-// }
-
-// .sparkle {
-// 	animation: sparkle 1.75s infinite;
-// 	animation-timing-function: linear;
-// }
-
-// .center-top {
-// 	position: absolute;
-// 	top: 5%;
-// 	left: 50%;
-// 	animation-delay:0.75s;
-// }
-// .center-right{
-// 	position: absolute;
-// 	top: 41%;
-// 	left: 75%;
-// 	animation-delay:1s;
-// }
-// .center-left{
-// 	position: absolute;
-// 	top: 19%;
-// 	left: 18%;
-// 	animation-delay:2s;
-// }
-
-// .center-middle{
-// 	position: absolute;
-// 	top: 53%;
-// 	left: 34%;
-// 	animation-delay:1.5s;
-// }
-
-// .center-middle-right{
-// 	position: absolute;
-// 	top: 15%;
-// 	left: 92%;
-// 	animation-delay:3s;
-// }
-// .center-bottom{
-// 	position: absolute;
-// 	top: 92%;
-// 	left: 12%;
-// 	animation-delay:3s;
-// }
-
-// .center-bottom-right{
-// 	position: absolute;
-// 	top: 83%;
-// 	left: 80%;
-// 	animation-delay:0.5s;
-// }
 
 
 

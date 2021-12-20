@@ -363,15 +363,35 @@ h1, h2, h3, h4, h5, h6, p {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "SantaAnaTrial-Bold", sans-serif; }
+  font-family: "SantaAna-Regular", sans-serif; }
 
 @font-face {
   font-family: 'SantaAnaTrial-Bold';
-  src: url("SantaAnaTrial-Bold.woff2") format("woff2"), url("SantaAnaTrial-Bold.woff") format("woff"), url("SantaAnaTrial-Bold.ttf") format("truetype"); }
+  src: url("SantaAnaTrial-Bold.woff2") format("woff2"), url("SantaAnaTrial-Bold.woff") format("woff"), url("SantaAnaTrial-Bold.ttf") format("truetype");
+  font-family: 'SantaAnaTrial-Regular';
+  src: url("SantaAnaTrial-Regular.woff2") format("woff2"), url("SantaAnaTrial-Regular.woff") format("woff"), url("SantaAnaTrial-Regular.ttf") format("truetype"); }
 
 /*--------------------------------------------------------------------
  * Album
  *------------------------------------------------------------------*/
+.title {
+  font-family: "SantaAna-SemiBold", sans-serif;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  padding: 40px 16px; }
+
+footer {
+  background-color: #2c3e50;
+  padding: 24px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-family: "SantaAna-Regular", sans-serif;
+  color: #fff;
+  font-size: 16px;
+  text-align: center; }
+
 .album-cover {
   height: 300px;
   width: 300px;
@@ -392,7 +412,7 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 16px;
   text-align: center;
   color: #fff;
-  font-family: "SantaAnaTrial-Regular", sans-serif; }
+  font-family: "SantaAna-Regular", sans-serif; }
 
 .cbs-bg {
   background: url(../img/cbs/bg-cbs.jpg) center no-repeat #9B5A31;
@@ -552,27 +572,27 @@ svg.leaf {
 
 @keyframes tml-glitch {
   0% {
-    clip: rect(576px, 300px, 124px, 0); }
+    clip: rect(49px, 300px, 54px, 0); }
   10% {
-    clip: rect(278px, 300px, 146px, 0); }
+    clip: rect(544px, 300px, 141px, 0); }
   20% {
-    clip: rect(98px, 300px, 597px, 0); }
+    clip: rect(581px, 300px, 240px, 0); }
   30% {
-    clip: rect(303px, 300px, 539px, 0); }
+    clip: rect(258px, 300px, 259px, 0); }
   40% {
-    clip: rect(13px, 300px, 374px, 0); }
+    clip: rect(344px, 300px, 24px, 0); }
   50% {
-    clip: rect(4px, 300px, 257px, 0); }
+    clip: rect(429px, 300px, 315px, 0); }
   60% {
-    clip: rect(415px, 300px, 153px, 0); }
+    clip: rect(333px, 300px, 532px, 0); }
   70% {
-    clip: rect(566px, 300px, 537px, 0); }
+    clip: rect(540px, 300px, 252px, 0); }
   80% {
-    clip: rect(244px, 300px, 291px, 0); }
+    clip: rect(202px, 300px, 127px, 0); }
   90% {
-    clip: rect(270px, 300px, 264px, 0); }
+    clip: rect(545px, 300px, 221px, 0); }
   100% {
-    clip: rect(477px, 300px, 194px, 0); } }
+    clip: rect(51px, 300px, 303px, 0); } }
 
 @keyframes tml-shake {
   0% {
@@ -828,6 +848,59 @@ svg.leaf {
   100% {
     transform: scale(1); } }
 
+.bg-scorpion {
+  background: url(../img/scorpion/scorpion-album.jpg) center no-repeat;
+  background-size: 300px; }
+
+.scorpion-autograph {
+  width: 134px;
+  position: absolute;
+  bottom: 10px;
+  right: 12px;
+  fill: none;
+  stroke: #aaa9aa;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+  stroke-width: 6px;
+  opacity: .75;
+  border: 0; }
+
+.first {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear infinite; }
+
+.last {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash-delay 5s linear infinite; }
+
+@keyframes dash {
+  0% {
+    stroke-dashoffset: 1000; }
+  100% {
+    stroke-dashoffset: 0; } }
+
+@keyframes dash-delay {
+  35% {
+    stroke-dashoffset: 1000; }
+  100% {
+    stroke-dashoffset: 0; } }
+
+.clb-cover {
+  padding: 16px; }
+
+.clb-ting {
+  max-width: 45px;
+  flex-direction: row; }
+
+.clb-spacing {
+  margin: 12px 0 12px 0; }
+
+.clb-grid {
+  display: flex;
+  justify-content: space-evenly; }
+
 /*! Flickity v2.2.2
 https://flickity.metafizzy.co
 ---------------------------------------------- */
@@ -845,9 +918,7 @@ https://flickity.metafizzy.co
 
 .main-carousel {
   width: 90%;
-  margin: 0 auto;
-  top: 35%;
-  transform: translateY(-35%); }
+  margin: 0 auto; }
 
 .flickity-enabled {
   position: relative; }

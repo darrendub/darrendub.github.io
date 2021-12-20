@@ -7,8 +7,8 @@
 //--------------------------------------------------------------------
 
 $serif: 'Vollkorn', serif;
-$sans: 'SantaAnaTrial-Bold', sans-serif;
-$sans-reg: 'SantaAnaTrial-Regular', sans-serif;
+$sans-bold: 'SantaAna-SemiBold', sans-serif;
+$sans-reg: 'SantaAna-Regular', sans-serif;
 
 //--------------------------------------------------------------------
 // Color
@@ -27,11 +27,12 @@ $silver: #e1e1e1;
 // Spacing
 //--------------------------------------------------------------------
 
-$unit-xsmall:	8px;
-$unit-small:	16px;
-$unit-med:		24px;
-$unit-large:	32px;
-$unit-xlarge:	40px;
+$unit-xsmall:	  8px;
+$unit-small:	  16px;
+$unit-med:		  24px;
+$unit-large:    32px;
+$unit-xlarge:	  40px;
+$unit-xxlarge:  48px;
 
 //--------------------------------------------------------------------
 // Padding
@@ -40,7 +41,6 @@ $unit-xlarge:	40px;
 .padding-small { 
   padding: $unit-small;
 }
-
 
 //--------------------------------------------------------------------
 // Breakpoints

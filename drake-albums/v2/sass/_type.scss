@@ -6,13 +6,17 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: $sans;
+  font-family: $sans-reg;
   
 }
 
-@font-face { // http://www.deasti.com/late-free-download/
+@font-face { 
   font-family: 'SantaAnaTrial-Bold';
   src: url('SantaAnaTrial-Bold.woff2') format('woff2'),
        url('SantaAnaTrial-Bold.woff') format('woff'),
        url('SantaAnaTrial-Bold.ttf') format('truetype');
+       font-family: 'SantaAnaTrial-Regular';
+  src: url('SantaAnaTrial-Regular.woff2') format('woff2'),
+       url('SantaAnaTrial-Regular.woff') format('woff'),
+       url('SantaAnaTrial-Regular.ttf') format('truetype');
 }
