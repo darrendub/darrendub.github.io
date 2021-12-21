@@ -1822,6 +1822,26 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/drake-albums\/v2\/img\/_index\/DCSS.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/drake-albums\/v2\/img\/_index\/DCSS.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
+    "\/drake-albums\/v2\/img\/_index\/twitter-logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/drake-albums\/v2\/img\/_index\/twitter-logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
     "\/drake-albums\/v2\/img\/cbs\/album-title-cbs.png" : {
       "ft" : 32768,
       "iS" : 2565,

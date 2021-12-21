@@ -2,18 +2,41 @@
  * Album
  *------------------------------------------------------------------*/
 
- .title {
-  font-family: $sans-bold;
+header {
+  padding: $unit-xlarge $unit-med;
+  .title {
+    font-family: $sans-bold;
+    color: $white;
+    font-size: $unit-xlarge;
+    text-align: center;
+    }
+
+   .logo {
+    max-width: $unit-xlarge;
+    }
+}
+
+.share-button {
+  padding: $unit-med $unit-large;
+  background-blend-mode: multiply;
+  background-color: $big-boy-blue;
+  display: flex;
+  align-items: center;
+}
+
+.share-twitter {
+  max-width: $unit-med;
+}
+
+.share-text {
   color: $white;
-  font-size: $unit-xlarge;
-  text-align: center;
-  padding: 40px 16px;
- }
+  font-size: $unit-med;
+  padding-left: $unit-small;
+  font-family: $sans-bold;
+}
+
  footer {
-  background-color: $deep-sea-blue;
   padding: $unit-med;
-  position: absolute;
-  bottom: 0;
   width: 100%;
   font-family: $sans-reg;
   color: $white;
