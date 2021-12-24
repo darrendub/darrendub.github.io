@@ -11,12 +11,11 @@
 }
 
 @font-face { 
-  font-family: 'SantaAnaTrial-Bold';
-  src: url('SantaAnaTrial-Bold.woff2') format('woff2'),
-       url('SantaAnaTrial-Bold.woff') format('woff'),
-       url('SantaAnaTrial-Bold.ttf') format('truetype');
-       font-family: 'SantaAnaTrial-Regular';
-  src: url('SantaAnaTrial-Regular.woff2') format('woff2'),
-       url('SantaAnaTrial-Regular.woff') format('woff'),
-       url('SantaAnaTrial-Regular.ttf') format('truetype');
+     font-family: 'SantaAna-SemiBold';
+  src: url('SantaAna-SemiBold.woff') format('woff'),
+       url('SantaAna-SemiBold.woff2') format('woff2');
+     font-family: 'SantaAna-Regular';
+  src: url('SantaAna-Regular.woff') format('woff'),
+       url('SantaAna-Regular.woff2') format('woff2');
 }
+

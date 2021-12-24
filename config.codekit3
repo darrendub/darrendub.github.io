@@ -1218,6 +1218,14 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/drake-albums\/v2\/css\/SantaAna-Regular.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/drake-albums\/v2\/css\/SantaAna-Regular.woff",
+      "oF" : 0
+    },
     "\/drake-albums\/v2\/css\/SantaAna-Regular.woff2" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1232,6 +1240,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/drake-albums\/v2\/css\/SantaAna-SemiBold.woff",
+      "oF" : 0
+    },
+    "\/drake-albums\/v2\/css\/SantaAna-SemiBold.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/drake-albums\/v2\/css\/SantaAna-SemiBold.woff2",
       "oF" : 0
     },
     "\/drake-albums\/v2\/img\/_archive\/albums\/91gMAln-dPL._SL1500_.jpg" : {
@@ -1821,6 +1837,26 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/drake-albums\/v2\/img\/_index\/dcss.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/drake-albums\/v2\/img\/_index\/dcss.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
+    },
+    "\/drake-albums\/v2\/img\/_index\/twitter-logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/drake-albums\/v2\/img\/_index\/twitter-logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 3758088159,
+      "prP" : 0
     },
     "\/drake-albums\/v2\/img\/cbs\/album-title-cbs.png" : {
       "ft" : 32768,

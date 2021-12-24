@@ -2,24 +2,104 @@
  * Album
  *------------------------------------------------------------------*/
 
- .title {
-  font-family: $sans-bold;
-  color: $white;
-  font-size: $unit-xlarge;
-  text-align: center;
-  padding: 40px 16px;
- }
- footer {
-  background-color: $deep-sea-blue;
-  padding: $unit-med;
+header {
+  padding: $unit-xlarge $unit-med;
+}
+
+.eye-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: $unit-xxlarge $unit-med;
+}
+
+.logo {
+  max-width: $unit-xxlarge*2;
   position: absolute;
-  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.eye {
+  width:$unit-xlarge;
+  height:$unit-xlarge/2;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  overflow: hidden;
+  &:before { // Eyelid
+    content:'';
+    width:$unit-xlarge;
+    height:$unit-xlarge/2;
+    background-color: $big-boy-blue;
+    border-radius: 50%;
+    position: absolute;
+    top:-21px;
+    @extend .eye-blink;
+  }
+}
+.eye-ball {
+  width:$unit-xlarge/2;
+  height:$unit-xlarge/2;
+  border-radius: 100%;
+  background-color: #000;
+}
+
+.eye-blink {
+  animation: eye-blink 4s infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes eye-blink {
+  0% {
+  
+  }
+
+  50% {
+    transform: translate(0,($unit-med - 3));
+
+  }
+  100% {
+  }
+}
+
+
+.share-button {
+  padding: $unit-small $unit-med;
+  background-blend-mode: multiply;
+  background-color: $big-boy-blue;
+  color: $white;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: $unit-xlarge;
+  max-width: 150px;
+  margin: $unit-med auto;
+}
+
+
+.share-twitter {
+  max-width: $unit-med;
+  margin-right: $unit-small;
+}
+
+.share-text {
+  color: $white;
+  font-size: $unit-med;
+  font-family: $sans-reg;
+}
+
+ footer {
+  max-width: 420px;
   width: 100%;
   font-family: $sans-reg;
   color: $white;
   font-size: $unit-small;
   text-align: center;
+  line-height: 1.6;
+  margin: 0 auto;
  }
+
  .album-cover {
  	height: 300px;
  	width: 300px;
