@@ -629,27 +629,27 @@ svg.leaf {
 
 @keyframes tml-glitch {
   0% {
-    clip: rect(529px, 300px, 308px, 0); }
+    clip: rect(507px, 300px, 243px, 0); }
   10% {
-    clip: rect(476px, 300px, 128px, 0); }
+    clip: rect(298px, 300px, 90px, 0); }
   20% {
-    clip: rect(577px, 300px, 131px, 0); }
+    clip: rect(402px, 300px, 546px, 0); }
   30% {
-    clip: rect(429px, 300px, 400px, 0); }
+    clip: rect(205px, 300px, 418px, 0); }
   40% {
-    clip: rect(214px, 300px, 137px, 0); }
+    clip: rect(581px, 300px, 466px, 0); }
   50% {
-    clip: rect(591px, 300px, 373px, 0); }
+    clip: rect(567px, 300px, 584px, 0); }
   60% {
-    clip: rect(562px, 300px, 589px, 0); }
+    clip: rect(90px, 300px, 308px, 0); }
   70% {
-    clip: rect(347px, 300px, 333px, 0); }
+    clip: rect(42px, 300px, 570px, 0); }
   80% {
-    clip: rect(401px, 300px, 84px, 0); }
+    clip: rect(217px, 300px, 69px, 0); }
   90% {
-    clip: rect(42px, 300px, 180px, 0); }
+    clip: rect(163px, 300px, 109px, 0); }
   100% {
-    clip: rect(531px, 300px, 565px, 0); } }
+    clip: rect(200px, 300px, 425px, 0); } }
 
 @keyframes tml-shake {
   0% {
@@ -842,7 +842,7 @@ svg.leaf {
 .rain {
   height: 100vh;
   background: url(https://i.postimg.cc/MKgprHJg/rain.png);
-  animation: rain 0.3s linear infinite; }
+  animation: rain 0.5s linear infinite; }
 
 @keyframes rain {
   0% {
@@ -950,8 +950,8 @@ svg.leaf {
 
 .cp-text {
   filter: drop-shadow(0px 0px 12px white);
+  display: block;
   padding-top: 24px;
-  display: flex;
   margin: 0 auto;
   animation: cp-pulsate 3s infinite; }
 
@@ -965,7 +965,7 @@ svg.leaf {
   100% {
     filter: drop-shadow(0px 0px 12px white); }
   50% {
-    filter: drop-shadow(0px 0px 6px white) blur(0.5px); }
+    filter: drop-shadow(0px 0px 6px white); }
   0% {
     filter: drop-shadow(0px 0px 12px white); } }
 
