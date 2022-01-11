@@ -350,11 +350,11 @@ template {
  * Base
  *------------------------------------------------------------------*/
 html {
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+  background: linear-gradient(180deg, #59BCFB 0%, #358BC9 100%); }
 
 body {
-  -webkit-text-size-adjust: 100%;
-  background: linear-gradient(180deg, #59BCFB 0%, #358BC9 100%); }
+  -webkit-text-size-adjust: 100%; }
 
 /*--------------------------------------------------------------------
  * Type
@@ -380,7 +380,8 @@ header {
 .logo {
   display: block;
   margin: 0 auto;
-  padding-bottom: 24px; }
+  padding-bottom: 24px;
+  max-width: 300px; }
 
 .dca-1 {
   animation: dca-1 4s ease-in-out alternate infinite; }
@@ -628,27 +629,27 @@ svg.leaf {
 
 @keyframes tml-glitch {
   0% {
-    clip: rect(190px, 300px, 570px, 0); }
+    clip: rect(76px, 300px, 556px, 0); }
   10% {
-    clip: rect(564px, 300px, 182px, 0); }
+    clip: rect(39px, 300px, 587px, 0); }
   20% {
-    clip: rect(543px, 300px, 396px, 0); }
+    clip: rect(314px, 300px, 151px, 0); }
   30% {
-    clip: rect(346px, 300px, 488px, 0); }
+    clip: rect(39px, 300px, 274px, 0); }
   40% {
-    clip: rect(369px, 300px, 233px, 0); }
+    clip: rect(446px, 300px, 73px, 0); }
   50% {
-    clip: rect(336px, 300px, 96px, 0); }
+    clip: rect(510px, 300px, 15px, 0); }
   60% {
-    clip: rect(2px, 300px, 418px, 0); }
+    clip: rect(297px, 300px, 241px, 0); }
   70% {
-    clip: rect(507px, 300px, 305px, 0); }
+    clip: rect(17px, 300px, 375px, 0); }
   80% {
-    clip: rect(476px, 300px, 463px, 0); }
+    clip: rect(127px, 300px, 287px, 0); }
   90% {
-    clip: rect(134px, 300px, 144px, 0); }
+    clip: rect(541px, 300px, 334px, 0); }
   100% {
-    clip: rect(524px, 300px, 435px, 0); } }
+    clip: rect(285px, 300px, 73px, 0); } }
 
 @keyframes tml-shake {
   0% {
