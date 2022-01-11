@@ -7,7 +7,8 @@
 //--------------------------------------------------------------------
 
 $serif: 'Vollkorn', serif;
-$sans: 'Chivo', sans-serif;
+$sans-bold: 'SantaAna-SemiBold', sans-serif;
+$sans-reg: 'SantaAna-Regular', sans-serif;
 
 //--------------------------------------------------------------------
 // Color
@@ -20,15 +21,28 @@ $blue:	#0074D9;
 $link-blue: #268bd2;
 $clouds: #f8f8f8;
 $silver: #e1e1e1;
+$big-boy-blue: #358BC9;
+$baby-blue: #59BCFB;
+
 
 //--------------------------------------------------------------------
 // Spacing
 //--------------------------------------------------------------------
 
-$unit-small:	25px;
-$unit-medium:	50px;
-$unit-large:	100px;
+$unit-xsmall:	  8px;
+$unit-small:	  16px;
+$unit-med:		  24px;
+$unit-large:    32px;
+$unit-xlarge:	  40px;
+$unit-xxlarge:  48px;
 
+//--------------------------------------------------------------------
+// Padding
+//--------------------------------------------------------------------
+
+.padding-small { 
+  padding: $unit-small;
+}
 
 //--------------------------------------------------------------------
 // Breakpoints
@@ -48,29 +62,22 @@ $z-200:			200;
 $z-300:			300;	
 
 //--------------------------------------------------------------------
-// Widths
+// Helper
 //--------------------------------------------------------------------
-
-.one-whole {
-	width: 100%;
+.center {
+	margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
-.one-half {
-	width: 100%;
-	@media (min-width: $bp-medium) {
-		width: 50%;	
-	}
+.bg-white {
+	background-color: $white;
 }
 
-.one-third {
-	width: 100%;
-	@media (min-width: $bp-medium) {
-		width: 33%;	
-	}
+.bg-black {
+  background-color: #000;
 }
-.two-thirds {
-	width: 100%;
-	@media (min-width: $bp-medium) {
-		width: 75%;	
-	}
-}
+
+
+
+

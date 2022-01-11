@@ -1,189 +1,264 @@
-<html lang="en"><head>
+<html lang="en">
+<head>
   <meta charset="UTF-8">
   <link href="http://gmpg.org/xfn/11" rel="profile">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-
   <title>
-      Drake CSS Albums
+    Drake CSS Albums
   </title>
-
   <!-- CSS -->
   <link rel="stylesheet" href="css/main.css">
-  <link href="http://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Chivo:400" rel="stylesheet" type="text/css">
-
-<!-- Twitter -->
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@darrendub" />
-<meta name="twitter:title" content="Drake CSS Albums" />
-<meta name="twitter:description" content="Animating Drake's disography with Cascading Style Sheets" />
-<meta name="twitter:image" content="http://darrendub.com/drake-albums/img/drake-albums-social.jpg" />
-
-<!-- Facebook -->
-<meta property="og:url" content="http://darrendub.com/drake-albums/" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="Drake CSS Albums" />
-<meta property="og:image:width" content="600" />
-<meta property="og:image:height" content="600" />
-<meta property="og:description" content="Animating Drake's disography with Cascading Style Sheets" />
-<meta property="og:image" content="http://darrendub.com/drake-albums/img/drake-albums-social.jpg" />
-<!-- Google Analytics -->
-
-<script defer>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-76285905-2', 'auto');
-  ga('send', 'pageview');
-
-</script>
+  <meta name="theme-color" content="#59BCFB">
+  <!-- JS -->
+  <script src="js/flickity.pkgd-min.js"></script>
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@darrendub" />
+  <meta name="twitter:title" content="Drake CSS Albums" />
+  <meta name="twitter:description" content="Animating Drake's disography with Cascading Style Sheets" />
+  <meta name="twitter:image" content="http://darrendub.com/drake-albums/img/_index/dca-social.png" />
+  <!-- Facebook -->
+  <meta property="og:url" content="http://darrendub.com/drake-albums/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Drake CSS Albums" />
+  <meta property="og:image:width" content="600" />
+  <meta property="og:image:height" content="600" />
+  <meta property="og:description" content="Animating Drake's disography with Cascading Style Sheets" />
+  <meta property="og:image" content="http://darrendub.com/drake-albums/img/_index/dca-social.png" />
 </head>
 <body>
-  <div class="content bg-light-gray">
-    <div class="homepage-intro">
-        <h1 class="text-center two-thirds center">Drake CSS Albums</h1>
-      <p class="text-center">Animating Drake's disography with Cascading Style Sheets.</p>
-      <div class="share center text-center">
-  <a class="button button-blue center" href="https://twitter.com/intent/tweet?text=Drake CSS Albums&amp;url=http://darrendub.com/drake-albums&amp;via=darrendub" rel="nofollow" target="_blank" title="Share on Twitter">Tweet</a>
-      </div>
+  <header>
+    <svg class="logo" width="390" height="32" viewBox="0 0 390 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path class="dca-1"  d="M0.698608 22.1539H5.04368C7.55924 22.1539 9.76989 21.6511 11.4978 20.3187C13.8355 18.5338 14.9789 15.9194 14.9789 11.6457C14.9789 7.54803 13.7338 4.83301 11.5232 3.12355C9.5412 1.64034 7.27973 1.28839 4.48466 1.28839L0.698608 1.28839L0.698608 22.1539ZM4.56089 18.3327L4.56089 5.10954H5.52646C9.51579 5.10954 11.142 7.2715 11.142 11.696C11.142 16.0953 9.61743 18.3327 5.52646 18.3327H4.56089Z" fill="#3285C0"/>
+      <path class="dca-2"  d="M27.0271 22.1539H30.7877V15.14H32.414L36.4795 22.1539H40.7992L36.2508 14.763C39.0459 13.8579 40.9008 11.3943 40.9008 8.20165C40.9008 4.20453 37.9787 1.28839 33.7861 1.28839L27.0271 1.28839V22.1539ZM30.7877 11.7211V4.93356H33.6845C35.7426 4.93356 37.0385 6.16538 37.0385 8.32734C37.0385 10.439 35.7935 11.7211 33.6845 11.7211H30.7877Z" fill="#3285C0"/>
+      <path class="dca-1"  d="M50.9941 22.1539H54.9072L56.2285 18.1819H63.1654L64.4867 22.1539H68.4252L61.0564 1.28839L58.363 1.28839L50.9941 22.1539ZM57.2958 15.0143L59.7097 7.77428L62.1236 15.0143H57.2958Z" fill="#3285C0"/>
+      <path class="dca-2"  d="M79.1885 22.1539H82.9491V15.0898L84.245 13.4306L89.9114 22.1287H94.4089L86.6589 10.4139L93.9261 1.28839L89.2507 1.28839L82.9491 9.93625V1.28839L79.1885 1.28839V22.1539Z" fill="#3285C0"/>
+      <path class="dca-1"  d="M105.531 22.1539H117.296V18.4584H109.394V13.0284H115.543V9.76027H109.394V4.98384L117.296 4.98384V1.28839L105.531 1.28839V22.1539Z" fill="#3285C0"/>
+      <path class="dca-2"  d="M272.775 1.28839V22.1539H283.32V18.3327H276.637V1.28839L272.775 1.28839Z" fill="#3285C0"/>
+      <path class="dca-1"  d="M293.986 22.1539H301.177C304.785 22.1539 307.631 19.8411 307.631 16.221C307.631 13.8328 306.107 12.0982 303.896 11.2686C305.852 10.5144 307.174 8.98096 307.174 6.79386C307.174 3.42522 304.404 1.28839 300.974 1.28839L293.986 1.28839V22.1539ZM297.747 18.6344V12.9781L300.898 13.0032C302.397 13.0032 303.82 14.1596 303.82 15.7937C303.82 17.4528 302.448 18.6344 300.847 18.6344H297.747ZM297.747 9.71V4.80787H300.669C302.066 4.80787 303.337 5.78829 303.337 7.22122C303.337 8.65415 302.092 9.71 300.669 9.71H297.747Z" fill="#3285C0"/>
+      <path class="dca-2"  d="M326.52 22.4807C330.763 22.4807 333.508 19.1372 333.508 14.2853V1.28838L329.645 1.28838V14.2853C329.645 16.8244 328.705 18.6847 326.571 18.6847C324.411 18.6847 323.471 16.8495 323.471 14.2853V1.26324L319.608 1.26324V14.2853C319.608 19.0617 322.226 22.4807 326.52 22.4807Z" fill="#3285C0"/>
+      <path class="dca-1"  d="M346.074 22.1539H349.733V8.32734L354.79 22.1539H356.162L361.269 8.37762L361.244 22.1539H364.878V1.28839L360.71 1.28839L355.578 15.3412L350.089 1.28839L346.074 1.28839V22.1539Z" fill="#3285C0"/>
+      <path class="dca-2"  d="M383.653 22.5058C387.261 22.5058 389.878 19.8662 389.878 16.397C389.878 13.2294 387.642 11.344 384.517 9.86078C382.611 8.98091 381.061 8.35243 381.061 6.86923C381.061 5.46143 382.077 4.50615 383.399 4.50615C384.847 4.50615 386.092 5.21005 387.083 6.54242L389.522 4.05364C388.226 2.24363 385.838 0.911255 383.221 0.911255C379.816 0.911255 377.122 3.52572 377.122 7.02006C377.122 10.1876 379.384 11.897 381.925 12.978C384.567 14.1344 385.965 15.1149 385.965 16.5226C385.965 17.9304 385.05 18.8103 383.399 18.8103C381.976 18.8103 380.502 17.9304 379.511 16.7238L377.046 19.2125C378.139 21.0225 380.832 22.5058 383.653 22.5058Z" fill="#3285C0"/>
+      <path class="dca-1"  d="M245.061 22.1539H248.974L250.295 18.1819H257.232L258.554 22.1539H262.492L255.123 1.28839L252.43 1.28839L245.061 22.1539ZM251.363 15.0143L253.777 7.77428L256.191 15.0143H251.363Z" fill="#3285C0"/>
+      <path class="dca-2"  d="M158.981 22.5058C161.42 22.5058 163.732 21.0478 164.698 19.2377L162.106 16.8747C161.319 18.1065 160.175 19.0366 158.981 19.0366C156.516 19.0366 155.347 15.5926 155.347 11.7211C155.347 7.9 156.491 4.40566 158.981 4.40566C160.175 4.40566 161.319 5.31067 162.106 6.56762L164.698 4.20455C163.732 2.39453 161.42 0.936462 158.981 0.936462C154.178 0.936462 151.333 5.43636 151.333 11.7211C151.333 17.9556 154.128 22.5058 158.981 22.5058Z" fill="#3285C0"/>
+      <path class="dca-1"  d="M182.122 22.5058C185.73 22.5058 188.347 19.8662 188.347 16.397C188.347 13.2294 186.111 11.344 182.986 9.86078C181.08 8.98091 179.53 8.35243 179.53 6.86923C179.53 5.46143 180.546 4.50615 181.868 4.50615C183.316 4.50615 184.561 5.21005 185.552 6.54242L187.991 4.05364C186.695 2.24363 184.307 0.911255 181.69 0.911255C178.285 0.911255 175.591 3.52572 175.591 7.02006C175.591 10.1876 177.853 11.897 180.394 12.978C183.036 14.1344 184.434 15.1149 184.434 16.5226C184.434 17.9304 183.519 18.8103 181.868 18.8103C180.445 18.8103 178.971 17.9304 177.98 16.7238L175.515 19.2125C176.608 21.0225 179.301 22.5058 182.122 22.5058Z" fill="#3285C0"/>
+      <path class="dca-2"  d="M206.38 22.5058C209.988 22.5058 212.605 19.8662 212.605 16.397C212.605 13.2294 210.369 11.344 207.244 9.86078C205.338 8.98091 203.788 8.35243 203.788 6.86923C203.788 5.46143 204.805 4.50615 206.126 4.50615C207.574 4.50615 208.819 5.21005 209.81 6.54242L212.25 4.05364C210.954 2.24363 208.565 0.911255 205.948 0.911255C202.543 0.911255 199.85 3.52572 199.85 7.02006C199.85 10.1876 202.111 11.897 204.652 12.978C207.295 14.1344 208.692 15.1149 208.692 16.5226C208.692 17.9304 207.778 18.8103 206.126 18.8103C204.703 18.8103 203.229 17.9304 202.238 16.7238L199.773 19.2125C200.866 21.0225 203.559 22.5058 206.38 22.5058Z" fill="#3285C0"/>
+      </svg>
+      <a class="share-button" href="https://twitter.com/intent/tweet?text=Drake CSS Albums&amp;url=http://darrendub.com/drake-albums&amp;via=darrendub" rel="nofollow" target="_blank" title="Share on Twitter">
+        <svg class="share-twitter" width="24" height="17" viewBox="0 0 24 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M17.9525 4.48316C17.9647 4.65675 17.9647 4.83034 17.9647 5.00553C17.9647 10.3436 13.8371 16.5 6.28966 16.5V16.4968C4.06013 16.5 1.8769 15.8712 0 14.6857C0.324193 14.7241 0.65001 14.7433 0.97664 14.7441C2.82429 14.7457 4.61913 14.1353 6.07272 13.0114C4.31688 12.9786 2.77717 11.8515 2.23928 10.206C2.85436 10.3228 3.48812 10.2988 4.09181 10.1364C2.17753 9.75563 0.800325 8.09973 0.800325 6.17665C0.800325 6.15905 0.800325 6.14225 0.800325 6.12545C1.37071 6.43823 2.00934 6.61182 2.6626 6.63102C0.859639 5.4447 0.30388 3.08325 1.39265 1.23696C3.47593 3.7608 6.54967 5.29511 9.84928 5.4575C9.51859 4.05439 9.97034 2.58408 11.0364 1.59774C12.689 0.0682372 15.2882 0.146632 16.8418 1.77293C17.7607 1.59454 18.6415 1.26256 19.4475 0.792192C19.1412 1.72733 18.5001 2.52168 17.6437 3.02645C18.457 2.93206 19.2517 2.71767 20 2.39049C19.4491 3.20324 18.7552 3.91119 17.9525 4.48316Z" fill="white"/>
+          </svg>
+        <p class="share-text">Share</p>
+    </a>
+  
+  </header>
+
+  <div class="main-carousel" data-flickity='{ "contain": true, "wrapAround": true, "freeScroll": true, "pageDots": false }'>
+
+    <!-- // Comeback Season -->
+
+    <div class="carousel-cell">
+        <div class="album-cover cbs-bg">
+          <svg class="leaf" width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="16" rx="8"  ry="8"/>
+            <rect x="66" rx="8"  ry="8"/>
+            <rect x="116" rx="8"  ry="8"/>
+            <rect x="166" rx="8"  ry="8"/>
+            <rect x="216" rx="8"  ry="8"/>
+            <rect x="266" rx="8"  ry="8"/>
+          </svg>
+          <img src="img/cbs/drake-title-cbs.png">
+          <img class="cbs-drake" src="img/cbs/drake-cbs.png">
+          <img class="cbs-album-title" src="img/cbs/album-title-cbs.png">
+        </div>
+        <p class="album-title">Comeback Season</p>
+        <p class="album-year">2007</p>
     </div>
-  </div>
-    <div class="content">
 
-    
+    <!-- // So Far Gone -->
 
-      <!-- Scorpion -->
-      <h4 class="text-center album-title">Scorpion</h4>
-      <div class="album center drop-shadow bg-black scorpion">
-      <svg class="scorpion-autograph" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 224 139"><path class="first" d="M4,125.87S2.89,53,13.59,38.51c12.71-17.24,14.36,63.33,10.05,66.76s-17,.72-17.22-3.54-4-10.33,9.75-10.33c9.36,0,14.53,11.84,19.85,6.58S66.34,52.85,63.84,64.56s-8.75,44-4,54.71,10.72,17.5,15,15.62"/><path class="last" d="M107.34,35S91.09,14.25,72.84,24.13,53,46.77,55,61.51s14.32,34.11,31,24.38,41.36-35.13,43.69-42.63S119.17,27.47,107.34,35,95.19,50.75,96.64,55.07c4.39,13.06,36.14-5.31,64.8-30.26,27.09-23.57,51.66-24,59-16.45"/></svg>
-      <img src="img/scorpion-base.jpg">
+    <div class="carousel-cell">
+      <div class="album-cover sfg-bg">
+        <img class="sfg-rain" src="img/sfg/sfg-money-love.svg">
+        <img class="sfg-man" src="img/sfg/sfg-man.png">
+        <img class="sfg-text" src="img/sfg/sfg-9.svg">
+        <img class="sfg-text" src="img/sfg/sfg-8.svg">
+        <img class="sfg-text" src="img/sfg/sfg-7.svg">
+        <img class="sfg-text" src="img/sfg/sfg-6.svg">
+        <img class="sfg-text" src="img/sfg/sfg-5.svg">
+        <img class="sfg-text" src="img/sfg/sfg-4.svg">
+        <img class="sfg-text" src="img/sfg/sfg-3.svg">
+        <img class="sfg-text" src="img/sfg/sfg-2.svg">
+        <img class="sfg-text" src="img/sfg/sfg-1.svg">
       </div>
+        <p class="album-title">So Far Gone</p>
+        <p class="album-year">2009</p>
+    </div>
 
-      <!-- More Life -->
-      <h4 class="text-center album-title">More Life</h4>
-      <div class="album center drop-shadow bg-black">
-        <img class="more-life-smoke" src="img/more-life-smoke.png">
-        <span class="more-life-flicker"></span>
-        <img src="img/more-life.jpg">
+    <!-- // Thank Me Later -->  
+
+    <div class="carousel-cell">
+      <div class="album-cover bg-white">
+        <img class="tml tml-red" src="img/tml/tml-red.png"></img>
+        <img class="tml tml-black" src="img/tml/tml-black.png"></img>
       </div>
+        <p class="album-title">Thank Me Later</p>
+        <p class="album-year">2010</p>
+    </div>
 
-      <!-- Views -->
-      <h4 class="text-center album-title">Views</h4>
-      <div class="album center drop-shadow bg-black">
-        <img class="if-reading-parental" src="img/parental.svg">
-        <img class="views" src="img/views-knocked.svg">
-        <div class="eye eye-position-1">
-          <div class="eye-ball center"></div>
+    <!-- // Take Care -->
+
+    <div class="carousel-cell">
+      <div class="album-cover">
+        <div class="candle">
+          <div class="blinking-glow"></div>
+          <div class="flame"></div>
         </div>
-        <div class="eye eye-position-2">
-          <div class="eye-ball center"></div>
-        </div>
-        <div class="eye eye-position-3 eye-small">
-          <div class="eye-ball center"></div>
-        </div>
-        <div class="eye eye-position-4 eye-medium hide-mobile">
-          <div class="eye-ball center"></div>
-        </div>
-        <div class="eye eye-position-5 eye-small">
-          <div class="eye-ball center"></div>
-        </div>
-        <div class="eye eye-position-6">
-          <div class="eye-ball center"></div>
-        </div>
-        <div class="eye eye-position-7 eye-small">
-          <div class="eye-ball center"></div>
-        </div>
-        <div class="eye eye-position-8 hide-mobile">
-          <div class="eye-ball center"></div>
-        </div>
-        <div class="eye eye-position-9 eye-small">
-          <div class="eye-ball center"></div>
-        </div>
-        <div class="eye eye-position-10 eye-medium hide-mobile">
-          <div class="eye-ball center"></div>
-        </div>
-        <div class="eye eye-position-11">
-          <div class="eye-ball center"></div>
-        </div>
-        <div class="eye eye-position-12 eye-small">
-          <div class="eye-ball center"></div>
-        </div>
+        <div class="dark"></div>
+        <img class="tc-cover" src="img/tc/take-care.png"></img>
       </div>
+        <p class="album-title">Take Care</p>
+        <p class="album-year">2011</p>
+    </div>
 
-      <!-- What A Time To Be Alive -->
-      <h4 class="text-center album-title">What A Time To Be Alive</h4>
-      <div class="album center drop-shadow">
-          <div class="sparkle center-top"></div>
-          <div class="sparkle center-right"></div>
-          <div class="sparkle center-middle"></div>
-          <div class="sparkle center-middle-right"></div>
-          <div class="sparkle center-left"></div>
-          <div class="sparkle center-bottom"></div>
-          <div class="sparkle center-bottom-right"></div>
-          <img class="" src="img/what-a-time.jpg">
+    <!-- // Nothing Was The Same  -->
+
+    <div class="carousel-cell">
+      <div class="album-cover nwts-bg">
+        <img src="img/nwts/drake.png">
+        <div class="nwts-clouds"></div>
       </div>
+        <p class="album-title">Nothing Was The Same</p>
+        <p class="album-year">2013</p>
+    </div>
 
-      <!-- If Youre Reading This Its Too Late -->
-      <h4 class="text-center album-title">If Youre Reading This Its Too Late</h4>
-      <div class="album center bg-white drop-shadow">
+    <!-- // If You're Reading This  -->
+
+      <div class="carousel-cell">
+        <div class="album-cover bg-white padding-small">
           <p class="if-text reading">if youre</p>
           <p class="if-text reading reading-delay-1">reading</p>
           <p class="if-text reading reading-delay-2">this its</p>
           <p class="if-text reading reading-delay-3">too late <span class="cursor">|</span></p>
-          <img class="if-reading-parental" src="img/parental.svg">
+          <img class="pray-hands" src="img/iyrtitl/pray-hands.png">
+        </div>
+          <p class="album-title">If You're Reading This It's Too Late</p>
+          <p class="album-year">2015</p>
       </div>
 
-      <!-- Nothing Was The Same -->
-      <h4 class="text-center album-title">Nothing Was The Same</h4>
-      <div class="album center drop-shadow">
-          <img class="nwts-album clouds" src="">
-          <img class="center nwts-parental" src="img/parental.svg"> 
-          <img class="center nwts-drake" src="img/nwts-drake.png"> 
-          <img class="nwts-logo" src="img/nwts-logo.png"> 
+    <!-- // What A Time To Be Alive  -->
+
+    <div class="carousel-cell">
+      <div class="album-cover bg-white">
+        <img class="wattba-diamonds" src="img/wattba/diamonds.png" alt="">
       </div>
+        <p class="album-title">What A Time To Be Alive</p>
+        <p class="album-year">2015</p>
+    </div>
 
-      <!-- Take Care -->
-      <h4 class="text-center album-title">Take Care</h4>
-      <div class="album center drop-shadow">
-        <img class="candle flicker" src="img/take-care-candle.png">
-        <img class="take-care-logo" src="img/take-care-logo.svg">
-        <img class="" src="img/take-care.jpg">
+    <!-- // Views  -->
+
+    <div class="carousel-cell">
+      <div class="album-cover bg-views">
+        <div class="rain"></div>
       </div>
+        <p class="album-title">Views</p>
+        <p class="album-year">2016</p>
+    </div>
 
-      <!-- Thank Me Later -->
-      <h4 class="text-center album-title">Thank Me Later</h4>
-      <div class="album center bg-white drop-shadow">
-        <img class="thank-me-logo" src="img/thank-me-logo.svg">
-        <img class="thank-me z-1" src="img/thank-me-black.png">
-        <img class="thank-me thank-move" src="img/thank-me-red.png">
+    <!-- // More Life  -->
+
+    <div class="carousel-cell">
+      <div class="album-cover bg-black">
+        <img class="more-life" src="img/more/more.png" alt="">
+        <img class="more-dennis" src="img/more/dennis.png" alt="">
+        <img class="more-playlist" src="img/more/playlist.png" alt="">
       </div>
+        <p class="album-title">More Life</p>
+        <p class="album-year">2017</p>
+    </div>
 
-        <!-- So Far Gone -->
-        <h4 class="text-center bg-white album-title">So Far Gone</h4>
-      <div class="album center so-far-gone bg-white drop-shadow">
-        <img class="center so-far-gone-drake" src="img/so-far-gone-drake.svg">
-        <img class="so-far-gone-confetti money-1 rain" src="img/so-far-gone-money-1.svg">
-        <img class="so-far-gone-confetti money-2 rain" src="img/so-far-gone-money-2.svg">
-        <img class="so-far-gone-confetti money-3 rain" src="img/so-far-gone-money-3.svg">
-        <img class="so-far-gone-confetti money-4 rain rain-delay" src="img/so-far-gone-money-2.svg">
-        <img class="so-far-gone-confetti money-5 rain" src="img/so-far-gone-money-3.svg">
-        <img class="so-far-gone-confetti money-6 rain rain-delay" src="img/so-far-gone-money-1.svg">
-        <img class="so-far-gone-confetti money-7 rain rain-delay" src="img/so-far-gone-money-2.svg">
-        <img class="so-far-gone-confetti heart-1 rain" src="img/so-far-gone-heart-1.svg">
-        <img class="so-far-gone-confetti heart-2 rain rain-delay" src="img/so-far-gone-heart-2.svg">
-        <img class="so-far-gone-confetti heart-3 rain" src="img/so-far-gone-heart-1.svg">
+    <!-- // Scorpion  -->
+
+    <div class="carousel-cell">
+      <div class="album-cover bg-scorpion">
+        <svg class="scorpion-autograph" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 224 139"><path class="first" d="M4,125.87S2.89,53,13.59,38.51c12.71-17.24,14.36,63.33,10.05,66.76s-17,.72-17.22-3.54-4-10.33,9.75-10.33c9.36,0,14.53,11.84,19.85,6.58S66.34,52.85,63.84,64.56s-8.75,44-4,54.71,10.72,17.5,15,15.62"/><path class="last" d="M107.34,35S91.09,14.25,72.84,24.13,53,46.77,55,61.51s14.32,34.11,31,24.38,41.36-35.13,43.69-42.63S119.17,27.47,107.34,35,95.19,50.75,96.64,55.07c4.39,13.06,36.14-5.31,64.8-30.26,27.09-23.57,51.66-24,59-16.45"/></svg>
       </div>
+        <p class="album-title">Scorpion</p>
+        <p class="album-year">2018</p>
+    </div>
 
+    <!-- // Care Package  -->
+
+    <div class="carousel-cell">
+      <div class="album-cover">
+        <img class="bg-cp" src="img/cp/cp-album.png">
+        <svg class="cp-text" width="84" height="17" viewBox="0 0 84 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0.383789 1.0402V16.1602C0.383789 16.6162 0.767789 17.0002 1.22379 17.0002H7.19979C12.2878 17.0002 15.9598 13.4482 15.9598 8.6002C15.9598 3.7282 12.3118 0.200195 7.27179 0.200195H1.22379C0.767789 0.200195 0.383789 0.584196 0.383789 1.0402ZM4.05579 2.7442H7.22379C10.5358 2.7442 13.1038 5.1922 13.1038 8.6242C13.1038 12.0322 10.6078 14.4562 7.34379 14.4562H4.05579C3.59979 14.4562 3.21579 14.0722 3.21579 13.6162V3.5842C3.21579 3.1282 3.59979 2.7442 4.05579 2.7442Z" fill="white"/>
+          <path d="M30.1292 17.0002H31.2812C32.0012 17.0002 32.3852 16.2802 31.9772 15.6802L29.6732 12.2482C29.4092 11.8642 29.6252 11.1682 30.0332 10.9282C31.6652 9.9442 32.5772 8.2162 32.5772 5.9362C32.5772 2.2882 30.1052 0.200195 25.8092 0.200195H19.8332C19.3772 0.200195 18.9932 0.584196 18.9932 1.0402V16.1602C18.9932 16.6162 19.3772 17.0002 19.8332 17.0002H20.9852C21.4412 17.0002 21.8252 16.6162 21.8252 16.1602V12.7762C21.8252 12.3202 22.2092 11.9362 22.6652 11.9362H25.8092C26.0252 11.9362 26.2652 11.9362 26.4812 11.9122C26.5292 11.9122 26.6012 11.9602 26.6492 12.0082L29.4092 16.5922C29.5292 16.7842 29.8892 17.0002 30.1292 17.0002ZM21.8252 8.5522V3.5842C21.8252 3.1282 22.2092 2.7442 22.6652 2.7442H25.8092C28.4012 2.7442 29.8892 3.8002 29.8892 6.0082C29.8892 8.2882 28.4012 9.3922 25.8092 9.3922H22.6652C22.2092 9.3922 21.8252 9.0082 21.8252 8.5522Z" fill="white"/>
+          <path d="M47.4009 13.7122L48.5769 16.4962C48.6969 16.7602 49.0569 17.0002 49.3449 17.0002H50.5449C51.1929 17.0002 51.5529 16.4242 51.3129 15.8242L44.6889 0.704196C44.5929 0.440195 44.2089 0.200195 43.9209 0.200195H42.1209C41.8329 0.200195 41.4489 0.440195 41.3529 0.704196L34.6809 15.8242C34.4169 16.4242 34.8009 17.0002 35.4489 17.0002H36.5529C36.8409 17.0002 37.2009 16.7602 37.3209 16.4962L38.4969 13.7122C38.6169 13.4482 38.9769 13.2082 39.2649 13.2082H46.6329C46.9209 13.2082 47.2809 13.4482 47.4009 13.7122ZM44.8329 10.6882H41.0409C40.3929 10.6882 40.0089 10.1122 40.2729 9.5122L42.1689 5.0482C42.4809 4.3282 43.3929 4.3282 43.7049 5.0482L45.6009 9.5122C45.8649 10.1122 45.4809 10.6882 44.8329 10.6882Z" fill="white"/>
+          <path d="M65.6957 17.0002H67.0397C67.7597 17.0002 68.1437 16.2562 67.7117 15.6802L62.1437 7.9282C61.9277 7.6402 61.9517 7.1362 62.1917 6.8722L67.1117 1.4242C67.5677 0.920196 67.2557 0.200195 66.5837 0.200195H65.2637C65.1197 0.200195 64.7597 0.368196 64.6637 0.464196L58.3517 7.3042C57.7997 7.9042 56.8877 7.5442 56.8877 6.7282V1.0402C56.8877 0.584196 56.5037 0.200195 56.0477 0.200195H54.8957C54.4397 0.200195 54.0557 0.584196 54.0557 1.0402V16.1602C54.0557 16.6162 54.4397 17.0002 54.8957 17.0002H56.0477C56.5037 17.0002 56.8877 16.6162 56.8877 16.1602V13.0642C56.8877 12.9442 57.0317 12.5842 57.1037 12.4882L59.0477 10.3282C59.4317 9.9202 60.0317 9.9682 60.3437 10.4002L65.0237 16.6642C65.1197 16.8082 65.5037 17.0002 65.6957 17.0002Z" fill="white"/>
+          <path d="M83.2822 1.9042V1.0402C83.2822 0.584196 82.8982 0.200195 82.4422 0.200195H72.1222C71.6662 0.200195 71.2822 0.584196 71.2822 1.0402V16.1602C71.2822 16.6162 71.6662 17.0002 72.1222 17.0002H82.7302C83.1862 17.0002 83.5702 16.6162 83.5702 16.1602V15.2962C83.5702 14.8402 83.1862 14.4562 82.7302 14.4562H74.9542C74.4982 14.4562 74.1142 14.0722 74.1142 13.6162V10.6642C74.1142 10.2082 74.4982 9.8242 74.9542 9.8242H81.4822C81.9382 9.8242 82.3222 9.4402 82.3222 8.9842V8.1202C82.3222 7.6642 81.9382 7.2802 81.4822 7.2802H74.9542C74.4982 7.2802 74.1142 6.8962 74.1142 6.4402V3.5842C74.1142 3.1282 74.4982 2.7442 74.9542 2.7442H82.4422C82.8982 2.7442 83.2822 2.3602 83.2822 1.9042Z" fill="white"/>
+          </svg>
+        <svg class="cp-text" width="210" height="41" viewBox="0 0 210 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M16.1242 7.07986C16.0442 7.63986 15.9642 8.11986 15.9642 8.39986C15.9642 10.2399 17.5242 11.6399 20.0042 11.6399C24.1642 11.6399 27.2442 8.35986 27.2442 5.31986C27.2442 2.91986 25.4842 1.35986 22.6042 1.35986C19.2442 1.35986 13.7642 3.59986 8.68424 8.39986C3.44424 13.3599 0.844238 18.8799 0.844238 22.7199C0.844238 27.0399 3.40424 29.8399 7.64424 29.8399C10.2842 29.8399 13.0042 28.7599 15.5242 26.7199C17.9242 24.7599 19.2042 22.3199 19.2042 19.8399C19.2042 17.4399 17.5242 15.7999 15.0042 15.7999C12.5642 15.7999 10.2442 17.6399 9.04424 20.9599L9.32424 21.0799C10.4042 17.9199 12.5642 16.2399 14.6042 16.2399C16.3242 16.2399 17.6442 17.6799 17.6442 19.8799C17.6442 21.7199 16.6042 24.2399 14.7242 26.2399C12.8442 28.2399 10.5242 29.3199 8.52424 29.3199C5.40424 29.3199 3.52424 27.0399 3.52424 23.1599C3.52424 18.9999 5.60424 14.0799 9.80424 9.43986C14.5242 4.19986 19.7642 1.71986 22.8042 1.71986C24.7642 1.71986 25.9642 2.87986 25.9642 4.47986C25.9642 6.07986 25.1642 7.79986 23.6042 9.23986C22.2442 10.5199 20.7642 11.1599 19.4042 11.1599C17.5242 11.1599 16.2442 9.95986 16.2442 8.19986C16.2442 7.83986 16.2842 7.47986 16.3642 7.11986L16.1242 7.07986Z" fill="white"/>
+          <path d="M33.6839 17.6399C33.6839 19.7599 32.2839 22.5999 29.5239 25.5999C27.7239 27.5199 26.0839 28.3999 25.1239 28.3999C24.2039 28.3999 23.6439 27.7599 23.6439 26.5599C23.6439 25.0399 24.4439 22.5999 26.1239 20.2399C28.3639 17.1199 30.9239 15.5999 32.0839 15.5999C33.0439 15.5999 33.6839 16.3199 33.6839 17.6399ZM34.8839 17.9599C34.6039 16.2399 33.6039 15.3199 32.1239 15.3199C30.2039 15.3199 27.4039 16.5999 25.0039 19.0799C22.5239 21.6399 21.2439 24.5599 21.2439 26.2399C21.2439 28.1199 22.2839 29.2399 23.8039 29.2399C25.4839 29.2399 28.2839 27.8399 30.8039 24.6399L30.9239 24.7599C30.2039 25.7999 29.8439 26.6799 29.8439 27.3999C29.8439 28.5599 30.7639 29.3999 32.0039 29.3999C34.3239 29.3999 38.5239 25.9199 43.8439 18.5999L43.6039 18.3999C38.2839 25.5199 34.3239 28.9199 32.4039 28.9199C31.8039 28.9199 31.4439 28.5999 31.4439 28.0399C31.4439 27.1599 33.7239 22.5999 39.0039 15.5599L36.2839 15.6799L34.8839 17.9599Z" fill="white"/>
+          <path d="M53.2174 15.1599L51.3774 15.2399C50.8574 15.2799 50.6574 15.5199 50.1374 16.0799C47.2574 18.3199 44.8174 20.5999 42.7374 22.9999L42.6174 22.8799L47.8174 15.4799L45.2174 15.6399L36.9374 28.9599L39.7374 28.7999C42.0974 23.7599 45.4174 20.0799 50.0574 16.5599C49.6574 17.3599 49.4574 18.0799 49.4574 18.7199C49.4574 20.2799 50.4574 21.1999 52.1774 21.1999C53.7774 21.1999 55.7374 20.3599 57.2974 18.6799L57.0974 18.4799C55.5774 20.0399 53.6974 20.7999 52.7774 20.7999C51.7774 20.7999 51.3374 20.3599 51.3374 19.4399C51.3374 18.5599 51.8974 16.9599 53.2174 15.1599Z" fill="white"/>
+          <path d="M56.5339 21.9999C58.7339 17.7599 61.7739 15.5199 63.0139 15.5199C63.7339 15.5199 64.0939 15.8799 64.0939 16.5599C64.0939 18.2799 61.6539 20.4799 56.5339 21.9999ZM56.3739 22.3599C62.8539 20.2399 66.1339 18.5199 66.1339 16.5999C66.1339 15.6399 65.3739 15.0799 63.9739 15.0799C62.0939 15.0799 59.6539 16.0799 57.3739 18.1199C54.4939 20.7199 52.9739 23.9199 52.9739 26.2399C52.9739 28.3199 54.2139 29.5199 56.0939 29.5199C60.0939 29.5199 65.6939 25.9999 70.7339 18.5599L70.4539 18.3599C65.4539 25.4799 60.6139 28.7599 57.5739 28.7599C56.1739 28.7599 55.3739 27.8799 55.3739 26.2399C55.3739 25.0799 55.6939 23.7999 56.3739 22.3599Z" fill="white"/>
+          <path d="M115.974 0.359863C114.414 0.519864 112.614 0.959864 110.774 1.75986C109.054 1.31986 107.374 1.15986 105.694 1.15986C100.894 1.15986 95.4542 2.91986 91.2142 5.91986C86.5742 9.15986 84.2542 12.9599 84.2542 16.4399C84.2542 19.2799 86.0142 21.1999 88.7742 21.1999C91.0942 21.1999 93.0942 20.0799 94.6542 17.9199C95.8142 16.3599 96.3742 14.6799 96.3742 12.8799C96.3742 12.3199 96.3342 11.6799 96.2142 11.0399H95.9342C96.0142 11.7199 96.0942 12.3199 96.0942 12.8399C96.0942 14.7599 95.4942 16.4399 94.2542 17.9599C92.6942 19.8799 90.8142 20.8799 89.1342 20.8799C86.8942 20.8799 85.5342 19.2799 85.5342 16.4799C85.5342 12.9999 87.2942 9.67986 90.8542 6.83986C95.2142 3.35986 100.734 1.39986 105.974 1.39986C107.734 1.39986 109.094 1.71986 110.174 2.03986C104.174 5.03986 100.934 10.3999 97.2542 16.7199C92.8142 24.3199 89.2142 27.9599 87.0542 27.9599C85.2942 27.9599 82.1342 26.9199 78.1342 26.9199C77.3342 26.9199 76.8942 27.2799 76.8942 27.5599C76.8942 28.3599 78.6942 29.0399 81.8542 29.0399C83.3742 29.0399 85.1742 28.7599 87.3342 28.2399C90.3742 28.9199 92.9742 29.2399 95.0542 29.2399C102.254 29.2399 107.214 25.9599 111.894 18.5599L111.654 18.4399C107.134 25.3599 101.374 28.6399 93.7742 28.6399C92.0942 28.6399 90.0942 28.4399 87.8542 28.0799C91.8142 27.2399 95.4942 23.6399 99.4142 17.3199C104.174 9.63986 107.534 4.39986 110.814 2.39986C111.854 3.03986 112.454 4.39986 112.454 6.15986C112.454 7.91986 111.814 9.79986 110.494 11.6799C109.134 13.6399 107.734 14.5599 106.814 14.5599C106.174 14.5599 105.734 14.1199 105.734 13.3599C105.734 12.7999 105.894 12.3999 106.254 12.1599C105.934 11.7599 105.494 11.5999 104.934 11.5999C104.054 11.5999 103.574 12.1599 103.574 12.9999C103.574 14.0799 104.574 14.8799 106.334 14.8799C108.134 14.8799 109.814 14.3199 111.334 13.1599C113.494 11.4799 114.654 9.31986 114.654 6.99986C114.654 4.71986 113.534 2.91986 111.454 1.95986C112.814 1.31986 114.374 0.879864 115.974 0.639862V0.359863Z" fill="white"/>
+          <path d="M119.387 17.6399C119.387 19.7599 117.987 22.5999 115.227 25.5999C113.427 27.5199 111.787 28.3999 110.827 28.3999C109.907 28.3999 109.347 27.7599 109.347 26.5599C109.347 25.0399 110.147 22.5999 111.827 20.2399C114.067 17.1199 116.627 15.5999 117.787 15.5999C118.747 15.5999 119.387 16.3199 119.387 17.6399ZM120.587 17.9599C120.307 16.2399 119.307 15.3199 117.827 15.3199C115.907 15.3199 113.107 16.5999 110.707 19.0799C108.227 21.6399 106.947 24.5599 106.947 26.2399C106.947 28.1199 107.987 29.2399 109.507 29.2399C111.187 29.2399 113.987 27.8399 116.507 24.6399L116.627 24.7599C115.907 25.7999 115.547 26.6799 115.547 27.3999C115.547 28.5599 116.467 29.3999 117.707 29.3999C120.027 29.3999 124.227 25.9199 129.547 18.5999L129.307 18.3999C123.987 25.5199 120.027 28.9199 118.107 28.9199C117.507 28.9199 117.147 28.5999 117.147 28.0399C117.147 27.1599 119.427 22.5999 124.707 15.5599L121.987 15.6799L120.587 17.9599Z" fill="white"/>
+          <path d="M136.32 18.5999C136.48 18.6399 136.64 18.6799 136.8 18.6799C137.88 18.6799 138.88 17.8399 138.88 16.9599C138.88 15.9599 137.88 15.1999 136.2 15.1999C134.28 15.1999 132.08 16.1599 129.8 18.0399C126.52 20.7599 124.88 23.8799 124.88 26.2399C124.88 28.3999 126.16 29.7599 128.24 29.7599C132.08 29.7599 137.56 26.1999 143 18.5999L142.72 18.3599C137.52 25.5999 132.56 28.9199 129.68 28.9199C128.28 28.9199 127.4 27.9999 127.4 26.3599C127.4 24.2799 128.44 21.6399 130.56 19.0799C132.48 16.7199 134.44 15.6399 135.24 15.6399C136.2 15.6399 136.64 16.1199 136.64 17.1199C136.64 17.5199 136.52 17.9999 136.32 18.5999Z" fill="white"/>
+          <path d="M155.641 1.59986L152.961 1.75986L135.801 28.9599L138.281 28.8399C142.921 19.9999 148.321 15.8399 150.121 15.8399C150.961 15.8399 151.361 16.2799 151.361 17.1999C151.361 19.1199 149.761 20.8399 147.081 21.3199C146.161 21.2799 145.681 21.2399 145.561 21.2399C144.601 21.2399 144.081 21.5199 144.081 21.7599C144.081 21.8399 144.361 22.0399 144.721 22.0399C145.121 22.0399 145.921 21.8399 147.121 21.6399C147.441 21.7999 147.561 21.9199 147.561 22.1599C147.561 22.7199 147.241 23.5599 146.641 24.6399C146.081 25.6799 145.681 26.4399 145.681 27.1599C145.681 28.5199 146.681 29.3999 148.201 29.3999C150.801 29.3999 155.601 25.8399 160.721 18.4799L160.441 18.3199C155.241 25.6399 150.641 28.8799 148.881 28.8799C148.201 28.8799 147.921 28.6399 147.921 28.0399C147.921 26.7599 149.121 25.1999 149.121 23.5199C149.121 22.5199 148.561 21.8399 147.401 21.4799C151.441 20.9199 153.681 19.0399 153.681 16.9999C153.681 15.6799 152.921 15.0399 151.441 15.0399C148.721 15.0399 146.081 17.3999 142.441 21.5999L142.321 21.5199C142.841 20.8399 144.521 18.7199 147.001 14.8799L155.641 1.59986Z" fill="white"/>
+          <path d="M168.254 17.6399C168.254 19.7599 166.854 22.5999 164.094 25.5999C162.294 27.5199 160.654 28.3999 159.694 28.3999C158.774 28.3999 158.214 27.7599 158.214 26.5599C158.214 25.0399 159.014 22.5999 160.694 20.2399C162.934 17.1199 165.494 15.5999 166.654 15.5999C167.614 15.5999 168.254 16.3199 168.254 17.6399ZM169.454 17.9599C169.174 16.2399 168.174 15.3199 166.694 15.3199C164.774 15.3199 161.974 16.5999 159.574 19.0799C157.094 21.6399 155.814 24.5599 155.814 26.2399C155.814 28.1199 156.854 29.2399 158.374 29.2399C160.054 29.2399 162.854 27.8399 165.374 24.6399L165.494 24.7599C164.774 25.7999 164.414 26.6799 164.414 27.3999C164.414 28.5599 165.334 29.3999 166.574 29.3999C168.894 29.3999 173.094 25.9199 178.414 18.5999L178.174 18.3999C172.854 25.5199 168.894 28.9199 166.974 28.9199C166.374 28.9199 166.014 28.5999 166.014 28.0399C166.014 27.1599 168.294 22.5999 173.574 15.5599L170.854 15.6799L169.454 17.9599Z" fill="white"/>
+          <path d="M184.468 15.7199C185.628 15.7199 186.148 16.3599 186.148 17.8799C186.148 19.6799 184.908 22.7199 182.348 25.3199C180.348 27.3599 178.708 28.3999 177.508 28.3999C176.468 28.3999 175.988 27.7199 175.988 26.3599C175.988 24.5999 177.268 21.5599 179.988 18.6399C181.868 16.6399 183.548 15.7199 184.468 15.7199ZM187.468 18.2799C187.388 16.3999 186.428 15.3599 184.748 15.3599C182.908 15.3599 180.148 16.5599 177.588 18.9199C174.948 21.3599 173.548 24.2399 173.548 26.4399C173.548 28.0799 174.628 29.2399 175.908 29.2399C177.948 29.2399 180.348 27.8799 182.908 25.1999L183.028 25.2799C181.388 27.3599 179.868 29.9199 177.948 32.5199C174.268 37.4799 171.108 40.0799 166.788 40.0799C164.188 40.0799 162.428 38.4799 162.428 36.1199C162.428 34.1999 163.628 32.8399 165.148 32.8399C165.348 32.8399 165.588 32.8399 165.908 32.8799L165.988 32.5199C165.508 32.3999 164.988 32.3599 164.468 32.3599C162.188 32.3599 160.388 33.9599 160.388 36.1599C160.388 38.6799 162.628 40.5199 166.588 40.5199C172.668 40.5199 178.268 36.6399 182.668 29.0399C187.348 28.1599 192.228 24.6799 196.348 18.6399L196.108 18.3999C192.148 24.1999 187.308 27.7199 182.988 28.5999L191.988 15.4799L189.228 15.6399L187.468 18.2799Z" fill="white"/>
+          <path d="M195.635 21.9999C197.835 17.7599 200.875 15.5199 202.115 15.5199C202.835 15.5199 203.195 15.8799 203.195 16.5599C203.195 18.2799 200.755 20.4799 195.635 21.9999ZM195.475 22.3599C201.955 20.2399 205.235 18.5199 205.235 16.5999C205.235 15.6399 204.475 15.0799 203.075 15.0799C201.195 15.0799 198.755 16.0799 196.475 18.1199C193.595 20.7199 192.075 23.9199 192.075 26.2399C192.075 28.3199 193.315 29.5199 195.195 29.5199C199.195 29.5199 204.795 25.9999 209.835 18.5599L209.555 18.3599C204.555 25.4799 199.715 28.7599 196.675 28.7599C195.275 28.7599 194.475 27.8799 194.475 26.2399C194.475 25.0799 194.795 23.7999 195.475 22.3599Z" fill="white"/>
+          </svg>
       </div>
+        <p class="album-title">Care Package</p>
+        <p class="album-year">2019</p>
+    </div>
 
+    <!-- // Dark Lane Demo Tapes  -->
 
-
-    <footer>
-      <div class="content bg-deep-sea-blue">
-        <p class="text-white text-center">Hand-typed by <a class="link-inline" href="https://twitter.com/darrendub">Darren Wong</a> in San Francisco, California.</p>
+    <div class="carousel-cell">
+      <div class="album-cover dark-album">
+        <div class="dark-eyes-container">
+        <img src="img/dark/dark-eyes.png" class="dark-eyes" alt="">
       </div>
-</footer> 
+      </div>
+        <p class="album-title">Dark Lane Demo Tapes</p>
+        <p class="album-year">2020</p>
+    </div>
+
+    <!-- // Certified Lover Boy  -->
+
+    <div class="carousel-cell">
+      <div class="album-cover bg-white clb-cover">
+        <div class="clb-grid">
+          <img class="clb-ting clb-ting-1" src="img/clb/clb-1.png">
+          <img class="clb-ting clb-ting-2" src="img/clb/clb-2.png">
+          <img class="clb-ting clb-ting-3" src="img/clb/clb-3.png">
+          <img class="clb-ting clb-ting-4" src="img/clb/clb-4.png">
+        </div>
+        <div class="clb-grid clb-spacing">
+          <img class="clb-ting clb-ting-5" src="img/clb/clb-5.png">
+          <img class="clb-ting clb-ting-6" src="img/clb/clb-6.png">
+          <img class="clb-ting clb-ting-7" src="img/clb/clb-7.png">
+          <img class="clb-ting clb-ting-8" src="img/clb/clb-8.png">
+        </div>
+        <div class="clb-grid">
+          <img class="clb-ting clb-ting-9" src="img/clb/clb-9.png">
+          <img class="clb-ting clb-ting-10" src="img/clb/clb-10.png">
+          <img class="clb-ting clb-ting-11" src="img/clb/clb-11.png">
+          <img class="clb-ting clb-ting-12" src="img/clb/clb-12.png">
+        </div>
+      </div>
+        <p class="album-title">Certified Lover Boy</p>
+        <p class="album-year">2021</p>
+    </div>
+  </div>
+      <footer>
+  <p>Hand-typed by <a class="text-link" href="https://twitter.com/darrendub">@darrendub</a> in San Francisco, California. Typset using <a class="text-link" href="https://hoodzpahdesign.com/product/santa-ana-sans/">Santa Ana</a> by Hoodzpah.</p>
+</footer>
 </body>
 </html>

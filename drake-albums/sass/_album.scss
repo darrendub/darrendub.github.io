@@ -2,25 +2,717 @@
  * Album
  *------------------------------------------------------------------*/
 
-.album {
-	width: 300px;
-	height: 300px;
-	position: relative;
-	overflow:hidden;
-	margin-bottom: 5em;
-	@media (min-width: $bp-medium) {
-		max-width: 500px;
-		width: 500px;
-		height: 500px;
-	}
+header {
+  padding: $unit-xlarge $unit-med;
 }
 
-.album-title {
-	margin-bottom:10px;
+.logo {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: $unit-med;
+  max-width: 300px;
+}
+
+.dca-1 {
+  animation: dca-1 4s ease-in-out alternate infinite;
+}
+
+@keyframes dca-1 {
+  0% {
+    transform: translateY(4px);
+  }
+  50% {
+    transform: translateY(2px);
+  }
+  100% {
+    transform: translateY(4px);
+  }
+}
+
+.dca-2 {
+  animation: dca-2 4s ease-in-out infinite;
+}
+
+@keyframes dca-2 {
+  0% {
+    transform: translateY(2px);
+  }
+  50% {
+    transform: translateY(4px);
+  }
+  100% {
+    transform: translateY(2px);
+  }
+}
+
+.share-button {
+  padding: $unit-small $unit-med;
+  background-blend-mode: multiply;
+  background-color: $big-boy-blue;
+  color: $white;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: $unit-xlarge;
+  max-width: 150px;
+  margin: 0 auto;
+  &:hover, &:active {
+    background-color: $baby-blue;
+    transition: background-color .5s ease-in-out;
+  }
 }
 
 
-// Scorpion 
+.share-twitter {
+  max-width: $unit-med;
+  margin-right: $unit-xsmall;
+  margin-top: 6px;
+}
+
+.share-text {
+  color: $white;
+  font-size: $unit-med;
+  font-family: $sans-reg;
+}
+
+ footer {
+  font-family: $sans-reg;
+  color: $white;
+  font-size: $unit-small;
+  text-align: center;
+  line-height: 1.6;
+  margin: 0 auto;
+  padding: 0 $unit-med;
+ }
+
+ .text-link {
+   color: $white;
+   text-decoration: underline;
+   font-weight: bold;
+   &:active, &:visited {
+     color: $white;
+   }
+   &:hover {
+    opacity: .8;
+    transition: opacity .5s ease-in-out;
+  }
+ }
+
+ .album-cover {
+ 	height: 300px;
+ 	width: 300px;
+  box-shadow:
+    1px 2px 2px rgba(51, 102, 204, 0.2),
+    2px 4px 4px rgba(51, 102, 204, 0.2),
+    4px 8px 8px rgba(51, 102, 204, 0.2),
+    8px 16px 16px rgba(51, 102, 204, 0.2),
+    16px 32px 32px rgba(51, 102, 204, 0.2);
+  border-radius: $unit-xsmall;
+  overflow:hidden;
+  position: relative;
+ }
+
+ .album-title {
+ font-size: $unit-large;
+ line-height: 1.4;
+ text-align: center;
+ color: $white;
+ margin-top: $unit-large;
+ padding: 0 $unit-xsmall;
+}
+
+.album-year {
+ font-size: $unit-small;
+ text-align: center;
+ color: $white;
+ font-family: $sans-reg;
+}
+
+// START COMEBACK SEASON
+
+.cbs-bg {
+	background: url(../img/cbs/bg-cbs.jpg) center no-repeat #9B5A31;
+  z-index: -1;
+}
+
+.cbs-drake {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+
+.cbs-album-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+svg.leaf {
+  position: absolute;
+
+  rect {
+    fill: #C77D4E;
+    transform: skew(24deg);
+    width: 24px;
+    height: 24px;
+    border-radius: 24px 0px;
+    animation: fall 700ms infinite ease-out;
+  }
+  rect:nth-child(1) {
+    fill:#C77D4E;
+    animation-delay: 88ms;
+    animation-duration: 1000ms;
+  }
+
+  rect:nth-child(2) {
+    fill:#C1852B;
+    animation-delay: 311ms;
+    animation-duration: 900ms;
+  }
+
+  rect:nth-child(3) {
+    fill:#D58836;
+    animation-delay: 105ms;
+    animation-duration: 700ms;
+  }
+
+  rect:nth-child(4) {
+    fill:#D3A945;
+    animation-delay: 149ms;
+    animation-duration: 800ms;
+  }
+  rect:nth-child(5) {
+    fill:#B65E29;
+    animation-delay: 88ms;
+    animation-duration: 1000ms;
+  }
+  rect:nth-child(6) {
+    fill:#D59740;
+    animation-delay: 131ms;
+    animation-duration: 442ms;
+  }
+  rect:nth-child(odd) {
+      z-index: 2;
+  }
+}
+
+@keyframes fall {
+    from {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    to {
+        transform: translateY(300px);
+    }
+}
+
+// END COMEBACK SEASON
+
+// START SO FAR GONE
+
+.sfg-bg {
+  background-color: #010101;
+}
+
+.sfg-man {
+  position: absolute;
+  max-width: $unit-small;
+  left: 140px;
+  animation: sfg-man 6s infinite ease-in-out;
+}
+
+.sfg-rain {
+  position: absolute;
+  max-width: $unit-large;
+  top: -$unit-xlarge;
+  left: 150px;
+  animation: sfg-rain 6s infinite ease-in-out;
+}
+
+.sfg-money {
+  animation-delay: 4s;
+}
+.sfg-heart-1 {
+  animation-delay: 2s;
+
+}
+
+@keyframes sfg-rain {
+    from {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+    to {
+        transform: translateY($unit-large*2);
+    }
+}
+
+
+.sfg-text {
+  height: $unit-med;
+  position: absolute;
+  left: 0;
+  animation: sfg-fade 12s infinite ease-in-out;
+  transform: translateY(0px);
+  opacity: 0;
+
+  &:nth-child(11) {
+    bottom: 0;
+    animation-delay: 9s;
+  }
+  &:nth-child(10) {
+    bottom: $unit-med;
+    animation-delay: 8s;
+  }
+  &:nth-child(9) {
+    bottom: $unit-med*2;
+    animation-delay: 7s;
+  }
+  &:nth-child(8) {
+    bottom: $unit-med*3;
+    animation-delay: 6s;
+  }
+  &:nth-child(7) {
+    bottom: $unit-med*4;
+    animation-delay: 5s;
+  }
+  &:nth-child(6) {
+    bottom: $unit-med*5;
+    animation-delay: 4s;
+  }
+  &:nth-child(5) {
+    bottom: $unit-med*6;
+    animation-delay: 3s;
+  }
+  &:nth-child(4) {
+    bottom: $unit-med*7;
+    animation-delay: 2s;
+  }
+  &:nth-child(3) {
+    bottom: $unit-med*8;
+    height: $unit-xlarge;
+    animation-delay: 1s;
+  }
+
+}
+
+@keyframes sfg-fade {
+    from {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes sfg-man {
+    0% {
+        transform: translateY($unit-med);
+    }
+    50% {
+        transform: translateY($unit-small);
+    }
+    100% {
+        transform: translateY($unit-med);
+    }
+}
+
+// END SO FAR GONE
+
+// START THANK ME LATER
+
+// Inspired by Pure CSS Glitch Animation by Roden
+// https://dev.to/kerthin/how-to-create-pure-css-glitch-animation-for-images-and-svg-ojl
+
+.tml {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 300px;
+}
+
+.tml-red {
+  animation: tml-glitch 2s infinite alternate-reverse;
+}
+
+.tml-black {
+  animation: tml-shake 1s infinite linear alternate-reverse;
+}
+
+$steps: 10;
+
+@keyframes tml-glitch{
+    @for $i from 0 through $steps{
+        #{percentage($i*(1/$steps))}{
+            clip: rect(random(600) + px, 300px, random(600) + px, 0);
+        }
+    }
+}
+
+@keyframes tml-shake {
+  0% {
+    transform: translateX(-1px);
+  }
+  25% {
+    transform: translateX(1px);
+  }
+}
+
+// END THANK ME LATER
+
+
+// START TAKE CARE
+
+// Inspired by Candle Flame Animation by Mamun Khandaker 
+// https://www.uplabs.com/posts/candle-flame-animation-with-pure-css
+
+.dark {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-image: linear-gradient(to right, rgba(22, 22, 22, 1), rgba(22, 22, 22, 0));
+}
+
+.candle {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.flame {
+  width: 4px;
+  height: 16px;
+  position: absolute;
+  top: 24px;
+  right: 65px;
+  border-radius: 50% 50% 20% 20%;
+  background: rgba(255, 255, 255, 1);
+  background: -moz-linear-gradient(white 80%, transparent);
+  background: -webkit-linear-gradient(white 80%, transparent);
+  background: -o-linear-gradient(white 80%, transparent);
+  background: -ms-linear-gradient(white 80%, transparent);
+  background: linear-gradient(white 80%, transparent);
+  animation: moveFlame 4s linear infinite, enlargeFlame 4s linear infinite;
+}
+
+.flame:before {
+  width: 100%;
+  height: 100%;
+  border-radius: 50% 50% 20% 20%;
+  box-shadow: 0 0 15px 0 rgba(247, 93, 0, .4), 0 -6px 4px 0 rgba(247, 128, 0, .7);
+}
+
+@keyframes moveFlame {
+  0%, 100% {
+    transform: translateX(-50%) rotate(-2deg);
+  }
+  50% {
+    transform: translateX(-50%) rotate(2deg);
+  }
+}
+
+@keyframes enlargeFlame {
+  0%, 100% {
+    height: 8px;
+  }
+  50% {
+    height: 16px;
+  }
+}
+
+.glow {
+  position: absolute;
+  width: 26px;
+  height: 60px;
+  border-radius: 50% 50% 35% 35%;
+  left: 50%;
+  top: -48px;
+  transform: translateX(-50%);
+  background: rgba(0, 133, 255, .7);
+  box-shadow: 0 -40px 30px 0 #dc8a0c, 0 40px 50px 0 #dc8a0c, inset 3px 0 2px 0 rgba(0, 133, 255, .6), inset -3px 0 2px 0 rgba(0, 133, 255, .6);
+}
+
+.glow:before {
+  width: 70%;
+  height: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.blinking-glow {
+  position: absolute;
+  top: -64px;
+  right: 0px;
+  width: 100px;
+  height: 180px;
+  border-radius: 50%;
+  background: #ff6000;
+  -webkit-filter: blur(50px);
+  -moz-filter: blur(60px);
+  -o-filter: blur(60px);
+  -ms-filter: blur(60px);
+  filter: blur(60px);
+  animation: blinkIt .1s infinite;
+}
+
+@keyframes blinkIt {
+  50% { opacity: .8;}
+}
+
+// END TAKE CARE
+
+// START NOTHING WAS THE SAME
+
+.nwts-bg {
+  background: linear-gradient(180deg, #0065BA 0%, #72B2DE 100%);
+  z-index: -1
+}
+.nwts-drake {
+  z-index: 2;
+}
+
+.nwts-clouds {
+  &:before {
+    content: url(../img/nwts/cloud-med.png);
+    position: absolute;
+    top: 0px;
+    left: -360px;
+    animation: cloud-med 16s linear alternate infinite;
+    animation-delay: 2s
+  }
+  &:after {
+    content: url(../img/nwts/cloud-large.png);
+    position: absolute;
+    bottom: -100px;
+    left: -600px;
+    animation: cloud-large 32s linear infinite;
+    z-index: -1
+  }
+}
+
+@keyframes cloud-large {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(1000px);
+  }
+}
+@keyframes cloud-med {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(800px);
+  }
+}
+// END NOTHING WAS THE SAME
+
+// START IF YOURE READING
+
+@font-face { // http://www.deasti.com/late-free-download/
+  font-family: 'Late-Regular';
+  src: url('Late-Regular.woff2') format('woff2'),
+       url('Late-Regular.woff') format('woff'),
+       url('Late-Regular.ttf') format('truetype');
+}
+
+.if-text {
+ font-family: 'Late-Regular';
+ font-size: $unit-xlarge+8;
+ padding-left: $unit-med;
+ white-space: nowrap;
+ overflow: hidden;
+ height:$unit-med*2;
+ width: 30em;
+ margin:0;
+ animation: type 6s steps(60, end) infinite;
+ opacity:0;
+}
+
+// Animation based on this pen: http://codepen.io/rusjames/pen/uAFhE by Rus James
+
+.reading-delay-1 {
+ animation-delay:1s;
+}
+.reading-delay-2 {
+ animation-delay:2s;
+}
+.reading-delay-3 {
+ animation-delay:3s;
+}
+
+@keyframes type{ 
+  from { 
+   width: 0; 
+   opacity:1;
+  }  
+} 
+
+.cursor {
+ animation: blink 1s infinite;
+ margin-left:-40px;
+}
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+.pray-hands {
+  max-width: $unit-large;
+  margin: 0 auto;
+  display: block;
+  margin-top: $unit-large;
+}
+
+// END IF YOURE READING
+
+// START WHAT A TIME TO BE ALIVE
+
+.wattba-diamonds {
+  animation: diamondsdancing 6s infinite linear;
+  margin: 0 auto;
+  display: block;
+  width: 500px;
+  position: absolute;
+  top: -100px;
+  left: -100px;
+}
+
+@keyframes diamondsdancing {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+// END WHAT A TIME TO BE ALIVE
+
+// START VIEWS
+
+.bg-views {
+  background: url(../img/views/views-album.png) center no-repeat;
+  background-size: 300px;
+}
+// Based on this pen by Rishi Purwar https://codepen.io/rishi111/pen/wvMdbEm
+.rain {
+  height: 100vh;
+  background: url(https://i.postimg.cc/MKgprHJg/rain.png);
+  animation: rain 0.3s linear infinite;
+}
+
+@keyframes rain {
+  0% {background-position: 0px 0px;}
+  100% {background-position: 150px 400px;}
+}
+
+// END VIEWS
+
+// START MORE LIFE
+
+.more-dennis {
+  animation: scale-dennis 10s linear infinite;
+  transform-origin: center;
+}
+
+.more-life {
+  position: absolute;
+  width: 200px;
+  height: auto;
+  left: 15%;
+  animation: more-life 10s linear infinite;
+  
+}
+
+.more-playlist {
+  position: absolute;
+  width: 200px;
+  height: auto;
+  left: 15%;
+  animation: more-playlist 10s linear infinite;
+  bottom: 0;
+  
+}
+
+@keyframes more-playlist {
+  0% {
+    transform: translateY($unit-large);
+  }
+  25% {
+    transform: translateY($unit-large);
+  }
+  50% {
+    transform: translateY(-$unit-large);
+  }
+  75% {
+    transform: translateY(-$unit-large);
+  }
+  100% {
+    transform: translateY($unit-large);
+  }
+}
+
+@keyframes more-life {
+  0% {
+    transform: translateY(-$unit-large);
+  }
+  25% {
+    transform: translateY(-$unit-large);
+  }
+  50% {
+    transform: translateY($unit-large);
+  }
+  75% {
+    transform: translateY($unit-large);
+  }
+  100% {
+    transform: translateY(-$unit-large);
+  }
+}
+
+@keyframes scale-dennis {
+  0% {
+    transform:scale(1);
+  }
+  25% {
+    transform:scale(1);
+  }
+  50% {
+    transform:scale(.5);
+  }
+  75% {
+    transform:scale(.5);
+  }
+  100% {
+    transform:scale(1);
+  }
+}
+
+// END MORE LIFE
+
+// START SCORPION
+
+.bg-scorpion {
+  background: url(../img/scorpion/scorpion-album.jpg) center no-repeat;
+  background-size: 300px;
+}
 
 .scorpion-autograph {
 	width: 134px;
@@ -34,11 +726,6 @@
     stroke-width:6px;
     opacity: .75;
     border: 0;
-    @media (min-width: $bp-medium) {
-    bottom: 20px;	
-    width: 230px;
-    }
-
 }
 .first {
 	stroke-dasharray: 1000;
@@ -72,702 +759,153 @@
   }
 }
 
-// More Life
+// END SCORPION
 
-.more-life-smoke {
-	width: 73px;
-    position: absolute;
-    left: 27%;
-    top: 28px;
-    animation: smoke 2s infinite;
-	animation-timing-function: linear;
-	animation-direction: alternate;
-	@media (min-width: $bp-medium) {
-		width: 125px;	
-	}
+// START CARE PACKAGE
 
+.bg-cp {
+  position: absolute;
+  animation: cp-blur 0.5s infinite alternate;
 }
 
-.more-life-flicker {
-	width: 6px;
-	height: 3px;
-	background-color: #fd6923;
-	position: absolute;
-	border-radius: 100%;
-	animation: more-life-flicker 6s infinite;
-	left: 43.3%;
-	top: 49.3%;
-	opacity: 0;
-	transform:rotate(15deg);
+.cp-text {
+  filter: drop-shadow(0px 0px 12px white);
+  padding-top: $unit-med;
+  display: flex;
+  margin: 0 auto;
+  animation: cp-pulsate 3s infinite;
 }
-
-@keyframes smoke {
-  from {
-  	opacity:0;
-  }
-  to {
-  	opacity: 1;
-  	top: 20px;
-  }
-}
-
-@keyframes more-life-flicker {
-  0%   { opacity:0.5; }
-  50%  { opacity:0; }
-  100% { opacity:0.5; }
-}
-
-
-
-// Views From The 6 
-
-.views-6-eye {
-	max-width: 83px;
-	top: 20%;
-    left: 26%;
-    position: absolute;
-}
-
-.views-6 {
-	max-width: 125px;
-	top: 25%;
-    left: 28%;
-    position: absolute;
-	@media (min-width: $bp-medium) {
-		max-width: 250px;
-		top: 20%;
-    	left: 26%;
-	}
-}
-
-@keyframes rotating {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-.rotating {
-  animation: rotating 2.5s linear infinite;
-}
-
-// Thank Me Later 
-
-.thank-me {
-	max-width: 500px;
-	position: absolute;
-}
-.z-1 {
-	z-index:1;
-}
-.thank-me-logo {
-	max-width: 50px;
-	position: absolute;
-	bottom: 21%;
-	left: 6%;
-	@media (min-width: $bp-medium) {
-		max-width: 75px;
-		bottom: 21%;
-		left: 8%;	
-	}
-}
-
-.thank-move {
-	animation: thank-move 1s infinite;
-	animation-timing-function: linear;
-}
-
-@keyframes thank-move {
+@keyframes cp-blur {
   0% {
-	
-  }
-
-  50% {
-  	transform: translate(-2px,0);
-
+    filter: blur(0px);
   }
   100% {
+    filter: blur(2px);
   }
 }
 
-
-// If You're Reading This It's Too Late
-
-@font-face { // http://www.deasti.com/late-free-download/
-  font-family: 'Late-Regular';
-  src: url('Late-Regular.woff2') format('woff2'),
-       url('Late-Regular.woff') format('woff'),
-       url('Late-Regular.ttf') format('truetype');
-}
-
-.if-text {
-	font-family: 'Late-Regular';
-	font-size:2.75em;
-	padding-left:0.5em;
-	white-space: nowrap;
-  	overflow: hidden;
-  	height:1.15em;
-  	text-align:left;
-  	white-space: nowrap;
-  	overflow: hidden;
-  	width: 30em;
-  	margin:0;
-  	animation: type 6s steps(60, end) infinite;
-  	opacity:0;
-  	@media (min-width: $bp-medium) {
-		font-size:4em;
-	}
-  	
-}
-
-// Animation based on this pen: http://codepen.io/rusjames/pen/uAFhE by Rus James
-
-.reading-delay-1 {
-	animation-delay:1s;
-}
-.reading-delay-2 {
-	animation-delay:2s;
-}
-.reading-delay-3 {
-	animation-delay:3s;
-}
-
-@keyframes type{ 
-  from { 
-  	width: 0; 
-  	opacity:1;
-  }  
-} 
-
-.if-reading-parental {
-	max-width:30px;
-	position:absolute;
-	right:5%;
-	bottom: 5%;
-	z-index:2;
-	@media (min-width: $bp-medium) {
-		max-width:50px;
-	}
-}
-
-.cursor {
-	animation: blink 1s infinite;
-	margin-left:-40px;
-	@media (min-width: $bp-medium) {
-		margin-left:-78px;
-	}
-}
-
-@keyframes blink{
-  to{opacity: .0;}
-}
-
-
-
-// Views From The 6 (Beta)
-
-.hide-mobile {
-	display:none;
-	@media (min-width: $bp-medium) {
-		display:block;
-	}
-}
-
-.views {
-	z-index:1;
-	position: absolute;
-}
-
-.eye-position-1 {
-	top: 40%;
-	left: 15%;
-}
-.eye-position-2 {
-	top: 50%;
-	left: 10%;
-}
-
-.eye-position-3 {
-	top: 55%;
-	left: 28%;
-}
-
-.eye-position-4	 {
-	top: 44%;
-	left: 30%;
-}
-
-.eye-position-5 {
-	top: 40%;
-	left: 37%;
-}
-
-.eye-position-6 {
-	top: 55%;
-	left: 46%;
-}
-
-.eye-position-7 {
-	top: 42%;
-    left: 62%;
-	@media (min-width: $bp-medium) {
-		left: 57%;
-	}
-}
-.eye-position-8 {
-	top: 45%;
-	left: 64%;
-}
-.eye-position-9 {
-	top: 56%;
-	left: 57%;
-}
-
-.eye-position-10 {
-	top: 54%;
-	left: 72%;
-}
-
-.eye-position-11 {
-	top: 40%;
-	left: 82%;
-}
-
-.eye-position-12 {
-	top: 50%;
-	left: 85%;
-}
-
-.eye {
-	width:30px;
-	height:15px;
-	background-color: #fff;
-	border-radius: 50%;
-	position: absolute;
-	&:before {
-		content:'';
-		width:31px;
-		height:16px;
-		background-color: #000;
-		border-radius: 50%;
-		position: absolute;
-		top:-21px;
-		@extend .eye-blink;
-	}
-	@media (min-width: $bp-medium) {
-		width:40px;
-		height:20px;
-			&:before {
-			content:'';
-			width:41px;
-			height:21px;
-			}
-	}
-}
-.eye-ball {
-	width:15px;
-	height:15px;
-	border-radius: 100%;
-	background-color: #000;
-	margin-top:10%;
-}
-
-.eye-blink {
-	animation: eye-blink 3s infinite;
-	animation-timing-function: ease;
-}
-
-@keyframes eye-blink {
-  0% {
-	
-  }
-
-  50% {
-  	transform: translate(0,20px);
-
-  }
+@keyframes cp-pulsate {
   100% {
-  }
-}
-
-.eye-small {
-	width: 30px;
-	height: 15px;
-
-	&:before {
-		content:'';
-		width:31px;
-		height:16px;
-		background-color: #000;
-		border-radius: 50%;
-		position: absolute;
-		top:-16px;
-		@extend .eye-blink-sm;
-	}
-
-	.eye-ball {
-		width: 12px;
-		height: 12px;
-	}
-}
-
-.eye-blink-sm {
-	animation: eye-blink-sm 2s infinite;
-	animation-timing-function: ease;
-}
-
-@keyframes eye-blink-sm {
-  0% {
-	
-  }
-
-  50% {
-  	transform: translate(0,16px);
-
-  }
-  100% {
-  }
-}
-
-.eye-medium {
-	width: 35px;
-	height: 17px;
-
-	&:before {
-		content:'';
-		width:35px;
-		height:17px;
-		background-color: #000;
-		border-radius: 50%;
-		position: absolute;
-		top:-17px;
-		@extend .eye-blink-md;
-	}
-
-	.eye-ball {
-		width: 14px;
-		height: 14px;
-	}
-}
-
-.eye-blink-md {
-	animation: eye-blink-md 3s infinite;
-	animation-timing-function: ease;
-}
-
-@keyframes eye-blink-md {
-  0% {
-	
-  }
-
-  50% {
-  	transform: translate(0,17px);
-
-  }
-  100% {
-  }
-}
-
-
-// Take Care
-.candle {
-	position:absolute;
-	top: 6%;
-    right: 21.2%;
-	width: 11px;
-	@media (min-width: $bp-medium) {
-		top:8%;
-		right: 21.8%;
-	}
-}
-
-.take-care-logo {
-	position:absolute;
-	bottom: 8%;
-    left: 7%;
-    max-width: 100px;
-    @media (min-width: $bp-medium) {
-		max-width: 150px;
-	}
-}
-
-.flicker {
-	animation: flicker 4s infinite;
-	animation-timing-function: linear;
-}
-
-@keyframes flicker {
-  0% {
-  	opacity:0.8;
-	
-  }
-
-  25% {
-  	opacity: 0.5;
+    filter: drop-shadow(0px 0px 12px white);
   }
   50% {
-  	transform:rotate(25deg);
-  	opacity:1;
-
+    filter: 
+      drop-shadow(0px 0px 6px white)
+      blur(0.5px);
   }
-  75% {
-  	opacity: 0.25;
-  }
-  100% {
-  	opacity:0.8;
-  }
-}
-
-// What A Time To Be Alive
-.sparkle {
-	width: 0;
-	height: 0;
-	border: 10px solid transparent;
-	border-bottom-color: #fff;
-	position: relative;
-	top: -10px;
-		&:after {
-		content: '';
-		position: absolute;
-		left: -10px;
-		top: 10px;
-		width: 0;
-		height: 0;
-		border: 10px solid transparent;
-		border-top-color: #fff;
-		}
-}
-
-
-@keyframes sparkle {
   0% {
-  	opacity:1;
+    filter: drop-shadow(0px 0px 12px white);
   }
-  25%{
-  	transform:scale(1.5);
+}
+
+// END CARE PACKAGE
+
+// START DARK DEMO TAPES
+
+.dark-album {
+  background: linear-gradient(90deg, #14160B 79.65%, #4A4F0F 100%);
+}
+
+.dark-eyes-container {
+  position: relative;
+}
+
+.dark-eyes {
+  max-width: 96px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 230%);
+  animation: darkness 8s infinite;
+  animation-delay: 2s;
+  opacity: 0;
+}
+
+@keyframes darkness {
+  0% {
+    opacity: 0;
   }
   50% {
-  }
-  75% {
-  	transform:scale(1);
+    opacity: .9;
   }
   100% {
-  	opacity:0;
+    opacity: 0;
   }
+
+}
+// END DARK DEMO TAPES
+
+// START CERTIFIED LOVER BOY
+
+.clb-cover {
+  padding: $unit-xlarge $unit-med;
 }
 
-.sparkle {
-	animation: sparkle 1.75s infinite;
-	animation-timing-function: linear;
+.clb-ting {
+  max-width: 38px;
+  flex-direction: row;
 }
 
-.center-top {
-	position: absolute;
-	top: 5%;
-	left: 50%;
-	animation-delay:0.75s;
-}
-.center-right{
-	position: absolute;
-	top: 41%;
-	left: 75%;
-	animation-delay:1s;
-}
-.center-left{
-	position: absolute;
-	top: 19%;
-	left: 18%;
-	animation-delay:2s;
+.clb-spacing {
+  margin: 12px 0 12px 0;
 }
 
-.center-middle{
-	position: absolute;
-	top: 53%;
-	left: 34%;
-	animation-delay:1.5s;
+.clb-grid {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.center-middle-right{
-	position: absolute;
-	top: 15%;
-	left: 92%;
-	animation-delay:3s;
+.clb-ting-1 {
+  animation: ting-blink 1s alternate-reverse infinite;
 }
-.center-bottom{
-	position: absolute;
-	top: 92%;
-	left: 12%;
-	animation-delay:3s;
+.clb-ting-2 {
+  animation: ting-blink 1.5s alternate infinite;
 }
-
-.center-bottom-right{
-	position: absolute;
-	top: 83%;
-	left: 80%;
-	animation-delay:0.5s;
+.clb-ting-3 {
+  animation: ting-blink 2s alternate-reverse infinite;
 }
-
-
-// Nothing Was The Same
-
-.nwts-drake {
-	max-width: 200px;
-	position: absolute;
-	bottom: 0;
-	left: 25%;
-	@media (min-width: $bp-medium) {
-		max-width: 300px;
-	}	
+.clb-ting-4 {
+  animation: ting-blink 2.5s alternate infinite;
 }
-
-.nwts-album {
-	background:url(../img/nwts-clouds-2.png);
-	height: 300px;
-	width: 1500px;
-	@media (min-width: $bp-medium) {
-		width: 2000px;
-		height: 500px;
-	}
+.clb-ting-5 {
+  animation: ting-blink 3s alternate-reverse infinite;
+}
+.clb-ting-6 {
+  animation: ting-blink 3.5s alternate infinite;
+}
+.clb-ting-7 {
+  animation: ting-blink 4s alternate-reverse infinite;
+}
+.clb-ting-8 {
+  animation: ting-blink 4.5s alternate infinite;
+}
+.clb-ting-9 {
+  animation: ting-blink 5s alternate-reverse infinite;
+}
+.clb-ting-10 {
+  animation: ting-blink 5.5s alternate infinite;
+}
+.clb-ting-11 {
+  animation: ting-blink 6s alternate-reverse infinite;
+}
+.clb-ting-12 {
+  animation: ting-blink 6.5s alternate infinite;
 }
 
-.nwts-logo {
-	max-width:70px;
-	position:absolute;
-	left:5%;
-	bottom: 5%;
-	@media (min-width: $bp-medium) {
-		max-width: 100px;
-	}
-}
-.nwts-parental {
-	max-width:60px;
-	position:absolute;
-	right:5%;
-	top: 5%;
-}
-
-.clouds {
-	animation: clouds 4s infinite;
-	animation-timing-function: linear;
-}
-
-// @keyframes clouds {
-//   0% {
-//     transform: translate(0px);
-//   }
-//   100% {
-//   	transform: translate(-1200px);
-//   }
-// }
-
-@-webkit-keyframes clouds {
+@keyframes ting-blink {
   0% {
-  	transform: translate(-1000px); 
-  }
-  50% {
-  	transform: translate(0px); 
+    opacity: 0;
   }
   100% {
-  	transform: translate(-1000px); 
-  } 
-}
+    opacity: 1;
 
-@media (min-width: $bp-medium) {
-@keyframes clouds {
-  0% {
-  	transform: translate(0px);
-  }
-  100% {
-  	transform: translate(-1450px);
   }
 }
-	}
 
 
-// So Far Gone
+// END CERTIFIED LOVER BOY
 
-.so-far-gone-drake {
-	max-width: 220px;
-	position: absolute;
-	bottom: 20%;
-	left: 14%;
-	@media (min-width: $bp-medium) {
-		max-width: 300px;
-		bottom: 30%;
-		left: 20%;
-	}
-}
 
-.so-far-gone-confetti {
-	max-width: 40px;
-	position: absolute;
-	@media (min-width: $bp-medium) {
-		max-width: 60px;
-	}
-}
 
-.money-1 {
-	top: -10%;
-	right: 40%;
-}
 
-.money-2 {
-	top: -20%;
-	right: 60%;
-}
-
-.money-3 {
-	top: -40%;
-	right: 50%;
-}
-.money-4 {
-	top: -45%;
-	right: 20%;
-}
-.money-5 {
-	top: -20%;
-	right: 10%;
-}
-.money-6 {
-	top: -30%;
-	left: 5%;
-}
-.money-7 {
-	top: -15%;
-	left: 10%;
-}
-
-.heart-1 {
-	top: -40%;
-	right: 65%;
-}
-
-.heart-2 {
-	top: -20%;
-	right: 38%;
-	max-width: 30px;
-}
-
-.heart-3 {
-	top: -30%;
-	right: 15%;
-	max-width: 40px;
-}
-
-.rain {
-	animation: rain 3s infinite;
-	animation-timing-function: linear;
-}
-.rain-delay {
-	animation-delay:2s;
-}
-
-@keyframes rain {
-  0% {
-  }
-  100% {
-    top: 120%;
-  }
-}
 
