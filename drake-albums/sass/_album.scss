@@ -81,12 +81,8 @@ header {
   font-size: $unit-small;
   text-align: center;
   line-height: 1.6;
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  bottom: $unit-small;
+  padding: $unit-med;
+  margin: 0 auto;
  }
 
  .text-link {
