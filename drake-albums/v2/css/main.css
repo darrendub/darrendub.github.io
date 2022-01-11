@@ -377,49 +377,32 @@ h1, h2, h3, h4, h5, h6, p {
 header {
   padding: 40px 24px; }
 
-.eye-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 48px 24px; }
-
 .logo {
   max-width: 96px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%); }
+  display: block;
+  margin: 0 auto; }
 
-.eye {
-  width: 40px;
-  height: 20px;
-  background-color: #fff;
-  border-radius: 50%;
-  position: absolute;
-  overflow: hidden; }
-  .eye:before {
-    content: '';
-    width: 40px;
-    height: 20px;
-    background-color: #358BC9;
-    border-radius: 50%;
-    position: absolute;
-    top: -21px; }
+.dca-1 {
+  animation: dca-1 4s ease-in-out alternate infinite; }
 
-.eye-ball {
-  width: 20px;
-  height: 20px;
-  border-radius: 100%;
-  background-color: #000; }
-
-.eye-blink, .eye:before {
-  animation: eye-blink 4s infinite;
-  animation-timing-function: ease-in-out; }
-
-@keyframes eye-blink {
-  0% { }
+@keyframes dca-1 {
+  0% {
+    transform: translateY(4px); }
   50% {
-    transform: translate(0, 21px); }
-  100% { } }
+    transform: translateY(2px); }
+  100% {
+    transform: translateY(4px); } }
+
+.dca-2 {
+  animation: dca-2 4s ease-in-out infinite; }
+
+@keyframes dca-2 {
+  0% {
+    transform: translateY(2px); }
+  50% {
+    transform: translateY(4px); }
+  100% {
+    transform: translateY(2px); } }
 
 .share-button {
   padding: 16px 24px;
@@ -632,27 +615,27 @@ svg.leaf {
 
 @keyframes tml-glitch {
   0% {
-    clip: rect(33px, 300px, 557px, 0); }
+    clip: rect(281px, 300px, 75px, 0); }
   10% {
-    clip: rect(346px, 300px, 224px, 0); }
+    clip: rect(145px, 300px, 508px, 0); }
   20% {
-    clip: rect(466px, 300px, 396px, 0); }
+    clip: rect(403px, 300px, 31px, 0); }
   30% {
-    clip: rect(85px, 300px, 417px, 0); }
+    clip: rect(331px, 300px, 584px, 0); }
   40% {
-    clip: rect(434px, 300px, 380px, 0); }
+    clip: rect(540px, 300px, 78px, 0); }
   50% {
-    clip: rect(169px, 300px, 22px, 0); }
+    clip: rect(4px, 300px, 142px, 0); }
   60% {
-    clip: rect(170px, 300px, 550px, 0); }
+    clip: rect(378px, 300px, 91px, 0); }
   70% {
-    clip: rect(104px, 300px, 131px, 0); }
+    clip: rect(558px, 300px, 319px, 0); }
   80% {
-    clip: rect(90px, 300px, 440px, 0); }
+    clip: rect(359px, 300px, 491px, 0); }
   90% {
-    clip: rect(194px, 300px, 318px, 0); }
+    clip: rect(138px, 300px, 287px, 0); }
   100% {
-    clip: rect(86px, 300px, 94px, 0); } }
+    clip: rect(462px, 300px, 339px, 0); } }
 
 @keyframes tml-shake {
   0% {
@@ -947,11 +930,60 @@ svg.leaf {
   100% {
     stroke-dashoffset: 0; } }
 
+.bg-cp {
+  position: absolute;
+  animation: cp-blur 0.5s infinite alternate; }
+
+.cp-text {
+  filter: drop-shadow(0px 0px 12px white);
+  padding-top: 24px;
+  display: flex;
+  margin: 0 auto;
+  animation: cp-pulsate 3s infinite; }
+
+@keyframes cp-blur {
+  0% {
+    filter: blur(0px); }
+  100% {
+    filter: blur(2px); } }
+
+@keyframes cp-pulsate {
+  100% {
+    filter: drop-shadow(0px 0px 12px white); }
+  50% {
+    filter: drop-shadow(0px 0px 6px white) blur(0.5px); }
+  0% {
+    filter: drop-shadow(0px 0px 12px white); } }
+
+.dark-album {
+  background: linear-gradient(90deg, #14160B 79.65%, #4A4F0F 100%); }
+
+.dark-eyes-container {
+  position: relative; }
+
+.dark-eyes {
+  max-width: 96px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 230%);
+  animation: darkness 8s infinite;
+  animation-delay: 2s;
+  opacity: 0; }
+
+@keyframes darkness {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: .9; }
+  100% {
+    opacity: 0; } }
+
 .clb-cover {
-  padding: 16px; }
+  padding: 40px 24px; }
 
 .clb-ting {
-  max-width: 45px;
+  max-width: 38px;
   flex-direction: row; }
 
 .clb-spacing {
@@ -960,6 +992,48 @@ svg.leaf {
 .clb-grid {
   display: flex;
   justify-content: space-evenly; }
+
+.clb-ting-1 {
+  animation: ting-blink 1s alternate-reverse infinite; }
+
+.clb-ting-2 {
+  animation: ting-blink 1.5s alternate infinite; }
+
+.clb-ting-3 {
+  animation: ting-blink 2s alternate-reverse infinite; }
+
+.clb-ting-4 {
+  animation: ting-blink 2.5s alternate infinite; }
+
+.clb-ting-5 {
+  animation: ting-blink 3s alternate-reverse infinite; }
+
+.clb-ting-6 {
+  animation: ting-blink 3.5s alternate infinite; }
+
+.clb-ting-7 {
+  animation: ting-blink 4s alternate-reverse infinite; }
+
+.clb-ting-8 {
+  animation: ting-blink 4.5s alternate infinite; }
+
+.clb-ting-9 {
+  animation: ting-blink 5s alternate-reverse infinite; }
+
+.clb-ting-10 {
+  animation: ting-blink 5.5s alternate infinite; }
+
+.clb-ting-11 {
+  animation: ting-blink 6s alternate-reverse infinite; }
+
+.clb-ting-12 {
+  animation: ting-blink 6.5s alternate infinite; }
+
+@keyframes ting-blink {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
 /*! Flickity v2.2.2
 https://flickity.metafizzy.co
