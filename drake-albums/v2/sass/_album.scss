@@ -10,6 +10,7 @@ header {
   max-width: $unit-xxlarge*2;
   display: block;
   margin: 0 auto;
+  padding-bottom: $unit-med;
 }
 
 .dca-1 {
@@ -44,67 +45,6 @@ header {
   }
 }
 
-// .eye {
-//   width:$unit-xlarge;
-//   height:$unit-xlarge/2;
-//   background-color: #fff;
-//   border-radius: 50%;
-//   position: absolute;
-//   overflow: hidden;
-//   &:before { // Eyelid
-//     content:'';
-//     width:$unit-xlarge;
-//     height:$unit-xlarge/2;
-//     background-color: $big-boy-blue;
-//     border-radius: 50%;
-//     position: absolute;
-//     top:-21px;
-//     @extend .eye-blink;
-//     z-index: 1;
-//   }
-// }
-// .eye-ball {
-//   width:$unit-xlarge/2;
-//   height:$unit-xlarge/2;
-//   border-radius: 100%;
-//   background-color: #000;
-//   animation: eye-move 4s infinite;
-//   animation-timing-function: ease-in-out;
-//   transform: translateX(-$unit-small);
-// }
-
-// .eye-blink {
-//   animation: eye-blink 4s infinite;
-//   animation-timing-function: ease-in-out;
-// }
-
-// @keyframes eye-blink {
-//   0% {
-  
-//   }
-
-//   50% {
-//     transform: translate(0,($unit-med - 3));
-
-//   }
-//   100% {
-//   }
-// }
-
-// @keyframes eye-move {
-//   0% {
-//     transform: translateX($unit-small);
-  
-//   }
-//   50% {
-//     transform: translateX(-$unit-small);
-//   }
-//   100% {
-//     transform: translateX($unit-small);
-//   }
-// }
-
-
 .share-button {
   padding: $unit-small $unit-med;
   background-blend-mode: multiply;
@@ -115,13 +55,18 @@ header {
   text-decoration: none;
   border-radius: $unit-xlarge;
   max-width: 150px;
-  margin: $unit-med auto;
+  margin: 0 auto;
+  &:hover, &:active {
+    background-color: $baby-blue;
+    transition: background-color .5s ease-in-out;
+  }
 }
 
 
 .share-twitter {
   max-width: $unit-med;
-  margin-right: $unit-small;
+  margin-right: $unit-xsmall;
+  margin-top: 6px;
 }
 
 .share-text {
@@ -131,14 +76,26 @@ header {
 }
 
  footer {
-  max-width: 420px;
-  width: 100%;
   font-family: $sans-reg;
   color: $white;
   font-size: $unit-small;
   text-align: center;
   line-height: 1.6;
   margin: 0 auto;
+  padding: 0 $unit-med;
+ }
+
+ .text-link {
+   color: $white;
+   text-decoration: underline;
+   font-weight: bold;
+   &:active, &:visited {
+     color: $white;
+   }
+   &:hover {
+    opacity: .8;
+    transition: opacity .5s ease-in-out;
+  }
  }
 
  .album-cover {
