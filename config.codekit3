@@ -1848,6 +1848,19 @@
       "plM" : 3758088159,
       "prP" : 0
     },
+    "\/drake-albums\/v2\/img\/_index\/dca-social.png" : {
+      "ft" : 32768,
+      "iS" : 319894,
+      "oA" : 0,
+      "oAP" : "\/drake-albums\/v2\/img\/_index\/dca-social.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/drake-albums\/v2\/img\/_index\/twitter-logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,

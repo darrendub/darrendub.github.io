@@ -380,7 +380,8 @@ header {
 .logo {
   max-width: 96px;
   display: block;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-bottom: 24px; }
 
 .dca-1 {
   animation: dca-1 4s ease-in-out alternate infinite; }
@@ -414,11 +415,15 @@ header {
   text-decoration: none;
   border-radius: 40px;
   max-width: 150px;
-  margin: 24px auto; }
+  margin: 0 auto; }
+  .share-button:hover, .share-button:active {
+    background-color: #59BCFB;
+    transition: background-color .5s ease-in-out; }
 
 .share-twitter {
   max-width: 24px;
-  margin-right: 16px; }
+  margin-right: 8px;
+  margin-top: 6px; }
 
 .share-text {
   color: #fff;
@@ -426,14 +431,23 @@ header {
   font-family: "SantaAna-Regular", sans-serif; }
 
 footer {
-  max-width: 420px;
-  width: 100%;
   font-family: "SantaAna-Regular", sans-serif;
   color: #fff;
   font-size: 16px;
   text-align: center;
   line-height: 1.6;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 0 24px; }
+
+.text-link {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: bold; }
+  .text-link:active, .text-link:visited {
+    color: #fff; }
+  .text-link:hover {
+    opacity: .8;
+    transition: opacity .5s ease-in-out; }
 
 .album-cover {
   height: 300px;
@@ -615,27 +629,27 @@ svg.leaf {
 
 @keyframes tml-glitch {
   0% {
-    clip: rect(281px, 300px, 75px, 0); }
+    clip: rect(346px, 300px, 304px, 0); }
   10% {
-    clip: rect(145px, 300px, 508px, 0); }
+    clip: rect(9px, 300px, 446px, 0); }
   20% {
-    clip: rect(403px, 300px, 31px, 0); }
+    clip: rect(368px, 300px, 422px, 0); }
   30% {
-    clip: rect(331px, 300px, 584px, 0); }
+    clip: rect(56px, 300px, 94px, 0); }
   40% {
-    clip: rect(540px, 300px, 78px, 0); }
+    clip: rect(186px, 300px, 195px, 0); }
   50% {
-    clip: rect(4px, 300px, 142px, 0); }
+    clip: rect(352px, 300px, 370px, 0); }
   60% {
-    clip: rect(378px, 300px, 91px, 0); }
+    clip: rect(267px, 300px, 204px, 0); }
   70% {
-    clip: rect(558px, 300px, 319px, 0); }
+    clip: rect(398px, 300px, 514px, 0); }
   80% {
-    clip: rect(359px, 300px, 491px, 0); }
+    clip: rect(542px, 300px, 115px, 0); }
   90% {
-    clip: rect(138px, 300px, 287px, 0); }
+    clip: rect(331px, 300px, 151px, 0); }
   100% {
-    clip: rect(462px, 300px, 339px, 0); } }
+    clip: rect(414px, 300px, 78px, 0); } }
 
 @keyframes tml-shake {
   0% {
