@@ -30,7 +30,7 @@ img {
 /*--------------------------------------------------------------------
  * Typography
  *------------------------------------------------------------------*/
-.type-xxl, .type-xl, .type-lg, .type-md, .timeline-title, .type-sm, .button, .button-sm, .timeline-time, .timeline-activity {
+.type-xxl, .type-xl, .type-lg, .type-md, .timeline-title, .type-sm, .timeline-activity, .timeline-time, .button-sm, .button {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -45,7 +45,6 @@ img {
   @media (max-width: 680px) {
     .type-xxl {
       font-size: 2.25em; } }
-
 .type-xl {
   font-size: 2.25em; }
 
@@ -55,7 +54,7 @@ img {
 .type-md, .timeline-title {
   font-size: 1.31em; }
 
-.type-sm, .button, .button-sm, .timeline-time, .timeline-activity {
+.type-sm, .timeline-activity, .timeline-time, .button-sm, .button {
   font-size: 1em; }
 
 .type-concrete {
@@ -105,7 +104,7 @@ code, .type-code {
   border-radius: 2px;
   font-size: .75em; }
 
-strong, b, .type-bold, .badge, .timeline-time {
+strong, b, .type-bold, .timeline-time, .badge {
   font-weight: 600; }
 
 em, .type-italic {
@@ -417,7 +416,6 @@ body {
     .container {
       margin-left: 16px;
       margin-right: 16px; } }
-
 .container-xl {
   max-width: 1200px; }
 
@@ -458,13 +456,11 @@ body {
   @media (max-width: 680px) {
     .divider-right {
       border-right: none; } }
-
 .divider-right-dark {
   border-right: 1px solid #444d56; }
   @media (max-width: 680px) {
     .divider-right-dark {
       border-right: none; } }
-
 .case-study-img {
   max-width: 500px; }
 
@@ -688,7 +684,6 @@ footer {
   @media (max-width: 680px) {
     .mt-xxxl {
       margin-top: 40px; } }
-
 .mb-sm {
   margin-bottom: 8px; }
 

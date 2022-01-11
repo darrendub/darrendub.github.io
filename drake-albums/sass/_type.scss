@@ -2,161 +2,20 @@
  * Type
  *------------------------------------------------------------------*/
 
- h1, h2, h3, h4, h5, h6 {
-  margin-bottom: .5rem;
-  line-height: 1.25;
+ h1, h2, h3, h4, h5, h6, p {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: $sans;
+  font-family: $sans-reg;
   
 }
 
-h1 {
-	font-size: 1.75rem;
-  	@media (min-width: $bp-medium) {
-     font-size: 2rem; 
-    }
+@font-face { 
+     font-family: 'SantaAna-SemiBold';
+  src: url('SantaAna-SemiBold.woff') format('woff'),
+       url('SantaAna-SemiBold.woff2') format('woff2');
+     font-family: 'SantaAna-Regular';
+  src: url('SantaAna-Regular.woff') format('woff'),
+       url('SantaAna-Regular.woff2') format('woff2');
 }
 
-h2 {
-	font-size: 1.25rem;	
-    @media (min-width: $bp-medium) {
-     font-size: 1.5rem; 
-    }
-}
-
-h3 {
-	font-size: 1.3rem;	
-  font-weight: 600;
-}
-
-h4 {
-	font-size: 1.2rem;
-	font-weight: 600;
-  letter-spacing:-1px;
-  @media (min-width: $bp-medium) {
-     letter-spacing:0;
-    }
-  
-}
-
-h5 {
-  font-size: 1rem;
-  font-weight: 600; 
-}
-
-p {
-	font-size: 1rem;
-	margin-bottom: 1rem;
-}
-
-a {
-  text-decoration: none;
-}
-
-.large-type {
-  font-size: 2rem;
-  @media (min-width: $bp-medium) {
-    font-size: 4rem;
-  }
-}
-.text-center {
-  text-align: center;
-}
-
-strong {
-  color: $coal;
-}
-
-em {
-	font-style: italic;	
-}
-
-b, bold {
-  font-weight: 700;
-}
-
-hr {
-  position: relative;
-  margin: 1rem 0;
-  border: 0;
-  border-top: 1px solid #eee;
-}
-
-ul, ol {
-  margin-left: 1rem;
-  margin-bottom: 1rem;
-}
-
-li {
-	font-size: 1rem;
-}
-
-.list-checkmark {
-    list-style-type: none;
-    position: relative;
-    clear: both;
-}
-.list-checkmark li:before {
-  content: "";
-  background-size: 70% 70%;
-  background-position: 0 50%;
-  background-repeat: no-repeat;
-  position: absolute;
-  display: block;
-  left: -1.5em;
-  height: 1.5em;
-  width: 1.5em;
-  background-image: url('http://darrendub.com/public/img/assets/list-checkmark-green.svg');
-}
-.list-checkmark li {
-  counter-increment: section;
-  padding-bottom: $unit-small/2;  
-}
-
-.link-inline {
-	text-decoration: none;
-	color: $blue;
-}
-
-small {
-  font-size: .75rem;
-}
-
-blockquote {
-    font-size: 1.2rem;
-    line-height: 1.4;
-    text-align: center;
-    text-indent: -0.5em;
-    color: $blue;
-    @media (min-width: $bp-medium) {
-      font-size: 2rem;
-    }
-      &:before {
-      content: '\201C';
-      color: $blue;
-      display: block;
-      text-indent: 0;
-      font-size: 2rem;
-      margin-bottom: -1rem;
-      @media (min-width: $bp-medium) {
-      font-size: 3rem;
-    }
-      }
-}
-
-.link-text {
-  color: $link-blue; 
-  &:visited {
-    color: $link-blue;
-  }
-}
-
-.text-white {
-  color: $white;
-}
-
-.text-center {
-  text-align: center;
-}
