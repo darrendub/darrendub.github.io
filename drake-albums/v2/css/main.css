@@ -378,7 +378,6 @@ header {
   padding: 40px 24px; }
 
 .logo {
-  max-width: 96px;
   display: block;
   margin: 0 auto;
   padding-bottom: 24px; }
@@ -629,27 +628,27 @@ svg.leaf {
 
 @keyframes tml-glitch {
   0% {
-    clip: rect(346px, 300px, 304px, 0); }
+    clip: rect(190px, 300px, 570px, 0); }
   10% {
-    clip: rect(9px, 300px, 446px, 0); }
+    clip: rect(564px, 300px, 182px, 0); }
   20% {
-    clip: rect(368px, 300px, 422px, 0); }
+    clip: rect(543px, 300px, 396px, 0); }
   30% {
-    clip: rect(56px, 300px, 94px, 0); }
+    clip: rect(346px, 300px, 488px, 0); }
   40% {
-    clip: rect(186px, 300px, 195px, 0); }
+    clip: rect(369px, 300px, 233px, 0); }
   50% {
-    clip: rect(352px, 300px, 370px, 0); }
+    clip: rect(336px, 300px, 96px, 0); }
   60% {
-    clip: rect(267px, 300px, 204px, 0); }
+    clip: rect(2px, 300px, 418px, 0); }
   70% {
-    clip: rect(398px, 300px, 514px, 0); }
+    clip: rect(507px, 300px, 305px, 0); }
   80% {
-    clip: rect(542px, 300px, 115px, 0); }
+    clip: rect(476px, 300px, 463px, 0); }
   90% {
-    clip: rect(331px, 300px, 151px, 0); }
+    clip: rect(134px, 300px, 144px, 0); }
   100% {
-    clip: rect(414px, 300px, 78px, 0); } }
+    clip: rect(524px, 300px, 435px, 0); } }
 
 @keyframes tml-shake {
   0% {
