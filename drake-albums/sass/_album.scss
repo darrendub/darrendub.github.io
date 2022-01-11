@@ -615,7 +615,7 @@ $steps: 10;
 .rain {
   height: 100vh;
   background: url(https://i.postimg.cc/MKgprHJg/rain.png);
-  animation: rain 0.3s linear infinite;
+  animation: rain 0.5s linear infinite;
 }
 
 @keyframes rain {
@@ -768,10 +768,13 @@ $steps: 10;
   animation: cp-blur 0.5s infinite alternate;
 }
 
+.cp-container {
+}
+
 .cp-text {
   filter: drop-shadow(0px 0px 12px white);
+  display: block;
   padding-top: $unit-med;
-  display: flex;
   margin: 0 auto;
   animation: cp-pulsate 3s infinite;
 }
@@ -791,7 +794,6 @@ $steps: 10;
   50% {
     filter: 
       drop-shadow(0px 0px 6px white)
-      blur(0.5px);
   }
   0% {
     filter: drop-shadow(0px 0px 12px white);
@@ -904,8 +906,3 @@ $steps: 10;
 
 
 // END CERTIFIED LOVER BOY
-
-
-
-
-
