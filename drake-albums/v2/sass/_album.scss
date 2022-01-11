@@ -6,62 +6,103 @@ header {
   padding: $unit-xlarge $unit-med;
 }
 
-.eye-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: $unit-xxlarge $unit-med;
-}
-
 .logo {
   max-width: $unit-xxlarge*2;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  display: block;
+  margin: 0 auto;
 }
 
-.eye {
-  width:$unit-xlarge;
-  height:$unit-xlarge/2;
-  background-color: #fff;
-  border-radius: 50%;
-  position: absolute;
-  overflow: hidden;
-  &:before { // Eyelid
-    content:'';
-    width:$unit-xlarge;
-    height:$unit-xlarge/2;
-    background-color: $big-boy-blue;
-    border-radius: 50%;
-    position: absolute;
-    top:-21px;
-    @extend .eye-blink;
-  }
-}
-.eye-ball {
-  width:$unit-xlarge/2;
-  height:$unit-xlarge/2;
-  border-radius: 100%;
-  background-color: #000;
+.dca-1 {
+  animation: dca-1 4s ease-in-out alternate infinite;
 }
 
-.eye-blink {
-  animation: eye-blink 4s infinite;
-  animation-timing-function: ease-in-out;
-}
-
-@keyframes eye-blink {
+@keyframes dca-1 {
   0% {
-  
+    transform: translateY(4px);
   }
-
   50% {
-    transform: translate(0,($unit-med - 3));
-
+    transform: translateY(2px);
   }
   100% {
+    transform: translateY(4px);
   }
 }
+
+.dca-2 {
+  animation: dca-2 4s ease-in-out infinite;
+}
+
+@keyframes dca-2 {
+  0% {
+    transform: translateY(2px);
+  }
+  50% {
+    transform: translateY(4px);
+  }
+  100% {
+    transform: translateY(2px);
+  }
+}
+
+// .eye {
+//   width:$unit-xlarge;
+//   height:$unit-xlarge/2;
+//   background-color: #fff;
+//   border-radius: 50%;
+//   position: absolute;
+//   overflow: hidden;
+//   &:before { // Eyelid
+//     content:'';
+//     width:$unit-xlarge;
+//     height:$unit-xlarge/2;
+//     background-color: $big-boy-blue;
+//     border-radius: 50%;
+//     position: absolute;
+//     top:-21px;
+//     @extend .eye-blink;
+//     z-index: 1;
+//   }
+// }
+// .eye-ball {
+//   width:$unit-xlarge/2;
+//   height:$unit-xlarge/2;
+//   border-radius: 100%;
+//   background-color: #000;
+//   animation: eye-move 4s infinite;
+//   animation-timing-function: ease-in-out;
+//   transform: translateX(-$unit-small);
+// }
+
+// .eye-blink {
+//   animation: eye-blink 4s infinite;
+//   animation-timing-function: ease-in-out;
+// }
+
+// @keyframes eye-blink {
+//   0% {
+  
+//   }
+
+//   50% {
+//     transform: translate(0,($unit-med - 3));
+
+//   }
+//   100% {
+//   }
+// }
+
+// @keyframes eye-move {
+//   0% {
+//     transform: translateX($unit-small);
+  
+//   }
+//   50% {
+//     transform: translateX(-$unit-small);
+//   }
+//   100% {
+//     transform: translateX($unit-small);
+//   }
+// }
 
 
 .share-button {
@@ -764,19 +805,87 @@ $steps: 10;
 // END SCORPION
 
 // START CARE PACKAGE
+
+.bg-cp {
+  position: absolute;
+  animation: cp-blur 0.5s infinite alternate;
+}
+
+.cp-text {
+  filter: drop-shadow(0px 0px 12px white);
+  padding-top: $unit-med;
+  display: flex;
+  margin: 0 auto;
+  animation: cp-pulsate 3s infinite;
+}
+@keyframes cp-blur {
+  0% {
+    filter: blur(0px);
+  }
+  100% {
+    filter: blur(2px);
+  }
+}
+
+@keyframes cp-pulsate {
+  100% {
+    filter: drop-shadow(0px 0px 12px white);
+  }
+  50% {
+    filter: 
+      drop-shadow(0px 0px 6px white)
+      blur(0.5px);
+  }
+  0% {
+    filter: drop-shadow(0px 0px 12px white);
+  }
+}
+
 // END CARE PACKAGE
 
 // START DARK DEMO TAPES
+
+.dark-album {
+  background: linear-gradient(90deg, #14160B 79.65%, #4A4F0F 100%);
+}
+
+.dark-eyes-container {
+  position: relative;
+}
+
+.dark-eyes {
+  max-width: 96px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 230%);
+  animation: darkness 8s infinite;
+  animation-delay: 2s;
+  opacity: 0;
+}
+
+@keyframes darkness {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .9;
+  }
+  100% {
+    opacity: 0;
+  }
+
+}
 // END DARK DEMO TAPES
 
 // START CERTIFIED LOVER BOY
 
 .clb-cover {
-  padding: 16px;
+  padding: $unit-xlarge $unit-med;
 }
 
 .clb-ting {
-  max-width: 45px;
+  max-width: 38px;
   flex-direction: row;
 }
 
@@ -788,6 +897,54 @@ $steps: 10;
   display: flex;
   justify-content: space-evenly;
 }
+
+.clb-ting-1 {
+  animation: ting-blink 1s alternate-reverse infinite;
+}
+.clb-ting-2 {
+  animation: ting-blink 1.5s alternate infinite;
+}
+.clb-ting-3 {
+  animation: ting-blink 2s alternate-reverse infinite;
+}
+.clb-ting-4 {
+  animation: ting-blink 2.5s alternate infinite;
+}
+.clb-ting-5 {
+  animation: ting-blink 3s alternate-reverse infinite;
+}
+.clb-ting-6 {
+  animation: ting-blink 3.5s alternate infinite;
+}
+.clb-ting-7 {
+  animation: ting-blink 4s alternate-reverse infinite;
+}
+.clb-ting-8 {
+  animation: ting-blink 4.5s alternate infinite;
+}
+.clb-ting-9 {
+  animation: ting-blink 5s alternate-reverse infinite;
+}
+.clb-ting-10 {
+  animation: ting-blink 5.5s alternate infinite;
+}
+.clb-ting-11 {
+  animation: ting-blink 6s alternate-reverse infinite;
+}
+.clb-ting-12 {
+  animation: ting-blink 6.5s alternate infinite;
+}
+
+@keyframes ting-blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+
+  }
+}
+
 
 // END CERTIFIED LOVER BOY
 
