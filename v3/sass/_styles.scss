@@ -1,0 +1,83 @@
+/*--------------------------------------------------------------------
+ * Styles
+ *------------------------------------------------------------------*/
+
+html {
+    background: $dark-400;
+    font-family: $sans;
+}
+
+nav {
+    padding: $unit-24;
+    border-right: 1px solid $dark-200;
+    top: 0;
+    bottom:0;
+    position:fixed;
+    overflow-y:scroll;
+    overflow-x:hidden;
+
+    li a {
+        cursor: pointer;
+        display: block;
+        padding: $unit-8 $unit-8 $unit-8 $unit-16;
+        border-left: 1px solid $dark-200;
+        color: $dark-100;
+        &:hover {
+            background-color: $dark-200; 
+            border-left: 1px solid $white;
+            border-radius: 0 $unit-4 $unit-4 0;
+            color: $white;
+
+            .nav-icon {
+                fill: $white;
+            }
+        }
+    }
+
+}
+
+.list-border {
+    margin: $unit-16 0;
+}
+
+
+.list-active {
+    border-left: 1px solid $white;
+    background-color: $dark-200; 
+    border-radius: 0 $unit-4 $unit-4 0;
+    color: $white;
+
+    .nav-icon {
+        fill: $white;
+    }
+
+}
+
+.nav-icon  {
+    display: inline;
+    width: $unit-24;
+    height: $unit-24;
+    fill: $dark-100;
+    vertical-align: text-top;
+}
+
+
+
+.nav-icon-left  {
+    padding-right: $unit-8;
+}
+
+.nav-icon-right  {
+    padding-left: $unit-8; 
+}
+
+.container {
+    width: 720px;
+}
+
+.title {
+    margin-left: 480px;
+    margin-top: 80px;
+}
+
+
