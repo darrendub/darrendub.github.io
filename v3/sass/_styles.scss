@@ -10,9 +10,10 @@ html {
 nav {
     padding: $unit-24;
     border-right: 1px solid $dark-200;
-    top: 0;
-    bottom:0;
-    position:fixed;
+    height: 100vh;
+    // top: 0;
+    // bottom:0;
+    // position:fixed;
     overflow-y:scroll;
     overflow-x:hidden;
 
@@ -61,8 +62,6 @@ nav {
     vertical-align: text-top;
 }
 
-
-
 .nav-icon-left  {
     padding-right: $unit-8;
 }
@@ -71,13 +70,12 @@ nav {
     padding-left: $unit-8; 
 }
 
-.container {
-    width: 720px;
+.p-relative {
+    position: relative;
+}
+.p-fixed {
+    position: fixed;
 }
 
-.title {
-    margin-left: 480px;
-    margin-top: 80px;
-}
 
 
